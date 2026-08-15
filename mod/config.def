@@ -30,6 +30,7 @@ class PATH
 	// mod data
 	MOD_COMMON=%DMOD%\COMMON;
 	MOD_COMMON_CZ=%DMOD%\COMMON_CZ;
+	MOD_COMMON_MENU=%DMOD%\COMMON_MENU;
 	MOD_HARD_MIS=%DMOD%\HARD_MISSIONS;
         MOD_T11=%DMOD%\T11;
         MOD_PUST=%DMOD%\PUST;
@@ -44,7 +45,7 @@ class PATH
 	MOD_UNITS=%DMOD%\UNITS;
 
 	// limit to english game engine
-	version(ENG);
+	//version(ENG);
 
 	// options
 	option(HARD,Missions,0,1,1,{Normal;Hard});
@@ -119,6 +120,10 @@ class COMMON.FS
 	add(%MOD_COMMON%); // add all mod data
 	if(%LANG% == 1) add(%MOD_COMMON_CZ%); // add czech translations
         if(%HARD% == 1) add(%MOD_HARD_MIS%); // override by missions
+	if(%VER% == "ENG") add(%MOD_COMMON_MENU%); // add czech menus to en engine
+
+	if(%NOSPLASH%) rem(CAULDRON.LZ);
+	if(%NOSPLASH%) rem(JRC_LOGO.LZ);
 
         // override base units definitions depending on game level
 	if(%LEVEL% >= 5 && %BOOST%) copyunits(%MOD_COMMON%,JEDNO_L5.DEF); // level dependent boosted units
@@ -139,11 +144,19 @@ class COMMON.FS
 	if(%DESTR% == 1) copy(%MOD_COMMON%,H_SND_DQ.DEF,H_SOUNDS.DEF);
 	if(%DESTR% == 2) copy(%MOD_COMMON%,H_SND_DD.DEF,H_SOUNDS.DEF);
 
+	// convert data format for CZ engine
+	if(%VER% == "CZE") convert(CZE);
+
         // generate title screen
-	if(%LANG% == 1)	title(320,105,Center,00FF55,111111,"MOD: Konverze CZ dat do EN enginu, zvysena obtiznost by Stanislav Maslan, V1.0, 2026-08-15");
-	if(%LANG% == 2)	title(320,105,Center,00FF55,111111,"MOD: High difficulty mod by Stanislav Maslan, V1.0, 2026-August-15");
-	title(320,119,Center,00FF55,111111,"Missions: %HARD%, AT-Orcs: %ATORCS%, Destructor: %DESTR%, Hide loaders: %NOSPLASH%");
-	title(320,157,Center,00FF55,111111,"Mod Level: %LEVEL%");
+	CZ_TITLE="MOD: Konverze CZ dat do EN enginu, zvysena obtiznost by Stanislav Maslan, V1.0, 2026-08-15";
+	CZ_INFO="Missions: %HARD%, AT-Orcs: %ATORCS%, Destructor: %DESTR%, Hide loaders: %NOSPLASH%";
+	if(%VER% == "CZE") title(320,15,Center,00FF55,111111,"%CZ_TITLE%");
+	if(%VER% == "ENG" && %LANG% == 1) title(320,105,Center,00FF55,111111,"%CZ_TITLE%");
+	if(%VER% == "ENG" && %LANG% == 2) title(320,105,Center,00FF55,111111,"MOD: High difficulty mod by Stanislav Maslan, V1.0, 2026-August-15");
+	if(%VER% == "CZE") title(320,30,Center,00FF55,111111,"%CZ_INFO%");
+	if(%VER% == "ENG" && %LANG% == 2) title(320,119,Center,00FF55,111111,"%CZ_INFO%");
+	if(%VER% == "ENG") title(320,157,Center,00FF55,111111,"Mod Level: %LEVEL%");
+	if(%VER% == "CZE") title(320,183,Center,00FF55,111111,"Mod Level: %LEVEL%");
 	title(320,472,Center,00FF55,111111,"Mod build: %DATE%");
 }
 
@@ -214,13 +227,14 @@ class SPEAKER.FS
 class MOVIE.FS
 {
 	replace=1;        // overwrite existing	
-	if(%LANG% == 2) add(%MOVIE%);     // add all original game data	
-	if(%LANG% == 1) add(%MOD_MOVIE%); // add all mod data
+	if(%VER% == "CZE" || %LANG% == 2) add(%MOVIE%);     // add all original game data
+	if(%VER% == "ENG" && %LANG% == 1) add(%MOD_MOVIE%); // add all czech video to en engine
 
-	if(%NOSPLASH% == 0 && %LANG% == 1) add(%MOVIE%,LOGO.SMK); // add original logos
-	if(%NOSPLASH% == 0 && %LANG% == 1) add(%MOVIE%,JRC_LOGO.SMK); // add original logos
-	if(%NOSPLASH% == 0 && %LANG% == 1) add(%MOVIE%,SCI_LOGO.SMK); // add original logos
-	if(%NOSPLASH% == 0 && %LANG% == 1) add(%MOVIE%,CAULDRON.SMK); // add original logos
+	// add original logos
+	if(%NOSPLASH% == 0 && %LANG% == 1 && %VER% == "ENG") add(%MOVIE%,LOGO.SMK);
+	if(%NOSPLASH% == 0 && %LANG% == 1 && %VER% == "ENG") add(%MOVIE%,JRC_LOGO.SMK);
+	if(%NOSPLASH% == 0 && %LANG% == 1 && %VER% == "ENG") add(%MOVIE%,SCI_LOGO.SMK);
+	if(%NOSPLASH% == 0 && %LANG% == 1 && %VER% == "ENG") add(%MOVIE%,CAULDRON.SMK);
 
 	if(%NOSPLASH% != 0) rem(LOGO.SMK); // remove logos
 	if(%NOSPLASH% != 0) rem(JRC_LOGO.SMK); // remove logos

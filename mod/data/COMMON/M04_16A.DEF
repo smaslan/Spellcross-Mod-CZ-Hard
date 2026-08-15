@@ -51,7 +51,7 @@ MissionData {
 }
  
 EventData(1) {
-    PlayCANAnimation(STUDNA.CAN)
+    PlayCANAnimation(STUDNA.SMK)
 }
  
 MissionParameters {
