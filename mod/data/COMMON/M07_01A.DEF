@@ -1,0 +1,64 @@
+MissionData {
+    MissionMap(M07_01)
+    AddUnit(50,44,1977,0,10,WaitForContact,-)
+    AddUnit(51,44,2017,0,10,WaitForContact,-)
+    AddUnit(52,56,1937,0,10,WaitForContact,-)
+    AddUnit(53,56,2058,0,10,WaitForContact,-)
+    AddUnit(54,57,1311,0,100,NormalUnit,-)
+    AddUnit(55,57,1352,0,100,NormalUnit,-)
+    AddUnit(56,57,1312,0,100,NormalUnit,-)
+    AddUnit(57,57,1313,0,100,NormalUnit,-)
+    AddUnit(58,40,0963,0,100,WaitForContact,-)
+    AddUnit(59,39,0974,0,100,WaitForContact,-)
+    AddUnit(60,39,0935,0,100,WaitForContact,-)
+    AddUnit(61,39,0855,0,100,WaitForContact,-)
+    AddUnit(62,39,0775,0,100,WaitForContact,-)
+    AddUnit(63,39,1843,0,100,WaitForContact,-)
+    AddUnit(64,40,1685,0,100,WaitForContact,-)
+    AddUnit(65,40,1803,0,100,WaitForContact,-)
+    AddUnit(66,40,0765,0,100,WaitForContact,-)
+    AddUnit(67,40,0449,0,100,WaitForContact,-)
+    AddUnit(68,39,0804,0,100,WaitForContact,-)
+    AddUnit(69,40,0814,0,100,WaitForContact,-)
+    AddUnit(70,40,0894,0,100,WaitForContact,-)
+    AddUnit(71,40,1584,0,100,ToughDefence,-)
+    AddUnit(72,40,1544,0,100,ToughDefence,-)
+    AddUnit(73,44,1737,0,10,WaitForContact,-)
+    AddUnit(74,41,1495,0,20,WaitForContact,-)
+    AddUnit(75,44,1174,0,10,WaitForContact,-)
+    AddUnit(76,41,1454,0,20,WaitForContact,-)
+    AddMissionObjective(SeePlace,1685,Prozkoumat naviga‡n¡ bod)
+    AddMissionObjective(SeePlace,1043,Prozkoumat naviga‡n¡ bod)
+    AddMissionObjective(SeePlace,449,Prozkoumat naviga‡n¡ bod)
+    AddSpecialEvent(SeePlace,1685,01,100%)
+    AddSpecialEvent(SeePlace,1043,02,100%)
+    AddSpecialEvent(SeePlace,449,03,100%)
+    AddStartSquare(1874,1914,1915,1953,1954,1955,1993,1994,1995,1996)
+    AddStartSquare(2032,2033,2034,2035,2036,2072,2073,2074,2075,2076)
+    AddStartSquare(2111,2112,2113,2114,2115,2116,2151,2152,2153,2154)
+    AddStartSquare(2155,2156,2190,2191,2192,2193,2194,2195,2230,2231)
+    AddStartSquare(2232,2233,2234,2235,2270,2271,2272,2273,2274,2311)
+    AddStartSquare(2312,2313,2314,2351,2352,2353)
+    AddTargetSquare(0449,1043,1685)
+}
+ 
+EventData(1) {
+    EventText(u0701_00)
+}
+ 
+EventData(2) {
+    EventText(u0701_01)
+}
+ 
+EventData(3) {
+    EventText(u0701_02)
+}
+ 
+MissionParameters {
+    Time(t)
+    MissionText(T07_01A)
+    MissionStartText(T07_01A.S)
+    MissionEndOKText(T07_01A.OK)
+    MissionEndBadText(T07_01A.BAD)
+}
+ 

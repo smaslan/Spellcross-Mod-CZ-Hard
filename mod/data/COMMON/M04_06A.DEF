@@ -1,0 +1,66 @@
+MissionData {
+    MissionMap(M04_06)
+    AddUnit(50,38,1182,0,100,WaitForContact,-)
+    AddUnit(51,38,1183,0,100,WaitForContact,-)
+    AddUnit(52,38,1238,0,100,WaitForContact,-)
+    AddUnit(53,46,1126,0,100,WaitForContact,-)
+    AddUnit(54,46,0752,0,100,NormalUnit,-)
+    AddUnit(55,38,0807,0,100,NormalUnit,-)
+    AddUnit(56,38,0864,0,100,NormalUnit,-)
+    AddUnit(57,38,0808,0,100,NormalUnit,-)
+    AddUnit(58,37,0919,0,100,NormalUnit,-)
+    AddUnit(59,37,0920,0,100,NormalUnit,-)
+    AddUnit(60,37,0865,0,100,NormalUnit,-)
+    AddUnit(61,48,0752,0,100,NormalUnit,-)
+    AddUnit(62,37,2376,0,100,WaitForContact,-)
+    AddUnit(63,46,2320,0,100,WaitForContact,-)
+    AddUnit(64,37,2375,0,100,WaitForContact,-)
+    AddUnit(65,37,1170,0,100,NormalUnit,-)
+    AddUnit(66,37,1438,0,100,NormalUnit,-)
+    AddUnit(67,37,4411,0,100,NormalUnit,-)
+    AddUnit(68,37,4483,0,100,NormalUnit,-)
+    AddUnit(69,38,2075,0,100,NormalUnit,-)
+    AddUnit(70,57,1619,0,100,NormalUnit,-)
+    AddUnit(71,48,0737,0,100,PatrolUnit,-)
+    AddUnit(72,48,0834,0,100,PatrolUnit,-)
+    AddUnit(73,46,2111,0,100,WaitForContact,-)
+    AddUnit(74,46,2167,0,100,WaitForContact,-)
+    AddUnit(75,46,2112,0,100,WaitForContact,-)
+    AddUnit(76,55,2055,0,10,WaitForContact,-)
+    AddUnit(77,57,1237,0,100,WaitForContact,-)
+    AddUnit(78,57,1294,0,100,WaitForContact,-)
+    AddMissionObjective(SeePlace,847,Prozkoumat naviga‡n¡ bod 1)
+    AddMissionObjective(SeePlace,1610,Prozkoumat naviga‡n¡ bod 2)
+    AddMissionObjective(SeePlace,3802,Prozkoumat naviga‡n¡ bod 3)
+    AddSpecialEvent(SeePlace,847,01,100%)
+    AddSpecialEvent(SeePlace,1610,02,100%)
+    AddSpecialEvent(SeePlace,3802,03,100%)
+    AddStartSquare(4168,4169,4170,4171,4172,4224,4225,4226,4227,4228)
+    AddStartSquare(4279,4280,4281,4282,4283,4284,4335,4336,4337,4338)
+    AddStartSquare(4339,4340,4390,4391,4392,4393,4394,4395,4396,4446)
+    AddStartSquare(4447,4448,4449,4450,4451,4452,4506,4507,4508,4562)
+    AddStartSquare(4563,4564,4618,4619,4620,4674,4675,4676,4730,4731)
+    AddStartSquare(4786,4787)
+    AddTargetSquare(0847,1610,3802)
+}
+ 
+EventData(1) {
+    EventText(u0406_00)
+}
+ 
+EventData(2) {
+    EventText(u0406_01)
+}
+ 
+EventData(3) {
+    EventText(u0406_02)
+}
+ 
+MissionParameters {
+    Time(t)
+    MissionText(T04_06A)
+    MissionStartText(T04_06A.S)
+    MissionEndOKText(T04_06A.OK)
+    MissionEndBadText(T04_06A.BAD)
+}
+ 

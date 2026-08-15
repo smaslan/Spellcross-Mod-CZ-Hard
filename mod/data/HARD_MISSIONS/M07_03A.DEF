@@ -1,0 +1,115 @@
+MissionData {
+    MissionMap(M07_03)
+    AddUnit(50,39,865,12,100,WaitForContact,-),Randomize(off)
+    AddUnit(51,40,815,12,100,WaitForContact,-),Randomize(off)
+    AddUnit(52,40,766,12,100,WaitForContact,-),Randomize(off)
+    AddUnit(53,39,767,12,100,WaitForContact,-),Randomize(off)
+    AddUnit(54,40,717,12,100,WaitForContact,-),Randomize(off)
+    AddUnit(55,57,668,12,100,WaitForContact,-),Randomize(off)
+    AddUnit(56,57,618,12,100,WaitForContact,-),Randomize(off)
+    AddUnit(57,38,569,12,100,WaitForContact,-),Randomize(off)
+    AddUnit(58,39,965,12,100,WaitForContact,-),Randomize(off)
+    AddUnit(59,40,1014,12,100,WaitForContact,-),Randomize(off)
+    AddUnit(60,57,1064,12,100,WaitForContact,-),Randomize(off)
+    AddUnit(61,38,1113,12,100,WaitForContact,-),Randomize(off)
+    AddUnit(62,40,967,12,100,WaitForContact,-),Randomize(off)
+    AddUnit(63,57,1017,12,100,WaitForContact,-),Randomize(off)
+    AddUnit(64,57,1068,12,100,WaitForContact,-),Randomize(off)
+    AddUnit(65,57,1118,12,100,WaitForContact,-),Randomize(off)
+    AddUnit(66,54,866,12,10,WaitForContact,-),Randomize(off)
+    AddUnit(67,39,915,12,100,WaitForContact,-),Randomize(off)
+    AddUnit(68,39,966,12,100,WaitForContact,-),Randomize(off)
+    AddUnit(69,39,916,12,100,WaitForContact,-),Randomize(off)
+    AddUnit(70,39,867,12,100,WaitForContact,-),Randomize(off)
+    AddUnit(71,39,816,12,100,WaitForContact,-),Randomize(off)
+    AddUnit(72,48,866,12,100,WaitForContact,-),Randomize(off)
+    AddUnit(73,61,588,12,20,NormalUnit,-),Randomize(off)
+    AddUnit(74,61,638,12,20,NormalUnit,-),Randomize(off)
+    AddUnit(75,61,689,12,20,NormalUnit,-),Randomize(off)
+    AddUnit(76,61,538,12,20,NormalUnit,-),Randomize(off)
+    AddUnit(77,61,589,12,20,NormalUnit,-),Randomize(off)
+    AddUnit(78,61,639,12,20,NormalUnit,-),Randomize(off)
+    AddUnit(79,48,589,12,100,NormalUnit,-),Randomize(off)
+    AddUnit(80,48,3645,12,100,PatrolUnit,-),Randomize(off)
+    AddUnit(81,48,695,12,100,PatrolUnit,-),Randomize(off)
+    AddUnit(82,38,1169,12,100,WaitForContact,-),Randomize(off)
+    AddUnit(83,39,765,12,100,WaitForContact,-),Randomize(off)
+    AddUnit(84,40,714,12,100,WaitForContact,-),Randomize(off)
+    AddUnit(85,57,664,12,100,WaitForContact,-),Randomize(off)
+    AddUnit(86,38,613,12,100,WaitForContact,-),Randomize(off)
+    AddUnit(87,61,637,12,20,NormalUnit,-),Randomize(off)
+    AddUnit(88,61,688,12,20,NormalUnit,-),Randomize(off)
+    AddUnit(89,61,738,12,20,NormalUnit,-),Randomize(off)
+    AddUnit(90,61,917,12,20,NormalUnit,-),Randomize(off)
+    AddUnit(91,61,817,12,20,NormalUnit,-),Randomize(off)
+    AddUnit(92,61,716,12,20,NormalUnit,-),Randomize(off)
+    AddUnit(93,61,715,12,20,NormalUnit,-),Randomize(off)
+    AddUnit(94,61,814,12,20,NormalUnit,-),Randomize(off)
+    AddUnit(95,61,914,12,20,NormalUnit,-),Randomize(off)
+    AddUnit(96,61,1015,12,20,NormalUnit,-),Randomize(off)
+    AddUnit(97,61,1016,12,20,NormalUnit,-),Randomize(off)
+    AddSpecialEvent(SeePlace,1025,1,100%)
+    AddSpecialEvent(SeePlace,1025,2,100%)
+    AddMissionObjective(SaveUnit,48,Zachr nit Plukovn¡ka)
+    AddStartSquare(3308,3358,3359,3407,3408,3409,3457,3458,3459,3460)
+    AddStartSquare(3506,3507,3508,3509,3510,3556,3557,3558,3559,3560)
+    AddStartSquare(3561,3605,3606,3607,3608,3609,3610,3611,3655,3656)
+    AddStartSquare(3657,3658,3659,3660,3661,3704,3705,3706,3707,3708)
+    AddStartSquare(3709,3710,3755,3756,3757,3758,3759,3760,3805,3806)
+    AddStartSquare(3807,3808,3809,3856,3857,3858,3859,3906,3907,3908)
+}
+
+;AddSpecialEvent(SeePlace,1025,2,100%):
+EventData(1) {
+    EventText(U0703_00)
+}
+
+;AddSpecialEvent(SeePlace,1025,2,100%):
+EventData(2) {
+    ;Commando
+    AddSpecialUnit(MissionUnit,3,1075,12,20,-),Randomize(off)
+    ;Commando
+    AddSpecialUnit(MissionUnit,3,1076,12,20,-),Randomize(off)
+    ;Magotar (air)
+    AddSpecialUnit(EnemyUnit,48,2987,12,100,-),Randomize(off)
+    ;War Orcs
+    AddSpecialUnit(EnemyUnit,39,725,12,100,-),Randomize(off)
+    ;War Orcs
+    AddSpecialUnit(EnemyUnit,39,728,12,100,-),Randomize(off)
+    ;War Orcs
+    AddSpecialUnit(EnemyUnit,39,872,12,100,-),Randomize(off)
+    ;Golem
+    AddSpecialUnit(EnemyUnit,44,2887,12,10,-),Randomize(off)
+    ;Golem
+    AddSpecialUnit(EnemyUnit,44,2986,12,10,-),Randomize(off)
+    ;Golem
+    AddSpecialUnit(EnemyUnit,44,2936,12,10,-),Randomize(off)
+    ;Dark Elves
+    AddSpecialUnit(EnemyUnit,57,3087,12,100,-),Randomize(off)
+    ;Dark Elves
+    AddSpecialUnit(EnemyUnit,57,3037,12,100,-),Randomize(off)
+    ;Dark Elves
+    AddSpecialUnit(EnemyUnit,57,2988,12,100,-),Randomize(off)
+    ;Anti-tank Orcs (light)
+    AddSpecialUnit(EnemyUnit,40,3138,12,100,-),Randomize(off)
+    ;Anti-tank Orcs (light)
+    AddSpecialUnit(EnemyUnit,40,3088,12,100,-),Randomize(off)
+    ;Anti-tank Orcs (light)
+    AddSpecialUnit(EnemyUnit,40,3038,12,100,-),Randomize(off)
+    ;Mechanical Tower
+    AddSpecialUnit(EnemyUnit,53,3036,12,10,-),Randomize(off)
+    ;Mechanical Tower
+    AddSpecialUnit(EnemyUnit,53,2987,12,10,-),Randomize(off)
+    ;Mechanical Tower
+    AddSpecialUnit(EnemyUnit,53,2937,12,10,-),Randomize(off)
+    ;Alexander
+    AddSpecialUnit(SpecUnit1,79,1025,12,1,Plukovn¡k),Randomize(off)
+}
+
+MissionParameters {
+    Time(t)
+    MissionText(T07_03A)
+    MissionStartText(T07_03A.S)
+    MissionEndOKText(T07_03A.OK)
+    MissionEndBadText(T07_03A.BAD)
+}

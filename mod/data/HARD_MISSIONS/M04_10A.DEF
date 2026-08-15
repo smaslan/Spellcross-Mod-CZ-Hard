@@ -1,0 +1,133 @@
+MissionData {
+    MissionMap(M04_10)
+    AutoRandomizeRule(37,37,38)
+    AutoRandomizeRule(44,44,56)
+    AddUnit(50,44,1615,1,10,NormalUnit,-),Randomize(auto)
+    AddUnit(51,44,1715,2,10,NormalUnit,-),Randomize(auto)
+    AddUnit(52,46,1716,4,100,NormalUnit,-),Randomize(auto)
+    AddUnit(53,46,1816,4,100,NormalUnit,-),Randomize(auto)
+    AddUnit(54,46,1916,4,100,NormalUnit,-),Randomize(auto)
+    AddUnit(55,44,1815,2,10,NormalUnit,-),Randomize(auto)
+    AddUnit(56,38,1616,4,100,NormalUnit,-),Randomize(auto)
+    AddUnit(57,38,1717,4,100,NormalUnit,-),Randomize(auto)
+    AddUnit(58,46,1516,4,100,NormalUnit,-),Randomize(auto)
+    AddUnit(59,48,1616,4,100,NormalUnit,-),Randomize(auto)
+    AddUnit(60,46,9323,4,100,WaitForContact,-),Randomize(auto)
+    AddUnit(61,38,9223,4,100,WaitForContact,-),Randomize(auto)
+    AddUnit(62,38,9324,4,100,WaitForContact,-),Randomize(auto)
+    AddUnit(63,38,9423,4,100,WaitForContact,-),Randomize(auto)
+    AddUnit(64,46,9222,4,100,WaitForContact,-),Randomize(auto)
+    AddUnit(65,37,10779,4,100,NormalUnit,-),Randomize(auto)
+    AddUnit(66,37,10879,4,100,NormalUnit,-),Randomize(auto)
+    AddUnit(67,37,10980,4,100,NormalUnit,-),Randomize(auto)
+    AddUnit(68,37,10880,4,100,NormalUnit,-),Randomize(auto)
+    AddUnit(69,37,10780,4,100,NormalUnit,-),Randomize(auto)
+    AddUnit(70,37,10679,4,100,NormalUnit,-),Randomize(auto)
+    AddUnit(71,46,10979,4,100,NormalUnit,-),Randomize(auto)
+    AddUnit(72,48,2203,4,100,PatrolUnit,-),Randomize(auto)
+    AddUnit(73,48,2531,4,100,PatrolUnit,-),Randomize(auto)
+    AddUnit(74,48,5340,4,100,PatrolUnit,-),Randomize(auto)
+    AddUnit(75,48,7458,4,100,PatrolUnit,-),Randomize(auto)
+    AddUnit(76,48,3274,4,100,PatrolUnit,-),Randomize(auto)
+    AddUnit(77,48,6193,4,100,PatrolUnit,-),Randomize(auto)
+    AddUnit(78,48,9977,4,100,PatrolUnit,-),Randomize(auto)
+    AddUnit(79,48,10956,4,100,PatrolUnit,-),Randomize(auto)
+    AddUnit(80,48,8041,4,100,PatrolUnit,-),Randomize(auto)
+    AddUnit(81,48,5931,4,100,PatrolUnit,-),Randomize(auto)
+    AddUnit(82,46,2976,4,100,WaitForContact,-),Randomize(auto)
+    AddUnit(83,46,3076,3,100,WaitForContact,-),Randomize(auto)
+    AddUnit(84,46,2977,4,100,WaitForContact,-),Randomize(auto)
+    AddUnit(85,46,5064,4,100,NormalUnit,-),Randomize(auto)
+    AddUnit(86,46,4965,4,100,WaitForContact,-),Randomize(auto)
+    AddUnit(87,46,4865,3,100,WaitForContact,-),Randomize(auto)
+    AddUnit(88,46,5153,4,100,ToughDefence,-),Randomize(auto)
+    AddUnit(89,44,5053,2,10,ToughDefence,-),Randomize(auto)
+    AddUnit(90,44,5880,2,10,WaitForContact,-),Randomize(auto)
+    AddUnit(91,46,7672,4,100,WaitForContact,-),Randomize(auto)
+    AddUnit(92,46,10241,4,100,WaitForContact,-),Randomize(auto)
+    AddUnit(93,44,4954,3,10,ToughDefence,-),Randomize(auto)
+    AddUnit(94,44,10041,4,10,WaitForContact,-),Randomize(auto)
+    AddUnit(95,46,10441,4,100,WaitForContact,-),Randomize(auto)
+    AddUnit(96,57,10141,4,100,WaitForContact,-),Randomize(auto)
+    AddUnit(97,44,5981,3,10,WaitForContact,-),Randomize(auto)
+    AddUnit(98,57,7572,4,100,WaitForContact,-),Randomize(auto)
+    AddUnit(99,57,7773,4,100,WaitForContact,-),Randomize(auto)
+    AddSpecialEvent(SeePlace,10706,1,100%)
+    AddSpecialEvent(SeePlace,10706,2,100%)
+    AddMissionObjective(SaveUnit,48,Zachr nit mjr.Davidsona)
+    AddStartSquare(992,1091,1092,1191,1192,1193,1290,1291,1292,1293)
+    AddStartSquare(1390,1392,1393,1492,1589,1591,1688,1689,1691,1695)
+    AddStartSquare(1788,1789,1790,1795,1796,1888,1889,1890,1894,1895)
+    AddStartSquare(1896,1989,1990,1995,1996,2089,2093,2095,2194,2292)
+    AddStartSquare(2392,2393,2395,2491,2492,2494,2495,2592,2594,2595)
+    AddStartSquare(2693,2694,2793,2794,2893)
+}
+
+;AddSpecialEvent(SeePlace,10706,2,100%):
+EventData(1) {
+    EventText(U0410_00)
+}
+
+;AddSpecialEvent(SeePlace,10706,2,100%):
+EventData(2) {
+    ;Alexander
+    AddSpecialUnit(SpecUnit1,79,10706,10,1,mjr. Davidson),Randomize(auto)
+    ;Golem
+    AddSpecialUnit(EnemyUnit,44,2187,03,10,-),Randomize(auto)
+    ;Mri
+    AddSpecialUnit(EnemyUnit,46,2287,05,100,-),Randomize(auto)
+    ;Mri
+    AddSpecialUnit(EnemyUnit,46,2087,04,100,-),Randomize(auto)
+    ;Ka-orcs
+    AddSpecialUnit(EnemyUnit,38,3291,05,100,-),Randomize(auto)
+    ;Ka-orcs
+    AddSpecialUnit(EnemyUnit,38,3392,05,100,-),Randomize(auto)
+    ;Orcs
+    AddSpecialUnit(EnemyUnit,37,3292,05,100,-),Randomize(auto)
+    ;Dark Elves
+    AddSpecialUnit(EnemyUnit,57,1102,05,100,-),Randomize(auto)
+    ;Dark Elves
+    AddSpecialUnit(EnemyUnit,57,1002,05,100,-),Randomize(auto)
+    ;Dark Elves
+    AddSpecialUnit(EnemyUnit,57,903,05,100,-),Randomize(auto)
+    ;Dark Elves
+    AddSpecialUnit(EnemyUnit,57,1202,05,100,-),Randomize(auto)
+    ;Dark Elves
+    AddSpecialUnit(EnemyUnit,57,1103,05,100,-),Randomize(auto)
+    ;Dark Elves
+    AddSpecialUnit(EnemyUnit,57,1003,05,100,-),Randomize(auto)
+    ;Mri
+    AddSpecialUnit(EnemyUnit,46,1303,05,100,-),Randomize(auto)
+    ;Mri
+    AddSpecialUnit(EnemyUnit,46,1203,05,100,-),Randomize(auto)
+    ;Mri
+    AddSpecialUnit(EnemyUnit,46,1104,05,100,-),Randomize(auto)
+    ;Magotar (land)
+    AddSpecialUnit(EnemyUnit,47,3192,05,100,-),Randomize(auto)
+    ;Magotar (land)
+    AddSpecialUnit(EnemyUnit,47,3092,05,100,-),Randomize(auto)
+    ;Magotar (land)
+    AddSpecialUnit(EnemyUnit,47,3193,05,100,-),Randomize(auto)
+    ;Magotar (land)
+    AddSpecialUnit(EnemyUnit,47,3393,05,100,-),Randomize(auto)
+    ;Magotar (land)
+    AddSpecialUnit(EnemyUnit,47,3293,05,100,-),Randomize(auto)
+    ;Magotar (land)
+    AddSpecialUnit(EnemyUnit,47,3492,05,100,-),Randomize(auto)
+    ;Ka-orcs
+    AddSpecialUnit(EnemyUnit,38,10775,05,100,-),Randomize(auto)
+    ;Ka-orcs
+    AddSpecialUnit(EnemyUnit,38,10675,05,100,-),Randomize(auto)
+    ;Ka-orcs
+    AddSpecialUnit(EnemyUnit,38,10776,05,100,-),Randomize(auto)
+    ;Ka-orcs
+    AddSpecialUnit(EnemyUnit,38,10875,05,100,-),Randomize(auto)
+}
+
+MissionParameters {
+    Time(t)
+    MissionText(T04_10A)
+    MissionStartText(T04_10A.S)
+    MissionEndOKText(T04_10A.OK)
+    MissionEndBadText(T04_10A.BAD)
+}

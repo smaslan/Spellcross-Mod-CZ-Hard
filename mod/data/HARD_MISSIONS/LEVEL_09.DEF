@@ -1,0 +1,270 @@
+LevelInit {
+    PlayStartCANAnim(L_09.SMK)
+    StartSpeaker(S_09A,S_09A.DP2)
+    ;
+    PlayEndCANAnim(SAMOSEC.SMK)
+    PlayEndDeltaAnim(LEVEL9_3.SMK)
+    EndSpeaker(S_09B,S_09B.DP2)
+
+    Start(1)
+    Territory(1,none,m09_01,mus01)
+    DefineStrategicPoints(1,400,20)
+
+    Territory(2,m09_02a,m09_02,mus01)
+    DefineStrategicPoints(2,200,40)
+
+    Territory(3,m09_03a,m09_03,mus01)
+    DefineStrategicPoints(3,300,10)
+
+    Territory(4,m09_04a,m09_04,mus01)
+    SetSpecialTerritory(4)
+
+    Territory(5,m09_05a,m09_05,mus01)
+    DefineStrategicPoints(5,300,20)
+
+    Territory(6,m09_06a,m09_06,mus01)
+    DefineStrategicPoints(6,0,0)
+
+    Territory(7,m09_07a,m09_07,mus01)
+    DefineStrategicPoints(7,300,20)
+
+    Territory(8,m09_08a,m09_08,mus01)
+    DefineStrategicPoints(8,400,40)
+
+    Territory(9,m09_09a,m09_09,mus01)
+    DefineStrategicPoints(9,300,30)
+
+    Territory(10,m09_10a,m09_10,mus01)
+    DefineStrategicPoints(10,200,50)
+
+    Territory(11,m09_11a,m09_11,mus01)
+    DefineStrategicPoints(11,300,50)
+
+    Territory(12,m09_12a,m09_12,mus01)
+    DefineStrategicPoints(12,300,50)
+
+    Territory(13,m09_13a,m09_13,mus01)
+    DefineStrategicPoints(13,0,0)
+
+    AttackUnits(40,47,49,44,54,62,68,67,58,60)
+    AttackSpecialUnits(71,70,65,64)
+    AttackFlags(36,48,11,12,20,6)
+
+    LevelMusic(mus00)
+    End(13)
+}
+
+Mission(M09_02A) {
+    EndOKMission(none)
+    EndBadMission(none)
+    EndOK(0,400)
+    MissionMusic(mus02)
+    FrequencyOfRandomAttacks(20,6)
+}
+
+Mission(M09_03A) {
+    EndOKMission(none)
+    EndBadMission(none)
+    EndOK(70,500)
+    MissionMusic(mus02)
+    FrequencyOfRandomAttacks(20,6)
+}
+
+Mission(M09_05A) {
+    EndOKMission(none)
+    EndBadMission(none)
+    EndOK(50,400)
+    MissionMusic(mus03)
+    FrequencyOfRandomAttacks(20,6)
+}
+
+Mission(M09_06A) {
+    EndOKMission(none)
+    EndBadMission(none)
+    EndOKEvent(3)
+    EndBadEvent(3)
+    EndOK(0,0)
+    FrequencyOfRandomAttacks(20,6)
+}
+
+Mission(M09_07A) {
+    EndOKMission(none)
+    EndBadMission(none)
+    EndOK(100,400)
+    MissionMusic(mus01)
+    FrequencyOfRandomAttacks(20,6)
+}
+
+Mission(M09_08A) {
+    EndOKMission(none)
+    EndBadMission(none)
+    EndOK(200,2000)
+    MissionMusic(mus04)
+    FrequencyOfRandomAttacks(20,6)
+}
+
+Mission(M09_09A) {
+    EndOKMission(none)
+    EndBadMission(none)
+    EndOK(100,450)
+    MissionMusic(mus02)
+    FrequencyOfRandomAttacks(20,6)
+}
+
+Mission(M09_10A) {
+    EndOKMission(none)
+    EndBadMission(none)
+    EndOK(200,300)
+    MissionMusic(mus03)
+    FrequencyOfRandomAttacks(20,6)
+}
+
+Mission(M09_11A) {
+    EndOKMission(none)
+    EndBadMission(none)
+    EndOKEvent(11)
+    EndOK(150,800)
+    MissionMusic(mus02)
+    FrequencyOfRandomAttacks(20,6)
+}
+
+Mission(M09_12A) {
+    EndOKMission(none)
+    EndBadMission(none)
+    EndOKEvent(12)
+    EndOK(150,800)
+    MissionMusic(mus03)
+    FrequencyOfRandomAttacks(20,6)
+}
+
+Mission(M09_12B) {
+    EndOKMission(none)
+    EndBadMission(none)
+    EndOKEvent(12)
+    EndOK(150,800)
+    MissionMusic(mus04)
+    FrequencyOfRandomAttacks(20,6)
+}
+
+Mission(M09_13A) {
+    PlayStartMissionDeltaAnim(LEVEL9_1.SMK)
+    EndOKMission(none)
+    EndBadMission(none)
+    EndOK(600,15000)
+    FrequencyOfRandomAttacks(20,6)
+}
+
+Event(0) {
+    WaitForTerritories(11,12)
+    RunEvents(5,6,7,8,15)
+}
+
+Event(1) {
+    AbsTime(2)
+    EventText(E09_0001)
+}
+
+Event(2) {
+    AbsTime(4)
+    EventText(E09_0002)
+}
+
+Event(3) {
+    ChangeMission(12,M09_12B)
+}
+
+Event(4) {
+    AbsTime(5)
+    EventText(E09_0004)
+    ;Protitankovi Orkovia
+    Army(40,40,40,40,40,40,40,40)
+    ;Wizard
+    Army(68,68,68,68,68)
+    ;mag
+    Army(70,70,70,70,70)
+    ;Cierni Anjeli
+    Army(49,49,49,49,49,49,49,49)
+    ;Golem
+    Army(44,44,44,44,44,44,44,44,44,44)
+    ;Pevnost Hrozy
+    Army(65,65,65)
+    ;Cierni Anjeli
+    Army(49,49,49,49,49)
+}
+
+Event(5) {
+    Time(2)
+    EventText(E09_0016)
+}
+
+Event(6) {
+    Time(3)
+    EventText(E09_0006)
+    ;Mag
+    Army(70,70,70,70,70,70)
+    ;Golem
+    Army(44,44,44,44,44,44,44,44,44,44)
+    ;Protitankovi Orkovia
+    Army(40,40,40,40,40,40,40,40,40,40)
+    ;Cierni Anjeli
+    Army(49,49,49,49,49,49,49)
+}
+
+Event(7) {
+    Time(5)
+    EventText(E09_0007)
+    ;mag
+    Army(70,70,70,70,70)
+    ;Golem
+    Army(44,44,44,44,44,44,44,44,44,44)
+    ;Protitankovi Orkovia
+    Army(40,40,40,40,40,40,40)
+    ;Cierni Anjeli
+    Army(49,49,49,49,49,49,49,49,49,49)
+    ;Elfski Majstri
+    Army(58,58,58,58,58,58,58,58,58,58)
+}
+
+Event(8) {
+    Time(7)
+    EventText(E09_0008)
+    ;pevnost
+    Army(65,65,65,65)
+    ;Golem
+    Army(44,44,44,44,44,44,44,44,44,44)
+    ;Protitankovi Orkovia
+    Army(40,40,40,40,40,40,40)
+    ;Cierni Anjeli
+    Army(49,49,49,49,49,49,49,49,49,49)
+    ;Elfski Majstri
+    Army(58,58,58,58,58,58,58,58,58,58)
+}
+
+Event(9) {
+    AbsTime(12)
+    EventText(E09_0009)
+}
+
+Event(11) {
+    SetResearchFlag(138)
+}
+
+Event(12) {
+    SetResearchFlag(139)
+}
+
+Event(13) {
+    WaitForResearch(135,136)
+    SetPlayersTerritory(4)
+    SetResearchFlag(115)
+}
+
+Event(15) {
+    EventText(E09_0015)
+}
+
+Event(16) {
+    ;hlava orka s Tarantulou
+    AbsTime(1)
+    EventText(E09_0005)
+}

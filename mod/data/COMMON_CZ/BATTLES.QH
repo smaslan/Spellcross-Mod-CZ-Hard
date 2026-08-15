@@ -1,0 +1,110 @@
+;=======================Battlefield============================
+;
+;/////////////////left info/////////////
+1,403,61,50
+Obr zek jednotky
+2,453,57,8
+XP body pro dal¨¡
+£rove¤
+1,462,60,16
+Zku¨enost jednotky
+13,385,17,13
+Jednotka zmrazena
+36,385,17,13
+Jednotka paralyzov na
+;//////////////////right info///////////////
+579,403,61,50
+Obr zek jednotky
+580,453,57,8
+XP body pro dal¨¡
+£rove¤
+579,462,60,16
+Zku¨enost jednotky
+591,385,17,13
+Jednotka zmrazena
+614,385,17,13
+Jednotka paralyzov na
+;/////////////////unit info/////////////////
+71,415,9,51
+Mor lka jednotky
+79,404,8,48
+Zb˜vaj¡c¡ ak‡n¡ body
+87,406,5,32
+Zb˜vaj¡c¡ v˜st©ely
+95,408,137,16
+Jm‚no jednotky
+117,433,114,9
+Status:
+ zelen  = bojeschopn¡
+ ‘lut  = ranˆn¡
+ ‡ern  = padl¡
+161,464,32,13
+S¡la £toku na
+vzdu¨n‚ s¡le
+125,464,32,13
+S¡la £toku na
+obrnˆn‚ s¡le
+99,464,23,13
+S¡la £toku na
+pˆchotu
+201,464,32,13
+Obrana jednotky
+121,443,31,12
+Celkem
+155,443,31,12
+Bojeschopn¡
+195,443,31,12
+Ranˆn¡
+98,437,17,26
+Zakop n¡
+;//////////////////buttons
+413,409,33,26
+Zobrazit/skr˜t mapu. 
+Lev‚ my¨¡tko
+pro p©esun pohledu
+nebo prav‚ mu¨¡tko
+pro skryt¡ mapy
+451,409,33,26
+Priorita
+vzdu¨n˜ch/pozemn¡ch
+jednotek
+v info panelu
+487,409,33,26
+Vybrat jednotku
+536,409,33,26
+Ukon‡it tah
+a zah jit tah protivn¡ka
+413,444,33,26
+Zobrazit/skr˜t 
+info u jednotek
+451,444,33,26
+Informa‡n¡ kurzor:
+ stisknˆte tla‡¡tko
+ a kliknˆte na jednotku
+ pro zobrazen¡
+ info panelu
+487,444,33,26
+Seznam c¡l– mise,
+nastaven¡ zvuk–,
+ukl d n¡/na‡¡t n pozic
+536,444,33,26
+Ustoupit. Jednotky
+mimo startovn¡ pole
+budou ztraceny!
+248,406,33,26
+Vybrat posledn¡ jednotku
+284,406,33,26
+Lev‚ tla‡¡tko:
+ dal¨¡ jednotka,
+prav‚ tla‡tko: 
+ p©edchoz¡ jednotka
+319,406,33,26
+Opravit/l‚‡it jednotku,
+dostupn‚ pouze
+s pln˜m po‡tem ab
+355,407,33,26
+Aktivovat speci ln¡
+akci jednotky
+243,456,151,19
+Informace o poli, jednotce
+nebo tla‡¡tku pod kurzorem

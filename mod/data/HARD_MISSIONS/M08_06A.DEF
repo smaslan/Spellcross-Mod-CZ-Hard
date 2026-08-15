@@ -1,0 +1,94 @@
+MissionData {
+    MissionMap(M08_06)
+    AddUnit(50,67,1745,12,1,WaitForContact,-),Randomize(off)
+    AddUnit(51,67,1796,12,1,WaitForContact,-),Randomize(off)
+    AddUnit(52,62,1696,12,20,WaitForContact,-),Randomize(off)
+    AddUnit(53,48,1895,12,100,WaitForContact,-),Randomize(off)
+    AddUnit(54,48,676,12,100,PatrolUnit,-),Randomize(off)
+    AddUnit(55,48,3002,12,100,PatrolUnit,-),Randomize(off)
+    AddUnit(56,62,2617,12,20,WaitForContact,-),Randomize(off)
+    AddUnit(57,67,2667,12,1,WaitForContact,-),Randomize(off)
+    AddUnit(58,67,2568,12,1,WaitForContact,-),Randomize(off)
+    AddUnit(59,62,731,12,20,WaitForContact,-),Randomize(off)
+    AddUnit(60,67,781,12,1,WaitForContact,-),Randomize(off)
+    AddUnit(61,67,730,12,1,WaitForContact,-),Randomize(off)
+    AddUnit(62,42,681,12,100,WaitForContact,-),Randomize(off)
+    AddUnit(63,42,857,12,100,WaitForContact,-),Randomize(off)
+    AddUnit(64,42,758,12,100,WaitForContact,-),Randomize(off)
+    AddUnit(65,42,806,12,100,WaitForContact,-),Randomize(off)
+    AddUnit(66,42,707,12,100,WaitForContact,-),Randomize(off)
+    AddUnit(67,48,807,12,100,WaitForContact,-),Randomize(off)
+    AddUnit(68,67,706,12,1,WaitForContact,-),Randomize(off)
+    AddUnit(69,62,657,12,20,WaitForContact,-),Randomize(off)
+    AddUnit(70,42,2567,12,100,WaitForContact,-),Randomize(off)
+    AddUnit(71,48,2516,12,100,WaitForContact,-),Randomize(off)
+    AddUnit(72,48,781,12,100,WaitForContact,-),Randomize(off)
+    AddUnit(73,67,1744,12,1,WaitForContact,-),Randomize(off)
+    AddUnit(74,67,1795,12,1,WaitForContact,-),Randomize(off)
+    AddUnit(75,51,503,12,10,NormalUnit,-),Randomize(off)
+    AddUnit(76,51,454,12,10,NormalUnit,-),Randomize(off)
+    AddUnit(77,51,404,12,10,NormalUnit,-),Randomize(off)
+    AddUnit(78,51,455,12,10,NormalUnit,-),Randomize(off)
+    AddUnit(79,51,504,12,10,NormalUnit,-),Randomize(off)
+    AddUnit(80,51,554,12,10,NormalUnit,-),Randomize(off)
+    AddUnit(81,65,729,12,1,WaitForContact,-),Randomize(off)
+    AddUnit(82,65,2517,12,1,WaitForContact,-),Randomize(off)
+    AddUnit(83,42,2616,12,100,WaitForContact,-),Randomize(off)
+    AddUnit(84,42,631,12,100,WaitForContact,-),Randomize(off)
+    AddUnit(85,44,756,12,10,WaitForContact,-),Randomize(off)
+    AddUnit(86,44,607,12,10,WaitForContact,-),Randomize(off)
+    AddUnit(87,44,957,12,10,WaitForContact,-),Randomize(off)
+    AddUnit(88,44,759,12,10,WaitForContact,-),Randomize(off)
+    AddUnit(89,44,489,12,10,WaitForContact,-),Randomize(off)
+    AddUnit(90,44,589,12,10,WaitForContact,-),Randomize(off)
+    AddUnit(91,58,2634,12,10,NormalUnit,-),Randomize(off)
+    AddUnit(92,58,2684,12,10,NormalUnit,-),Randomize(off)
+    AddUnit(93,58,2734,12,10,NormalUnit,-),Randomize(off)
+    AddUnit(94,58,2784,12,10,NormalUnit,-),Randomize(off)
+    AddUnit(95,58,2884,12,10,NormalUnit,-),Randomize(off)
+    AddUnit(96,62,2877,12,20,WaitForContact,-),Randomize(off)
+    AddUnit(97,65,757,12,1,WaitForContact,-),Randomize(off)
+    AddUnit(98,67,1845,12,1,WaitForContact,-),Randomize(off)
+    AddUnit(99,67,1695,12,1,WaitForContact,-),Randomize(off)
+    AddSpecialEvent(SeePlace,1109,1,100%)
+    AddMissionObjective(DestroyAllUnits,Zni‡en¡ v¨ech jednotek)
+    AddStartSquare(3294,3343,3344,3393,3394,3395,3442,3443,3444,3445)
+    AddStartSquare(3492,3493,3494,3495,3496,3541,3542,3543,3544,3545)
+    AddStartSquare(3546,3591,3592,3593,3594,3595,3596,3640,3641,3642)
+    AddStartSquare(3643,3644,3645,3646,3690,3691,3692,3693,3694,3695)
+    AddStartSquare(3696,3740,3741,3742,3743,3744,3745,3791,3792,3793)
+    AddStartSquare(3794,3795,3841,3842,3843,3844,3892,3893,3894,3942)
+    AddStartSquare(3943,3993)
+}
+
+;AddSpecialEvent(SeePlace,1109,1,100%):
+EventData(1) {
+    ;Magotar (air)
+    AddSpecialUnit(EnemyUnit,48,555,12,100,-),Randomize(off)
+    ;Undead
+    AddSpecialUnit(EnemyUnit,42,455,12,100,-),Randomize(off)
+    ;Undead
+    AddSpecialUnit(EnemyUnit,42,554,12,100,-),Randomize(off)
+    ;Undead
+    AddSpecialUnit(EnemyUnit,42,504,12,100,-),Randomize(off)
+    ;Demon
+    AddSpecialUnit(EnemyUnit,67,505,12,1,-),Randomize(off)
+    ;Demon
+    AddSpecialUnit(EnemyUnit,67,555,12,1,-),Randomize(off)
+    ;Demon
+    AddSpecialUnit(EnemyUnit,67,604,12,1,-),Randomize(off)
+    ;Golem
+    AddSpecialUnit(EnemyUnit,44,655,12,10,-),Randomize(off)
+    ;Golem
+    AddSpecialUnit(EnemyUnit,44,605,12,10,-),Randomize(off)
+    ;Golem
+    AddSpecialUnit(EnemyUnit,44,556,12,10,-),Randomize(off)
+}
+
+MissionParameters {
+    Time(t)
+    MissionText(T08_06A)
+    MissionStartText(T08_06A.S)
+    MissionEndOKText(T08_06A.OK)
+    MissionEndBadText(T08_06A.BAD)
+}

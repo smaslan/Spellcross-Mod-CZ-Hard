@@ -1,0 +1,105 @@
+MissionData {
+    MissionMap(M06_07)
+    AutoRandomizeRule(44,44,56)
+    AutoRandomizeRule(53,53,55)
+    AutoRandomizeRule(55,53,55)
+    AutoRandomizeRule(56,44,56)
+    AddUnit(50,40,1924,0,100,NormalUnit,-),Randomize(auto)
+    AddUnit(51,40,1865,0,100,NormalUnit,-),Randomize(auto)
+    AddUnit(52,40,1805,0,100,NormalUnit,-),Randomize(auto)
+    AddUnit(53,39,1864,0,100,NormalUnit,-),Randomize(auto)
+    AddUnit(54,39,1804,0,100,NormalUnit,-),Randomize(auto)
+    AddUnit(55,68,1745,0,1,NormalUnit,-),Randomize(auto)
+    AddUnit(56,59,1803,0,10,NormalUnit,-),Randomize(auto)
+    AddUnit(57,59,1744,0,10,NormalUnit,-),Randomize(auto)
+    AddUnit(58,48,1804,0,100,NormalUnit,-),Randomize(auto)
+    AddUnit(59,48,667,0,100,PatrolUnit,-),Randomize(auto)
+    AddUnit(60,48,740,0,100,PatrolUnit,-),Randomize(auto)
+    AddUnit(61,48,811,0,100,PatrolUnit,-),Randomize(auto)
+    AddUnit(62,48,2454,0,100,PatrolUnit,-),Randomize(auto)
+    AddUnit(63,48,2028,0,100,WaitForContact,-),Randomize(auto)
+    AddUnit(64,40,2027,0,100,WaitForContact,-),Randomize(auto)
+    AddUnit(65,40,2087,0,100,WaitForContact,-),Randomize(auto)
+    AddUnit(66,40,2148,0,100,WaitForContact,-),Randomize(auto)
+    AddUnit(67,39,1967,0,100,WaitForContact,-),Randomize(auto)
+    AddUnit(68,39,2028,0,100,WaitForContact,-),Randomize(auto)
+    AddUnit(69,59,2088,0,10,WaitForContact,-),Randomize(auto)
+    AddUnit(70,59,1968,0,10,WaitForContact,-),Randomize(auto)
+    AddUnit(71,68,2029,0,1,WaitForContact,-),Randomize(auto)
+    AddUnit(72,53,1943,0,10,WaitForContact,-),Randomize(auto)
+    AddUnit(73,53,2126,0,10,WaitForContact,-),Randomize(auto)
+    AddUnit(74,53,2546,0,10,WaitForContact,-),Randomize(auto)
+    AddUnit(75,52,2304,0,10,WaitForContact,-),Randomize(auto)
+    AddUnit(76,56,1923,0,10,NormalUnit,-),Randomize(auto)
+    AddUnit(77,56,1984,0,10,NormalUnit,-),Randomize(auto)
+    AddUnit(78,56,2208,0,10,WaitForContact,-),Randomize(auto)
+    AddUnit(79,56,2149,0,10,WaitForContact,-),Randomize(auto)
+    AddUnit(80,54,3997,0,10,NormalUnit,-),Randomize(auto)
+    AddUnit(81,51,534,0,10,NormalUnit,-),Randomize(auto)
+    AddUnit(82,43,3013,0,20,WaitForContact,-),Randomize(auto)
+    AddUnit(83,43,3072,0,20,WaitForContact,-),Randomize(auto)
+    AddUnit(84,68,2089,1,1,WaitForContact,-),Randomize(auto)
+    AddUnit(85,55,2269,1,10,WaitForContact,-),Randomize(auto)
+    AddUnit(86,55,2209,1,10,WaitForContact,-),Randomize(auto)
+    AddUnit(87,55,2150,1,10,WaitForContact,-),Randomize(auto)
+    AddUnit(88,55,2210,1,10,WaitForContact,-),Randomize(auto)
+    AddUnit(89,55,2270,1,10,WaitForContact,-),Randomize(auto)
+    AddUnit(90,56,2328,1,10,WaitForContact,-),Randomize(auto)
+    AddUnit(91,56,2268,1,10,WaitForContact,-),Randomize(auto)
+    AddUnit(92,54,1684,1,10,WaitForContact,-),Randomize(auto)
+    AddUnit(93,59,1908,1,10,WaitForContact,-),Randomize(auto)
+    AddUnit(94,59,1909,1,10,WaitForContact,-),Randomize(auto)
+    AddUnit(95,53,1941,1,10,WaitForContact,-),Randomize(auto)
+    AddUnit(96,53,1820,1,10,WaitForContact,-),Randomize(auto)
+    AddSpecialEvent(SeePlace,2016,1,100%)
+    AddSpecialEvent(SeePlace,1844,2,100%)
+    AddMissionObjective(DestroyAllUnits,Zni‡en¡ v¨ech jednotek)
+    AddStartSquare(4277,4336,4337,4396,4397,4398,4455,4456,4457,4458)
+    AddStartSquare(4515,4516,4517,4518,4519,4574,4575,4576,4577,4578)
+    AddStartSquare(4579,4634,4635,4636,4637,4638,4639,4693,4694,4695)
+    AddStartSquare(4696,4697,4698,4753,4754,4755,4756,4757,4758,4813)
+    AddStartSquare(4814,4815,4816,4817,4874,4875,4876,4877,4934,4935)
+    AddStartSquare(4936,4995,4996,5055)
+}
+
+;AddSpecialEvent(SeePlace,2016,1,100%):
+EventData(1) {
+    ;Renegati (piranha)
+    AddSpecialUnit(EnemyUnit,77,1494,10,10,-),Randomize(auto)
+    ;Renegati (piranha)
+    AddSpecialUnit(EnemyUnit,77,1434,10,10,-),Randomize(auto)
+    ;Heavy infantry
+    AddSpecialUnit(EnemyUnit,1,1374,12,100,-),Randomize(auto)
+    ;Heavy infantry
+    AddSpecialUnit(EnemyUnit,1,1435,12,100,-),Randomize(auto)
+    ;Renegati (M1 Abrams)
+    AddSpecialUnit(EnemyUnit,78,1373,10,10,-),Randomize(auto)
+    ;Renegati (M1 Abrams)
+    AddSpecialUnit(EnemyUnit,78,1555,11,10,-),Randomize(auto)
+}
+
+;AddSpecialEvent(SeePlace,1844,2,100%):
+EventData(2) {
+    ;Dark Elves
+    AddSpecialUnit(EnemyUnit,57,632,12,100,-),Randomize(auto)
+    ;Dark Elves
+    AddSpecialUnit(EnemyUnit,57,692,12,100,-),Randomize(auto)
+    ;Dark Elves
+    AddSpecialUnit(EnemyUnit,57,693,12,100,-),Randomize(auto)
+    ;Dark Elves
+    AddSpecialUnit(EnemyUnit,57,752,12,100,-),Randomize(auto)
+    ;Magotar (air)
+    AddSpecialUnit(EnemyUnit,48,752,00,100,-),Randomize(auto)
+    ;Dark Elves
+    AddSpecialUnit(EnemyUnit,57,633,12,100,-),Randomize(auto)
+    ;Dark Elves
+    AddSpecialUnit(EnemyUnit,57,573,12,100,-),Randomize(auto)
+}
+
+MissionParameters {
+    Time(t)
+    MissionText(T06_07A)
+    MissionStartText(T06_07A.S)
+    MissionEndOKText(T06_07A.OK)
+    MissionEndBadText(T06_07A.BAD)
+}

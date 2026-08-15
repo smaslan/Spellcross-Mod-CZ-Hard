@@ -1,0 +1,46 @@
+MissionData {
+    MissionMap(M06_14)
+    AddUnit(50,43,0664,0,20,NormalUnit,-)
+    AddUnit(51,43,0635,0,20,NormalUnit,-)
+    AddUnit(52,43,0605,0,20,NormalUnit,-)
+    AddUnit(53,43,0576,0,20,NormalUnit,-)
+    AddUnit(54,43,0546,0,20,NormalUnit,-)
+    AddUnit(55,43,0634,0,20,NormalUnit,-)
+    AddUnit(56,43,0604,0,20,NormalUnit,-)
+    AddUnit(57,43,0575,0,20,NormalUnit,-)
+    AddUnit(58,43,0545,0,20,NormalUnit,-)
+    AddUnit(59,43,0516,0,20,NormalUnit,-)
+    AddUnit(60,43,0858,0,20,NormalUnit,-)
+    AddUnit(61,43,0829,0,20,NormalUnit,-)
+    AddUnit(62,43,0799,0,20,NormalUnit,-)
+    AddUnit(63,43,0830,0,20,NormalUnit,-)
+    AddUnit(64,43,0831,0,20,NormalUnit,-)
+    AddUnit(65,43,0800,0,20,NormalUnit,-)
+    AddUnit(66,43,0770,0,20,NormalUnit,-)
+    AddUnit(67,43,0739,0,20,NormalUnit,-)
+    AddUnit(68,43,0769,0,20,NormalUnit,-)
+    AddUnit(69,43,0740,0,20,NormalUnit,-)
+    AddMissionObjective(DestroyAllUnits,Zni‡en¡ v¨ech jednotek)
+    AddMissionObjective(SeePlace,394,Prozkoumat naviga‡n¡ bod)
+    AddSpecialEvent(SeePlace,394,01,100%)
+    AddStartSquare(1386,1387,1388,1389,1390,1391,1392,1393,1394,1395)
+    AddStartSquare(1396,1397,1398,1399,1400,1401,1402,1416,1417,1418)
+    AddStartSquare(1419,1420,1421,1422,1423,1424,1425,1426,1427,1428)
+    AddStartSquare(1429,1430,1431,1432,1433,1446,1447,1448,1449,1450)
+    AddStartSquare(1451,1452,1453,1454,1455,1456,1457,1458,1459,1460)
+    AddStartSquare(1461,1462)
+    AddTargetSquare(0394)
+}
+ 
+EventData(1) {
+    EventText(u0614_00)
+}
+ 
+MissionParameters {
+    Time(t)
+    MissionText(T06_14A)
+    MissionStartText(T06_14A.S)
+    MissionEndOKText(T06_14A.OK)
+    MissionEndBadText(T06_14A.BAD)
+}
+ 

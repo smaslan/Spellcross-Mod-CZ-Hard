@@ -1,0 +1,89 @@
+LevelInit {
+    ;play level start anim (the simple anim with territory name), in CZ version it was CAN animation, in EN it is always SMK
+    PlayStartCANAnim(L_02.SMK)
+    ;play generic animation in level start, in CZ version it was DPK animation, in EN it is always SMK
+    PlayStartDeltaAnim(LEVEL2_1.SMK)
+    ;play generic animation in level end, in CZ version it was DPK animation, in EN it is always SMK
+    PlayEndDeltaAnim(LEVEL2_2.SMK)
+    ;play animation loop SPEAKER.FS: EndSpeaker(sound_name,animation_name)
+    ; sound_name is name from SPEAKER.FS, animation_name is DP2 file from SPEAKER.FS
+    EndSpeaker(S_03,S_03.DP2)
+
+    ;define player initial territory indexes, can be muliple instances of this command, one for each territory
+    Start(1)
+
+    ;definition of territories: Territory(territory_id,mission_def_script,misson_dta_name,mission_music)
+    ; territory_id = 1,2,....
+    ; mission_def_script = none (for non-scripted mission), or e.g. m02_02a
+    Territory(1,none,m02_01,mus05)
+    ;define resources for each territory: DefineStrategicPoints(territory_id,total_resources,turns_count)
+    ; so e.g. 1,100,5 will give 100/10 per turn on territory 1
+    DefineStrategicPoints(1,100,10)
+
+    ;define enemy counter attack unit type ids
+    AttackUnits(37,47,41,61)
+    ;define enemy special counter attack unit type ids (these are usually magotar or some spawn units like necromant)
+    AttackSpecialUnits(38)
+    ;define random attack parameters: AttackFlags(special_count,total_count,?,unit_XP_level,?,?)
+    AttackFlags(2,4,3,6,10,8)
+
+    ;global level music name (from MUSIC.FS)
+    LevelMusic(mus00)
+
+    ;enable research id, multiple instances possible
+    SetResearchFlag(research_id)
+
+    ;add reinforcement unit to player, name shall be "-" to use default: AddUnitToPlayer(1,5,100,-)
+    AddUnitToPlayer(unit_type_id,level,men_count,name)
+
+    ;final battle territory index
+    End(5)
+}
+
+
+;mission definition (name of map DEF file)
+Mission(M02_02A) {
+    ;in case of mission ok, switch to another map DEF script
+    EndOKMission(none)
+
+    ;in case of mission failed, switch to another map DEF script
+    EndBadMission(M02_02B)
+
+    ;run event when mission ok (multiple instances possible)
+    EndOKEvent(6)
+
+    ;run event when mission failed (multiple instances possible)
+    EndBadEvent(6)
+
+    ;in case of mission ok, add money and XP to commander(s)
+    EndOK(money,commander_xp)
+
+    ;mission music, if not defined, use global level music
+    MissionMusic(mus01)
+
+    ;timed mission
+    Time(7)
+
+    ;no idea yet
+    FrequencyOfRandomAttacks(10,8)
+}
+
+;add level event, event_id must be unique, normally starting with 1, but can be 0
+Event(event_id) {
+    ;bigmap turn to trigger or -1 to trigger at level start or remove entirely if event triggered by missions
+    AbsTime(-1)
+
+    ;this is used when event triggered by mission outcome and seems to be always Time(1) do not use with AbsTime()!
+    Time(1)
+
+    ;show text resource from TEXTS.FS
+    EventText(MSG0014)
+
+    ;add reinforcement unit to player, name shall be "-" to use default: AddUnitToPlayer(1,5,100,-)
+    AddUnitToPlayer(unit_type_id,level,men_count,name)
+
+    ;add enemy attack units if this is scripted counter attack event, 
+    ; unit_type_id list separated by ",", don't know how many can be per command, can use multiple Army() command instances
+    Army(37,37,37,37,37,37)
+}
+

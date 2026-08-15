@@ -1,0 +1,267 @@
+LevelInit {
+    PlayStartCANAnim(L_08.SMK)
+    StartSpeaker(S_08A,S_08A.DP2)
+    PlayStartDeltaAnim(LEVEL8_1.SMK)
+    PlayStartCANAnim(MAG.CAN)
+    ;
+    PlayEndDeltaAnim(LEVEL8_2.SMK)
+    EndSpeaker(S_08B,S_08B.DP2)
+
+    Start(1)
+    Territory(1,none,m08_01,none)
+    DefineStrategicPoints(1,400,40)
+
+    Territory(4,m08_04a,m08_04,none)
+    DefineStrategicPoints(4,0,0)
+
+    Territory(5,m08_05a,m08_05,none)
+    DefineStrategicPoints(5,500,10)
+
+    Territory(6,m08_06a,m08_06,none)
+    DefineStrategicPoints(6,300,30)
+
+    Territory(7,m08_07a,m08_07,none)
+    DefineStrategicPoints(7,150,20)
+
+    Territory(9,m08_09a,m08_09,none)
+    DefineStrategicPoints(9,400,50)
+
+    Territory(12,m08_12a,m08_12,none)
+    DefineStrategicPoints(12,200,10)
+
+    Territory(13,m08_13a,m08_13,none)
+    DefineStrategicPoints(13,350,50)
+
+    Territory(14,m08_14a,m08_14,none)
+    DefineStrategicPoints(14,300,30)
+
+    Territory(15,m08_15a,m08_15,none)
+    DefineStrategicPoints(15,300,30)
+
+    Territory(16,m08_16a,m08_16,none)
+    DefineStrategicPoints(16,300,50)
+
+    Territory(17,m08_17a,m08_17,none)
+    DefineStrategicPoints(17,400,40)
+
+    Territory(18,m08_18a,m08_18,none)
+    DefineStrategicPoints(18,200,20)
+
+    Territory(19,m08_19a,m08_19,none)
+    DefineStrategicPoints(19,280,20)
+
+    Territory(20,m08_20a,m08_20,none)
+    DefineStrategicPoints(20,0,0)
+
+    AttackUnits(39,40,47,44,45,54,62,58)
+    AttackSpecialUnits(68,71,64,63,65)
+    AttackFlags(28,36,11,12,20,6)
+
+    LevelMusic(mus00)
+    End(20)
+}
+
+Mission(M08_04A) {
+    EndOKMission(none)
+    EndBadMission(none)
+    EndOK(200,400)
+    FrequencyOfRandomAttacks(20,6)
+}
+Mission(M08_05A) {
+    EndOKMission(none)
+    EndBadMission(none)
+    EndOK(100,600)
+    FrequencyOfRandomAttacks(20,6)
+}
+
+Mission(M08_06A) {
+    EndOKMission(none)
+    EndBadMission(none)
+    EndOK(70,300)
+    FrequencyOfRandomAttacks(20,6)
+}
+
+Mission(M08_07A) {
+    Time(5)
+    EndOKMission(none)
+    EndBadMission(M08_07B)
+    EndOK(120,700)
+    FrequencyOfRandomAttacks(20,6)
+}
+
+Mission(M08_07B) {
+    EndOKMission(none)
+    EndBadMission(none)
+    EndOK(0,200)
+    FrequencyOfRandomAttacks(20,6)
+}
+
+Mission(M08_09A) {
+    Time(4)
+    EndOKMission(none)
+    EndBadMission(M08_09B)
+    EndOKEvent(9)
+    EndOK(100,1000)
+    FrequencyOfRandomAttacks(20,6)
+}
+
+Mission(M08_09B) {
+    EndOKMission(none)
+    EndBadMission(none)
+    EndOK(20,200)
+    FrequencyOfRandomAttacks(20,6)
+}
+
+Mission(M08_12A) {
+    Time(7)
+    EndOKMission(none)
+    EndBadMission(none)
+    EndOK(200,600)
+    FrequencyOfRandomAttacks(20,6)
+}
+
+Mission(M08_12B) {
+    EndOKMission(none)
+    EndBadMission(none)
+    EndOK(20,100)
+    FrequencyOfRandomAttacks(20,6)
+}
+
+Mission(M08_13A) {
+    EndOKMission(none)
+    EndBadMission(none)
+    EndOKEvent(7)
+    EndOKEvent(8)
+    EndOK(0,1500)
+    FrequencyOfRandomAttacks(20,6)
+}
+
+Mission(M08_14A) {
+    EndOKMission(none)
+    EndBadMission(none)
+    EndOK(20,800)
+    FrequencyOfRandomAttacks(20,6)
+}
+
+Mission(M08_15A) {
+    EndOKMission(none)
+    EndBadMission(none)
+    EndOK(50,600)
+    FrequencyOfRandomAttacks(20,6)
+}
+
+Mission(M08_16A) {
+    EndOKMission(none)
+    EndBadMission(none)
+    EndOKEvent(7)
+    EndOKEvent(8)
+    EndOK(100,1000)
+    FrequencyOfRandomAttacks(20,6)
+}
+
+Mission(M08_17A) {
+    EndOKMission(none)
+    EndBadMission(none)
+    EndOK(0,2000)
+    FrequencyOfRandomAttacks(20,6)
+}
+
+Mission(M08_18A) {
+    EndOKMission(none)
+    EndBadMission(none)
+    EndOKEvent(2)
+    EndOK(30,1500)
+    FrequencyOfRandomAttacks(20,6)
+}
+
+Mission(M08_19A) {
+    EndOKMission(none)
+    EndBadMission(none)
+    EndOK(50,400)
+    FrequencyOfRandomAttacks(20,6)
+}
+
+Mission(M08_20A) {
+    EndOKMission(none)
+    EndBadMission(none)
+    EndOK(400,8000)
+    FrequencyOfRandomAttacks(20,6)
+}
+
+Mission(M08_20B) {
+    EndOKMission(none)
+    EndBadMission(none)
+    EndOK(400,8000)
+    FrequencyOfRandomAttacks(20,6)
+}
+
+Event(1) {
+    AbsTime(1)
+    EventText(E08_0001)
+    ;STRV
+    AddUnitToPlayer(14,7,100,1.STRV/POM.)
+    ;Piranha
+    AddUnitToPlayer(20,7,100,2.Piranha/POM.)
+    ;Komando
+    AddUnitToPlayer(3,7,100,3.Komando/POM.)
+    AddUnitToPlayer(3,7,100,4.Komando/POM.)
+    ;Hummer-Ra
+    AddUnitToPlayer(29,8,100,5.Hummer/POM.)
+}
+
+Event(2) {
+    WaitForTerritories(12,18)
+    EventText(E08_0002)
+}
+
+Event(3) {
+    AbsTime(4)
+    EventText(E08_0003)
+}
+
+Event(4) {
+    WaitForTerritories(6,9,11,12)
+    EventText(E08_0004)
+}
+
+Event(5) {
+    AbsTime(7)
+    EventText(E08_0005)
+}
+
+Event(6) {
+    AbsTime(9,10)
+    EventText(E08_0006)
+    ;Radovi Orkovia
+    Army(37,37,37,37,37,37,37,37,37,37)
+    Army(37,37,37,37,37,37,37,37,37,37)
+    Army(37,37,37,37,37,37,37,37,37,37)
+    ;Ka-Orkovia
+    Army(38,38,38,38,38,38,38,38,38,38)
+    ;Wizard
+    Army(68,68,68)
+    ;Magotar pozemny/vzdusny
+    Army(47,47,48,48,48)
+}
+
+Event(7) {
+    EventText(E08_0007)
+}
+
+Event(8) {
+    Time(2,4)
+    EventText(E08_0008)
+    ;Duchovia
+    Army(45,45,45,45,45,45,45,45,45,45,45,45,45,45)
+    ;Pekelna Jazda
+    Army(62,62,62,62,62,62,62)
+    ;Demon
+    Army(67,67,67,67,67,67,67)
+    ;Rytieri Radu Smrti
+    Army(63,63,63,63,63,63,63)
+}
+
+Event(9) {
+    ChangeMission(20,M08_20B)
+}
+

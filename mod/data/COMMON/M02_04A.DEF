@@ -1,0 +1,69 @@
+MissionData {
+    MissionMap(M02_04)
+    AddUnit(50,37,1075,0,100,WaitForContact,-)
+    AddUnit(51,37,1111,0,100,WaitForContact,-)
+    AddUnit(52,37,2332,0,100,WaitForContact,-)
+    AddUnit(53,37,1041,0,100,WaitForContact,-)
+    AddUnit(54,37,0552,0,100,WaitForContact,-)
+    AddUnit(55,37,0516,0,100,WaitForContact,-)
+    AddUnit(56,37,0482,0,100,WaitForContact,-)
+    AddUnit(58,37,0403,0,100,WaitForContact,-)
+    AddUnit(59,37,0438,0,100,WaitForContact,-)
+    AddUnit(60,37,0368,0,100,WaitForContact,-)
+    AddUnit(61,37,2333,0,100,WaitForContact,-)
+    AddUnit(62,37,1158,0,100,NormalUnit,-)
+    AddUnit(63,41,1592,0,20,NormalUnit,-)
+    AddUnit(65,61,0928,0,20,WaitForContact,-)
+    AddUnit(68,48,1394,0,100,PatrolUnit,-)
+    AddUnit(69,48,0644,0,100,PatrolUnit,-)
+    AddUnit(71,61,0369,0,20,WaitForContact,-)
+    AddUnit(72,61,0480,0,20,WaitForContact,-)
+    AddUnit(73,61,1593,0,20,NormalUnit,-)
+    AddUnit(74,61,1228,0,20,NormalUnit,-)
+    AddUnit(75,41,1627,0,20,NormalUnit,-)
+    AddMissionObjective(DestroyAllUnits,Zni‡en¡ v¨ech jednotek)
+    AddMissionObjective(SeePlace,648,Lokalizovat sklad ‡.1)
+    AddMissionObjective(SeePlace,510,Lokalizovat sklad ‡.2)
+    AddMissionObjective(SeePlace,337,Lokalizovat sklad ‡.3)
+    AddMissionObjective(SeePlace,549,Lokalizovat sklad ‡.4)
+    AddMissionObjective(SeePlace,762,Lokalizovat sklad ‡.5)
+    AddSpecialEvent(SeePlace,648,01,100%)
+    AddSpecialEvent(SeePlace,510,02,100%)
+    AddSpecialEvent(SeePlace,337,03,100%)
+    AddSpecialEvent(SeePlace,549,04,100%)
+    AddSpecialEvent(SeePlace,762,05,100%)
+    AddStartSquare(2042,2077,2078,2110,2111,2112,2113,2146,2147,2148)
+    AddStartSquare(2149,2179,2181,2182,2183,2184,2214,2215,2217,2218)
+    AddStartSquare(2219,2248,2249,2250,2252,2253,2283,2284,2285,2286)
+    AddStartSquare(2288,2317,2318,2319,2320,2321,2323,2352,2353,2354)
+    AddStartSquare(2355,2356,2357,2359,2388,2389,2390,2391,2392,2394)
+}
+ 
+EventData(1) {
+    EventText(u0204_00)
+}
+ 
+EventData(2) {
+    EventText(u0204_01)
+}
+ 
+EventData(3) {
+    EventText(u0204_02)
+}
+ 
+EventData(4) {
+    EventText(u0204_03)
+}
+ 
+EventData(5) {
+    EventText(u0204_04)
+}
+ 
+MissionParameters {
+    Time(t)
+    MissionText(T02_04A)
+    MissionStartText(T02_04A.S)
+    MissionEndOKText(T02_04A.OK)
+    MissionEndBadText(T02_04A.BAD)
+}
+ 

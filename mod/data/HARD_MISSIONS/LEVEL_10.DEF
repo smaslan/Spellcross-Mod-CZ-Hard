@@ -1,0 +1,57 @@
+LevelInit {
+    PlayStartCANAnim(L_10.SMK)
+    PlayStartDeltaAnim(LEVEL10.SMK)
+
+    Start(1)
+    Territory(1,none,m10_01,none)
+    DefineStrategicPoints(1,1440,90)
+
+    Territory(2,m10_02a,m10_02,none)
+    DefineStrategicPoints(2,600,150)
+
+    Territory(3,m10_03a,m10_03,none)
+    DefineStrategicPoints(3,0,0)
+
+    AttackUnits(40,49,65,62,68,67,58,63)
+    AttackSpecialUnits(70,71,69,64)
+    AttackFlags(40,50,11,12,20,6)
+
+    LevelMusic(mus10)
+    End(3)
+}
+
+Mission(M10_02A) {
+    EndOKMission(none)
+    EndBadMission(none)
+    EndOKEvent(1)
+    EndOK(500,6000)
+    FrequencyOfRandomAttacks(20,6)
+}
+
+; zly koniec => ZLE OUTRO
+Mission(M10_03A) {
+    EndOKMission(M10_03B)
+    EndBadMission(none)
+    EndOkEvent(2)
+    EndOK(200,10000)
+    FrequencyOfRandomAttacks(20,6)
+}
+
+; dobry koniec => DOBRE OUTRO
+; zly koniec => ZLE OUTRO
+Mission(M10_03B) {
+    EndOKMission(none)
+    EndBadMission(none)
+    EndOK(50,20)
+    FrequencyOfRandomAttacks(20,6)
+}
+
+Event(2) {
+    Time(1)
+    ;MLRS
+    AddUnitToPlayer(28,12,100,MLRS/Elit.Zbor)
+    ;Leopard 2A5
+    AddUnitToPlayer(12,12,100,1.Leop2A5/El.Zbor)
+    AddUnitToPlayer(12,12,100,2.Leop2A5/El.Zbor)
+}
+

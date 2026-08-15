@@ -1,0 +1,140 @@
+LevelInit {
+    PlayStartCANAnim(L_02.SMK)
+    PlayStartDeltaAnim(LEVEL2_1.SMK)
+    ;
+    PlayEndDeltaAnim(LEVEL2_2.SMK)
+
+    Start(1)
+    Territory(1,none,m02_01,mus05)
+    DefineStrategicPoints(1,100,10)
+
+    Territory(2,m02_02a,m02_02,mus05)
+    DefineStrategicPoints(2,180,20)
+
+    Territory(3,m02_03a,m02_03,mus05)
+    DefineStrategicPoints(3,180,20)
+
+    Territory(4,m02_04a,m02_04,mus05)
+    DefineStrategicPoints(4,200,20)
+
+    Territory(5,m02_05a,m02_05,none)
+    DefineStrategicPoints(5,0,0)
+
+    Territory(6,m02_06a,m02_06,mus05)
+    DefineStrategicPoints(6,100,10)
+
+    AttackUnits(37,47,41,61)
+    AttackSpecialUnits(38,55)
+    AttackFlags(7,10,2,5,10,8)
+
+    LevelMusic(mus00)
+
+    ;Lahka pechota
+    SetResearchFlag(0)
+    ;Tazka pechota
+    SetResearchFlag(1)
+    ;Rangers
+    SetResearchFlag(2)
+    ;Komanda
+    SetResearchFlag(3)
+    ;Minometna pechota
+    SetResearchFlag(5)
+    ;Sniper
+    SetResearchFlag(141)
+
+    ;Lahka Pechota
+    AddUnitToPlayer(0,1,100,-)
+    AddUnitToPlayer(0,1,100,-)
+    ;Rangers
+    AddUnitToPlayer(2,1,100,-)
+    ;Komando
+    AddUnitToPlayer(3,2,100,-)
+    ;Hummer-Ra
+    AddUnitToPlayer(29,1,100,-)
+
+    End(5)
+}
+
+Mission(M02_02A) {
+    EndOKMission(none)
+    EndBadMission(M02_02B)
+    EndOK(50,40)
+    MissionMusic(mus01)
+    FrequencyOfRandomAttacks(10,8)
+}
+
+Mission(M02_02B) {
+    EndOKMission(none)
+    EndBadMission(none)
+    EndOK(0,10)
+    FrequencyOfRandomAttacks(10,8)
+}
+
+Mission(M02_03A) {
+    EndOKMission(none)
+    EndBadMission(none)
+    MissionMusic(mus01)
+    EndOK(30,80)
+    FrequencyOfRandomAttacks(10,8)
+}
+
+Mission(M02_04A) {
+    EndOKMission(none)
+    EndBadMission(none)
+    EndOK(70,30)
+    MissionMusic(mus01)
+    FrequencyOfRandomAttacks(10,8)
+}
+
+Mission(M02_05A) {
+    EndOKMission(none)
+    EndBadMission(none)
+    EndBadEvent(4)
+    EndOK(250,150)
+    FrequencyOfRandomAttacks(10,8)
+}
+
+Mission(M02_06A) {
+    EndOKMission(none)
+    EndBadMission(none)
+    EndOK(20,30)
+    MissionMusic(mus01)
+    FrequencyOfRandomAttacks(10,8)
+}
+
+Event(1) {
+    AbsTime(-1)
+    EventText(E02_0001)
+}
+
+Event(2) {
+    AbsTime(6)
+    EventText(E02_0005)
+    ;Radovi Orkovia
+    Army(37,37,37,37,37)
+    ;Ka-Orkovia
+    Army(38,38)
+}
+
+Event(3) {
+    AbsTime(5)
+    EventText(E02_0003)
+}
+
+Event(4) {
+    Time(1)
+    EventText(E02_0004)
+    ;Radovi Orkovia
+    Army(37,37,37,37,37,37)
+    ;Ka-Orkovia
+    Army(38)
+    ;Sipomet
+    Army(55)
+    ;Vlcia Jazda
+    Army(61,61,61)
+}
+
+Event(5) {
+    AbsTime(3)
+    EventText(E02_0002)
+}

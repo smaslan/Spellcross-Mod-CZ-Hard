@@ -1,0 +1,25 @@
+LevelInit {
+    PlayStartCANAnim(L_01.SMK)
+    PlayEndCANAnim(ALEX.SMK)
+    PlayEndDeltaAnim(LEVEL1_1.SMK)
+    End(1)
+
+    Territory(1,m01_01a,m01_01,none)
+
+    AttackUnits(38,47,42,43,39,52,44)
+    AttackSpecialUnits(38)
+    AttackFlags(1,2,1,2,20,6)
+}
+
+Mission(M01_01A) {
+    EndOKMission(none)
+    EndBadMission(none)
+    FrequencyOfRandomAttacks(20,6)
+}
+
+Mission(U) {
+    EndOKMission(none)
+    EndBadMission(none)
+    FrequencyOfRandomAttacks(20,6)
+}
+

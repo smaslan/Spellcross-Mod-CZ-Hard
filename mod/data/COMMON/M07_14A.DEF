@@ -1,0 +1,124 @@
+MissionData {
+    MissionMap(M07_14)
+    AddUnit(50,54,3735,0,10,ToughDefence,-)
+    AddUnit(51,54,3634,0,10,ToughDefence,-)
+    AddUnit(52,54,3834,0,10,ToughDefence,-)
+    AddUnit(53,54,3934,0,10,ToughDefence,-)
+    AddUnit(54,64,0933,10,1,ToughDefence,Drak)
+    AddUnit(55,64,4133,10,1,ToughDefence,Drak)
+    AddUnit(56,64,1931,10,1,ToughDefence,Drak)
+    AddUnit(57,58,3361,0,10,NormalUnit,-)
+    AddUnit(58,58,3261,0,10,NormalUnit,-)
+    AddUnit(59,58,3161,0,10,NormalUnit,-)
+    AddUnit(60,58,3260,0,10,NormalUnit,-)
+    AddUnit(61,58,3160,0,10,NormalUnit,-)
+    AddUnit(62,58,3060,0,10,NormalUnit,-)
+    AddUnit(63,48,3261,0,100,NormalUnit,-)
+    AddUnit(64,40,1474,0,100,WaitForContact,-)
+    AddUnit(65,40,1375,0,100,WaitForContact,-)
+    AddUnit(66,40,1374,0,100,WaitForContact,-)
+    AddUnit(67,40,1274,0,100,WaitForContact,-)
+    AddUnit(68,39,3080,0,100,WaitForContact,-)
+    AddUnit(69,39,2980,0,100,WaitForContact,-)
+    AddUnit(70,39,2880,0,100,WaitForContact,-)
+    AddUnit(71,39,2981,0,100,WaitForContact,-)
+    AddUnit(72,39,1284,0,100,NormalUnit,-)
+    AddUnit(73,39,1384,0,100,NormalUnit,-)
+    AddUnit(74,39,1483,0,100,NormalUnit,-)
+    AddUnit(75,40,1383,0,100,NormalUnit,-)
+    AddUnit(76,40,1283,0,100,NormalUnit,-)
+    AddUnit(77,40,1184,0,100,NormalUnit,-)
+    AddUnit(78,48,1384,0,100,NormalUnit,-)
+    AddUnit(79,48,3842,0,100,ToughDefence,-)
+    AddUnit(80,48,4342,0,100,ToughDefence,-)
+    AddUnit(81,48,3243,0,100,ToughDefence,-)
+    AddUnit(82,48,3735,0,100,ToughDefence,-)
+    AddUnit(83,68,3360,0,1,NormalUnit,-)
+    AddUnit(84,68,1452,0,1,WaitForContact,-)
+    AddUnit(85,69,1552,0,1,WaitForContact,-)
+    AddUnit(86,64,1332,10,1,ToughDefence,Drak)
+    AddUnit(87,64,3333,10,1,ToughDefence,Drak)
+    AddUnit(88,64,2432,10,1,ToughDefence,Drak)
+    AddUnit(89,65,3971,0,1,WaitForContact,-)
+    AddUnit(90,44,3670,0,10,WaitForContact,-)
+    AddUnit(91,44,3671,0,10,WaitForContact,-)
+    AddUnit(92,68,1352,0,1,WaitForContact,-)
+    AddUnit(93,69,1651,0,1,WaitForContact,-)
+    AddUnit(94,69,1451,0,1,WaitForContact,-)
+    AddUnit(95,44,4271,0,10,WaitForContact,-)
+    AddUnit(96,44,4270,0,10,WaitForContact,-)
+    AddUnit(98,53,3869,0,10,WaitForContact,-)
+    AddUnit(99,53,4069,0,10,WaitForContact,-)
+    AddMissionObjective(SeePlace,1646,Prozkoumat naviga‡n¡ bod)
+    AddSpecialEvent(SeePlace,1646,01,100%)
+    AddSpecialEvent(SeePlace,1646,02,100%)
+    AddSpecialEvent(SeePlace,1646,03,100%)
+    AddSpecialEvent(SeePlace,1646,04,100%)
+    AddSpecialEvent(SeePlace,1646,05,100%)
+    AddSpecialEvent(SeePlace,1646,06,100%)
+    AddSpecialEvent(SeePlace,1646,07,100%)
+    AddSpecialEvent(SeePlace,1646,08,100%)
+    AddSpecialEvent(SeePlace,1646,09,100%)
+    AddSpecialEvent(SeePlace,1646,10,100%)
+    AddSpecialEvent(SeePlace,1646,11,100%)
+    AddStartSquare(0895,0995,0996,1094,1095,1096,1195,1196,1294,1295)
+    AddStartSquare(1296,1394,1395,1396,1494,1495,1496,1595,1596,1694)
+    AddStartSquare(1695,1696,1794,1795,1796,1894,1895,1896,1995,1996)
+    AddStartSquare(2094,2095,2195,2294,2396,2495,2595,2596,2694,2695)
+    AddStartSquare(2794,2795,2796,2894,2895,2995,2996,3095,3196,3495)
+    AddStartSquare(3596,3695,3696,3796,3895,3896,3995,3996,4095,4096)
+    AddTargetSquare(1748)
+}
+ 
+EventData(1) {
+    EventText(u0714_00)
+}
+ 
+EventData(2) {
+    AddSpecialUnit(EnemyUnit,40,2046,00,100,-)
+}
+ 
+EventData(3) {
+    AddSpecialUnit(EnemyUnit,40,1947,00,100,-)
+}
+ 
+EventData(4) {
+    AddSpecialUnit(EnemyUnit,40,1847,00,100,-)
+}
+ 
+EventData(5) {
+    AddSpecialUnit(EnemyUnit,40,1748,00,100,-)
+}
+ 
+EventData(6) {
+    AddSpecialUnit(EnemyUnit,40,1648,00,100,-)
+}
+ 
+EventData(7) {
+    AddSpecialUnit(EnemyUnit,38,2147,00,100,-)
+}
+ 
+EventData(8) {
+    AddSpecialUnit(EnemyUnit,38,2047,00,100,-)
+}
+ 
+EventData(9) {
+    AddSpecialUnit(EnemyUnit,38,1948,00,100,-)
+}
+ 
+EventData(10) {
+    AddSpecialUnit(EnemyUnit,38,1848,00,100,-)
+}
+ 
+EventData(11) {
+    AddSpecialUnit(EnemyUnit,38,1749,00,100,-)
+}
+ 
+MissionParameters {
+    Time(t)
+    MissionText(T07_14A)
+    MissionStartText(T07_14A.S)
+    MissionEndOKText(T07_14A.OK)
+    MissionEndBadText(T07_14A.BAD)
+}
+ 

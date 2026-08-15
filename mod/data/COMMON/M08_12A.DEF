@@ -1,0 +1,90 @@
+MissionData {
+    MissionMap(M08_12)
+    AddUnit(50,54,2094,0,10,ToughDefence,-)
+    AddUnit(51,54,1941,0,10,ToughDefence,-)
+    AddUnit(52,54,1829,0,10,ToughDefence,-)
+    AddUnit(53,53,2095,0,10,WaitForContact,-)
+    AddUnit(54,53,1981,0,10,WaitForContact,-)
+    AddUnit(55,69,1868,0,1,WaitForContact,-)
+    AddUnit(56,58,1245,0,10,WaitForContact,-)
+    AddUnit(57,58,1285,0,10,WaitForContact,-)
+    AddUnit(58,58,1246,0,10,WaitForContact,-)
+    AddUnit(59,58,1334,0,10,WaitForContact,-)
+    AddUnit(60,58,1335,0,10,WaitForContact,-)
+    AddUnit(61,58,1623,0,10,WaitForContact,-)
+    AddUnit(62,48,1741,0,100,NormalUnit,-)
+    AddUnit(63,48,1774,0,100,NormalUnit,-)
+    AddUnit(64,48,1688,0,100,NormalUnit,-)
+    AddUnit(65,48,2094,0,100,ToughDefence,-)
+    AddUnit(66,48,1941,0,100,ToughDefence,-)
+    AddUnit(67,48,1829,0,100,ToughDefence,-)
+    AddUnit(68,48,2367,0,100,WaitForContact,-)
+    AddUnit(69,57,1294,0,100,WaitForContact,-)
+    AddUnit(70,58,1663,0,10,WaitForContact,-)
+    AddUnit(71,57,2406,0,100,WaitForContact,-)
+    AddUnit(72,57,2367,0,100,WaitForContact,-)
+    AddUnit(73,57,2327,0,100,WaitForContact,-)
+    AddUnit(74,57,2326,0,100,WaitForContact,-)
+    AddUnit(75,44,2287,0,10,WaitForContact,-)
+    AddUnit(76,53,2135,0,10,WaitForContact,-)
+    AddUnit(77,53,2134,0,10,WaitForContact,-)
+    AddUnit(78,53,1940,0,10,WaitForContact,-)
+    AddUnit(79,53,1901,0,10,WaitForContact,-)
+    AddUnit(80,53,1828,0,10,WaitForContact,-)
+    AddUnit(81,53,1788,0,10,WaitForContact,-)
+    AddUnit(82,61,1331,10,20,WaitForContact,-)
+    AddUnit(83,61,2694,10,20,NormalUnit,-)
+    AddUnit(84,61,2695,10,20,NormalUnit,-)
+    AddUnit(85,61,2734,10,20,NormalUnit,-)
+    AddUnit(86,61,2733,10,20,NormalUnit,-)
+    AddUnit(87,61,2693,10,20,NormalUnit,-)
+    AddUnit(88,48,1323,0,100,PatrolUnit,-)
+    AddUnit(89,48,1067,0,100,PatrolUnit,-)
+    AddUnit(90,44,2654,0,10,NormalUnit,-)
+    AddUnit(91,48,2694,0,100,NormalUnit,-)
+    AddUnit(92,68,2055,0,1,WaitForContact,-)
+    AddUnit(93,48,2349,0,100,PatrolUnit,-)
+    AddUnit(94,58,1205,0,10,WaitForContact,-)
+    AddUnit(95,58,1374,0,10,WaitForContact,-)
+    AddUnit(96,58,1703,0,10,WaitForContact,-)
+    AddUnit(97,58,1664,0,10,WaitForContact,-)
+    AddUnit(98,53,2826,0,10,NormalUnit,-)
+    AddUnit(99,53,2866,0,10,NormalUnit,-)
+    AddMissionObjective(DestroyAllUnits,Zni‡en¡ v¨ech jednotek)
+    AddSpecialEvent(MissionStart,01,100%)
+    AddSpecialEvent(MissionStart,02,100%)
+    AddSpecialEvent(MissionStart,03,100%)
+    AddSpecialEvent(MissionStart,04,100%)
+    AddStartSquare(0375,0384,0414,0415,0423,0424,0455,0528,0529,0551)
+    AddStartSquare(0568,0590,0591,0631,3985,3986,3991,3992,3993,4018)
+    AddStartSquare(4019,4020,4024,4025,4026,4030,4031,4032,4033,4058)
+    AddStartSquare(4059,4060,4061,4064,4065,4066,4067,4070,4071,4072)
+    AddStartSquare(4073,4074,4097,4098,4099,4100,4101,4104,4105,4106)
+    AddStartSquare(4110,4111,4112,4113,4138,4139,4140,4141,4145,4146)
+    AddStartSquare(4151,4152,4153,4178,4179,4180)
+}
+ 
+EventData(1) {
+    AddSpecialUnit(MissionUnit,03,0511,10,020,-)
+}
+ 
+EventData(2) {
+    AddSpecialUnit(MissionUnit,03,0464,10,020,-)
+}
+ 
+EventData(3) {
+    AddSpecialUnit(MissionUnit,03,0456,10,020,-)
+}
+ 
+EventData(4) {
+    AddSpecialUnit(MissionUnit,03,0488,10,020,-)
+}
+ 
+MissionParameters {
+    Time(t)
+    MissionText(T08_12A)
+    MissionStartText(T08_12A.S)
+    MissionEndOKText(T08_12A.OK)
+    MissionEndBadText(T08_12A.BAD)
+}
+ 

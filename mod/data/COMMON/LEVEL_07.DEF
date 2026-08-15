@@ -1,0 +1,314 @@
+LevelInit {
+    PlayStartCANAnim(L_07.SMK)
+    StartSpeaker(S_07A,S_07A.DP2)
+    PlayStartDeltaAnim(LEVEL7_1.SMK)
+    ;
+    PlayEndDeltaAnim(LEVEL7_2.SMK)
+    EndSpeaker(S_07B,S_07B.SMK)
+
+    Start(2)
+    Territory(1,m07_01a,m07_01,mus03)
+    DefineStrategicPoints(1,300,30)
+
+    Territory(2,none,m07_02,none)
+    DefineStrategicPoints(2,400,20)
+
+    Territory(3,m07_03a,m07_03,mus03)
+    DefineStrategicPoints(3,200,20)
+
+    Territory(4,m07_04a,m07_04,mus03)
+    DefineStrategicPoints(4,330,30)
+
+    Territory(5,m07_05a,m07_05,mus03)
+    DefineStrategicPoints(5,250,25)
+
+    Territory(6,m07_06a,m07_06,mus03)
+    DefineStrategicPoints(6,240,40)
+
+    Territory(7,m07_07a,m07_07,mus03)
+    DefineStrategicPoints(7,300,30)
+
+    Territory(8,m07_08a,m07_08,mus03)
+    DefineStrategicPoints(8,400,80)
+
+    Territory(9,m07_09a,m07_09,mus03)
+    DefineStrategicPoints(9,300,30)
+
+    Territory(10,m07_10a,m07_10,mus03)
+    DefineStrategicPoints(10,300,30)
+
+    Territory(11,m07_11a,m07_11,mus03)
+    DefineStrategicPoints(11,400,40)
+
+    Territory(12,m07_12a,m07_12,mus03)
+    DefineStrategicPoints(12,480,80)
+
+    Territory(13,m07_13a,m07_13,mus03)
+    DefineStrategicPoints(13,360,60)
+
+    Territory(14,m07_14a,m07_14,mus03)
+    DefineStrategicPoints(14,0,0)
+
+    AttackUnits(39,40,47,44,45,54,62)
+    AttackSpecialUnits(68,69,71,64,63)
+    AttackFlags(24,28,8,12,20,6)
+
+    ;Radar 2
+    SetResearchFlag(31)
+    ;Mi-24
+    SetResearchFlag(32)
+    ;MLRS
+    SetResearchFlag(28)
+    LevelMusic(mus00)
+    End(14)
+}
+
+Mission(M07_01A) {
+    Time(7)
+    EndOKMission(none)
+    EndBadMission(M07_01B)
+    EndOKEvent(3)
+    EndOK(80,140)
+    MissionMusic(mus02)
+    FrequencyOfRandomAttacks(20,6)
+}
+
+Mission(M07_01B) {
+    EndOKMission(none)
+    EndBadMission(none)
+    EndOKEvent(3)
+    EndOK(0,90)
+    MissionMusic(mus02)
+    FrequencyOfRandomAttacks(20,6)
+}
+
+Mission(M07_03A) {
+    Time(10)
+    EndOKMission(none)
+    EndBadMission(M07_03B)
+    EndOKEvent(3)
+    EndOK(30,340)
+    MissionMusic(mus04)
+    FrequencyOfRandomAttacks(20,6)
+}
+
+Mission(M07_03B) {
+    EndOKMission(none)
+    EndBadMission(none)
+    EndOKEvent(3)
+    EndOK(0,100)
+    FrequencyOfRandomAttacks(20,6)
+}
+
+Mission(M07_04A) {
+    Time(15)
+    EndOKMission(M07_04B)
+    EndBadMission(M07_04B)
+    EndOKEvent(9)
+    EndOK(0,700)
+    MissionMusic(mus03)
+    FrequencyOfRandomAttacks(20,6)
+}
+
+Mission(M07_04B) {
+    EndOKMission(none)
+    EndBadMission(none)
+    EndOK(70,300)
+    MissionMusic(mus04)
+    FrequencyOfRandomAttacks(20,6)
+}
+
+Mission(M07_05A) {
+    EndOKMission(none)
+    EndBadMission(none)
+    EndOKEvent(5)
+    EndOK(80,400)
+    MissionMusic(mus01)
+    FrequencyOfRandomAttacks(20,6)
+}
+
+Mission(M07_06A) {
+    EndOKMission(none)
+    EndBadMission(none)
+    EndOKEvent(5)
+    EndOK(0,350)
+    MissionMusic(mus01)
+    FrequencyOfRandomAttacks(20,6)
+}
+
+Mission(M07_07A) {
+    EndOKMission(none)
+    EndBadMission(none)
+    EndOKEvent(3)
+    EndOK(50,400)
+    FrequencyOfRandomAttacks(20,6)
+}
+
+Mission(M07_08A) {
+    EndOKMission(none)
+    EndBadMission(none)
+    EndOKEvent(5)
+    EndOK(100,450)
+    FrequencyOfRandomAttacks(20,6)
+}
+
+Mission(M07_09A) {
+    EndOKMission(none)
+    EndBadMission(none)
+    EndOK(30,350)
+    FrequencyOfRandomAttacks(20,6)
+}
+
+Mission(M07_10A) {
+    EndOKMission(none)
+    EndBadMission(none)
+    EndOKEvent(6)
+    EndOKEvent(5)
+    EndOKEvent(8)
+    EndOK(0,350)
+    FrequencyOfRandomAttacks(20,6)
+}
+
+Mission(M07_11A) {
+    EndOKMission(none)
+    EndBadMission(none)
+    EndOKEvent(11)
+    EndOK(150,400)
+    MissionMusic(mus02)
+    FrequencyOfRandomAttacks(20,6)
+}
+
+Mission(M07_12A) {
+    EndOKMission(none)
+    EndBadMission(none)
+    EndOKEvent(6)
+    EndOkEvent(8)
+    EndOK(150,500)
+    FrequencyOfRandomAttacks(20,6)
+}
+
+Mission(M07_13A) {
+    EndOKMission(none)
+    EndBadMission(none)
+    EndOK(100,500)
+    MissionMusic(mus01)
+    FrequencyOfRandomAttacks(20,6)
+}
+
+Mission(M07_14A) {
+    EndOKMission(M07_14B)
+    EndBadMission(none)
+    EndOKEvent(12)
+    EndOK(0,800)
+    MissionMusic(mus02)
+    FrequencyOfRandomAttacks(20,6)
+}
+
+Mission(M07_14B) {
+    EndOKMission(none)
+    EndBadMission(none)
+    EndOK(400,5000)
+    MissionMusic(mus03)
+    FrequencyOfRandomAttacks(20,6)
+}
+
+Event(1) {
+    AbsTime(1)
+    EventText(E07_0001)
+    ;TAM
+    AddUnitToPlayer(10,3,100,TAM/1.RSA)
+    ;Rangers
+    AddUnitToPlayer(2,7,100,Rangeri/2.RSA)
+    AddUnitToPlayer(2,7,100,Rangeri/3.RSA)
+    ;Piranha
+    AddUnitToPlayer(20,5,100,Piranha/4.RSA)
+}
+
+Event(2) {
+    AbsTime(14,22)
+    EventText(E07_0002)
+    ;Komando
+    AddUnitToPlayer(3,10,100,Komando/1.Blesk)
+    AddUnitToPlayer(3,9,100,Komando/2.Blesk)
+    ;Hummer-Ra
+    AddUnitToPlayer(29,7,100,Hummer/3.Blesk)
+}
+
+Event(3) {
+    EventText(E07_0003)
+}
+
+Event(4) {
+    AbsTime(3,4)
+    EventText(E07_0004)
+}
+
+Event(5) {
+    EventText(E07_0005)
+}
+
+Event(6) {
+    EventText(E07_0006)
+}
+
+Event(7) {
+    AbsTime(8)
+    EventText(E07_0007)
+}
+
+Event(8) {
+    ;utok drakov
+    Time(2)
+    EventText(E07_0008)
+    ;Draci
+    Army(64,64,64,64,64)
+}
+
+Event(9) {
+    Time(12,16)
+    ;posila od generala Gordona za zachraneny konvoj
+    EventText(E07_0009)
+    ;Hummer-Ra
+    AddUnitToPlayer(29,7,100,Hummer/1.Gordon)
+    ;Piranha
+    AddUnitToPlayer(20,6,100,Piranha/2.Gordon)
+    ;TAM
+    AddUnitToPlayer(10,4,100,TAM/3.Gordon)
+}
+
+Event(10) {
+    AbsTime(5,6)
+    EventText(E07_0010)
+}
+
+Event(11) {
+    Time(3)
+    ;posila Z - zajateckych vojakov
+    EventText(E07_0011)
+    ;Lahka Pechota
+    AddUnitToPlayer(0,6,100,Lehk  Pˆchota/1.Z)
+    AddUnitToPlayer(0,6,100,Lehk  Pˆchota/2.Z)
+}
+
+Event(12) {
+    ;posila od 2. utocnej armady
+    Time(2)
+    EventText(E07_0012)
+    ;STRV
+    AddUnitToPlayer(14,6,100,STRV1/2.—A)
+    AddUnitToPlayer(14,6,100,STRV2/2.—A)
+    ;Marder
+    AddUnitToPlayer(19,6,100,Marder1/2.—A)
+    AddUnitToPlayer(19,6,100,Marder2/2.—A)
+    AddUnitToPlayer(19,6,100,Marder3/2.—A)
+}
+
+Event(13) {
+    SetResearchFlag(117)
+}
+
+Event(14) {
+    ;Text o KA - Tugragovi
+    AbsTime(4)
+    EventText(E07_0013)
+}

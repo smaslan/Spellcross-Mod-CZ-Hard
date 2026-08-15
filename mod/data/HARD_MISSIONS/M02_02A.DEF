@@ -1,0 +1,32 @@
+MissionData {
+    MissionMap(M02_02)
+    AutoRandomizeRule(37,37,38)
+    AutoRandomizeRule(38,37,38)
+    AddUnit(50,37,1910,3,100,NormalUnit,-),Randomize(auto)
+    AddUnit(51,37,1865,3,100,NormalUnit,-),Randomize(auto)
+    AddUnit(52,37,1955,3,100,NormalUnit,-),Randomize(auto)
+    AddUnit(53,38,1307,3,100,NormalUnit,-),Randomize(auto)
+    AddUnit(54,38,1351,3,100,NormalUnit,-),Randomize(auto)
+    AddUnit(55,37,1658,3,100,WaitForContact,-),Randomize(auto)
+    AddUnit(56,37,1704,3,100,WaitForContact,-),Randomize(auto)
+    AddUnit(57,37,1614,3,100,WaitForContact,-),Randomize(auto)
+    AddUnit(58,48,626,3,100,PatrolUnit,-),Randomize(auto)
+    AddUnit(59,48,2192,3,100,PatrolUnit,-),Randomize(auto)
+    AddUnit(60,41,1567,3,20,WaitForContact,-),Randomize(auto)
+    AddUnit(61,41,1613,3,20,WaitForContact,-),Randomize(auto)
+    AddUnit(62,38,1909,3,100,NormalUnit,-),Randomize(auto)
+    AddMissionObjective(DestroyAllUnits,Zni‡en¡ v¨ech jednotek)
+    AddStartSquare(637,682,687,726,728,730,732,771,773,775)
+    AddStartSquare(776,778,815,817,819,820,821,823,862,864)
+    AddStartSquare(865,866,867,906,908,909,910,911,912,952)
+    AddStartSquare(954,955,956,957,997,999,1000,1001,1044,1045)
+    AddStartSquare(1046,1088,1089,1090,1134,1135,1136,1179,1180,1225)
+}
+
+MissionParameters {
+    Time(t)
+    MissionText(T02_02A)
+    MissionStartText(T02_02A.S)
+    MissionEndOKText(T02_02A.OK)
+    MissionEndBadText(T02_02A.BAD)
+}

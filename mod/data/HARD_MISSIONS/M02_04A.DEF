@@ -1,0 +1,80 @@
+MissionData {
+    MissionMap(M02_04)
+    AutoRandomizeRule(37,37,38)
+    AutoRandomizeRule(38,37,38)
+    AddUnit(50,37,1075,3,100,WaitForContact,-),Randomize(auto)
+    AddUnit(51,37,1111,3,100,WaitForContact,-),Randomize(auto)
+    AddUnit(52,37,2332,3,100,WaitForContact,-),Randomize(auto)
+    AddUnit(53,37,1041,3,100,WaitForContact,-),Randomize(auto)
+    AddUnit(54,37,552,3,100,WaitForContact,-),Randomize(auto)
+    AddUnit(55,37,516,3,100,WaitForContact,-),Randomize(auto)
+    AddUnit(56,37,482,3,100,WaitForContact,-),Randomize(auto)
+    AddUnit(57,37,403,3,100,WaitForContact,-),Randomize(auto)
+    AddUnit(58,37,438,3,100,WaitForContact,-),Randomize(auto)
+    AddUnit(59,37,368,3,100,WaitForContact,-),Randomize(auto)
+    AddUnit(60,37,2333,3,100,WaitForContact,-),Randomize(auto)
+    AddUnit(61,37,1158,3,100,WaitForContact,-),Randomize(auto)
+    AddUnit(62,41,1592,3,20,WaitForContact,-),Randomize(auto)
+    AddUnit(63,61,928,3,20,WaitForContact,-),Randomize(auto)
+    AddUnit(64,48,1394,3,100,PatrolUnit,-),Randomize(auto)
+    AddUnit(65,48,644,3,100,PatrolUnit,-),Randomize(auto)
+    AddUnit(66,61,369,3,20,WaitForContact,-),Randomize(auto)
+    AddUnit(67,61,480,3,20,WaitForContact,-),Randomize(auto)
+    AddUnit(68,61,1593,3,20,WaitForContact,-),Randomize(auto)
+    AddUnit(69,61,1228,3,20,WaitForContact,-),Randomize(auto)
+    AddUnit(70,41,1627,3,20,WaitForContact,-),Randomize(auto)
+    AddUnit(71,61,404,3,20,WaitForContact,-),Randomize(auto)
+    AddUnit(72,61,335,3,20,WaitForContact,-),Randomize(auto)
+    AddUnit(73,61,444,3,20,WaitForContact,-),Randomize(auto)
+    AddUnit(74,61,1192,3,20,WaitForContact,-),Randomize(auto)
+    AddUnit(75,61,1122,3,20,WaitForContact,-),Randomize(auto)
+    AddSpecialEvent(SeePlace,648,1,100%)
+    AddSpecialEvent(SeePlace,510,2,100%)
+    AddSpecialEvent(SeePlace,337,3,100%)
+    AddSpecialEvent(SeePlace,549,4,100%)
+    AddSpecialEvent(SeePlace,762,5,100%)
+    AddMissionObjective(SeePlace,648,Locate store 1)
+    AddMissionObjective(SeePlace,510,Locate store 2)
+    AddMissionObjective(SeePlace,337,Locate store 3)
+    AddMissionObjective(SeePlace,549,Locate store 4)
+    AddMissionObjective(SeePlace,762,Locate store 5)
+    AddMissionObjective(DestroyAllUnits,Zni‡en¡ v¨ech jednotek)
+    AddStartSquare(2042,2077,2078,2110,2111,2112,2113,2146,2147,2148)
+    AddStartSquare(2149,2179,2181,2182,2183,2184,2214,2215,2217,2218)
+    AddStartSquare(2219,2248,2249,2250,2252,2253,2283,2284,2285,2286)
+    AddStartSquare(2288,2317,2318,2319,2320,2321,2323,2352,2353,2354)
+    AddStartSquare(2355,2356,2357,2359,2388,2389,2390,2391,2392,2394)
+}
+
+;AddSpecialEvent(SeePlace,648,1,100%):
+EventData(1) {
+    EventText(U0204_00)
+}
+
+;AddSpecialEvent(SeePlace,510,2,100%):
+EventData(2) {
+    EventText(U0204_01)
+}
+
+;AddSpecialEvent(SeePlace,337,3,100%):
+EventData(3) {
+    EventText(U0204_02)
+}
+
+;AddSpecialEvent(SeePlace,549,4,100%):
+EventData(4) {
+    EventText(U0204_03)
+}
+
+;AddSpecialEvent(SeePlace,762,5,100%):
+EventData(5) {
+    EventText(U0204_04)
+}
+
+MissionParameters {
+    Time(t)
+    MissionText(T02_04A)
+    MissionStartText(T02_04A.S)
+    MissionEndOKText(T02_04A.OK)
+    MissionEndBadText(T02_04A.BAD)
+}

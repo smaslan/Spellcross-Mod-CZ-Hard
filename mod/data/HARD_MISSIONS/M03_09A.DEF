@@ -1,0 +1,89 @@
+MissionData {
+    MissionMap(M03_09)
+    AutoRandomizeRule(37,37,38)
+    AutoRandomizeRule(38,37,38)
+    AddUnit(50,55,2414,4,10,WaitForContact,-),Randomize(auto)
+    AddUnit(51,37,2364,4,100,WaitForContact,-),Randomize(auto)
+    AddUnit(52,37,2365,4,100,WaitForContact,-),Randomize(auto)
+    AddUnit(53,37,2314,4,100,WaitForContact,-),Randomize(auto)
+    AddUnit(54,50,2365,4,1,WaitForContact,-),Randomize(auto)
+    AddUnit(55,50,2314,4,1,WaitForContact,-),Randomize(auto)
+    AddUnit(56,50,2364,4,1,WaitForContact,-),Randomize(auto)
+    AddUnit(57,38,1673,4,100,WaitForContact,-),Randomize(auto)
+    AddUnit(58,38,1623,4,100,WaitForContact,-),Randomize(auto)
+    AddUnit(59,38,1674,4,100,WaitForContact,-),Randomize(auto)
+    AddUnit(60,38,1677,4,100,WaitForContact,-),Randomize(auto)
+    AddUnit(61,50,1857,4,1,NormalUnit,-),Randomize(auto)
+    AddUnit(62,50,1907,4,1,NormalUnit,-),Randomize(auto)
+    AddUnit(63,38,1727,4,100,WaitForContact,-),Randomize(auto)
+    AddUnit(64,50,1778,4,1,WaitForContact,-),Randomize(auto)
+    AddUnit(65,50,1727,4,1,WaitForContact,-),Randomize(auto)
+    AddUnit(66,50,1623,4,1,WaitForContact,-),Randomize(auto)
+    AddUnit(67,37,2222,4,100,WaitForContact,-),Randomize(auto)
+    AddUnit(68,37,2273,4,100,WaitForContact,-),Randomize(auto)
+    AddUnit(69,37,2323,4,100,WaitForContact,-),Randomize(auto)
+    AddUnit(70,37,2373,4,100,WaitForContact,-),Randomize(auto)
+    AddUnit(71,37,2322,4,100,WaitForContact,-),Randomize(auto)
+    AddUnit(72,37,2265,4,100,WaitForContact,-),Randomize(auto)
+    AddUnit(73,37,2214,4,100,WaitForContact,-),Randomize(auto)
+    AddUnit(74,37,1573,4,100,WaitForContact,-),Randomize(auto)
+    AddUnit(75,37,1574,4,100,WaitForContact,-),Randomize(auto)
+    AddUnit(76,50,2322,4,1,WaitForContact,-),Randomize(auto)
+    AddUnit(77,50,2273,4,1,WaitForContact,-),Randomize(auto)
+    AddUnit(78,55,2274,4,10,WaitForContact,-),Randomize(auto)
+    AddUnit(79,55,1622,4,10,WaitForContact,-),Randomize(auto)
+    AddUnit(80,56,2374,4,10,WaitForContact,-),Randomize(auto)
+    AddUnit(81,50,1906,4,1,NormalUnit,-),Randomize(auto)
+    AddUnit(82,57,1125,4,100,NormalUnit,-),Randomize(auto)
+    AddUnit(83,57,1176,4,100,NormalUnit,-),Randomize(auto)
+    AddUnit(84,57,1226,4,100,NormalUnit,-),Randomize(auto)
+    AddUnit(85,57,1277,4,100,NormalUnit,-),Randomize(auto)
+    AddUnit(86,38,1624,4,100,WaitForContact,-),Randomize(auto)
+    AddUnit(87,38,1575,4,100,WaitForContact,-),Randomize(auto)
+    AddUnit(88,38,2870,4,100,WaitForContact,-),Randomize(auto)
+    AddUnit(89,38,2920,4,100,WaitForContact,-),Randomize(auto)
+    AddUnit(90,38,1667,4,100,WaitForContact,-),Randomize(auto)
+    AddUnit(91,57,1275,4,100,WaitForContact,-),Randomize(auto)
+    AddUnit(92,57,1325,4,100,WaitForContact,-),Randomize(auto)
+    AddUnit(93,57,2019,4,100,WaitForContact,-),Randomize(auto)
+    AddUnit(94,37,2223,4,100,WaitForContact,-),Randomize(auto)
+    AddUnit(95,37,2173,4,100,WaitForContact,-),Randomize(auto)
+    AddUnit(96,37,2164,4,100,WaitForContact,-),Randomize(auto)
+    AddSpecialEvent(MissionStart,1,100%)
+    AddSpecialEvent(SeePlace,1966,2,100%)
+    AddSpecialEvent(SeePlace,1778,3,100%)
+    AddMissionObjective(DestroyObject,1966,Zni‡it vchod do jeskynˆ)
+    AddMissionObjective(DestroyObject,1778,Zni‡it vchod do jeskynˆ)
+    AddStartSquare(3304,3354,3355,3403,3404,3405,3453,3454,3455,3456)
+    AddStartSquare(3502,3503,3504,3505,3506,3552,3553,3554,3555,3556)
+    AddStartSquare(3557,3601,3602,3603,3604,3605,3606,3607,3652,3653)
+    AddStartSquare(3654,3655,3656,3657,3658,3702,3703,3704,3705,3706)
+    AddStartSquare(3707,3753,3754,3755,3756,3757,3803,3804,3805,3806)
+    AddStartSquare(3854,3855,3856,3904,3905,3955)
+}
+
+;AddSpecialEvent(MissionStart,1,100%):
+EventData(1) {
+    ;M106
+    AddSpecialUnit(MissionUnit,27,3457,02,10,-),Randomize(auto)
+    ;M106
+    AddSpecialUnit(MissionUnit,27,3356,02,10,-),Randomize(auto)
+}
+
+;AddSpecialEvent(SeePlace,1966,2,100%):
+EventData(2) {
+    EventText(U0309_00)
+}
+
+;AddSpecialEvent(SeePlace,1778,3,100%):
+EventData(3) {
+    EventText(U0309_01)
+}
+
+MissionParameters {
+    Time(t)
+    MissionText(T03_09A)
+    MissionStartText(T03_09A.S)
+    MissionEndOKText(T03_09A.OK)
+    MissionEndBadText(T03_09A.BAD)
+}

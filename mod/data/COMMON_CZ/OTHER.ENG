@@ -1,0 +1,99 @@
+; tento subor obsahuje texty, ktore sa pouzivaju v roznych castiach
+; programu -> musi byt zachovane poradie jednotlivych riadkov
+; ------------------------------------------------------------------
+
+Ano
+Ne
+; text, ktory sa vypise hore na obrazovke ked hrac splnil ciel misie
+Mise splnàna
+
+; text, ktory sa vypise hore na obrazovke ked prebieha "Opponent Fire"
+Proti£tok
+
+; -------------------------- Options Panel --------------------------
+; nazov pre Options Panel (vyvolavany na Bojovej mape)
+NASTAVENã
+; slovicko pre pohyb a pre jednotlive typy pohybu (normal,fast,jump)
+Alliance
+Other Side
+Pohyb
+Norm†ln°
+Rychlò
+Skokovò
+;
+Gamma korekce
+Hlasitost hudby
+Hlasitost zvuku
+N†povàda
+; ciele misie -> nazov pod ktory sa vypisuju ciele misie
+C°le mise
+
+; --------------------------- Bojova Mapa ----------------------------
+; text, ktory sa vypise na liste ked sa jednotka nedostane na policko
+field out of range
+; texty, za ktorymi sa objavia zostavajuce AB a pocet utokov
+ab:
+£tokñ:
+
+; texty pri muroch
+Stav objektu:
+Obrana:
+
+; vypise sa pri ukladani jednotiek v pravom hornom rohu mapy
+Jedn.
+
+; texty do skrollbarov na velkej mape
+; texty pre vyskum - skupiny (globalny, rasy, upgrady, technologie)
+Glob†ln°
+Rasy a jednotky
+Technologie
+Vylep®en°
+; oznacenia skupin
+Jednotky
+VelitelÇ
+Speci†ln°
+Vybrat v®e
+Zru®it v®e
+
+; texty pre ustup z mapy
+Jednotky, kterÇ uniknou:
+Jednotky, kterÇ zahynou:
+~Skuteánà chce® ustoupit?
+
+; texty pre zrusenie jednotky (velka mapa)
+Propu®tàn° jednotky:
+~Skuteánà chce® propustit dannou jednotku?
+
+; vseobecny text pre ciel misie: "Znicenie vsetkych jednotiek"
+Zniáen° v®ech jednotek
+
+; texty pre Options menu
+Rozl°®en° bojovÇ mapy
+-= VOLNè =-
+Kolo
+zahynul
+Velitel
+byl povò®en na hodnost:
+byl povol†n do jinÇ á†sti frontu.
+LehkÇ j.
+TàëkÇ j.
+Vzdu®nÇ j.
+VelitelÇ
+Aliance - ztr†ty
+Other Side - ztr†ty
+Statistika celÇ hry
+ - celkov† statistika
+C°l transportu
+Hr†á - John Alexander
+Hodnost
+Max. poáet st†lòch jednotek
+Max. poáet velitelñ
+ë†dn†
+Bojovòch nasazen°
+Reëim
+Skupina %d - upravit
+Skupina %d vybr†no
+;---
+Jedtnoky:
+VybranÇ:
+Maximum:

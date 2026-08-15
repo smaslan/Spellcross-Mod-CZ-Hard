@@ -1,0 +1,341 @@
+LevelInit {
+    PlayStartCANAnim(L_06.SMK)
+    PlayStartDeltaAnim(LEVEL6_1.SMK)
+    PlayStartCANAnim(KEFTACI.SMK)
+    ;
+    PlayEndDeltaAnim(LEVEL6_2.SMK)
+
+    Start(2)
+    Territory(1,m06_01a,m06_01,mus04)
+    DefineStrategicPoints(1,150,15)
+
+    Territory(2,none,m06_02,none)
+    DefineStrategicPoints(2,200,20)
+
+    Territory(3,m06_03a,m06_03,mus04)
+    DefineStrategicPoints(3,120,10)
+
+    Territory(4,m06_04a,m06_04,mus04)
+    DefineStrategicPoints(4,200,20)
+
+    Territory(5,m06_05a,m06_05,mus04)
+    DefineStrategicPoints(5,120,10)
+
+    Territory(6,m06_06a,m06_06,mus04)
+    DefineStrategicPoints(6,250,25)
+
+    Territory(7,m06_07a,m06_07,mus04)
+    DefineStrategicPoints(7,300,50)
+
+    Territory(8,m06_08a,m06_08,mus04)
+    DefineStrategicPoints(8,220,10)
+
+    Territory(9,m06_09a,m06_09,mus04)
+    DefineStrategicPoints(9,180,18)
+
+    Territory(10,m06_10a,m06_10,mus04)
+    DefineStrategicPoints(10,280,20)
+
+    Territory(11,m06_11a,m06_11,mus04)
+    DefineStrategicPoints(11,140,10)
+
+    Territory(12,m06_12a,m06_12,mus04)
+    DefineStrategicPoints(12,300,30)
+
+    Territory(13,m06_13a,m06_13,mus04)
+    DefineStrategicPoints(13,0,0)
+
+    Territory(14,m06_14a,m06_14,mus04)
+    DefineStrategicPoints(14,300,30)
+
+    AttackUnits(39,40,47,42,43,44,52)
+    AttackSpecialUnits(59,54,68)
+    AttackFlags(18,24,8,12,20,6)
+
+    ;Radar 1
+    SetResearchFlag(30)
+    ;Roland
+    SetResearchFlag(23)
+    ;M109
+    SetResearchFlag(26)
+    ;Leopard 2A5
+    SetResearchFlag(13)
+
+    LevelMusic(mus00)
+    End(13)
+}
+
+Mission(M06_01A) {
+    EndOKMission(none)
+    EndBadMission(none)
+    EndOK(25,110)
+    MissionMusic(mus04)
+    FrequencyOfRandomAttacks(20,6)
+}
+
+Mission(M06_03A) {
+    EndOKMission(none)
+    EndBadMission(none)
+    EndOKEvent(3)
+    EndOK(50,50)
+    FrequencyOfRandomAttacks(20,6)
+}
+
+Mission(M06_04A) {
+    Time(7)
+    EndOKMission(M06_04B)
+    EndBadMission(M06_04C)
+    EndOK(0,300)
+    MissionMusic(mus03)
+    FrequencyOfRandomAttacks(20,6)
+}
+
+Mission(M06_04B) {
+    EndOKMission(none)
+    EndBadMission(none)
+    EndOK(50,450)
+    MissionMusic(mus02)
+    FrequencyOfRandomAttacks(20,6)
+}
+
+Mission(M06_04C) {
+    Time(10)
+    EndOKMission(none)
+    EndBadMission(none)
+    EndOK(60,450)
+    FrequencyOfRandomAttacks(20,6)
+}
+
+Mission(M06_05A) {
+    EndOKMission(none)
+    EndBadMission(none)
+    EndOKEvent(3)
+    EndOK(50,50)
+    MissionMusic(mus02)
+    FrequencyOfRandomAttacks(20,6)
+}
+
+Mission(M06_06A) {
+    Time(15)
+    EndOKMission(none)
+    EndBadMission(M06_06B)
+    EndOKEvent(5)
+    EndOKEvent(7)
+    EndOK(130,600)
+    MissionMusic(mus04)
+    FrequencyOfRandomAttacks(20,6)
+}
+
+Mission(M06_06B) {
+    EndOKMission(none)
+    EndBadMission(none)
+    EndOKEvent(5)
+    EndOK(50,250)
+    FrequencyOfRandomAttacks(20,6)
+}
+
+Mission(M06_07A) {
+    Time(12)
+    EndOKMission(none)
+    EndBadMission(M06_07B)
+    EndOKEvent(3)
+    EndOKEvent(5)
+    EndOK(200,450)
+    MissionMusic(mus01)
+    FrequencyOfRandomAttacks(20,6)
+}
+
+Mission(M06_07B) {
+    EndOKMission(none)
+    EndBadMission(none)
+    EndOKEvent(3)
+    EndOKEvent(5)
+    EndOK(0,200)
+    MissionMusic(mus02)
+    FrequencyOfRandomAttacks(20,6)
+}
+
+Mission(M06_08A) {
+    EndOKMission(none)
+    EndBadMission(M06_08B)
+    EndOK(120,350)
+    FrequencyOfRandomAttacks(20,6)
+}
+
+Mission(M06_08B) {
+    EndOKMission(none)
+    EndBadMission(none)
+    EndOK(70,250)
+    FrequencyOfRandomAttacks(20,6)
+}
+
+Mission(M06_09A) {
+    Time(6)
+    EndOKMission(none)
+    EndBadMission(M06_09B)
+    EndOKEvent(5)
+    EndOK(0,500)
+    FrequencyOfRandomAttacks(20,6)
+}
+
+Mission(M06_09B) {
+    EndOKMission(none)
+    EndBadMission(none)
+    EndOKEvent(5)
+    EndOK(50,300)
+    FrequencyOfRandomAttacks(20,6)
+}
+
+Mission(M06_10A) {
+    EndOKMission(none)
+    EndBadMission(M06_10B)
+    EndOK(140,600)
+    FrequencyOfRandomAttacks(20,6)
+}
+
+Mission(M06_10B) {
+    EndOKMission(none)
+    EndBadMission(none)
+    EndOK(120,550)
+    FrequencyOfRandomAttacks(20,6)
+}
+
+Mission(M06_11A) {
+    Time(4)
+    EndOKMission(M06_11B)
+    EndBadMission(M06_11B)
+    EndOK(180,300)
+    MissionMusic(mus03)
+    FrequencyOfRandomAttacks(20,6)
+}
+
+Mission(M06_11B) {
+    EndOKMission(none)
+    EndBadMission(none)
+    EndOK(30,220)
+    MissionMusic(mus02)
+    FrequencyOfRandomAttacks(20,6)
+}
+
+Mission(M06_14A) {
+    EndOKMission(none)
+    EndBadMission(M06_14B)
+    EndOKEvent(8)
+    EndOK(50,500)
+    FrequencyOfRandomAttacks(20,6)
+}
+
+Mission(M06_14B) {
+    EndOKMission(none)
+    EndBadMission(none)
+    EndOKEvent(8)
+    EndOK(50,350)
+    FrequencyOfRandomAttacks(20,6)
+}
+
+Mission(M06_13A) {
+    EndOKMission(none)
+    EndBadMission(M06_13C)
+    EndOK(380,2000)
+    FrequencyOfRandomAttacks(20,6)
+}
+
+Mission(M06_13B) {
+    EndOKMission(none)
+    EndBadMission(M06_13C)
+    EndOK(380,2000)
+    FrequencyOfRandomAttacks(20,6)
+}
+
+Mission(M06_13C) {
+    EndOKMission(none)
+    EndBadMission(none)
+    EndOK(300,1800)
+    FrequencyOfRandomAttacks(20,6)
+}
+
+Mission(M06_12A) {
+    EndOKMission(M06_12B)
+    EndBadMission(none)
+    EndOK(0,200)
+    FrequencyOfRandomAttacks(20,6)
+}
+
+Mission(M06_12B) {
+    EndOKMission(M06_12C)
+    EndBadMission(none)
+    EndOK(0,350)
+    FrequencyOfRandomAttacks(20,6)
+}
+
+Mission(M06_12C) {
+    EndOKMission(M06_12D)
+    EndBadMission(none)
+    EndOK(0,650)
+    FrequencyOfRandomAttacks(20,6)
+}
+
+Mission(M06_12D) {
+    EndOKMission(none)
+    EndBadMission(none)
+    EndOkEvent(9)
+    EndOK(250,1200)
+    FrequencyOfRandomAttacks(20,6)
+}
+
+Event(1) {
+    AbsTime(1)
+    EventText(E06_0001)
+    ;STRV
+    AddUnitToPlayer(14,4,100,1.STRV/EU Aliance)
+    ;AMX 13
+    AddUnitToPlayer(21,4,100,2.AMX13/EU Aliance)
+    ;Rangers
+    AddUnitToPlayer(2,6,100,3.Rangers/US)
+    AddUnitToPlayer(2,6,100,4.Rangers/US)
+}
+
+Event(2) {
+    AbsTime(2)
+    EventText(E06_0002)
+}
+
+Event(3) {
+    EventText(E06_0003)
+}
+
+vent(4) {
+    AbsTime(4)
+    EventText(E06_0004)
+}
+
+Event(5) {
+    ;aktivuje sa po dobyti 6 alebo 7 alebo 8, o Ciernej Banderii
+    ;WaitForTerritories(6,7,9)
+    EventText(E06_0005)
+}
+
+Event(6) {
+    AbsTime(12)
+    EventText(E06_0006)
+}
+
+Event(7) {
+   ChangeMission(13,M06_13B)
+}
+
+Event(8) {
+    ;po dobyti 14a, arach 1
+    EventText(E06_0008)
+}
+
+Event(9) {
+    ;po dobyti 12d. arach 2
+    Time(1)
+    EventText(E06_0009)
+}
+
+Event(10) {
+    AbsTime(15)
+    EventText(E06_0007)
+}

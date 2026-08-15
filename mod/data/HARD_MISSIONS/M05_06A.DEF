@@ -1,0 +1,156 @@
+MissionData {
+    MissionMap(M05_06)
+    AutoRandomizeRule(44,44,56)
+    AutoRandomizeRule(53,53,55)
+    AutoRandomizeRule(55,53,55)
+    AutoRandomizeRule(56,44,56)
+    AutoRandomizeRule(57,57,61)
+    AutoRandomizeRule(61,57,61)
+    AddUnit(50,55,3858,0,10,WaitForContact,-),Randomize(auto)
+    AddUnit(51,53,3792,0,10,WaitForContact,-),Randomize(auto)
+    AddUnit(52,44,3925,0,10,WaitForContact,-),Randomize(auto)
+    AddUnit(53,61,3857,0,20,WaitForContact,-),Randomize(auto)
+    AddUnit(54,61,3924,0,20,WaitForContact,-),Randomize(auto)
+    AddUnit(55,61,3990,0,20,WaitForContact,-),Randomize(auto)
+    AddUnit(56,61,6008,0,20,WaitForContact,-),Randomize(auto)
+    AddUnit(57,61,6074,0,20,WaitForContact,-),Randomize(auto)
+    AddUnit(58,55,6140,0,10,WaitForContact,-),Randomize(auto)
+    AddUnit(59,53,5876,0,10,WaitForContact,-),Randomize(auto)
+    AddUnit(60,44,5942,0,10,WaitForContact,-),Randomize(auto)
+    AddUnit(61,57,6009,0,100,WaitForContact,-),Randomize(auto)
+    AddUnit(62,55,5599,0,10,WaitForContact,-),Randomize(auto)
+    AddUnit(63,53,5666,0,10,WaitForContact,-),Randomize(auto)
+    AddUnit(64,61,5534,0,20,WaitForContact,-),Randomize(auto)
+    AddUnit(65,61,5467,0,20,WaitForContact,-),Randomize(auto)
+    AddUnit(66,44,5600,0,10,WaitForContact,-),Randomize(auto)
+    AddUnit(67,44,1732,0,10,NormalUnit,-),Randomize(auto)
+    AddUnit(68,61,1799,0,20,NormalUnit,-),Randomize(auto)
+    AddUnit(69,61,1864,0,20,NormalUnit,-),Randomize(auto)
+    AddUnit(70,53,1865,0,10,NormalUnit,-),Randomize(auto)
+    AddUnit(71,57,1733,0,100,NormalUnit,-),Randomize(auto)
+    AddUnit(72,44,4056,0,10,WaitForContact,-),Randomize(auto)
+    AddUnit(73,44,4770,0,10,NormalUnit,-),Randomize(auto)
+    AddUnit(74,61,4837,0,20,NormalUnit,-),Randomize(auto)
+    AddUnit(75,57,1729,0,100,WaitForContact,-),Randomize(auto)
+    AddUnit(76,61,1664,0,20,WaitForContact,-),Randomize(auto)
+    AddUnit(77,61,1597,0,20,WaitForContact,-),Randomize(auto)
+    AddUnit(78,41,2857,0,20,WaitForContact,-),Randomize(auto)
+    AddUnit(79,41,2791,0,20,WaitForContact,-),Randomize(auto)
+    AddUnit(80,41,2726,0,20,WaitForContact,-),Randomize(auto)
+    AddUnit(81,48,1173,0,100,PatrolUnit,-),Randomize(auto)
+    AddUnit(82,48,891,0,100,PatrolUnit,-),Randomize(auto)
+    AddUnit(83,48,1006,0,100,PatrolUnit,-),Randomize(auto)
+    AddUnit(84,44,5667,0,10,WaitForContact,-),Randomize(auto)
+    AddUnit(85,57,5559,0,100,WaitForContact,-),Randomize(auto)
+    AddUnit(86,57,5494,0,100,WaitForContact,-),Randomize(auto)
+    AddUnit(87,57,5428,0,100,WaitForContact,-),Randomize(auto)
+    AddUnit(88,57,5363,0,100,WaitForContact,-),Randomize(auto)
+    AddUnit(89,57,5495,0,100,WaitForContact,-),Randomize(auto)
+    AddUnit(90,57,5369,0,100,WaitForContact,-),Randomize(auto)
+    AddUnit(91,57,5434,0,100,WaitForContact,-),Randomize(auto)
+    AddUnit(92,57,5501,0,100,WaitForContact,-),Randomize(auto)
+    AddUnit(93,61,4527,0,20,WaitForContact,-),Randomize(auto)
+    AddUnit(94,61,4462,0,20,WaitForContact,-),Randomize(auto)
+    AddUnit(95,61,4461,0,20,WaitForContact,-),Randomize(auto)
+    AddUnit(96,61,4525,0,20,WaitForContact,-),Randomize(auto)
+    AddUnit(97,53,3923,0,10,WaitForContact,-),Randomize(auto)
+    AddUnit(98,53,3989,0,10,WaitForContact,-),Randomize(auto)
+    AddUnit(99,55,1800,0,10,NormalUnit,-),Randomize(auto)
+    AddSpecialEvent(MissionStart,1,100%)
+    AddSpecialEvent(SeePlace,2979,2,100%)
+    AddSpecialEvent(SeePlace,2748,3,100%)
+    AddSpecialEvent(SeePlace,4856,4,100%)
+    AddMissionObjective(TransportUnit,48,P©epravit konvoj)
+    AddMissionObjective(TransportUnit,49,P©epravit konvoj)
+    AddStartSquare(6301,6366,6367,6432,6433,6434,6496,6497,6498,6499)
+    AddStartSquare(6500,6562,6563,6564,6565,6566,6567,6627,6628,6629)
+    AddStartSquare(6630,6631,6632,6633,6693,6694,6695,6696,6697,6698)
+    AddStartSquare(6699,6758,6759,6760,6761,6762,6763,6764,6824,6825)
+    AddStartSquare(6826,6827,6828,6829,6830,6890,6891,6892,6893,6894)
+    AddStartSquare(6895)
+    AddEscapeSquare(1972,1973,1974,2038,2039,2104,2105,2106,2170,2171)
+    AddEscapeSquare(2236,2237,2238)
+    AddTargetSquare(2105)
+}
+
+;AddSpecialEvent(MissionStart,1,100%):
+EventData(1) {
+    ;Konvoj
+    AddSpecialUnit(SpecUnit1,80,6897,00,10,-),Randomize(auto)
+    ;Konvoj
+    AddSpecialUnit(SpecUnit2,80,6832,00,10,-),Randomize(auto)
+}
+
+;AddSpecialEvent(SeePlace,2979,2,100%):
+EventData(2) {
+    ;Wolf riders
+    AddSpecialUnit(EnemyUnit,61,3050,00,20,-),Randomize(auto)
+    ;Wolf riders
+    AddSpecialUnit(EnemyUnit,61,3117,00,20,-),Randomize(auto)
+    ;Wolf riders
+    AddSpecialUnit(EnemyUnit,61,3182,00,20,-),Randomize(auto)
+    ;Wolf riders
+    AddSpecialUnit(EnemyUnit,61,4358,00,20,-),Randomize(auto)
+    ;Wolf riders
+    AddSpecialUnit(EnemyUnit,61,4292,00,20,-),Randomize(auto)
+    ;Wolf riders
+    AddSpecialUnit(EnemyUnit,61,4424,00,20,-),Randomize(auto)
+    ;Wolf riders
+    AddSpecialUnit(EnemyUnit,61,6544,00,20,-),Randomize(auto)
+    ;Wolf riders
+    AddSpecialUnit(EnemyUnit,61,6412,00,20,-),Randomize(auto)
+    ;Wolf riders
+    AddSpecialUnit(EnemyUnit,61,6478,00,20,-),Randomize(auto)
+    ;Dark Elves
+    AddSpecialUnit(EnemyUnit,57,6745,00,100,-),Randomize(auto)
+    ;Dark Elves
+    AddSpecialUnit(EnemyUnit,57,6811,00,100,-),Randomize(auto)
+    ;Dark Elves
+    AddSpecialUnit(EnemyUnit,57,6812,00,100,-),Randomize(auto)
+    ;Dark Elves
+    AddSpecialUnit(EnemyUnit,57,6540,00,100,-),Randomize(auto)
+    ;Dark Elves
+    AddSpecialUnit(EnemyUnit,57,4358,00,100,-),Randomize(auto)
+}
+
+;AddSpecialEvent(SeePlace,2748,3,100%):
+EventData(3) {
+    ;Wolf riders
+    AddSpecialUnit(EnemyUnit,61,4264,00,20,-),Randomize(auto)
+    ;Wolf riders
+    AddSpecialUnit(EnemyUnit,61,4132,00,20,-),Randomize(auto)
+    ;Wolf riders
+    AddSpecialUnit(EnemyUnit,61,4199,00,20,-),Randomize(auto)
+    ;Wolf riders
+    AddSpecialUnit(EnemyUnit,61,1946,00,20,-),Randomize(auto)
+    ;Wolf riders
+    AddSpecialUnit(EnemyUnit,61,1880,00,20,-),Randomize(auto)
+    ;Wolf riders
+    AddSpecialUnit(EnemyUnit,61,2012,00,20,-),Randomize(auto)
+    ;Wolf riders
+    AddSpecialUnit(EnemyUnit,61,3097,00,20,-),Randomize(auto)
+    ;Dark Elves
+    AddSpecialUnit(EnemyUnit,57,3164,00,100,-),Randomize(auto)
+    ;Sipomet
+    AddSpecialUnit(EnemyUnit,55,3098,00,10,-),Randomize(auto)
+}
+
+;AddSpecialEvent(SeePlace,4856,4,100%):
+EventData(4) {
+    ;Dark Elves
+    AddSpecialUnit(EnemyUnit,57,4549,00,100,-),Randomize(auto)
+    ;Dark Elves
+    AddSpecialUnit(EnemyUnit,57,4483,00,100,-),Randomize(auto)
+    ;Dark Elves
+    AddSpecialUnit(EnemyUnit,57,4484,00,100,-),Randomize(auto)
+    ;Dark Elves
+    AddSpecialUnit(EnemyUnit,57,4417,00,100,-),Randomize(auto)
+}
+
+MissionParameters {
+    Time(t)
+    MissionText(T05_06A)
+    MissionStartText(T05_06A.S)
+    MissionEndOKText(T05_06A.OK)
+    MissionEndBadText(T05_06A.BAD)
+}

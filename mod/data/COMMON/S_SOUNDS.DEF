@@ -1,0 +1,60 @@
+;*******************************************************************************
+;*         SUBOR URCUJUCI ZVUKY, SPECIALNYCH AKCII/UTOKOV JEDNOTIEK            *
+;*******************************************************************************
+
+;[00] - MOBILNA PECHOTA ( VZLIETNUTIE )
+8-JET1
+
+;[01] - MOBILNA PECHOTA ( ZOSADNUTIE )
+8-JET2
+
+;[02] - UDES ( VYSUNUTIE VEZE )
+8-UDSOPN
+
+;[03] - UDES ( ZASUNUTIE VEZE )
+8-UDSCLS
+
+;[04] - DESTRUCTOR ( ZAKOPANIE )
+8-DESOPN
+
+;[05] - DESTRUCTOR ( ODKOPANIE )
+8-DESCLS
+
+;[06] - UNIVERSAL 1R-2R ( ROZLOZENIE )
+8-RADAR
+
+;[07] - ???
+#
+
+;[08] - NEMRTVI -=> ZREVANIE
+8-NEMRT1
+
+;[09] - MAGOTAR -=> VZLIETNUTIE/ZOSADNUTIE
+8-MGTR7
+
+;[10] - HARPYJA -=> ZASKRIEKANIE
+8-HARP5
+
+;[11] - RYTIERI RADU SMRTI -=> ZMRAZENIE
+8-RRS7
+
+;[12] - DRAK -=> ZREVANIE
+8-DRAK5
+
+;[13] - BREORN -=> ZREVANIE
+8-BRORN1
+
+;[14] - NEKROMANT -=> VYVOLANIE NEMRTVYCH
+8-NEKRO4
+
+;[15] - MAG -=> VYVOLANIE DEMONA
+8-MAG0
+
+;[16] - CONJURER -=> VYVOLANIE KAMIKADZE VTAKOV
+8-CONJ1
+
+;[17] - PREDATOR -=> SAMODESTRUKCIA/EXPLOZIA
+8-PRED4
+
+;[18] - Pain Elemental unit spawn
+8-SOULF

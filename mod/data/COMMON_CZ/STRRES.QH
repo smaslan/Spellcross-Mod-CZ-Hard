@@ -1,0 +1,22 @@
+;/////////////strategic resources screen/////////
+;
+89,336,401,21
+Dostupn‚ zdroje a po‡et kol
+pro ka‘d‚ £zem¡.
+167,408,59,38
+Celkov‚ zdroje alokovan‚
+pro v˜zkum.
+230,425,111,16
+Pomˆr alokace zdroj–
+do kredit–/v˜zkumu.
+342,408,59,38
+Alokace zdroj– do
+kredit–.
+266,381,50,27
+Alokace zdroj– do
+v˜zkumu.
+101,21,376,256
+Mapa v¨ech va¨ich sou‡asn˜ch
+£zem¡ s uveden¡m zdroj–, kter‚
+z nich z¡sk v te, a jak dlouho
+v m vydr‘¡.

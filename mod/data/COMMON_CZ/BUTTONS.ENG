@@ -1,0 +1,91 @@
+; (max. 28 znakov)
+; ---------------- 0
+dal®° neodk. jed.
+dal®° jednotka
+mapa
+vòbàr jednotky
+vzdu®nÇ jednotky
+pozemn° jednotky
+nastaven°
+konec kola
+centrov†n°
+zap. radar #
+vyp. radar #
+; ---------------- 11 (pre info screen)
+POSU• TEXT NAHORU
+POSU• TEXT DOLU
+ZOBRAZ INFO TEXT
+ZOBRAZ JEDNOTKU
+DALõã OBRèZKY
+EXIT
+PûEDCH. JEDNOTKA
+DALõã JEDNOTKA
+; ---------------- 19 (pre goto unit)
+DALõã STRèNKA
+PûEDCH. STRèNKA
+EXIT
+; ---------------- 22
+vysu§ vàë #
+zasu§ vàë #
+; ---------------- 24
+lÇá zranànòch !
+VùBâR JEDNOTKY
+NOVê JMêNO JEDNOTKY
+; ---------------- 27
+vzlÇtnout #
+p©ist†t #
+vyvolej jednotku #
+snië mor†lku #
+paralòza #
+smrtelnò pohled #
+£tok mrazem #
+draá° strach #
+£tok Breorna #
+; ---------------- 36
+start mise
+; ---------------- 37
+ótok
+Zru®it
+Ä†st 2
+Ä†st 1
+; ---------------- 41
+£stup
+konec mise
+; ---------------- 43
+ópravy
+N†bor
+Propustit
+; ---------------- 46
+Koupit
+OK
+; ---------------- 48
+transformace #
+transformace #
+samozniáen° #
+zap./vyp. info
+
+Nahr†t
+Uloëit
+M°nus
+Plus
+
+Map
+Hierarchy
+Units
+Buy
+Research
+Info
+Factories
+Statistic
+Options
+
+info o jednotce
+STOP
+Dolu
+Nahoru
+Vlevo
+Vpravo
+Konec
+
+Restart
+Konec

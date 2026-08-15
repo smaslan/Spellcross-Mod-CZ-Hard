@@ -1,0 +1,8 @@
+MissionParameters {
+    Time(t)
+    MissionText(T09_04A)
+    MissionStartText(T09_04A.S)
+    MissionEndOKText(T09_04A.OK)
+    MissionEndBadText(T09_04A.BAD)
+}
+ 

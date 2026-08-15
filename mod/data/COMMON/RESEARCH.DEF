@@ -1,0 +1,1396 @@
+; Light Infantry
+Item(0) {
+    Flags(UnitType)
+    Data(0)
+    Group(Races)
+    Time(0)
+    Level(0)
+    UpgradePrice(40)
+}
+
+; Heavy Infantry
+Item(1) {
+    Flags(UnitType)
+    Data(1)
+    Group(Races)
+    Time(0)
+    Level(0)
+    UpgradePrice(45)
+}
+
+; Rangers
+Item(2) {
+    Flags(UnitType)
+    Data(2)
+    Group(Races)
+    Time(0)
+    Level(0)
+    UpgradePrice(60)
+}
+
+; Commandos
+Item(3) {
+    Flags(UnitType)
+    Data(3)
+    Group(Races)
+    Time(0)
+    Level(0)
+    UpgradePrice(85)
+}
+
+; Paranormal inf.
+Item(4) {
+    Flags(NewUnit)
+    Data(4)
+    Group(Races)
+    Time(39)
+    Level(5)
+    ORconnections(109)
+    UpgradePrice(110)
+}
+
+; Mortar infantry
+Item(5) {
+    Flags(UnitType)
+    Data(5)
+    Group(Races)
+    Time(0)
+    Level(0)
+    UpgradePrice(110)
+}
+
+; Hi-Tech Infantry
+Item(6) {
+    Flags(NewUnit)
+    Data(6)
+    Group(Races)
+    Time(45)
+    Level(5)
+    ORconnections(77)
+    ORconnections(124)
+    ORconnections(126)
+    ORconnections(129)
+    UpgradePrice(120)
+}
+
+; Mobile Infantry
+Item(7) {
+    Flags(NewUnit)
+    Data(8)
+    Group(Races)
+    Time(72)
+    Level(7)
+    ORconnections(6)
+    ORconnections(86)
+    ORconnections(125)
+    UpgradePrice(170)
+}
+
+; Mobile Infantry
+Item(8) {
+    Flags(NewUnit)
+    Data(7)
+    Group(Races)
+    Time(0)
+    Level(0)
+    ORconnections(7)
+    UpgradePrice(170)
+}
+
+; Flame-throwers
+Item(9) {
+    Flags(NewUnit)
+    Data(9)
+    Group(Races)
+    Time(24)
+    Level(3)
+    ORconnections(42,45)
+    UpgradePrice(80)
+}
+
+; TAM
+Item(10) {
+    Flags(UnitType)
+    Data(10)
+    Group(Races)
+    Time(0)
+    Level(0)
+    UpgradePrice(130)
+}
+
+; M1 Abrams
+Item(11) {
+    Flags(UnitType)
+    Data(11)
+    Group(Races)
+    Time(0)
+    Level(0)
+    UpgradePrice(210)
+}
+
+; Leopard 2
+Item(12) {
+    Flags(UnitType)
+    Data(12)
+    Group(Races)
+    Time(0)
+    Level(0)
+    UpgradePrice(190)
+}
+
+; Leopard 2A5
+Item(13) {
+    Flags(UnitType)
+    Data(13)
+    Group(Races)
+    Time(0)
+    Level(0)
+    UpgradePrice(240)
+}
+
+; STRV
+Item(14) {
+    Flags(UnitType)
+    Data(14)
+    Group(Races)
+    Time(0)
+    Level(0)
+    UpgradePrice(105)
+}
+
+; Elmag 1
+Item(15) {
+    Flags(NewUnit)
+    Data(15)
+    Group(Races)
+    Time(36)
+    Level(4)
+    ORconnections(130)
+    UpgradePrice(140)
+}
+
+; Elmag 2
+Item(16) {
+    Flags(NewUnit)
+    Data(16)
+    Group(Races)
+    Time(39)
+    Level(6)
+    ORconnections(15)
+    UpgradePrice(180)
+}
+
+; Destructor
+Item(17) {
+    Flags(NewUnit)
+    Data(17)
+    Group(Races)
+    Time(90)
+    Level(8)
+    ORconnections(96)
+    ORconnections(97)
+    ORconnections(99)
+    ORconnections(103)
+    UpgradePrice(440)
+}
+
+; M113
+Item(18) {
+    Flags(UnitType)
+    Data(18)
+    Group(Races)
+    Time(0)
+    Level(0)
+    UpgradePrice(115)
+}
+
+; Marder
+Item(19) {
+    Flags(UnitType)
+    Data(19)
+    Group(Races)
+    Time(0)
+    Level(0)
+    UpgradePrice(100)
+}
+
+; Piranha
+Item(20) {
+    Flags(UnitType)
+    Data(20)
+    Group(Races)
+    Time(0)
+    Level(0)
+    UpgradePrice(120)
+}
+
+; AMX 13
+Item(21) {
+    Flags(UnitType)
+    Data(21)
+    Group(Races)
+    Time(0)
+    Level(0)
+    UpgradePrice(100)
+}
+
+; Gepard
+Item(22) {
+    Flags(UnitType)
+    Data(22)
+    Group(Races)
+    Time(0)
+    Level(0)
+    UpgradePrice(120)
+}
+
+; Roland
+Item(23) {
+    Flags(UnitType)
+    Data(23)
+    Group(Races)
+    Time(0)
+    Level(0)
+    UpgradePrice(140)
+}
+
+; AMX 30
+Item(24) {
+    Flags(UnitType)
+    Data(24)
+    Group(Races)
+    Time(0)
+    Level(0)
+    UpgradePrice(250)
+}
+
+; Light Artillery
+Item(25) {
+    Flags(UnitType)
+    Data(25)
+    Group(Races)
+    Time(0)
+    Level(0)
+    UpgradePrice(160)
+}
+
+; M109
+Item(26) {
+    Flags(UnitType)
+    Data(26)
+    Group(Races)
+    Time(0)
+    Level(0)
+    UpgradePrice(290)
+}
+
+; M106
+Item(27) {
+    Flags(UnitType)
+    Data(27)
+    Group(Races)
+    Time(0)
+    Level(0)
+    UpgradePrice(180)
+}
+
+; MLRS
+Item(28) {
+    Flags(UnitType)
+    Data(28)
+    Group(Races)
+    Time(0)
+    Level(0)
+    UpgradePrice(320)
+}
+
+; Hummer
+Item(29) {
+    Flags(UnitType)
+    Data(29)
+    Group(Races)
+    Time(0)
+    Level(0)
+    UpgradePrice(90)
+}
+
+; Universal 1R
+Item(30) {
+    Flags(UnitType)
+    Data(30)
+    Group(Races)
+    Time(0)
+    Level(0)
+    UpgradePrice(28)
+}
+
+; Universal 2R
+Item(31) {
+    Flags(UnitType)
+    Data(31)
+    Group(Races)
+    Time(0)
+    Level(0)
+    UpgradePrice(330)
+}
+
+; Mi-24
+Item(32) {
+    Flags(UnitType)
+    Data(32)
+    Group(Races)
+    Time(0)
+    Level(0)
+    UpgradePrice(230)
+}
+
+; Laser - Strahler
+Item(33) {
+    Flags(NewUnit)
+    Data(33)
+    Group(Races)
+    Time(30)
+    Level(5)
+    ORconnections(122)
+    ORconnections(123)
+    UpgradePrice(170)
+}
+
+; M132
+Item(34) {
+    Flags(NewUnit)
+    Data(34)
+    Group(Races)
+    Time(21)
+    Level(5)
+    ORconnections(42,45)
+    UpgradePrice(120)
+}
+
+; UDES
+Item(35) {
+    Flags(NewUnit)
+    Data(35)
+    Group(Races)
+    Time(27)
+    Level(5)
+    ORconnections(83)
+    UpgradePrice(220)
+}
+
+; UDES
+Item(36) {
+    Flags(NewUnit)
+    Data(36)
+    Group(Races)
+    Time(0)
+    Level(0)
+    ORconnections(35)
+    UpgradePrice(220)
+}
+
+; Orcs
+Item(37) {
+    Flags(UnitType)
+    Data(37)
+    Group(Races)
+    Time(6)
+    Level(1)
+}
+
+; Ka-Orcs
+Item(38) {
+    Flags(UnitType)
+    Data(38)
+    Group(Races)
+    Time(9)
+    Level(2)
+}
+
+; War-Orcs
+Item(39) {
+    Flags(UnitType)
+    Data(39)
+    Group(Races)
+    Time(15)
+    Level(6)
+}
+
+; Anti-tank Orcs
+Item(40) {
+    Flags(UnitType)
+    Data(40)
+    Group(Races)
+    Time(15)
+    Level(6)
+}
+
+; Wolfs
+Item(41) {
+    Flags(UnitType)
+    Data(41)
+    Group(Races)
+    Time(6)
+    Level(1)
+}
+
+; Undeads
+Item(42) {
+    Flags(UnitType)
+    Data(42)
+    Group(Races)
+    Time(15)
+    Level(3)
+}
+
+; Arachnoids
+Item(43) {
+    Flags(UnitType)
+    Data(43)
+    Group(Races)
+    Time(21)
+    Level(4)
+}
+
+; Golem
+Item(44) {
+    Flags(UnitType)
+    Data(44)
+    Group(Races)
+    Time(12)
+    Level(4)
+}
+
+; Ghosts
+Item(45) {
+    Flags(UnitType)
+    Data(45)
+    Group(Races)
+    Time(15)
+    Level(5)
+}
+
+; Mri
+Item(46) {
+    Flags(UnitType)
+    Data(46)
+    Group(Races)
+    Time(12)
+    Level(4)
+}
+
+; Magotar
+Item(47) {
+    Flags(UnitType)
+    Data(47)
+    Group(Races)
+    Time(12)
+    Level(2)
+}
+
+; Magotar
+Item(48) {
+    Flags(UnitType)
+    Data(48)
+    Group(Races)
+    Time(12)
+    Level(0)
+    ORconnections(47)
+}
+
+; Dark Angels
+Item(49) {
+    Flags(UnitType)
+    Data(49)
+    Group(Races)
+    Time(33)
+    Level(8)
+}
+
+; Harpy
+Item(50) {
+    Flags(UnitType)
+    Data(50)
+    Group(Races)
+    Time(11)
+    Level(3)
+}
+
+; Kamikaze Birds
+Item(51) {
+    Flags(UnitType)
+    Data(51)
+    Group(Races)
+    Time(18)
+    Level(6)
+}
+
+; Baloon
+Item(52) {
+    Flags(UnitType)
+    Data(52)
+    Group(Races)
+    Time(12)
+    Level(5)
+}
+
+; Mechanical Tower
+Item(53) {
+    Flags(UnitType)
+    Data(53)
+    Group(Races)
+    Time(9)
+    Level(4)
+}
+
+; Mechanical Mamoth
+Item(54) {
+    Flags(UnitType)
+    Data(54)
+    Group(Races)
+    Time(18)
+    Level(6)
+}
+
+; Arrow-throwers
+Item(55) {
+    Flags(UnitType)
+    Data(55)
+    Group(Races)
+    Time(6)
+    Level(2)
+}
+
+; Ballist
+Item(56) {
+    Flags(UnitType)
+    Data(56)
+    Group(Races)
+    Time(9)
+    Level(3)
+}
+
+; Dark Elfs
+Item(57) {
+    Flags(UnitType)
+    Data(57)
+    Group(Races)
+    Time(12)
+    Level(3)
+}
+
+; Elf Masters
+Item(58) {
+    Flags(UnitType)
+    Data(58)
+    Group(Races)
+    Time(27)
+    Level(7)
+}
+
+; Sonic Cannon
+Item(59) {
+    Flags(UnitType)
+    Data(59)
+    Group(Races)
+    Time(18)
+    Level(6)
+}
+
+; Slizoid
+Item(60) {
+    Flags(UnitType)
+    Data(60)
+    Group(Races)
+    Time(30)
+    Level(8)
+}
+
+; Wolf Riders
+Item(61) {
+    Flags(UnitType)
+    Data(61)
+    Group(Races)
+    Time(9)
+    Level(1)
+}
+
+; Hell Riders
+Item(62) {
+    Flags(UnitType)
+    Data(62)
+    Group(Races)
+    Time(18)
+    Level(5)
+}
+
+; Knights of Death
+Item(63) {
+    Flags(UnitType)
+    Data(63)
+    Group(Races)
+    Time(30)
+    Level(7)
+}
+
+; Dragon
+Item(64) {
+    Flags(UnitType)
+    Data(64)
+    Group(Races)
+    Time(24)
+    Level(6)
+}
+
+; Fortress of Horror
+Item(65) {
+    Flags(UnitType)
+    Data(65)
+    Group(Races)
+    Time(33)
+    Level(7)
+}
+
+; Breorn
+Item(66) {
+    Flags(UnitType)
+    Data(66)
+    Group(Races)
+    Time(39)
+    Level(8)
+    ORconnections(107)
+    ORconnections(111)
+    ORconnections(113)
+    ORconnections(114)
+}
+
+; Demon
+Item(67) {
+    Flags(UnitType)
+    Data(67)
+    Group(Races)
+    Time(30)
+    Level(7)
+}
+
+; Wizard
+Item(68) {
+    Flags(UnitType)
+    Data(68)
+    Group(Races)
+    Time(21)
+    Level(4)
+}
+
+; Nekromant
+Item(69) {
+    Flags(UnitType)
+    Data(69)
+    Group(Races)
+    Time(18)
+    Level(5)
+}
+
+; Magician
+Item(70) {
+    Flags(UnitType)
+    Data(70)
+    Group(Races)
+    Time(30)
+    Level(8)
+}
+
+; Conjurer
+Item(71) {
+    Flags(UnitType)
+    Data(71)
+    Group(Races)
+    Time(21)
+    Level(6)
+}
+
+; Predator
+Item(72) {
+    Flags(UnitType)
+    Data(72)
+    Group(Races)
+    Time(40)
+    Level(9)
+}
+
+; Destructor
+Item(73) {
+    Flags(NewUnit)
+    Data(73)
+    Group(Races)
+    Time(0)
+    Level(0)
+    ORconnections(17)
+}
+
+; Nova tech. dela 1
+Item(74) {
+    Flags(Info)
+    Group(Technologies)
+    Time(12)
+    Level(4)
+}
+
+; Nova tech. dela 2
+Item(75) {
+    Flags(Info)
+    Group(Technologies)
+    Time(15)
+    Level(4)
+    ORconnections(74)
+}
+
+; Nova tech. dela 3
+Item(76) {
+    Flags(Info)
+    Group(Technologies)
+    Time(18)
+    Level(5)
+    ORconnections(75)
+}
+
+; Lahke zbroj. syst.
+Item(77) {
+    Flags(Info)
+    Group(Technologies)
+    Time(15)
+    Level(5)
+}
+
+; Bear 130
+Item(78) {
+    Flags(UpgradeItem)
+    Data(14)
+    Group(Upgrades)
+    Time(21)
+    Level(4)
+    ORconnections(74)
+}
+
+; Nordia
+Item(79) {
+    Flags(UpgradeItem)
+    Data(16)
+    Group(Upgrades)
+    Time(24)
+    Level(4)
+    ORconnections(75)
+}
+
+; Fargun
+Item(80) {
+    Flags(UpgradeItem)
+    Data(17)
+    Group(Upgrades)
+    Time(18)
+    Level(5)
+    ORconnections(76)
+}
+
+
+; Vznetove motory 1
+Item(81) {
+    Flags(Info)
+    Group(Technologies)
+    Time(12)
+    Level(3)
+}
+
+; Vznetove motory 2
+Item(82) {
+    Flags(Info)
+    Group(Technologies)
+    Time(15)
+    Level(4)
+    ORconnections(81)
+}
+
+; Bezvezova tech.
+Item(83) {
+    Flags(Info)
+    Group(Technologies)
+    Time(15)
+    Level(5)
+    ORconnections(82,85)
+}
+
+; Turbinove motory 1
+Item(84) {
+    Flags(Info)
+    Group(Technologies)
+    Time(12)
+    Level(3)
+}
+
+; Turbinove motory 2
+Item(85) {
+    Flags(Info)
+    Group(Technologies)
+    Time(15)
+    Level(4)
+    ORconnections(84)
+}
+
+; Raketove motory
+Item(86) {
+    Flags(Info)
+    Group(Technologies)
+    Time(27)
+    Level(7)
+    ORconnections(85)
+}
+
+; AD 320
+Item(87) {
+    Flags(UpgradeItem)
+    Data(0)
+    Group(Upgrades)
+    Time(18)
+    Level(3)
+    ORconnections(81)
+}
+
+; BW 160
+Item(88) {
+    Flags(UpgradeItem)
+    Data(1)
+    Group(Upgrades)
+    Time(18)
+    Level(4)
+    ORconnections(82)
+}
+
+; KTU 3001
+Item(89) {
+    Flags(UpgradeItem)
+    Data(2)
+    Group(Upgrades)
+    Time(18)
+    Level(3)
+    ORconnections(84)
+}
+
+; LST 4001
+Item(90) {
+    Flags(UpgradeItem)
+    Data(3)
+    Group(Upgrades)
+    Time(21)
+    Level(5)
+    ORconnections(85)
+}
+
+; Archotral
+Item(91) {
+    Flags(Info)
+    Group(Technologies)
+    Time(12)
+    Level(5)
+    ORconnections(94)
+    ORconnections(51,52,54)
+}
+
+; Archot. motor
+Item(92) {
+    Flags(Info)
+    Group(Technologies)
+    Time(21)
+    Level(6)
+    ORconnections(91)
+    ORconnections(82,85)
+}
+
+; Archot. municia
+Item(93) {
+    Flags(Info)
+    Group(Technologies)
+    Time(21)
+    Level(6)
+    ORconnections(91)
+}
+
+; Nezname materialy
+Item(94) {
+    Flags(Info)
+    Group(Technologies)
+    Time(15)
+    Level(5)
+    ORconnections(108)
+}
+
+; T2001 - Kaboom
+Item(95) {
+    Flags(UpgradeItem)
+    Data(4)
+    Group(Upgrades)
+    Time(30)
+    Level(6)
+    ORconnections(92)
+}
+
+; T3000A - Bullet
+Item(96) {
+    Flags(UpgradeItem)
+    Data(5)
+    Group(Upgrades)
+    Time(39)
+    Level(7)
+    ORconnections(95)
+}
+
+; Trantor
+Item(97) {
+    Flags(UpgradeItem)
+    Data(18)
+    Group(Upgrades)
+    Time(27)
+    Level(6)
+    ORconnections(93)
+    ORconnections(80)
+}
+
+; Tanarit
+Item(98) {
+    Flags(UpgradeItem)
+    Data(9)
+    Group(Upgrades)
+    Time(27)
+    Level(5)
+    ORconnections(94)
+    ORconnections(53,54)
+    ORconnections(100)
+}
+
+; Andurital
+Item(99) {
+    Flags(UpgradeItem)
+    Data(10)
+    Group(Upgrades)
+    Time(60)
+    Level(6)
+    ORconnections(98)
+    ORconnections(102)
+}
+
+; Vrstveny pancier
+Item(100) {
+    Flags(UpgradeItem)
+    Data(7)
+    Group(Upgrades)
+    Time(12)
+    Level(4)
+    ORconnections(56)
+}
+
+; Zosilneny pancier
+Item(101) {
+    Flags(UpgradeItem)
+    Data(6)
+    Group(Upgrades)
+    Time(15)
+    Level(3)
+    ORconnections(56)
+}
+
+; Evadit
+Item(102) {
+    Flags(UpgradeItem)
+    Data(8)
+    Group(Upgrades)
+    Time(15)
+    Level(4)
+    ORconnections(57)
+}
+
+; Draci pancier
+Item(103) {
+    Flags(UpgradeItem)
+    Data(12)
+    Group(Upgrades)
+    Time(36)
+    Level(7)
+    ORconnections(64)
+}
+
+; O magii
+Item(104) {
+    Flags(Info)
+    Group(Global)
+    Time(12)
+    Level(2)
+}
+
+; Obetiska a chramy
+Item(105) {
+    Flags(Info)
+    Group(Global)
+    Time(18)
+    Level(2)
+    ORconnections(104)
+}
+
+; Kde lezi OS
+Item(106) {
+    Flags(Info)
+    Group(Global)
+    Time(18)
+    Level(3)
+    ORconnections(104)
+}
+
+
+; Portaly a pentagramy
+Item(107) {
+    Flags(Info)
+    Group(Global)
+    Time(15)
+    Level(4)
+    ORconnections(104)
+}
+
+; Studna
+Item(108) {
+    Flags(Info)
+    Group(Global)
+    Time(24)
+    Level(5)
+    ORconnections(105)
+    ORconnections(116)
+}
+
+; Bojovy vyskum OS
+Item(109) {
+    Flags(Info)
+    Group(Global)
+    Time(18)
+    Level(5)
+    ORconnections(108)
+}
+
+
+; Brana
+Item(110) {
+    Flags(Info)
+    Group(Global)
+    Time(33)
+    Level(7)
+    ORconnections(106)
+    ORconnections(108)
+    ORconnections(117)
+}
+
+
+; Jediny smer brany
+Item(111) {
+    Flags(Info)
+    Group(Global)
+    Time(33)
+    Level(8)
+    ORconnections(110)
+}
+
+; Hierarchia OS
+Item(112) {
+    Flags(Info)
+    Group(Global)
+    Time(18)
+    Level(6)
+    ORconnections(108)
+}
+
+; Vladci Bran
+Item(113) {
+    Flags(Info)
+    Group(Global)
+    Time(24)
+    Level(7)
+    ORconnections(112)
+}
+
+; Karadan-KA
+Item(114) {
+    Flags(Info)
+    Group(Global)
+    Time(36)
+    Level(8)
+    ORconnections(112)
+}
+
+; Otvorenie brany
+Item(115) {
+    Flags(Info)
+    Group(Global)
+    Time(66)
+    Level(8)
+    ORconnections(107)
+    ORconnections(111)
+    ORconnections(113)
+    ORconnections(114)
+}
+
+; Uvidenie studne
+Item(116) {
+    Flags(Special)
+}
+
+; Uvidenie brany
+Item(117) {
+    Flags(Special)
+}
+
+; Fresky
+Item(118) {
+    Flags(Info)
+    Group(Global)
+    Time(30)
+    Level(8)
+}
+
+; Prekliatie Titanov
+Item(119) {
+    Flags(Info)
+    Group(Global)
+    Time(33)
+    Level(8)
+    ORconnections(118)
+}
+
+; Temnomece Bohov
+Item(120) {
+    Flags(Info)
+    Group(Global)
+    Time(42)
+    Level(8)
+    ORconnections(118)
+}
+
+; Elektromag. zbrane
+Item(121) {
+    Flags(Info)
+    Group(Technologies)
+    Time(18)
+    Level(4)
+}
+
+; Laserove zbrane
+Item(122) {
+    Flags(Info)
+    Group(Technologies)
+    Time(18)
+    Level(5)
+}
+
+; Miniaturizacia
+Item(123) {
+    Flags(Info)
+    Group(Technologies)
+    Time(12)
+    Level(4)
+    ORconnections(121,122)
+}
+
+; Opt. a navadz. syst.
+Item(124) {
+    Flags(Info)
+    Group(Technologies)
+    Time(15)
+    Level(6)
+    ORconnections(33)
+}
+
+; Umela inteligencia
+Item(125) {
+    Flags(Info)
+    Group(Technologies)
+    Time(18)
+    Level(5)
+    ORconnections(123)
+}
+
+; Interny komunik. syst.
+Item(126) {
+    Flags(Info)
+    Group(Technologies)
+    Time(15)
+    Level(6)
+    ORconnections(123)
+}
+
+; Ochrana prechoty
+Item(127) {
+    Flags(Info)
+    Group(Technologies)
+    Time(9)
+    Level(2)
+    ORconnections(37)
+}
+
+; Pechotna vyzbroj
+Item(128) {
+    Flags(Info)
+    Group(Technologies)
+    Time(12)
+    Level(4)
+    ORconnections(123)
+    ORconnections(127)
+}
+
+; Celistva ochrana tela
+Item(129) {
+    Flags(Info)
+    Group(Technologies)
+    Time(15)
+    Level(3)
+    ORconnections(132)
+}
+
+; Tyrian
+Item(130) {
+    Flags(UpgradeItem)
+    Data(15)
+    Group(Upgrades)
+    Time(27)
+    Level(4)
+    ORconnections(121)
+    ORconnections(123)
+}
+
+; Shockcandle
+Item(131) {
+    Flags(UpgradeItem)
+    Data(21)
+    Group(Upgrades)
+    Time(18)
+    Level(4)
+    ORconnections(128)
+}
+
+; UNT Defence
+Item(132) {
+    Flags(UpgradeItem)
+    Data(11)
+    Group(Upgrades)
+    Time(12)
+    Level(1)
+}
+
+; Whispering Gun
+Item(133) {
+    Flags(UpgradeItem)
+    Data(20)
+    Group(Upgrades)
+    Time(57)
+    Level(9)
+    ORconnections(17)
+    ORconnections(130)
+    ORconnections(124)
+    ORconnections(126)
+}
+
+; Terminator
+Item(134) {
+    Flags(UpgradeItem)
+    Data(19)
+    Group(Upgrades)
+    Time(66)
+    Level(9)
+    ORconnections(133)
+}
+
+; Key to mountain - ONE
+Item(135) {
+    Flags(Info)
+    Group(Global)
+    Time(48)
+    Level(9)
+    ORconnections(138)
+}
+
+; Key to mountain - TWO
+Item(136) {
+    Flags(Info)
+    Group(Global)
+    Time(48)
+    Level(9)
+    ORconnections(139)
+}
+
+; Cobra
+Item(137) {
+    Flags(UpgradeItem)
+    Data(13)
+    Group(Upgrades)
+    Time(21)
+    ORconnections(124)
+    ORconnections(125)
+    Level(7)
+}
+
+; Dobytie mapy 11 v 9.leveli
+Item(138) {
+    Flags(Special)
+}
+
+; Dobytie mapy 12 v 9.leveli
+Item(139) {
+    Flags(Special)
+}
+
+; Zahaleni
+Item(140) {
+    Flags(Info)
+    Group(Global)
+    Time(12)
+    Level(3)
+}
+
+; Sniper
+Item(141) {
+    Flags(UnitType)
+    Data(87)
+    Group(Races)
+    Time(0)
+    Level(0)
+    UpgradePrice(190)
+}
+
+; UTAAS
+Item(142) {
+    Flags(UpgradeItem)
+    Data(22)
+    Group(Upgrades)
+    Time(40)
+    Level(5)
+}
+
+; Mobilni radar mk2
+Item(143) {
+    Flags(UpgradeItem)
+    Data(23)
+    Group(Upgrades)
+    Time(20)
+    Level(7)
+}
+
+; Roland mk.2
+Item(144) {
+    Flags(UpgradeItem)
+    Data(24)
+    Group(Upgrades)
+    Time(20)
+    Level(8)
+}
+
+; ATACMS
+Item(145) {
+    Flags(UpgradeItem)
+    Data(25)
+    Group(Upgrades)
+    Time(25)
+    Level(9)
+}

@@ -1,0 +1,22 @@
+MissionData {
+    MissionMap(M09_06)
+    AddUnit(50,44,0405,0,10,ToughDefence,-)
+    AddUnit(51,44,0466,0,10,ToughDefence,-)
+    AddUnit(52,45,0406,0,20,NormalUnit,-)
+    AddMissionObjective(DestroyAllUnits,Zni‡en¡ v¨ech jednotek)
+    AddStartSquare(0814,0843,0844,0873,0874,0875,0902,0903,0904,0932)
+    AddStartSquare(0933,0934,0935,0961,0962,0963,0964,0965,0992,0993)
+    AddStartSquare(0994,0995,0998,1021,1022,1023,1024,1026,1027,1028)
+    AddStartSquare(1052,1053,1054,1056,1057,1058,1059,1081,1082,1083)
+    AddStartSquare(1085,1086,1087,1088,1112,1113,1115,1116,1117,1118)
+    AddStartSquare(1141,1142,1144,1145,1146,1147,1172)
+}
+ 
+MissionParameters {
+    Time(t)
+    MissionText(T09_06A)
+    MissionStartText(T09_06A.S)
+    MissionEndOKText(T09_06A.OK)
+    MissionEndBadText(T09_06A.BAD)
+}
+ 

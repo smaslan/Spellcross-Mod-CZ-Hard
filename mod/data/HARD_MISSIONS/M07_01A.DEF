@@ -1,0 +1,87 @@
+MissionData {
+    MissionMap(M07_01)
+    AddUnit(50,44,1977,0,10,WaitForContact,-),Randomize(off)
+    AddUnit(51,44,2017,12,10,WaitForContact,-),Randomize(off)
+    AddUnit(52,56,1937,12,10,WaitForContact,-),Randomize(off)
+    AddUnit(53,56,2058,12,10,WaitForContact,-),Randomize(off)
+    AddUnit(54,57,1311,12,100,NormalUnit,-),Randomize(off)
+    AddUnit(55,57,1352,12,100,NormalUnit,-),Randomize(off)
+    AddUnit(56,57,1312,12,100,NormalUnit,-),Randomize(off)
+    AddUnit(57,57,1313,12,100,NormalUnit,-),Randomize(off)
+    AddUnit(58,40,963,12,100,WaitForContact,-),Randomize(off)
+    AddUnit(59,39,974,12,100,WaitForContact,-),Randomize(off)
+    AddUnit(60,39,935,12,100,WaitForContact,-),Randomize(off)
+    AddUnit(61,39,855,12,100,WaitForContact,-),Randomize(off)
+    AddUnit(62,39,775,12,100,WaitForContact,-),Randomize(off)
+    AddUnit(63,39,1843,12,100,WaitForContact,-),Randomize(off)
+    AddUnit(64,40,1685,12,100,WaitForContact,-),Randomize(off)
+    AddUnit(65,40,1803,12,100,WaitForContact,-),Randomize(off)
+    AddUnit(66,40,765,12,100,WaitForContact,-),Randomize(off)
+    AddUnit(67,40,449,12,100,WaitForContact,-),Randomize(off)
+    AddUnit(68,39,804,12,100,WaitForContact,-),Randomize(off)
+    AddUnit(69,40,814,12,100,WaitForContact,-),Randomize(off)
+    AddUnit(70,40,894,12,100,WaitForContact,-),Randomize(off)
+    AddUnit(71,40,1584,12,100,ToughDefence,-),Randomize(off)
+    AddUnit(72,40,1544,12,100,ToughDefence,-),Randomize(off)
+    AddUnit(73,44,1737,12,10,WaitForContact,-),Randomize(off)
+    AddUnit(74,41,1495,12,20,WaitForContact,-),Randomize(off)
+    AddUnit(75,44,1174,12,10,WaitForContact,-),Randomize(off)
+    AddUnit(76,41,1454,12,20,WaitForContact,-),Randomize(off)
+    AddUnit(77,68,511,12,1,NormalUnit,-),Randomize(off)
+    AddUnit(78,44,552,12,10,NormalUnit,-),Randomize(off)
+    AddUnit(79,44,472,12,10,NormalUnit,-),Randomize(off)
+    AddUnit(80,44,471,12,10,NormalUnit,-),Randomize(off)
+    AddUnit(81,44,551,12,10,NormalUnit,-),Randomize(off)
+    AddUnit(82,62,431,12,20,NormalUnit,-),Randomize(off)
+    AddUnit(83,57,1272,12,100,NormalUnit,-),Randomize(off)
+    AddUnit(84,57,1273,12,100,NormalUnit,-),Randomize(off)
+    AddUnit(85,57,1274,12,100,NormalUnit,-),Randomize(off)
+    AddUnit(86,61,455,12,20,NormalUnit,-),Randomize(off)
+    AddUnit(87,61,415,12,20,NormalUnit,-),Randomize(off)
+    AddUnit(88,61,376,12,20,NormalUnit,-),Randomize(off)
+    AddUnit(89,61,336,12,20,NormalUnit,-),Randomize(off)
+    AddUnit(90,61,377,12,20,NormalUnit,-),Randomize(off)
+    AddUnit(91,61,416,12,20,NormalUnit,-),Randomize(off)
+    AddUnit(92,61,456,12,20,NormalUnit,-),Randomize(off)
+    AddUnit(93,61,495,12,20,NormalUnit,-),Randomize(off)
+    AddUnit(94,61,536,12,20,NormalUnit,-),Randomize(off)
+    AddUnit(95,61,496,12,20,NormalUnit,-),Randomize(off)
+    AddUnit(96,61,457,12,20,NormalUnit,-),Randomize(off)
+    AddUnit(97,61,417,12,20,NormalUnit,-),Randomize(off)
+    AddSpecialEvent(SeePlace,1685,1,100%)
+    AddSpecialEvent(SeePlace,1043,2,100%)
+    AddSpecialEvent(SeePlace,449,3,100%)
+    AddMissionObjective(SeePlace,1685,Prozkoumat naviga‡n¡ bod)
+    AddMissionObjective(SeePlace,1043,Prozkoumat naviga‡n¡ bod)
+    AddMissionObjective(SeePlace,449,Prozkoumat naviga‡n¡ bod)
+    AddStartSquare(1874,1914,1915,1953,1954,1955,1993,1994,1995,1996)
+    AddStartSquare(2032,2033,2034,2035,2036,2072,2073,2074,2075,2076)
+    AddStartSquare(2111,2112,2113,2114,2115,2116,2151,2152,2153,2154)
+    AddStartSquare(2155,2156,2190,2191,2192,2193,2194,2195,2230,2231)
+    AddStartSquare(2232,2233,2234,2235,2270,2271,2272,2273,2274,2311)
+    AddStartSquare(2312,2313,2314,2351,2352,2353)
+    AddTargetSquare(449,1043,1685)
+}
+
+;AddSpecialEvent(SeePlace,1685,1,100%):
+EventData(1) {
+    EventText(U0701_00)
+}
+
+;AddSpecialEvent(SeePlace,1043,2,100%):
+EventData(2) {
+    EventText(U0701_01)
+}
+
+;AddSpecialEvent(SeePlace,449,3,100%):
+EventData(3) {
+    EventText(U0701_02)
+}
+
+MissionParameters {
+    Time(t)
+    MissionText(T07_01A)
+    MissionStartText(T07_01A.S)
+    MissionEndOKText(T07_01A.OK)
+    MissionEndBadText(T07_01A.BAD)
+}

@@ -1,0 +1,366 @@
+LevelInit {
+    PlayStartCANAnim(L_05.SMK)
+    PlayStartDeltaAnim(LEVEL5_1.SMK)
+    ;
+    PlayEndCANAnim(RUJNY_T.SMK)
+    PlayEndDeltaAnim(LEVEL5_2.SMK)
+
+    Start(1)
+    Start(2)
+    Start(3)
+    Territory(1,none,m05_01,mus05)
+    DefineStrategicPoints(1,950,30)
+
+    Territory(2,none,m05_02,mus04)
+    DefineStrategicPoints(2,950,30)
+
+    Territory(3,none,m05_03,mus05)
+    DefineStrategicPoints(3,950,30)
+
+    Territory(4,m05_04a,m05_04,mus04)
+    DefineStrategicPoints(4,120,20)
+
+    Territory(5,m05_05a,m05_05,mus05)
+    DefineStrategicPoints(5,120,20)
+
+    Territory(6,m05_06a,m05_06,mus04)
+    DefineStrategicPoints(6,140,20)
+
+    Territory(7,m05_07a,m05_07,mus05)
+    DefineStrategicPoints(7,150,25)
+
+    Territory(8,m05_08a,m05_08,mus04)
+    DefineStrategicPoints(8,150,25)
+
+    Territory(9,m05_09a,m05_09,mus05)
+    DefineStrategicPoints(9,0,0)
+
+    AttackUnits(47,38,44,53,55,56,42,57,61)
+    AttackSpecialUnits(45,69,68)
+    AttackFlags(37,45,7,11,20,6)
+
+    ;Abrams
+    SetResearchFlag(11)
+    ;Leopard 2
+    SetResearchFlag(12)
+    ;Gepard
+    SetResearchFlag(22)
+    ;AMX30
+    SetResearchFlag(24)
+    LevelMusic(mus00)
+    End(9)
+}
+
+Mission(M05_04A) {
+    EndOKMission(none)
+    EndBadMission(none)
+    EndOK(70,300)
+    MissionMusic(mus02)
+    FrequencyOfRandomAttacks(20,6)
+}
+
+Mission(M05_05A) {
+    EndOKMission(none)
+    EndBadMission(none)
+    EndOK(70,300)
+    MissionMusic(mus03)
+    FrequencyOfRandomAttacks(20,6)
+}
+
+Mission(M05_06A) {
+    Time(10)
+    EndOKMission(M05_06B)
+    EndBadMission(M05_06B)
+    EndBadEvent(23)
+    EndBadEvent(24)
+    EndOK(100,550)
+    MissionMusic(mus02)
+    FrequencyOfRandomAttacks(20,6)
+}
+
+Mission(M05_06B) {
+    EndOKMission(none)
+    EndBadMission(none)
+    EndOK(150,300)
+    MissionMusic(mus01)
+    FrequencyOfRandomAttacks(20,6)
+}
+
+Mission(M05_07A) {
+    EndOKMission(none)
+    EndBadMission(M05_07B)
+    EndOK(90,600)
+    MissionMusic(mus03)
+    FrequencyOfRandomAttacks(20,6)
+}
+
+Mission(M05_07B) {
+    EndOKMission(none)
+    EndBadMission(none)
+    EndOK(70,400)
+    MissionMusic(mus02)
+    FrequencyOfRandomAttacks(20,6)
+}
+
+Mission(M05_08A) {
+    EndOKMission(none)
+    EndBadMission(none)
+    EndOK(130,600)
+    MissionMusic(mus04)
+    FrequencyOfRandomAttacks(20,6)
+}
+
+Mission(M05_09A) {
+    EndOKMission(none)
+    EndBadMission(none)
+    EndOK(380,2000)
+    MissionMusic(mus03)
+    FrequencyOfRandomAttacks(20,6)
+}
+
+Event(0) {
+    AbsTime(-1)
+    EventText(MSG0014)
+    ;Rangers
+    AddUnitToPlayer(2,11,100,-)
+    ;Tezka pechota
+    AddUnitToPlayer(1,11,100,-)
+}
+
+Event(2) {
+    AbsTime(1)
+    EventText(E05_0002)
+    ;Ka-Orkovia
+    Army(38,38,38,38,38,38,38,38,38,38)
+    Army(38,38,38,38)
+    ;Radovi Orkovia
+    Army(37,37,37,37,37,37,37,37,37,37)
+    ;Vlcia Jazda
+    Army(61,61,61,61,61,61,61,61,61,61)
+    Army(61,61,61,61,61,61,61,61)
+    ;Magotar pozemny/vzdusny
+    Army(47,47,47,48,48,48)
+}
+
+Event(3) {
+    AbsTime(3)
+    EventText(E05_0003)
+}
+
+Event(4) {
+    AbsTime(4)
+    EventText(E05_0004)
+    ;komando
+    AddUnitToPlayer(3,11,100,-)
+    ;plmenak
+    AddUnitToPlayer(9,11,100,-)
+    ;Marder
+    AddUnitToPlayer(19,11,100,-)
+}
+
+Event(5) {
+    AbsTime(4)
+    EventText(E05_0005)
+}
+
+Event(6) {
+    AbsTime(5)
+    EventText(E05_0006)
+    ;Ka-Orkovia
+    Army(38,38,38,38)
+    ;Mechanicke Veze
+    Army(53,53,53,53,53,53,53,53,53,53)
+    Army(53,53)
+    ;Vlcia Jazda
+    Army(61,61,61,61,61,61,61,61,61,61)
+    Army(61,61,61)
+    ;Magotar pozemny/vzdusny
+    Army(47,48,48,48)
+    ;Temni Elfovia
+    Army(57,57,57,57,57,57,57)
+    ;Harpye
+    Army(50,50,50,50,50)
+    ;balista
+    Army(56,56,56,56,56)
+}
+
+Event(7) {
+    AbsTime(6)
+    EventText(E05_0007)
+}
+
+Event(8) {
+    AbsTime(7)
+    EventText(E05_0008)
+}
+
+Event(9) {
+    AbsTime(8)
+    EventText(E05_0009)
+    ;Minometny Oddiel
+    AddUnitToPlayer(5,10,100,-)
+    ;M113
+    AddUnitToPlayer(18,11,100,-)
+}
+
+Event(10) {
+    AbsTime(9)
+    EventText(E05_0010)
+    ;Nemrtvi
+    Army(42,42,42,42,42,42,42,42,42,42)
+    Army(42,42,42,42,42,42,42,42,42,42)
+    ;Duchovia
+    Army(45,45,45,45,45,45)
+    ;Harpya
+    Army(50,50,50,50,50,50,50,50,50)
+    ;Temni Elfovia
+    Army(57,57,57,57,57,57,57)
+    ;magotar
+    Army(48,48,48)
+    ;nekromant
+    Army(69)
+    ;wizard
+    Army(68)
+}
+
+Event(11) {
+    AbsTime(9)
+    EventText(E05_0011)
+}
+
+Event(12) {
+    AbsTime(10)
+    EventText(E05_0012)
+}
+
+Event(13) {
+    AbsTime(11)
+    EventText(E05_0013)
+    ;STRV
+    AddUnitToPlayer(14,12,100,1st.US STRV)
+    ;Piranha
+    AddUnitToPlayer(20,12,100,2nd.US Piranha)
+}
+
+Event(14) {
+    AbsTime(12)
+    EventText(E05_0014)
+    ;Duchovia
+    Army(45,45,45,45,45,45,45,45)
+    ;Golem
+    Army(44,44,44,44,44,44,44,44)
+    ;Temni Elfovia
+    Army(57,57,57,57,57,57,57)
+    ;Nekromant
+    Army(69)
+    ;Wizard
+    Army(68,68)
+    ;Harpya
+    Army(50,50,50,50,50)
+    ;Mechanicke Veze
+    Army(53,53,53,53,53,53,53,53,53,53)
+    ;Vlcia Jazda
+    Army(61,61,61,61,61,61,61)
+}
+
+Event(15) {
+    AbsTime(13)
+    EventText(E05_0015)
+}
+
+Event(16) {
+    AbsTime(14)
+    EventText(E05_0016)
+    ;Tazka Pechota
+    AddUnitToPlayer(1,11,100,1.VAT Gardisti)
+    AddUnitToPlayer(1,11,100,2.VAT Gardisti)
+}
+
+Event(17) {
+    AbsTime(15)
+    EventText(E05_0017)
+}
+
+Event(18) {
+    AbsTime(16)
+    EventText(E05_0018)
+    ;Balon
+    Army(52,52)
+    ;Duchovia
+    Army(45,45,45,45,45,45,45,45,45,45)
+    ;Nekromant
+    Army(69,69)
+    ;Wizard
+    Army(68)
+    ;Harpya
+    Army(50,50,50,50,50,50,50,50)
+    ;Temni Elfovia
+    Army(57,57,57,57,57)
+    ;Golem
+    Army(44,44,44,44,44,44,44,44,44,44)
+    ;Vlcia Jazda
+    Army(61,61,61,61,61)
+    ;Mechanicke Veze
+    Army(53,53,53,53,53,53)
+    ;Pekelna Jazda
+    Army(62)
+}
+
+Event(19) {
+    AbsTime(17)
+    EventText(E05_0019)
+}
+
+Event(20) {
+    AbsTime(19)
+    EventText(E05_0020)
+}
+
+Event(21) {
+    AbsTime(21)
+    EventText(E05_0021)
+}
+
+Event(22) {
+    AbsTime(23)
+    EventText(E05_0022)
+}
+
+Event(23) {
+    Time(2)
+    EventText(E05_0023)
+}
+
+Event(24) {
+    Time(3,4)
+    EventText(E05_0024)
+    ;Ka-Orkovia
+    Army(38,38,38,38,38,38,38,38,38,38)
+    ;Mechanicke Veze
+    Army(53,53,53,53,53,53,53,53,53)
+    ;Vlcia Jazda
+    Army(61,61,61,61,61,61,61,61,61)
+    ;Magotar pozemny/vzdusny
+    Army(47,47,47,47,48,48,48,48)
+    ;Temni elfovia
+    Army(57,57,57,57,57,57,57,57)
+    ;Radovi Orkovia
+    Army(37,37,37,37,37,37,37,37)
+    ;Nemrtvi
+    Army(42,42,42,42)
+}
+
+Event(25) {
+    AbsTime(2)
+    EventText(E05_0025)
+    ;Ka-Orkovia
+    Army(38,38,38,38,38,38,38,38,38)
+    ;Radovi Orkovia
+    Army(37,37,37,37,37,37,37,37,37,37)
+    ;Vlcia Jazda
+    Army(61,61,61,61,61,61,61,61,61,61)
+    Army(61,61,61,61,61,61,61,61,61,61)
+    Army(61,61,61,61)
+    ;Magotar pozemny/vzdusny
+    Army(47,47,47,48,48,48)
+}

@@ -1,0 +1,237 @@
+// ====== PATHS ======
+// Variables %SPELL% and %SPELLCD% are available from Spellcross Mod Builder,
+// variable %SPELLANY% auto-chooses between game installation %SPELL% and 
+// CD folder location %SPELLCD%.
+// %MAKE% path is mandatory, all other optional.
+class PATH
+{
+	// --- REQUIERED ITEMS (reserved names) ---
+	// make folder, relative path to folder to store output archives
+	MAKE=make;
+
+        // --- OPTIONAL ITEMS ---
+	// MOD data folder
+	DMOD=data;
+
+	// original game archives
+	COMMON=%SPELLANY%\DATA\COMMON.FS;
+        T11=%SPELLANY%\DATA\T11.FS;
+        PUST=%SPELLANY%\DATA\PUST.FS;
+	DEVAST=%SPELLANY%\DATA\DEVAST.FS;
+	TEXTS=%SPELLANY%\DATA\TEXTS.FS;
+	RESEARCH=%SPELLANY%\DATA\RESEARCH.FS;
+	SAMPLES=%SPELLANY%\DATA\SAMPLES.FS;
+	MUSIC=%SPELLANY%\DATA\MUSIC.FS;
+	SPEAKER=%SPELLANY%\DATA\SPEAKER.FS;
+	INFO=%SPELLANY%\DATA\INFO.FS;
+	MOVIE=%SPELLANY%\DATA\MOVIE.FS;
+	UNITS=%SPELLANY%\DATA\UNITS.FSU;
+
+	// mod data
+	MOD_COMMON=%DMOD%\COMMON;
+	MOD_COMMON_CZ=%DMOD%\COMMON_CZ;
+	MOD_HARD_MIS=%DMOD%\HARD_MISSIONS;
+        MOD_T11=%DMOD%\T11;
+        MOD_PUST=%DMOD%\PUST;
+	MOD_DEVAST=%DMOD%\DEVAST;
+	MOD_TEXTS=%DMOD%\TEXTS;
+	MOD_RESEARCH=%DMOD%\RESEARCH;
+	MOD_SAMPLES=%DMOD%\SAMPLES;
+	MOD_MUSIC=%DMOD%\MUSIC;
+	MOD_SPEAKER=%DMOD%\SPEAKER;
+	MOD_INFO=%DMOD%\INFO;
+	MOD_MOVIE=%DMOD%\MOVIE;
+	MOD_UNITS=%DMOD%\UNITS;
+
+	// limit to english game engine
+	version(ENG);
+
+	// options
+	option(HARD,Missions,0,1,1,{Normal;Hard});
+	option(LEVEL,Level,1,10,1,{1 - Hluboko v ztracenem teritoriu;2 - Prvni viteztvi;3 - Hranicni linie;4 - Krvava poust;5 - V oku boure;6 - Temna cesta;7 - Ohen a smrt;8 - Proklete plane samary;9 - Amulet nadeje;10 - Armageddon});
+	option(LANG,Language,1,2,1,{Czech;English});
+	option(BOOST,Elevate enemy stats with game levels,0,1,1,{No;Yes});
+	option(NOSPLASH,Hide initial loader screens,0,1,0,{No;Yes});
+	option(ATORCS,Anti-Tank Orcs,0,1,0,{"Normal (hard)";Easy});
+	option(DESTR,Destructor reporting,0,2,0,{Normal;No sound;UDES});
+}
+
+
+// ====== MAIN MOD DEFINITIONS ======
+// Following sections define content of particular modded game archives.
+// Supported archive names:
+//  COMMON.FS, T11.FS, PUST.FS, DEVAST.FS, TEXTS.FS, SAMPLES.FS, MUSIC.FS, 
+//  RESEARCH.FS, INFO.FS, SPEAKER.FS, MOVIE.FS, UNITS.FSU
+//
+// Each section can contain switch commands to define implicit behaviour:
+//  replace=0; // add() command implicitly skips already present files
+//  replace=1; // add() command implicitly overwrites existing files
+//  optional=0; // missing source path in add() generates error
+//  optional=1; // missing source path in add() will be ignored
+//
+// Function add() is used to add file(s) to archive:
+//  add(source)               - adds whole content from "source" to archive
+//  add(mode,source)          - the same but "mode" spcifies mode of command 
+//  add(source,wildcard)      - adds only "wildcard" matching items to archive
+//  add(mode,source,wildcard) - the same with "mode" modifier
+//
+//  "source" is path to either *.fs/*.fsu archive or folder.
+//  In case of "source" being folder, tool expects it contain only files
+//  for *.fs archives with DOS names up to 8.3 long. For *.fsu archive
+//  the folder must contain subfolders with names up 5 characters long,
+//  each containing sprite graphics of name length 3 (e.g. "001").
+//  content - if there is at least one subfolder then it is read as *.fsu.
+//  Switch "mode" overwrites implicit "replace" definition. It can be either
+//  NEW (equal to "replace=0") or ADD (equal to "replace=1").
+//  "wildcard" string is standard search key with ? and * symbols (e.g. M03_??.*)
+//
+// Example: I want to build new T11.FS archive from original content and some 
+//          aditional files taken from DEVAST.FS:
+//
+// class PATH
+// {
+//   // define aliases for source archives
+//   T11=%SPELL%\DATA\T11.FS
+//   DEVAST=%SPELL%\DATA\DEVAST.FS
+// }
+//
+// class T11.FS
+// {
+//   // I don't want to overwrite existing files
+//   replace=0;
+//   
+//   // add whole original T11.FS archive content
+//   add(%T11%);
+//   // and now add two files from DEVAST.FS archive
+//   add(%DEVAST%,POA1_139.DTA);
+//   add(%DEVAST%,POA1_143.DTA);
+// }
+
+
+// --------------------------------------------------------------------------
+// Following sections are template that will add everything from orignal game
+// archives and then adds files from mod data folders overwriting existing.
+// --------------------------------------------------------------------------
+class COMMON.FS
+{
+	replace=1;         // overwrite existing
+	add(%COMMON%);     // add all original game data
+	add(%MOD_COMMON%); // add all mod data
+	if(%LANG% == 1) add(%MOD_COMMON_CZ%); // add czech translations
+        if(%HARD% == 1) add(%MOD_HARD_MIS%); // override by missions
+
+        // override base units definitions depending on game level
+	if(%LEVEL% >= 5 && %BOOST%) copyunits(%MOD_COMMON%,JEDNO_L5.DEF); // level dependent boosted units
+	if(%LEVEL% >= 6 && %BOOST%) copyunits(%MOD_COMMON%,JEDNO_L6.DEF); // level dependent boosted units
+	if(%LEVEL% >= 7 && %BOOST%) copyunits(%MOD_COMMON%,JEDNO_L7.DEF); // level dependent boosted units
+	if(%LEVEL% >= 8 && %BOOST%) copyunits(%MOD_COMMON%,JEDNO_L8.DEF); // level dependent boosted units
+	if(%LEVEL% >= 9 && %BOOST%) copyunits(%MOD_COMMON%,JEDNO_L9.DEF); // level dependent boosted units
+	if(%LEVEL% >= 10 && %BOOST%) copyunits(%MOD_COMMON%,JEDN_L10.DEF); // level dependent boosted units
+	// copy selected units by base definitions
+	ALLIANCE_LIST={0;1;2;3;4;5;6;7;8;9;10;11;12;13;14;15;16;17;18;19;20;21;22;23;24;25;26;27;28;29;30;31;32;33;34;35;36;73;79;80;87};
+	copyunits(%MOD_COMMON%,JEDNOTKY.DEF,%ALLIANCE_LIST%);
+
+        // move AT-orcs to other unit ID to remove heavy AT attack bonus
+	if(%ATORCS%) swapunits(40,89);
+	if(%ATORCS%) swapmapunits(40,89);
+
+        // modify destructor sounds
+	if(%DESTR% == 1) copy(%MOD_COMMON%,H_SND_DQ.DEF,H_SOUNDS.DEF);
+	if(%DESTR% == 2) copy(%MOD_COMMON%,H_SND_DD.DEF,H_SOUNDS.DEF);
+
+        // generate title screen
+	if(%LANG% == 1)	title(320,105,Center,00FF55,111111,"MOD: Konverze CZ dat do EN enginu, zvysena obtiznost by Stanislav Maslan, V1.0, 2026-08-15");
+	if(%LANG% == 2)	title(320,105,Center,00FF55,111111,"MOD: High difficulty mod by Stanislav Maslan, V1.0, 2026-August-15");
+	title(320,119,Center,00FF55,111111,"Missions: %HARD%, AT-Orcs: %ATORCS%, Destructor: %DESTR%, Hide loaders: %NOSPLASH%");
+	title(320,157,Center,00FF55,111111,"Mod Level: %LEVEL%");
+	title(320,472,Center,00FF55,111111,"Mod build: %DATE%");
+}
+
+class T11.FS
+{
+	replace=1;      // overwrite existing	
+	add(%T11%);     // add all original game data	
+	add(%MOD_T11%); // add all mod data
+}
+
+class PUST.FS
+{
+	replace=1;       // overwrite existing	
+	add(%PUST%);     // add all original game data	
+	add(%MOD_PUST%); // add all mod data
+}
+
+class DEVAST.FS
+{
+	replace=1;         // overwrite existing	
+	add(%DEVAST%);     // add all original game data	
+	add(%MOD_DEVAST%); // add all mod data
+}
+
+class TEXTS.FS
+{
+	replace=1;       // overwrite existing	
+	add(%TEXTS%);     // add all original game data	
+	add(%MOD_TEXTS%); // add all mod data
+}
+
+class RESEARCH.FS
+{
+	replace=1;           // overwrite existing	
+	add(%RESEARCH%);     // add all original game data	
+	add(%MOD_RESEARCH%); // add all mod data
+}
+
+class SAMPLES.FS
+{
+	replace=1;          // overwrite existing	
+	add(%SAMPLES%);     // add all original game data	
+	add(%MOD_SAMPLES%); // add all mod data
+}
+
+class INFO.FS
+{
+	replace=1;       // overwrite existing	
+	add(%INFO%);     // add all original game data	
+	add(%MOD_INFO%); // add all mod data
+}
+
+class UNITS.FSU
+{
+	replace=1;        // overwrite existing	
+	add(%UNITS%);     // add all original game data	
+	add(%MOD_UNITS%); // add all mod data
+}
+
+class SPEAKER.FS
+{
+	optional=1;       // archive is optional (some game version don't have it)
+	replace=1;          // overwrite existing	
+	add(%SPEAKER%);     // add all original game data	
+	add(%MOD_SPEAKER%); // add all mod data
+}
+
+class MOVIE.FS
+{
+	replace=1;        // overwrite existing	
+	if(%LANG% == 2) add(%MOVIE%);     // add all original game data	
+	if(%LANG% == 1) add(%MOD_MOVIE%); // add all mod data
+
+	if(%NOSPLASH% == 0 && %LANG% == 1) add(%MOVIE%,LOGO.SMK); // add original logos
+	if(%NOSPLASH% == 0 && %LANG% == 1) add(%MOVIE%,JRC_LOGO.SMK); // add original logos
+	if(%NOSPLASH% == 0 && %LANG% == 1) add(%MOVIE%,SCI_LOGO.SMK); // add original logos
+	if(%NOSPLASH% == 0 && %LANG% == 1) add(%MOVIE%,CAULDRON.SMK); // add original logos
+
+	if(%NOSPLASH% != 0) rem(LOGO.SMK); // remove logos
+	if(%NOSPLASH% != 0) rem(JRC_LOGO.SMK); // remove logos
+	if(%NOSPLASH% != 0) rem(SCI_LOGO.SMK); // remove logos
+	if(%NOSPLASH% != 0) rem(CAULDRON.SMK); // remove logos
+}
+
+class MUSIC.FS
+{
+	optional=1;       // archive is optional (some game version don't have it)
+	replace=1;        // overwrite existing	
+	add(%MUSIC%);     // add all original game data	
+	add(%MOD_MUSIC%); // add all mod data
+}

@@ -1,0 +1,79 @@
+MissionData {
+    MissionMap(M08_07)
+    AddUnit(50,56,0922,0,10,WaitForContact,-)
+    AddUnit(51,56,0990,0,10,WaitForContact,-)
+    AddUnit(52,56,1058,0,10,WaitForContact,-)
+    AddUnit(53,44,0955,0,10,WaitForContact,-)
+    AddUnit(54,44,1023,0,10,WaitForContact,-)
+    AddUnit(55,39,0989,0,100,WaitForContact,-)
+    AddUnit(56,39,1057,0,100,WaitForContact,-)
+    AddUnit(57,40,1022,0,100,WaitForContact,-)
+    AddUnit(58,40,1090,0,100,WaitForContact,-)
+    AddUnit(59,48,0990,0,100,WaitForContact,-)
+    AddUnit(60,56,1306,0,10,WaitForContact,-)
+    AddUnit(61,56,1341,0,10,WaitForContact,-)
+    AddUnit(62,56,1375,0,10,WaitForContact,-)
+    AddUnit(63,40,1340,0,100,WaitForContact,-)
+    AddUnit(64,40,1374,0,100,WaitForContact,-)
+    AddUnit(65,40,1409,0,100,WaitForContact,-)
+    AddUnit(66,39,1373,0,100,WaitForContact,-)
+    AddUnit(67,39,1408,0,100,WaitForContact,-)
+    AddUnit(68,39,1442,0,100,WaitForContact,-)
+    AddUnit(69,48,1307,0,100,WaitForContact,-)
+    AddUnit(70,44,1441,0,10,WaitForContact,-)
+    AddUnit(71,39,0386,0,100,WaitForContact,-)
+    AddUnit(72,40,0352,0,100,WaitForContact,-)
+    AddUnit(73,68,0351,0,1,WaitForContact,-)
+    AddUnit(74,56,0419,0,10,WaitForContact,-)
+    AddUnit(75,48,0386,0,100,WaitForContact,-)
+    AddUnit(78,56,1126,0,10,WaitForContact,-)
+    AddUnit(79,48,1058,0,100,WaitForContact,-)
+    AddUnit(80,44,0317,0,10,WaitForContact,-)
+    AddMissionObjective(DestroyAllUnits,Zni‡en¡ v¨ech jednotek)
+    AddSpecialEvent(SeePlace,866,01,100%)
+    AddSpecialEvent(SeePlace,794,02,100%)
+    AddSpecialEvent(SeePlace,866,03,100%)
+    AddSpecialEvent(SeePlace,794,04,100%)
+    AddSpecialEvent(SeePlace,836,05,100%)
+    AddSpecialEvent(SeePlace,836,06,100%)
+    AddStartSquare(0334,0335,0336,0367,0368,0369,0370,0401,0402,0403)
+    AddStartSquare(0404,0434,0435,0436,0437,0438,0467,0469,0470,0471)
+    AddStartSquare(0472,0500,0503,0504,0505,0506,0534,0537,0538,0539)
+    AddStartSquare(0540,0567,0568,0570,0571,0572,0573,0602,0603,0604)
+    AddStartSquare(0606,0636,0637,0741,0743,0774,0775,0776,0777,0809)
+    AddStartSquare(0810,0811,0843,0844,0878)
+    NightMission()
+}
+
+EventData(1) {
+    AddSpecialUnit(VoluntUnit,04,0866,00,020,-)
+}
+
+EventData(2) {
+    AddSpecialUnit(VoluntUnit,04,0794,00,020,-)
+}
+
+EventData(3) {
+    EventText(u0807_00)
+}
+
+EventData(4) {
+    EventText(u0807_01)
+}
+
+EventData(5) {
+    AddSpecialUnit(VoluntUnit,04,0836,00,020,-)
+}
+
+EventData(6) {
+    EventText(u0807_02)
+}
+
+MissionParameters {
+    Time(t)
+    MissionText(T08_07A)
+    MissionStartText(T08_07A.S)
+    MissionEndOKText(T08_07A.OK)
+    MissionEndBadText(T08_07A.BAD)
+}
+

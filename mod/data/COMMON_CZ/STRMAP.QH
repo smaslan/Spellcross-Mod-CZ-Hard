@@ -1,0 +1,24 @@
+;//////STRATEGIC MAP///////
+;
+19,22,377,256
+Mapa zobrazuje v¨echna £zem¡
+ve va¨em sektoru. V nˆkter˜ch 
+£zem¡ch je zobrazen po‡et zb˜vaj¡c¡ch
+kol pro £spˆ¨nˆ dokon‡en¡ mise.
+Fin ln¡ £zem¡ pro ukon‡en¡
+sektoru je ozna‡eno me‡i.
+23,326,370,130
+Stru‡n˜ popis vybran‚ho £zem¡,
+o‡ek van‚ obsazen¡ a p©¡padn‚
+speci ln¡ £koly.
+418,8,135,420
+Jednotky vybran‚ pro £tok.
+Maxim ln¡ po‡et jednotek
+je omezen va¨¡ hodnost¡.
+Prav˜ klik na jednotku zobraz¡
+jej¡ detaily.
+422,441,70,27
+Zah jit £tok - zyberte £zem¡ 
+a jednotky pro –tok.
+497,441,70,27
+Zru¨it £tok.

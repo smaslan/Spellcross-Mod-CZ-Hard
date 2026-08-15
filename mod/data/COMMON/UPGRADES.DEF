@@ -1,0 +1,312 @@
+;
+; ENGINE - AD320
+;
+Upgrade(0) {
+    Move(1)
+    Flags(Engine)
+    SuitableTypes(10,11,12,13,14,24,26)
+    UpgradeTime(1)
+    UpgradePrice(15)
+}
+
+;
+; ENGINE - BW160
+;
+Upgrade(1) {
+    Move(1)
+    Defence(1)
+    Flags(Engine)
+    SuitableTypes(10,11,12,13,14,26)
+    UpgradeTime(2)
+    UpgradePrice(35)
+}
+
+;
+; ENGINE - KTU3001
+;
+Upgrade(2) {
+    Move(1)
+    Flags(Engine)
+    SuitableTypes(10,11,12,13,14,15,18,19,20,21,22)
+    SuitableTypes(27,28,34)
+    UpgradeTime(2)
+    UpgradePrice(15)
+}
+
+;
+; ENGINE - LST4001
+;
+Upgrade(3) {
+    Move(2)
+    Defence(1)
+    SuitableTypes(11,12,13,35,36)
+    Flags(Engine)
+    UpgradeTime(3)
+    UpgradePrice(50)
+}
+
+;
+; ENGINE - T2001
+;
+Upgrade(4) {
+    Move(3)
+    Defence(1)
+    SuitableTypes(10,11,12,13,14,18,19,20,21,22,27,34)
+    SuitableTypes(35,36)
+    Flags(Engine)
+    UpgradeTime(4)
+    UpgradePrice(65)
+}
+
+;
+; ENGINE - T3000A
+;
+Upgrade(5) {
+    Move(3)
+    Defence(2)
+    SuitableTypes(11,12,13,15,16,33,35,36)
+    Flags(Engine)
+    UpgradeTime(4)
+    UpgradePrice(80)
+}
+
+;
+; ARMOR - Strenghtened armor
+;
+Upgrade(6) {
+    Move(-1)
+    Defence(1)
+    SuitableTypes(10,11,12,13,14,18,19,20,21,22)
+    SuitableTypes(23,24,26,27,28,29,30,31,32,34)
+    Flags(Armor)
+    UpgradeTime(2)
+    UpgradePrice(10)
+}
+
+;
+; ARMOR - Composite Armor
+;
+Upgrade(7) {
+    Defence(1)
+    SuitableTypes(10,14,24,26,33)
+    Flags(Armor)
+    UpgradeTime(2)
+    UpgradePrice(15)
+}
+
+;
+; ARMOR - Evadit
+;
+Upgrade(8) {
+    Defence(2)
+    SuitableTypes(10,11,12,13,14,15,16,18,19)
+    SuitableTypes(20,21,22,23,24,26,27,33,34)
+    Flags(Armor)
+    UpgradeTime(2)
+    UpgradePrice(25)
+}
+
+;
+; ARMOR - Tanarit
+;
+Upgrade(9) {
+    Move(1)
+    Defence(2)
+    SuitableTypes(10,11,12,13,14,15,16,18,19)
+    SuitableTypes(20,21,22,23,24,26,27,33,34)
+    SuitableTypes(35,36)
+    Flags(Armor)
+    UpgradeTime(3)
+    UpgradePrice(50)
+}
+
+;
+; ARMOR - Andurital
+;
+Upgrade(10) {
+    Move(2)
+    Defence(4)
+    SuitableTypes(11,12,13,15,16,35,36)
+    Flags(Armor)
+    UpgradeTime(3)
+    UpgradePrice(65)
+}
+
+;
+; ARMOR - UNT Defence
+;
+Upgrade(11) {
+    Defence(1)
+    SuitableTypes(0,1,2,3,4,5,9,87)
+    Flags(Armor)
+    UpgradeTime(1)
+    UpgradePrice(5)
+}
+
+;
+; ARMOR - Dragon Armor
+;
+Upgrade(12) {
+    Defence(3)
+    SuitableTypes(1,2,3,4,9,87)
+    Flags(Armor)
+    UpgradeTime(2)
+    UpgradePrice(25)
+}
+
+;
+; WEAPON - Cobra
+;
+Upgrade(13) {
+    Attack(1)
+    Range(1)
+    SuitableTypes(32)
+    Flags(Weapon)
+    UpgradeTime(2)
+    UpgradePrice(50)
+}
+
+;
+; WEAPON - Bear
+;
+Upgrade(14) {
+    Attack(2)
+    SuitableTypes(10,11,12,13,14)
+    Flags(Weapon)
+    UpgradeTime(2)
+    UpgradePrice(15)
+}
+
+;
+; WEAPON - Tyrian
+;
+Upgrade(15) {
+    Attack(4)
+    Range(-1)
+    SuitableTypes(10,11,12,13)
+    Flags(Weapon)
+    UpgradeTime(3)
+    UpgradePrice(30)
+}
+
+;
+; WEAPON - Nordia
+;
+Upgrade(16) {
+    AttackPT(1)
+    Attack(2)
+    SuitableTypes(10,11,12,13,14,24,26)
+    Flags(Weapon)
+    UpgradeTime(2)
+    UpgradePrice(65)
+}
+
+;
+; WEAPON - Fargun
+;
+Upgrade(17) {
+    Attack(-1)
+    Range(2)
+    SuitableTypes(10,11,12,13,14)
+    Flags(Weapon)
+    UpgradeTime(2)
+    UpgradePrice(30)
+}
+
+;
+; WEAPON - Trantor
+;
+Upgrade(18) {
+    Defence(-2)
+    Attack(6)
+    SuitableTypes(11,12,13,24,26)
+    Flags(Weapon)
+    UpgradeTime(4)
+    UpgradePrice(50)
+}
+
+;
+; WEAPON - Terminator
+;
+Upgrade(19) {
+    Defence(-1)
+    Attack(5)
+    Range(1)
+    SuitableTypes(17,73,35,36)
+    Flags(Weapon)
+    UpgradeTime(6)
+    UpgradePrice(200)
+}
+
+;
+; WEAPON - Whispering Gun
+;
+Upgrade(20) {
+    Attack(4)
+    Sight(1)
+    SuitableTypes(18,19,20,22)
+    Flags(Weapon)
+    UpgradeTime(3)
+    UpgradePrice(70)
+}
+
+;
+; WEAPON - Shockcandle
+;
+Upgrade(21) {
+    Defence(1)
+    Attack(1)
+    SuitableTypes(0,1,2,3,4)
+    Flags(Weapon)
+    UpgradeTime(1)
+    UpgradePrice(10)
+}
+
+;
+; WEAPON - UTAAS
+;
+Upgrade(22) {
+    Defence(1)
+    Sight(1)
+    Attack(2)
+    SuitableTypes(19,20)
+    Flags(Weapon)
+    UpgradeTime(3)
+    UpgradePrice(50)
+}
+
+;
+; WEAPON - Radar mk2
+;
+Upgrade(23) {
+    Sight(1)
+    SuitableTypes(29)
+    Flags(Weapon)
+    UpgradeTime(3)
+    UpgradePrice(50)
+}
+
+;
+; WEAPON - Roland mk2
+;
+Upgrade(24) {
+    Sight(1)
+    Range(1)
+    Attack(2)
+    SuitableTypes(23)
+    Flags(Weapon)
+    UpgradeTime(3)
+    UpgradePrice(100)
+}
+
+;
+; WEAPON - ATACMS
+;
+Upgrade(25) {
+    Range(1)
+    Attack(2)
+    SuitableTypes(28)
+    Flags(Weapon)
+    UpgradeTime(4)
+    UpgradePrice(200)
+}

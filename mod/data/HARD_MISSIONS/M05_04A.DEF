@@ -1,0 +1,146 @@
+MissionData {
+    MissionMap(M05_04)
+    AutoRandomizeRule(44,44,53)
+    AutoRandomizeRule(53,44,53)
+    AutoRandomizeRule(55,55,56)
+    AutoRandomizeRule(56,55,56)
+    AddUnit(50,50,694,0,1,NormalUnit,-),Randomize(auto)
+    AddUnit(51,50,648,0,1,NormalUnit,-),Randomize(auto)
+    AddUnit(52,44,694,0,10,NormalUnit,-),Randomize(auto)
+    AddUnit(53,53,648,0,10,NormalUnit,-),Randomize(auto)
+    AddUnit(54,61,740,0,20,NormalUnit,-),Randomize(auto)
+    AddUnit(55,61,695,0,20,NormalUnit,-),Randomize(auto)
+    AddUnit(56,44,739,0,10,NormalUnit,-),Randomize(auto)
+    AddUnit(57,57,786,0,100,NormalUnit,-),Randomize(auto)
+    AddUnit(58,57,785,0,100,NormalUnit,-),Randomize(auto)
+    AddUnit(59,57,831,0,100,NormalUnit,-),Randomize(auto)
+    AddUnit(60,57,741,0,100,NormalUnit,-),Randomize(auto)
+    AddUnit(61,57,787,0,100,NormalUnit,-),Randomize(auto)
+    AddUnit(62,57,832,0,100,NormalUnit,-),Randomize(auto)
+    AddUnit(63,53,847,0,10,WaitForContact,-),Randomize(auto)
+    AddUnit(64,53,939,0,10,WaitForContact,-),Randomize(auto)
+    AddUnit(65,61,893,0,20,WaitForContact,-),Randomize(auto)
+    AddUnit(66,61,985,0,20,WaitForContact,-),Randomize(auto)
+    AddUnit(67,50,847,0,1,WaitForContact,-),Randomize(auto)
+    AddUnit(68,50,939,0,1,WaitForContact,-),Randomize(auto)
+    AddUnit(69,57,986,0,100,WaitForContact,-),Randomize(auto)
+    AddUnit(70,57,894,0,100,WaitForContact,-),Randomize(auto)
+    AddUnit(71,44,940,0,10,WaitForContact,-),Randomize(auto)
+    AddUnit(72,44,1145,0,10,WaitForContact,-),Randomize(auto)
+    AddUnit(73,50,1145,0,1,WaitForContact,-),Randomize(auto)
+    AddUnit(74,53,1099,0,10,WaitForContact,-),Randomize(auto)
+    AddUnit(75,61,1144,0,20,WaitForContact,-),Randomize(auto)
+    AddUnit(76,61,1191,0,20,WaitForContact,-),Randomize(auto)
+    AddUnit(77,57,1326,0,100,WaitForContact,-),Randomize(auto)
+    AddUnit(78,57,1283,0,100,WaitForContact,-),Randomize(auto)
+    AddUnit(79,57,1511,0,100,WaitForContact,-),Randomize(auto)
+    AddUnit(80,50,1237,0,1,WaitForContact,-),Randomize(auto)
+    AddUnit(81,50,3165,0,1,WaitForContact,-),Randomize(auto)
+    AddUnit(82,57,3119,0,100,WaitForContact,-),Randomize(auto)
+    AddUnit(83,57,3165,0,100,WaitForContact,-),Randomize(auto)
+    AddUnit(84,57,3120,0,100,WaitForContact,-),Randomize(auto)
+    AddUnit(85,57,1100,0,100,WaitForContact,-),Randomize(auto)
+    AddUnit(86,57,1032,0,100,WaitForContact,-),Randomize(auto)
+    AddUnit(87,57,1078,0,100,WaitForContact,-),Randomize(auto)
+    AddUnit(88,57,1031,0,100,WaitForContact,-),Randomize(auto)
+    AddUnit(89,57,1466,0,100,WaitForContact,-),Randomize(auto)
+    AddUnit(90,57,3164,0,100,WaitForContact,-),Randomize(auto)
+    AddUnit(91,50,516,0,1,NormalUnit,-),Randomize(auto)
+    AddUnit(92,48,823,0,100,PatrolUnit,-),Randomize(auto)
+    AddUnit(93,57,4106,0,100,WaitForContact,-),Randomize(auto)
+    AddUnit(94,57,4202,0,100,WaitForContact,-),Randomize(auto)
+    AddUnit(95,57,1141,0,100,WaitForContact,-),Randomize(auto)
+    AddUnit(96,57,2786,0,100,WaitForContact,-),Randomize(auto)
+    AddUnit(97,57,2787,0,100,WaitForContact,-),Randomize(auto)
+    AddUnit(98,57,3198,0,100,WaitForContact,-),Randomize(auto)
+    AddUnit(99,57,3106,0,100,WaitForContact,-),Randomize(auto)
+    AddSpecialEvent(SeePlace,2676,1,100%)
+    AddSpecialEvent(SeePlace,988,2,100%)
+    AddSpecialEvent(SeePlace,3293,3,100%)
+    AddSpecialEvent(SeePlace,1737,4,100%)
+    AddMissionObjective(DestroyAllUnits,Zni‡en¡ v¨ech jednotek)
+    AddStartSquare(4419,4420,4465,4466,4467,4510,4511,4512,4513,4556)
+    AddStartSquare(4557,4558,4559,4560,4601,4602,4603,4604,4605,4606)
+    AddStartSquare(4648,4649,4650,4651,4652,4653,4693,4694,4695,4696)
+    AddStartSquare(4697,4698,4740,4741,4742,4743,4744,4745,4785,4786)
+    AddStartSquare(4787,4788,4789,4790,4832,4833,4834,4835,4836,4878)
+    AddStartSquare(4879,4880,4881,4925,4926,4927,4971,4972)
+}
+
+;AddSpecialEvent(SeePlace,2676,1,100%):
+EventData(1) {
+    ;Wolf riders
+    AddSpecialUnit(EnemyUnit,61,4900,00,20,-),Randomize(auto)
+    ;Orcs
+    AddSpecialUnit(EnemyUnit,37,4854,00,100,-),Randomize(auto)
+    ;Orcs
+    AddSpecialUnit(EnemyUnit,37,4808,00,100,-),Randomize(auto)
+    ;Harpya
+    AddSpecialUnit(EnemyUnit,50,4993,00,1,-),Randomize(auto)
+    ;Wolf riders
+    AddSpecialUnit(EnemyUnit,61,4855,00,20,-),Randomize(auto)
+}
+
+;AddSpecialEvent(SeePlace,988,2,100%):
+EventData(2) {
+    ;Dark Elves
+    AddSpecialUnit(EnemyUnit,57,1021,00,100,-),Randomize(auto)
+    ;Dark Elves
+    AddSpecialUnit(EnemyUnit,57,976,00,100,-),Randomize(auto)
+    ;Dark Elves
+    AddSpecialUnit(EnemyUnit,57,1068,00,100,-),Randomize(auto)
+}
+
+;AddSpecialEvent(SeePlace,3293,3,100%):
+EventData(3) {
+    ;Dark Elves
+    AddSpecialUnit(EnemyUnit,57,4957,01,100,-),Randomize(auto)
+    ;Dark Elves
+    AddSpecialUnit(EnemyUnit,57,4911,01,100,-),Randomize(auto)
+    ;Dark Elves
+    AddSpecialUnit(EnemyUnit,57,4866,01,100,-),Randomize(auto)
+    ;Dark Elves
+    AddSpecialUnit(EnemyUnit,57,4820,01,100,-),Randomize(auto)
+    ;Ballista
+    AddSpecialUnit(EnemyUnit,56,4867,01,10,-),Randomize(auto)
+    ;Ballista
+    AddSpecialUnit(EnemyUnit,56,4912,01,10,-),Randomize(auto)
+    ;Ballista
+    AddSpecialUnit(EnemyUnit,56,4958,01,10,-),Randomize(auto)
+    ;Ballista
+    AddSpecialUnit(EnemyUnit,56,5003,01,10,-),Randomize(auto)
+    ;Sipomet
+    AddSpecialUnit(EnemyUnit,55,5050,01,10,-),Randomize(auto)
+    ;Sipomet
+    AddSpecialUnit(EnemyUnit,55,5004,01,10,-),Randomize(auto)
+    ;Sipomet
+    AddSpecialUnit(EnemyUnit,55,4959,01,10,-),Randomize(auto)
+    ;Sipomet
+    AddSpecialUnit(EnemyUnit,55,4913,01,10,-),Randomize(auto)
+    ;Harpya
+    AddSpecialUnit(EnemyUnit,50,5005,01,1,-),Randomize(auto)
+    ;Harpya
+    AddSpecialUnit(EnemyUnit,50,5051,01,1,-),Randomize(auto)
+}
+
+;AddSpecialEvent(SeePlace,1737,4,100%):
+EventData(4) {
+    ;Sipomet
+    AddSpecialUnit(EnemyUnit,55,501,01,10,-),Randomize(auto)
+    ;Ballista
+    AddSpecialUnit(EnemyUnit,56,409,01,10,-),Randomize(auto)
+    ;Golem
+    AddSpecialUnit(EnemyUnit,44,456,01,10,-),Randomize(auto)
+    ;Mechanical Tower
+    AddSpecialUnit(EnemyUnit,53,410,01,10,-),Randomize(auto)
+    ;Harpya
+    AddSpecialUnit(EnemyUnit,50,455,01,1,-),Randomize(auto)
+}
+
+MissionParameters {
+    Time(t)
+    MissionText(T05_04A)
+    MissionStartText(T05_04A.S)
+    MissionEndOKText(T05_04A.OK)
+    MissionEndBadText(T05_04A.BAD)
+}

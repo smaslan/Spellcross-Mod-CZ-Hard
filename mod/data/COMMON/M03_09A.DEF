@@ -1,0 +1,76 @@
+MissionData {
+    MissionMap(M03_09)
+    AddUnit(50,55,2414,0,10,WaitForContact,-)
+    AddUnit(51,37,2364,0,100,WaitForContact,-)
+    AddUnit(52,37,2365,0,100,WaitForContact,-)
+    AddUnit(53,37,2314,0,100,WaitForContact,-)
+    AddUnit(54,50,2365,0,1,WaitForContact,-)
+    AddUnit(55,50,2314,0,1,WaitForContact,-)
+    AddUnit(56,50,2364,0,1,WaitForContact,-)
+    AddUnit(57,38,1673,0,100,WaitForContact,-)
+    AddUnit(58,38,1623,0,100,WaitForContact,-)
+    AddUnit(59,38,1674,0,100,WaitForContact,-)
+    AddUnit(60,38,1677,0,100,WaitForContact,-)
+    AddUnit(61,50,1857,0,1,NormalUnit,-)
+    AddUnit(62,50,1907,0,1,NormalUnit,-)
+    AddUnit(63,38,1727,0,100,WaitForContact,-)
+    AddUnit(64,50,1778,0,1,WaitForContact,-)
+    AddUnit(65,50,1727,0,1,WaitForContact,-)
+    AddUnit(66,50,1623,0,1,WaitForContact,-)
+    AddUnit(67,37,2222,0,100,WaitForContact,-)
+    AddUnit(68,37,2273,0,100,WaitForContact,-)
+    AddUnit(69,37,2323,0,100,WaitForContact,-)
+    AddUnit(70,37,2373,0,100,WaitForContact,-)
+    AddUnit(71,37,2322,0,100,WaitForContact,-)
+    AddUnit(72,37,2265,0,100,WaitForContact,-)
+    AddUnit(73,37,2214,0,100,WaitForContact,-)
+    AddUnit(74,37,1573,0,100,WaitForContact,-)
+    AddUnit(75,37,1574,0,100,WaitForContact,-)
+    AddUnit(76,50,2322,0,1,WaitForContact,-)
+    AddUnit(77,50,2273,0,1,WaitForContact,-)
+    AddUnit(78,55,2274,0,10,WaitForContact,-)
+    AddUnit(79,55,1622,0,10,WaitForContact,-)
+    AddUnit(80,56,2374,0,10,WaitForContact,-)
+    AddUnit(81,50,1906,0,1,NormalUnit,-)
+    AddUnit(82,57,1125,0,100,NormalUnit,-)
+    AddUnit(83,57,1176,0,100,NormalUnit,-)
+    AddUnit(84,57,1226,0,100,NormalUnit,-)
+    AddUnit(85,57,1277,0,100,NormalUnit,-)
+    AddMissionObjective(DestroyObject,1966,Zni‡it vchod do jeskynˆ)
+    AddMissionObjective(DestroyObject,1778,Zni‡it vchod do jeskynˆ)
+    AddSpecialEvent(SeePlace,1966,01,100%)
+    AddSpecialEvent(SeePlace,1778,02,100%)
+    AddSpecialEvent(MissionStart,03,100%)
+    AddSpecialEvent(MissionStart,04,100%)
+    AddStartSquare(3304,3354,3355,3403,3404,3405,3453,3454,3455,3456)
+    AddStartSquare(3502,3503,3504,3505,3506,3552,3553,3554,3555,3556)
+    AddStartSquare(3557,3601,3602,3603,3604,3605,3606,3607,3652,3653)
+    AddStartSquare(3654,3655,3656,3657,3658,3702,3703,3704,3705,3706)
+    AddStartSquare(3707,3753,3754,3755,3756,3757,3803,3804,3805,3806)
+    AddStartSquare(3854,3855,3856,3904,3905,3955)
+}
+ 
+EventData(1) {
+    EventText(u0309_00)
+}
+ 
+EventData(2) {
+    EventText(u0309_01)
+}
+ 
+EventData(3) {
+    AddSpecialUnit(MissionUnit,27,3457,00,010,-)
+}
+ 
+EventData(4) {
+    AddSpecialUnit(MissionUnit,27,3356,00,010,-)
+}
+ 
+MissionParameters {
+    Time(t)
+    MissionText(T03_09A)
+    MissionStartText(T03_09A.S)
+    MissionEndOKText(T03_09A.OK)
+    MissionEndBadText(T03_09A.BAD)
+}
+ 

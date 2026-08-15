@@ -1,0 +1,307 @@
+LevelInit {
+    PlayStartCANAnim(L_03.SMK)
+    PlayStartDeltaAnim(LEVEL3_1.SMK)
+    ;
+    EndSpeaker(S_03,S_03.DP2)
+
+    Start(1)
+    Start(3)
+    Territory(1,none,m03_01,mus05)
+    DefineStrategicPoints(1,120,10)
+
+    Territory(2,m03_02a,m03_02,mus05)
+    DefineStrategicPoints(2,100,10)
+
+    Territory(3,none,m03_03,mus05)
+    DefineStrategicPoints(3,120,10)
+
+    Territory(4,m03_04a,m03_04,mus05)
+    DefineStrategicPoints(4,180,20)
+
+    Territory(5,m03_05a,m03_05,mus05)
+    DefineStrategicPoints(5,140,10)
+
+    Territory(6,m03_06a,m03_06,mus05)
+    DefineStrategicPoints(6,70,10)
+
+    Territory(7,m03_07a,m03_07,mus05)
+    DefineStrategicPoints(7,250,25)
+
+    Territory(8,m03_08a,m03_08,mus05)
+    DefineStrategicPoints(8,120,10)
+
+    Territory(9,m03_09a,m03_09,mus05)
+    DefineStrategicPoints(9,220,20)
+
+    Territory(10,m03_10a,m03_10,mus05)
+    DefineStrategicPoints(10,90,10)
+
+    Territory(11,m03_11a,m03_11,mus05)
+    DefineStrategicPoints(11,90,10)
+
+    Territory(12,m03_12a,m03_12,mus05)
+    DefineStrategicPoints(12,120,12)
+
+    Territory(13,m03_13a,m03_13,none)
+    DefineStrategicPoints(13,0,0)
+
+    AttackUnits(37,38,47,61,57,41)
+    AttackSpecialUnits(50,56,55)
+    AttackFlags(20,27,5,7,20,6)
+
+    ;M113
+    SetResearchFlag(18)
+    ;Marder
+    SetResearchFlag(19)
+    ;Piranha
+    SetResearchFlag(20)
+    ;AMX13
+    SetResearchFlag(21)
+    ;light artillery
+    SetResearchFlag(25)
+    LevelMusic(mus00)
+    End(13)
+}
+
+Mission(M03_02A) {
+    EndOKMission(none)
+    EndBadMission(none)
+    EndOK(0,50)
+    MissionMusic(mus04)
+    FrequencyOfRandomAttacks(20,6)
+}
+
+Mission(M03_04A) {
+    Time(5)
+    EndOKMission(none)
+    EndBadMission(M03_04B)
+    EndOKEvent(5)
+    EndBadEvent(5)
+    EndOK(70,90)
+    FrequencyOfRandomAttacks(20,6)
+}
+
+Mission(M03_04B) {
+    EndOKMission(none)
+    EndBadMission(none)
+    EndOK(20,10)
+    FrequencyOfRandomAttacks(20,6)
+}
+
+Mission(M03_05A) {
+    EndOKMission(none)
+    EndBadMission(none)
+    EndOKEvent(6)
+    EndOK(40,150)
+    MissionMusic(mus01)
+    FrequencyOfRandomAttacks(20,6)
+}
+
+Mission(M03_05B) {
+    Time(4)
+    EndOKMission(none)
+    EndBadMission(M03_05C)
+    EndBadEvent(4)
+    EndOK(46,220)
+    MissionMusic(mus04)
+    FrequencyOfRandomAttacks(20,6)
+}
+
+Mission(M03_05C) {
+    EndOKMission(none)
+    EndBadMission(none)
+    EndOK(40,80)
+    MissionMusic(mus04)
+    FrequencyOfRandomAttacks(20,4)
+}
+
+Mission(M03_06A) {
+    EndOKMission(none)
+    EndBadMission(none)
+    EndOK(0,60)
+    MissionMusic(mus04)
+    FrequencyOfRandomAttacks(20,4)
+}
+
+Mission(M03_07A) {
+    EndOKMission(M03_07B)
+    EndBadMission(M03_07B)
+    EndOK(60,100)
+    EndOKEvent(10)
+    MissionMusic(mus01)
+    FrequencyOfRandomAttacks(20,4)
+}
+
+Mission(M03_07B) {
+    EndOKMission(none)
+    EndBadMission(M03_07C)
+    EndOK(80,300)
+    MissionMusic(mus04)
+    FrequencyOfRandomAttacks(20,4)
+}
+
+Mission(M03_07C) {
+    EndOKMission(none)
+    EndBadMission(none)
+    EndOK(20,300)
+    MissionMusic(mus01)
+    FrequencyOfRandomAttacks(20,4)
+}
+
+Mission(M03_08A) {
+    EndOKMission(none)
+    EndBadMission(none)
+    EndOK(30,100)
+    MissionMusic(mus01)
+    FrequencyOfRandomAttacks(20,4)
+}
+
+Mission(M03_09A) {
+    Time(12)
+    EndOKMission(M03_09B)
+    EndBadMission(M03_09C)
+    EndOK(0,200)
+    MissionMusic(mus04)
+    FrequencyOfRandomAttacks(20,4)
+}
+
+Mission(M03_09B) {
+    EndOKMission(none)
+    EndBadMission(none)
+    EndOK(30,500)
+    MissionMusic(mus01)
+    FrequencyOfRandomAttacks(20,4)
+}
+
+Mission(M03_09C) {
+    EndOKMission(none)
+    EndBadMission(none)
+    EndOK(80,500)
+    FrequencyOfRandomAttacks(20,4)
+}
+
+Mission(M03_10A) {
+    EndOKMission(none)
+    EndBadMission(none)
+    EndOK(0,50)
+    MissionMusic(mus04)
+    FrequencyOfRandomAttacks(20,4)
+}
+
+Mission(M03_11A) {
+    EndOKMission(none)
+    EndBadMission(none)
+    EndOK(10,100)
+    MissionMusic(mus04)
+    FrequencyOfRandomAttacks(20,4)
+}
+
+Mission(M03_12A) {
+    EndOKMission(M03_12B)
+    EndBadMission(none)
+    EndOK(30,100)
+    MissionMusic(mus04)
+    FrequencyOfRandomAttacks(20,4)
+}
+
+Mission(M03_12B) {
+    EndOKMission(none)
+    EndBadMission(none)
+    EndOK(80,100)
+    MissionMusic(mus01)
+    FrequencyOfRandomAttacks(20,4)
+}
+
+Mission(M03_13A) {
+    EndOKMission(none)
+    EndBadMission(none)
+    EndOK(200,900)
+    FrequencyOfRandomAttacks(20,4)
+}
+
+Event(0) {
+    AbsTime(-1)
+    EventText(MSG0014)
+    ;Tazka Pechota
+    AddUnitToPlayer(1,4,100,1.Tˆ‘k  pˆchota)
+    AddUnitToPlayer(1,4,100,2.Tˆ‘k  pˆchota)
+    ;Lahka Pechota
+    AddUnitToPlayer(0,5,100,3.Lehk  pˆchota)
+}
+
+Event(1) {
+    AbsTime(4)
+    EventText(E03_0001)
+}
+
+Event(2) {
+    AbsTime(7)
+    EventText(E03_0002)
+}
+
+Event(3) {
+    AbsTime(11)
+    ;Druhy utok Other Side
+    EventText(E03_0003)
+    ;Sipomety
+    Army(55,55,55)
+    ;Vlcia Jazda
+    Army(61,61,61,61,61,61,61,61,61,61)
+    ;Radovi Orkovia
+    Army(37,37,37,37,37,37,37,37,37,37,37,37)
+    ;Ka-Orkovia
+    Army(38,38,38,38,38,38,38)
+}
+
+Event(4) {
+    AbsTime(13)
+    ;treti napor Other Side
+    EventText(E03_0004)
+    ;Sipomety
+    Army(55,55,55,56,56)
+    ;Vlcia Jazda
+    Army(61,61,61,61,61,61,61,61,61,61)
+    ;Radovi Orkovia
+    Army(37,37,37,37,37)
+    ;Ka-Orkovia
+    Army(38,38,38,38,38,38,38,38)
+    ;Magotar pozemny/vzdusny
+    Army(47,47,48,48,48)
+}
+
+Event(5) {
+    ChangeMission(5,M03_05B)
+}
+
+Event(6) {
+    ChangeMission(4,M03_04B)
+}
+
+Event(7) {
+    AbsTime(12)
+    EventText(E03_0007)
+}
+
+Event(8) {
+    AbsTime(14)
+    EventText(E03_0008)
+}
+
+Event(9) {
+    AbsTime(9)
+    ;prvy utok Other Side - dorobeny
+    EventText(E03_0009)
+    ;Vlcia jazda
+    Army(61,61,61,61)
+    ;Radovi Orkovia
+    Army(37,37,37,37,37,37)
+    ;Ka-Orkovia
+    Army(38,38,38,38,38,38)
+    ;Magotari
+    Army(48,48,47,47,47)
+}
+
+Event(10) {
+    ;artilerie
+    ;SetResearchFlag(27)
+}

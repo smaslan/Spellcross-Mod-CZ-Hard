@@ -1,0 +1,33 @@
+MissionData {
+    MissionMap(M03_07)
+    AddUnit(50,42,2498,4,100,WaitForContact,-)
+    AddUnit(51,42,2459,4,100,WaitForContact,-)
+    AddUnit(52,42,1504,4,100,WaitForContact,-)
+    AddUnit(53,42,2418,4,100,WaitForContact,-)
+    AddUnit(54,42,2378,4,100,WaitForContact,-)
+    AddUnit(55,42,2338,4,100,WaitForContact,-)
+    AddUnit(56,42,714,4,100,NormalUnit,-)
+    AddUnit(57,42,1544,4,100,WaitForContact,-)
+    AddUnit(58,42,1585,4,100,WaitForContact,-)
+    AddUnit(59,42,673,4,100,NormalUnit,-)
+    AddUnit(60,42,753,4,100,NormalUnit,-)
+    AddUnit(61,42,754,4,100,NormalUnit,-)
+    AddUnit(62,42,1545,4,100,WaitForContact,-)
+    AddUnit(63,42,1505,4,100,WaitForContact,-)
+    AddMissionObjective(DestroyAllUnits,Zni‡en¡ v¨ech jednotek)
+    AddStartSquare(2743,2783,2784,2822,2823,2824,2862,2863,2864,2865)
+    AddStartSquare(2901,2902,2903,2904,2905,2941,2942,2943,2944,2945)
+    AddStartSquare(2946,2980,2981,2982,2983,2984,2985,2986,3020,3021)
+    AddStartSquare(3022,3023,3024,3025,3026,3027,3060,3061,3062,3063)
+    AddStartSquare(3064,3065,3066,3101,3102,3103,3104,3105,3106,3141)
+    AddStartSquare(3142,3144,3145)
+    NightMission()
+}
+
+MissionParameters {
+    Time(t)
+    MissionText(T03_07C)
+    MissionStartText(T03_07C.S)
+    MissionEndOKText(T03_07C.OK)
+    MissionEndBadText(T03_07C.BAD)
+}

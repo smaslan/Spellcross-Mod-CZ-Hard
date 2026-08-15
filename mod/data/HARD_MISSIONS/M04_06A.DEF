@@ -1,0 +1,81 @@
+MissionData {
+    MissionMap(M04_06)
+    AutoRandomizeRule(37,37,38)
+    AddUnit(50,38,1182,4,100,WaitForContact,-),Randomize(auto)
+    AddUnit(51,38,1183,4,100,WaitForContact,-),Randomize(auto)
+    AddUnit(52,38,1238,4,100,WaitForContact,-),Randomize(auto)
+    AddUnit(53,46,1126,4,100,WaitForContact,-),Randomize(auto)
+    AddUnit(54,46,752,4,100,NormalUnit,-),Randomize(auto)
+    AddUnit(55,38,807,4,100,NormalUnit,-),Randomize(auto)
+    AddUnit(56,38,864,4,100,NormalUnit,-),Randomize(auto)
+    AddUnit(57,38,808,4,100,NormalUnit,-),Randomize(auto)
+    AddUnit(58,37,919,4,100,NormalUnit,-),Randomize(auto)
+    AddUnit(59,37,920,4,100,NormalUnit,-),Randomize(auto)
+    AddUnit(60,37,865,4,100,NormalUnit,-),Randomize(auto)
+    AddUnit(61,48,752,4,100,NormalUnit,-),Randomize(auto)
+    AddUnit(62,37,2376,4,100,WaitForContact,-),Randomize(auto)
+    AddUnit(63,46,2320,4,100,WaitForContact,-),Randomize(auto)
+    AddUnit(64,37,2375,4,100,WaitForContact,-),Randomize(auto)
+    AddUnit(65,37,1170,4,100,NormalUnit,-),Randomize(auto)
+    AddUnit(66,37,1438,4,100,NormalUnit,-),Randomize(auto)
+    AddUnit(67,37,4411,4,100,NormalUnit,-),Randomize(auto)
+    AddUnit(68,37,4483,4,100,NormalUnit,-),Randomize(auto)
+    AddUnit(69,38,2075,4,100,NormalUnit,-),Randomize(auto)
+    AddUnit(70,57,1619,4,100,NormalUnit,-),Randomize(auto)
+    AddUnit(71,48,737,4,100,PatrolUnit,-),Randomize(auto)
+    AddUnit(72,48,834,4,100,PatrolUnit,-),Randomize(auto)
+    AddUnit(73,46,2111,4,100,WaitForContact,-),Randomize(auto)
+    AddUnit(74,46,2167,4,100,WaitForContact,-),Randomize(auto)
+    AddUnit(75,46,2112,4,100,WaitForContact,-),Randomize(auto)
+    AddUnit(76,55,2055,4,10,WaitForContact,-),Randomize(55,56)
+    AddUnit(77,57,1237,4,100,WaitForContact,-),Randomize(auto)
+    AddUnit(78,57,1294,4,100,WaitForContact,-),Randomize(auto)
+    AddUnit(79,47,1181,4,100,WaitForContact,-),Randomize(auto)
+    AddUnit(80,47,1125,4,100,WaitForContact,-),Randomize(auto)
+    AddUnit(81,47,1070,4,100,WaitForContact,-),Randomize(auto)
+    AddUnit(82,47,1115,4,100,WaitForContact,-),Randomize(auto)
+    AddUnit(83,47,1564,4,100,WaitForContact,-),Randomize(auto)
+    AddUnit(84,47,1999,4,100,WaitForContact,-),Randomize(auto)
+    AddUnit(85,47,2432,4,100,WaitForContact,-),Randomize(auto)
+    AddUnit(86,47,2319,4,100,WaitForContact,-),Randomize(auto)
+    AddUnit(87,47,2263,4,100,WaitForContact,-),Randomize(auto)
+    AddUnit(88,47,4427,4,100,WaitForContact,-),Randomize(auto)
+    AddUnit(89,47,4371,4,100,WaitForContact,-),Randomize(auto)
+    AddUnit(90,47,4428,4,100,WaitForContact,-),Randomize(auto)
+    AddSpecialEvent(SeePlace,847,1,100%)
+    AddSpecialEvent(SeePlace,1610,2,100%)
+    AddSpecialEvent(SeePlace,3802,3,100%)
+    AddMissionObjective(SeePlace,847,Prozkoumat naviga‡n¡ bod 1)
+    AddMissionObjective(SeePlace,1610,Prozkoumat naviga‡n¡ bod 2)
+    AddMissionObjective(SeePlace,3802,Prozkoumat naviga‡n¡ bod 3)
+    AddStartSquare(4168,4169,4170,4171,4172,4224,4225,4226,4227,4228)
+    AddStartSquare(4279,4280,4281,4282,4283,4284,4335,4336,4337,4338)
+    AddStartSquare(4339,4340,4390,4391,4392,4393,4394,4395,4396,4446)
+    AddStartSquare(4447,4448,4449,4450,4451,4452,4506,4507,4508,4562)
+    AddStartSquare(4563,4564,4618,4619,4620,4674,4675,4676,4730,4731)
+    AddStartSquare(4786,4787)
+    AddTargetSquare(847,1610,3802)
+}
+
+;AddSpecialEvent(SeePlace,847,1,100%):
+EventData(1) {
+    EventText(U0406_00)
+}
+
+;AddSpecialEvent(SeePlace,1610,2,100%):
+EventData(2) {
+    EventText(U0406_01)
+}
+
+;AddSpecialEvent(SeePlace,3802,3,100%):
+EventData(3) {
+    EventText(U0406_02)
+}
+
+MissionParameters {
+    Time(t)
+    MissionText(T04_06A)
+    MissionStartText(T04_06A.S)
+    MissionEndOKText(T04_06A.OK)
+    MissionEndBadText(T04_06A.BAD)
+}

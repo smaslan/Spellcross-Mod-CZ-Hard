@@ -1,0 +1,366 @@
+LevelInit {
+    PlayStartCANAnim(L_04.SMK)
+    PlayStartDeltaAnim(LEVEL4_1.SMK)
+    ;
+    PlayEndDeltaAnim(LEVEL4_2.SMK)
+    EndSpeaker(S_04,S_04.DP2)
+    PlayEndDeltaAnim(LEVEL4_4.SMK)
+
+    Start(1)
+    Start(2)
+    Territory(1,none,m04_01,mus05)
+    DefineStrategicPoints(1,150,15)
+
+    Territory(2,none,m04_02,mus05)
+    DefineStrategicPoints(2,150,15)
+
+    Territory(3,m04_03a,m04_03,mus05)
+    DefineStrategicPoints(3,100,10)
+
+    Territory(4,m04_04a,m04_04,mus05)
+    DefineStrategicPoints(4,350,50)
+
+    Territory(5,m04_05a,m04_05,mus05)
+    DefineStrategicPoints(5,100,10)
+
+    Territory(6,m04_06a,m04_06,mus05)
+    DefineStrategicPoints(6,120,12)
+
+    Territory(7,m04_07a,m04_07,mus05)
+    DefineStrategicPoints(7,260,20)
+
+    Territory(8,m04_08a,m04_08,mus05)
+    DefineStrategicPoints(8,100,10)
+
+    Territory(9,m04_09a,m04_09,mus05)
+    DefineStrategicPoints(9,150,25)
+
+    Territory(10,m04_10a,m04_10,mus05)
+    DefineStrategicPoints(10,120,12)
+
+    Territory(11,m04_11a,m04_11,mus05)
+    DefineStrategicPoints(11,300,30)
+
+    Territory(12,m04_12a,m04_12,mus05)
+    DefineStrategicPoints(12,220,22)
+
+    Territory(13,m04_13a,m04_13,mus05)
+    DefineStrategicPoints(13,120,12)
+
+    Territory(14,m04_14a,m04_14,mus05)
+    DefineStrategicPoints(14,150,15)
+
+    Territory(15,m04_15a,m04_15,mus05)
+    DefineStrategicPoints(15,150,25)
+
+    Territory(16,m04_16a,m04_16,mus05)
+    DefineStrategicPoints(16,0,0)
+
+    AttackUnits(37,38,47,57,61)
+    AttackSpecialUnits(48,42,46,44,53)
+    AttackFlags(25,35,4,7,20,6)
+
+    ;STRV
+    SetResearchFlag(14)
+    ;TAM
+    SetResearchFlag(10)
+    ;M106
+    SetResearchFlag(27)
+
+    LevelMusic(mus00)
+    End(16)
+}
+
+Mission(M04_03A) {
+    Time(10)
+    EndOKMission(M04_03C)
+    EndBadMission(M04_03B)
+    EndOK(0,200)
+    MissionMusic(mus02)
+    FrequencyOfRandomAttacks(20,4)
+}
+
+Mission(M04_03B) {
+    EndOKMission(none)
+    EndBadMission(none)
+    EndOK(120,120)
+    MissionMusic(mus02)
+    FrequencyOfRandomAttacks(20,4)
+}
+
+Mission(M04_03C) {
+    EndOKMission(none)
+    EndBadMission(M04_03B)
+    EndOK(90,100)
+    MissionMusic(mus01)
+    FrequencyOfRandomAttacks(20,4)
+}
+
+Mission(M04_04A) {
+    EndOKMission(none)
+    EndBadMission(none)
+    EndOKEvent(6)
+    EndOK(95,100)
+    MissionMusic(mus04)
+    FrequencyOfRandomAttacks(20,4)
+}
+
+Mission(M04_05A) {
+    EndOKMission(none)
+    EndBadMission(none)
+    EndOKEvent(6)
+    EndOK(90,150)
+    MissionMusic(mus01)
+    FrequencyOfRandomAttacks(20,4)
+}
+
+Mission(M04_06A) {
+    Time(10)
+    EndOKMission(M04_06B)
+    EndBadMission(M04_06C)
+    EndOK(0,100)
+    MissionMusic(mus02)
+    FrequencyOfRandomAttacks(20,4)
+}
+
+Mission(M04_06B) {
+    EndOKMission(none)
+    EndBadMission(M04_06C)
+    EndOKEvent(6)
+    EndOK(60,150)
+    MissionMusic(mus04)
+    FrequencyOfRandomAttacks(20,4)
+}
+
+Mission(M04_06C) {
+    EndOKMission(none)
+    EndBadMission(none)
+    EndOKEvent(6)
+    EndOK(55,100)
+    MissionMusic(mus01)
+    FrequencyOfRandomAttacks(20,4)
+}
+
+Mission(M04_07A) {
+    Time(4)
+    EndOKMission(none)
+    EndBadMission(M04_07B)
+    EndOK(110,300)
+    MissionMusic(mus02)
+    FrequencyOfRandomAttacks(20,4)
+}
+
+Mission(M04_07B) {
+    EndOKMission(none)
+    EndBadMission(none)
+    EndOK(130,200)
+    MissionMusic(mus04)
+    FrequencyOfRandomAttacks(20,4)
+}
+
+Mission(M04_08A) {
+    EndOKMission(none)
+    EndBadMission(none)
+    EndOK(85,90)
+    MissionMusic(mus04)
+    FrequencyOfRandomAttacks(20,4)
+}
+
+Mission(M04_09A) {
+    EndOKMission(none)
+    EndBadMission(M04_09B)
+    EndOK(110,200)
+    MissionMusic(mus02)
+    FrequencyOfRandomAttacks(20,4)
+}
+
+Mission(M04_09B) {
+    EndOKMission(none)
+    EndBadMission(none)
+    EndOK(55,30)
+    MissionMusic(mus01)
+    FrequencyOfRandomAttacks(20,4)
+}
+
+Mission(M04_10A) {
+    Time(6)
+    EndOKMission(none)
+    EndBadMission(M04_10B)
+    EndOK(0,140)
+    MissionMusic(mus02)
+    FrequencyOfRandomAttacks(20,4)
+}
+
+Mission(M04_10B) {
+    EndOKMission(none)
+    EndBadMission(none)
+    EndOKEvent(6)
+    EndOK(55,120)
+    MissionMusic(mus01)
+    FrequencyOfRandomAttacks(20,4)
+}
+
+Mission(M04_11A) {
+    Time(9)
+    EndOKMission(none)
+    EndBadMission(M04_11B)
+    EndOK(110,400)
+    MissionMusic(mus04)
+    FrequencyOfRandomAttacks(20,4)
+}
+
+Mission(M04_11B) {
+    EndOKMission(none)
+    EndBadMission(none)
+    EndOK(110,250)
+    MissionMusic(mus02)
+    FrequencyOfRandomAttacks(20,4)
+}
+
+Mission(M04_12A) {
+    EndOKMission(none)
+    EndBadMission(M04_12B)
+    EndOKEvent(9)
+    EndOK(160,350)
+    MissionMusic(mus02)
+    FrequencyOfRandomAttacks(20,4)
+}
+
+Mission(M04_12B) {
+    EndOKMission(none)
+    EndBadMission(none)
+    EndOKEvent(9)
+    EndOK(190,180)
+    MissionMusic(mus04)
+    FrequencyOfRandomAttacks(20,4)
+}
+
+Mission(M04_13A) {
+    EndOKMission(none)
+    EndBadMission(none)
+    EndOKEvent(9)
+    EndOK(0,100)
+    MissionMusic(mus04)
+    FrequencyOfRandomAttacks(20,4)
+}
+
+Mission(M04_14A) {
+    Time(5)
+    EndOKMission(none)
+    EndBadMission(M04_14B)
+    EndBadEvent(9)
+    EndOK(150,300)
+    MissionMusic(mus02)
+    FrequencyOfRandomAttacks(20,4)
+}
+
+Mission(M04_14B) {
+    EndOKMission(none)
+    EndBadMission(none)
+    EndOK(85,150)
+    MissionMusic(mus02)
+    FrequencyOfRandomAttacks(20,4)
+}
+
+Mission(M04_15A) {
+    EndOKMission(none)
+    EndBadMission(none)
+    EndOK(35,400)
+    MissionMusic(mus01)
+    FrequencyOfRandomAttacks(20,4)
+}
+
+Mission(M04_16A) {
+    EndOKMission(none)
+    EndBadMission(none)
+    EndOKEvent(11)
+    EndOK(750,2400)
+    MissionMusic(mus04)
+    FrequencyOfRandomAttacks(20,4)
+}
+
+Event(0) {
+    AbsTime(-1)
+    EventText(MSG0014)
+    ;Tazka pechota
+    AddUnitToPlayer(1,6,100,1.Tˆ‘k  pˆchota)
+    ;Lahka pechota
+    AddUnitToPlayer(0,8,100,2.Lehk  pˆchota)
+    AddUnitToPlayer(0,8,100,3.Lehk  pˆchota)
+    ;Rangeri
+    AddUnitToPlayer(2,7,100,4.Range©i)
+}
+
+Event(1) {
+    AbsTime(7)
+    EventText(E04_0001)
+}
+
+Event(2) {
+    AbsTime(8,9)
+    EventText(E04_0002)
+    ;Mri
+    Army(46,46,46,46)
+    ;Radovi Orkovia
+    Army(37,37,37,37,37,37,37,37,37,37)
+    ;ka-orc
+    Army(38,38,38,38,38,38,38)
+    ;Golem
+    Army(44,44)
+    ;Magotar vzdusny
+    Army(48)
+}
+
+Event(3) {
+    AbsTime(10,12)
+    EventText(E04_0013)
+    ;Golem
+    Army(44,44,44,44)
+    ;Mri
+    Army(46,46,46,46,46,46)
+    ;Balista
+    Army(56,56,56,56)
+    ;Radovi Orkovia
+    Army(37,37,37,37,37,37,37,37,37,37)
+    ;Ka-Orkovia
+    Army(38,38,38,38,38,38,38,38)
+    ;wolf riders
+    Army(61,61,61,61,61,61)
+}
+
+Event(4) {
+    AbsTime(20)
+    EventText(E04_0004)
+}
+
+Event(5) {
+    AbsTime(12)
+    EventText(E04_0005)
+}
+
+Event(6) {
+    EventText(E04_0006)
+}
+
+Event(7) {
+    AbsTime(22)
+    EventText(E04_0007)
+}
+
+Event(8) {
+    AbsTime(25)
+    EventText(E04_0008)
+}
+
+Event(9) {
+    EventText(E04_0009)
+}
+
+Event(11) {
+    SetResearchFlag(116)
+}
+
+Event(12) {
+    EventText(E04_0012)
+}
+
