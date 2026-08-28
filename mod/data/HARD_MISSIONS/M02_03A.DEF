@@ -18,7 +18,7 @@ MissionData {
     AddUnit(63,48,893,3,100,PatrolUnit,-),Randomize(auto)
     AddUnit(64,48,4073,3,100,PatrolUnit,-),Randomize(auto)
     AddUnit(65,61,3377,3,20,NormalUnit,-),Randomize(auto)
-    AddUnit(66,61,3543,3,20,NormalUnit,-),Randomize(auto)
+    AddUnit(66,61,3483,3,20,NormalUnit,-),Randomize(auto)
     AddUnit(67,61,1093,3,20,NormalUnit,-),Randomize(auto)
     AddUnit(68,61,879,3,20,NormalUnit,-),Randomize(auto)
     AddUnit(69,61,3163,3,20,NormalUnit,-),Randomize(auto)
@@ -38,7 +38,14 @@ MissionData {
     AddUnit(83,41,3257,3,20,WaitForContact,-),Randomize(auto)
     AddUnit(84,41,2784,3,20,WaitForContact,-),Randomize(auto)
     AddUnit(85,41,2725,3,20,WaitForContact,-),Randomize(auto)
+    AddUnit(86,41,1104,4,20,NormalUnit,-),Randomize(auto)
+    AddUnit(87,41,1045,4,20,NormalUnit,-),Randomize(auto)
+    AddUnit(88,41,1165,4,20,NormalUnit,-),Randomize(auto)
+    AddUnit(89,41,1105,4,20,NormalUnit,-),Randomize(auto)
     AddSpecialEvent(SeePlace,3291,1,100%)
+    AddSpecialEvent(SeePlace,2010,2,100%)
+    AddSpecialEvent(SeePlace,1950,3,100%)
+    AddSpecialEvent(SeePlace,1891,4,100%)
     AddMissionObjective(DestroyAllUnits,Zni‡en¡ v¨ech jednotek)
     AddStartSquare(662,721,722,782,783,841,842,843,902,903)
     AddStartSquare(904,961,962,963,964,1022,1023,1024,1025,1081)
@@ -51,6 +58,24 @@ MissionData {
 EventData(1) {
     ;Sipomet
     AddSpecialUnit(EnemyUnit,55,3352,03,10,-),Randomize(auto)
+}
+
+;AddSpecialEvent(SeePlace,2010,2,100%):
+EventData(2) {
+    ;Ka-orcs
+    AddSpecialUnit(EnemyUnit,38,2010,05,100,-),Randomize(auto)
+}
+
+;AddSpecialEvent(SeePlace,1950,3,100%):
+EventData(3) {
+    ;Ka-orcs
+    AddSpecialUnit(EnemyUnit,38,1950,05,100,-),Randomize(auto)
+}
+
+;AddSpecialEvent(SeePlace,1891,4,100%):
+EventData(4) {
+    ;Ka-orcs
+    AddSpecialUnit(EnemyUnit,38,1891,05,100,-),Randomize(auto)
 }
 
 MissionParameters {

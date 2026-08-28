@@ -6,7 +6,7 @@ MissionData {
     AddUnit(51,37,2903,0,100,WaitForContact,-),Randomize(auto)
     AddUnit(52,37,3002,0,100,WaitForContact,-),Randomize(auto)
     AddUnit(53,37,1095,0,100,NormalUnit,-),Randomize(auto)
-    AddUnit(54,37,5276,0,100,WaitForContact,-),Randomize(auto)
+    AddUnit(54,38,5276,0,100,WaitForContact,-),Randomize(auto)
     AddUnit(55,41,1786,0,20,NormalUnit,-),Randomize(auto)
     AddUnit(56,41,3143,0,20,WaitForContact,-),Randomize(auto)
     AddUnit(57,41,2702,0,20,WaitForContact,-),Randomize(auto)
@@ -15,9 +15,16 @@ MissionData {
     AddUnit(60,41,1306,1,8,NormalUnit,-),Randomize(auto)
     AddUnit(61,41,1346,0,8,WaitForContact,-),Randomize(auto)
     AddUnit(62,41,1162,0,20,WaitForContact,-),Randomize(auto)
-    AddUnit(63,37,4975,0,100,WaitForContact,-),Randomize(auto)
-    AddUnit(64,37,4589,0,100,WaitForContact,-),Randomize(auto)
+    AddUnit(63,37,5176,0,100,WaitForContact,-),Randomize(auto)
+    AddUnit(64,37,4389,0,100,WaitForContact,-),Randomize(auto)
     AddUnit(65,37,1250,0,100,WaitForContact,-),Randomize(auto)
+    AddUnit(66,38,2650,2,100,WaitForContact,-),Randomize(auto)
+    AddUnit(67,38,2651,2,100,WaitForContact,-),Randomize(auto)
+    AddUnit(68,47,2551,2,100,WaitForContact,-),Randomize(auto)
+    AddUnit(69,41,2751,2,20,WaitForContact,-),Randomize(auto)
+    AddUnit(70,37,5376,2,100,WaitForContact,-),Randomize(auto)
+    AddUnit(71,37,5275,2,100,WaitForContact,-),Randomize(auto)
+    AddUnit(72,38,2552,2,100,NormalUnit,-),Randomize(off)
     AddSpecialEvent(MissionStart,1,100%)
     AddSpecialEvent(SeePlace,5745,2,100%)
     AddSpecialEvent(SeePlace,5745,3,100%)
@@ -48,20 +55,25 @@ MissionData {
     AddSpecialEvent(SeePlace,1560,28,100%)
     AddSpecialEvent(SeePlace,1512,29,100%)
     AddSpecialEvent(SeePlace,1512,30,100%)
+    AddSpecialEvent(SeePlace,4572,31,100%)
+    AddSpecialEvent(SeePlace,3570,32,100%)
+    AddSpecialEvent(SeePlace,6726,33,100%)
+    AddSpecialEvent(SeePlace,6726,34,100%)
+    AddSpecialEvent(SeePlace,3584,35,100%)
     AddMissionObjective(TransportUnit,48,Probojovat se na z kladnu)
     AddStartSquare(3905)
     AddEscapeSquare(2195,2294,2295,2296,2394,2395,2396,2397,2494,2495)
-    AddEscapeSquare(2496,2597)
+    AddEscapeSquare(2496,2597,2595,2596,2493,2594)
 }
 
 ;AddSpecialEvent(MissionStart,1,100%):
 EventData(1) {
     ;Alexander
-    AddSpecialUnit(SpecUnit1,79,3905,06,1,kpt.Alexander),Randomize(off)
+    AddSpecialUnit(SpecUnit1,79,3905,06,1,kpt.Alexander),Randomize(auto)
     ;Rangers
-    AddSpecialUnit(MissionUnit,2,4306,04,20,-),Randomize(off)
+    AddSpecialUnit(MissionUnit,2,4306,04,20,-),Randomize(auto)
     ;Light infantry
-    AddSpecialUnit(MissionUnit,0,4208,04,100,-),Randomize(off)
+    AddSpecialUnit(MissionUnit,0,4208,04,100,-),Randomize(auto)
 }
 
 ;AddSpecialEvent(SeePlace,5745,3,100%):
@@ -72,7 +84,21 @@ EventData(2) {
 ;AddSpecialEvent(SeePlace,5745,3,100%):
 EventData(3) {
     ;Commando
-    AddSpecialUnit(ArmyUnit,3,5745,05,20,-),Randomize(off)
+    AddSpecialUnit(ArmyUnit,3,5745,05,20,-),Randomize(auto)
+    ;Wolves
+    AddSpecialUnit(EnemyUnit,41,6946,02,20,-),Randomize(off)
+    ;Wolves
+    AddSpecialUnit(EnemyUnit,41,6947,02,20,-),Randomize(off)
+    ;Wolves
+    AddSpecialUnit(EnemyUnit,41,6948,02,20,-),Randomize(off)
+    ;Wolves
+    AddSpecialUnit(EnemyUnit,41,6155,02,20,-),Randomize(off)
+    ;Wolves
+    AddSpecialUnit(EnemyUnit,41,6255,02,20,-),Randomize(off)
+    ;Wolves
+    AddSpecialUnit(EnemyUnit,41,6156,02,20,-),Randomize(off)
+    ;Wolves
+    AddSpecialUnit(EnemyUnit,41,6055,02,20,-),Randomize(off)
 }
 
 ;AddSpecialEvent(SeePlace,5516,4,100%):
@@ -161,6 +187,10 @@ EventData(15) {
     AddSpecialUnit(EnemyUnit,41,5567,03,20,-),Randomize(auto)
     ;Wolves
     AddSpecialUnit(EnemyUnit,41,5566,03,20,-),Randomize(auto)
+    ;Ka-orcs
+    AddSpecialUnit(EnemyUnit,38,5466,02,100,-),Randomize(off)
+    ;Ka-orcs
+    AddSpecialUnit(EnemyUnit,38,5667,02,100,-),Randomize(off)
 }
 
 ;AddSpecialEvent(SeePlace,3181,16,100%):
@@ -173,6 +203,14 @@ EventData(16) {
 EventData(17) {
     ;Orcs
     AddSpecialUnit(EnemyUnit,37,4488,00,100,-),Randomize(auto)
+    ;Wolves
+    AddSpecialUnit(EnemyUnit,41,4695,02,20,-),Randomize(auto)
+    ;Wolves
+    AddSpecialUnit(EnemyUnit,41,4596,02,20,-),Randomize(auto)
+    ;Wolves
+    AddSpecialUnit(EnemyUnit,41,4696,02,20,-),Randomize(auto)
+    ;Wolves
+    AddSpecialUnit(EnemyUnit,41,4796,02,20,-),Randomize(auto)
 }
 
 ;AddSpecialEvent(SeePlace,1991,18,100%):
@@ -195,9 +233,9 @@ EventData(20) {
 ;AddSpecialEvent(SeePlace,2491,21,100%):
 EventData(21) {
     ;Light infantry
-    AddSpecialUnit(MissionUnit,0,2491,03,100,-),Randomize(off)
+    AddSpecialUnit(MissionUnit,0,2491,03,100,-),Randomize(auto)
     ;Light infantry
-    AddSpecialUnit(MissionUnit,0,2793,02,100,-),Randomize(off)
+    AddSpecialUnit(MissionUnit,0,2793,02,100,-),Randomize(auto)
 }
 
 ;AddSpecialEvent(SeePlace,3513,23,100%):
@@ -208,7 +246,7 @@ EventData(22) {
 ;AddSpecialEvent(SeePlace,3513,23,100%):
 EventData(23) {
     ;Light infantry
-    AddSpecialUnit(MissionUnit,0,3513,04,100,-),Randomize(off)
+    AddSpecialUnit(MissionUnit,0,3513,04,85,-),Randomize(auto)
 }
 
 ;AddSpecialEvent(SeePlace,5659,25,100%):
@@ -219,7 +257,7 @@ EventData(24) {
 ;AddSpecialEvent(SeePlace,5659,25,100%):
 EventData(25) {
     ;Heavy infantry
-    AddSpecialUnit(MissionUnit,1,5659,04,100,-),Randomize(off)
+    AddSpecialUnit(MissionUnit,1,5659,04,100,-),Randomize(auto)
 }
 
 ;AddSpecialEvent(SeePlace,3805,26,100%):
@@ -235,7 +273,7 @@ EventData(27) {
 ;AddSpecialEvent(SeePlace,1560,28,100%):
 EventData(28) {
     ;Heavy infantry
-    AddSpecialUnit(MissionUnit,1,1560,04,100,-),Randomize(off)
+    AddSpecialUnit(MissionUnit,1,1560,04,90,-),Randomize(auto)
     ;Wolves
     AddSpecialUnit(EnemyUnit,41,958,00,20,-),Randomize(auto)
     ;Orcs
@@ -260,7 +298,50 @@ EventData(30) {
     ;Wolves
     AddSpecialUnit(EnemyUnit,41,1113,03,20,-),Randomize(auto)
     ;Sniper
-    AddSpecialUnit(ArmyUnit,87,1512,03,1,-),Randomize(off)
+    AddSpecialUnit(ArmyUnit,87,1512,03,1,-),Randomize(auto)
+}
+
+;AddSpecialEvent(SeePlace,4572,31,100%):
+EventData(31) {
+    ;Ka-orcs
+    AddSpecialUnit(EnemyUnit,38,4373,03,100,-),Randomize(auto)
+    ;Orcs
+    AddSpecialUnit(EnemyUnit,37,4273,02,100,-),Randomize(auto)
+    ;Orcs
+    AddSpecialUnit(EnemyUnit,37,4572,02,100,-),Randomize(auto)
+}
+
+;AddSpecialEvent(SeePlace,3570,32,100%):
+EventData(32) {
+    ;Wolves
+    AddSpecialUnit(EnemyUnit,41,3371,02,20,-),Randomize(auto)
+    ;Ka-orcs
+    AddSpecialUnit(EnemyUnit,38,3270,03,100,-),Randomize(auto)
+    ;Wolves
+    AddSpecialUnit(EnemyUnit,41,3170,02,20,-),Randomize(auto)
+}
+
+;AddSpecialEvent(SeePlace,6726,34,100%):
+EventData(33) {
+    EventText(U0101_09)
+}
+
+;AddSpecialEvent(SeePlace,6726,34,100%):
+EventData(34) {
+    ;Rangers
+    AddSpecialUnit(MissionUnit,2,6726,06,16,-),Randomize(off)
+}
+
+;AddSpecialEvent(SeePlace,3584,35,100%):
+EventData(35) {
+    ;Wolves
+    AddSpecialUnit(EnemyUnit,41,3484,03,20,-),Randomize(off)
+    ;Ka-orcs
+    AddSpecialUnit(EnemyUnit,38,3684,03,100,-),Randomize(off)
+    ;Ka-orcs
+    AddSpecialUnit(EnemyUnit,38,3584,03,100,-),Randomize(off)
+    ;Ka-orcs
+    AddSpecialUnit(EnemyUnit,38,3585,02,100,-),Randomize(off)
 }
 
 MissionParameters {

@@ -68,12 +68,14 @@ Mod měl být původně jednoduchý s pevným nastavením, ale postupně jsem do
 
 Můžete stáhnout buďto podsložku `mod` tohoto gitu [./mod/*](mod) nebo některý s buildů v ZIPu: 
 
-- [V1.0, 15 Srpna 2026 (zip file)](https://spellcross.kvalitne.cz/mod/mods/hard_cz/spellcross-mod-cz-hard-v1.0.zip)
+- [V1.0, 15. Srpna 2026 (zip file)](https://spellcross.kvalitne.cz/mod/mods/hard_cz/spellcross-mod-cz-hard-v1.0.zip)
   - První verze.
   - Není zatím plně testovaná, ale zkusil jsem to dohrát a šlo to.
   - Předně se dá čekat, že nebude dostatek peněz na nábory jednotek, pokud nebudete hrát dost opatrně.
   - Možná někde haprují některé texty - je jich fakt hodně.   
-
+- [V1.02 beta, 28. Srpna 2026 (zip file)](https://spellcross.kvalitne.cz/mod/mods/hard_cz/spellcross-mod-cz-hard-beta.zip)
+  - Beta verze
+  - Průběžně aktualizováno, drobné úpravy
                                  
 ## Licence
 

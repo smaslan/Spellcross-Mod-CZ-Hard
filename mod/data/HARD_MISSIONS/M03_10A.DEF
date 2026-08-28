@@ -1,5 +1,7 @@
 MissionData {
     MissionMap(M03_10)
+    AutoRandomizeRule(37,37,38)
+    AutoRandomizeRule(38,37,38)
     AutoRandomizeRule(55,55,56)
     AutoRandomizeRule(56,55,56)
     AddUnit(50,37,1842,4,100,WaitForContact,-),Randomize(auto)

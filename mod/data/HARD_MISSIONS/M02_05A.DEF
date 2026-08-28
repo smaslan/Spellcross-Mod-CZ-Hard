@@ -49,6 +49,8 @@ MissionData {
     AddUnit(94,61,1002,3,20,WaitForContact,-),Randomize(auto)
     AddUnit(95,61,781,3,20,WaitForContact,-),Randomize(auto)
     AddUnit(96,38,1885,3,100,WaitForContact,-),Randomize(auto)
+    AddUnit(97,38,1417,4,100,NormalUnit,-),Randomize(auto)
+    AddUnit(98,38,1362,4,100,NormalUnit,-),Randomize(auto)
     AddMissionObjective(DestroyAllUnits,Zni‡en¡ v¨ech jednotek)
     AddStartSquare(3842,3896,3897,3951,3952,3953,3954,4005,4006,4007)
     AddStartSquare(4008,4009,4060,4061,4062,4063,4064,4065,4114,4115)

@@ -149,8 +149,8 @@ class COMMON.FS
 	if(%VER% == "CZE") convert(CZE);
 
         // generate title screen
-	CZ_TITLE="MOD: Konverze CZ dat do EN enginu, zvysena obtiznost by Stanislav Maslan, V1.1, 2026-08-16";
-	EN_TITLE="MOD: High difficulty mod by Stanislav Maslan, V1.1, 2026-August-16";
+	CZ_TITLE="MOD: Konverze CZ dat do EN enginu, zvysena obtiznost by Stanislav Maslan, V1.02, 2026-08-28";
+	EN_TITLE="MOD: High difficulty mod by Stanislav Maslan, V1.02, 2026-August-28";
 	MOD_CFG_INFO="Missions: %HARD%, AT-Orcs: %ATORCS%, Destructor: %DESTR%, Hide loaders: %NOSPLASH%";
 	if(%VER% == "CZE") title(320,15,Center,00FF55,111111,"%CZ_TITLE%");
 	if(%VER% == "ENG" && %LANG% == 1) title(320,105,Center,00FF55,111111,"%CZ_TITLE%");
