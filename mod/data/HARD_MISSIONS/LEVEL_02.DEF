@@ -43,8 +43,8 @@ LevelInit {
     SetResearchFlag(141)
 
     ;Lahka Pechota
-    AddUnitToPlayer(0,1,100,-)
-    AddUnitToPlayer(0,1,100,-)
+    AddUnitToPlayer(0,2,100,-)
+    AddUnitToPlayer(1,2,100,-)
     ;Rangers
     AddUnitToPlayer(2,1,100,-)
     ;Komando
@@ -137,4 +137,9 @@ Event(4) {
 Event(5) {
     AbsTime(3)
     EventText(E02_0002)
+}
+
+Event(6) {
+    AbsTime(11)
+    AddUnitToPlayer(79,6,100,Alexander)
 }
