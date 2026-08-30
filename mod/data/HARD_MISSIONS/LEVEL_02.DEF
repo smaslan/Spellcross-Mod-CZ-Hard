@@ -25,7 +25,7 @@ LevelInit {
 
     AttackUnits(37,47,41,61)
     AttackSpecialUnits(38,55)
-    AttackFlags(15,20,6,6,10,8)
+    AttackFlags(10,14,5,5,10,8)
 
     LevelMusic(mus00)
 
@@ -137,9 +137,4 @@ Event(4) {
 Event(5) {
     AbsTime(3)
     EventText(E02_0002)
-}
-
-Event(6) {
-    AbsTime(11)
-    AddUnitToPlayer(79,6,100,Alexander)
 }

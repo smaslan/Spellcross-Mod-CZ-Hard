@@ -1276,7 +1276,8 @@ Item(132) {
     Data(11)
     Group(Upgrades)
     Time(12)
-    Level(1)
+    Level(2)
+    ORconnections(127)
 }
 
 ; Whispering Gun
