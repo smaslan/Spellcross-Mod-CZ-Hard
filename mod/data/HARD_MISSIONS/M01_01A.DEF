@@ -59,7 +59,7 @@ MissionData {
     AddSpecialEvent(SeePlace,3570,32,100%)
     AddSpecialEvent(SeePlace,6726,33,100%)
     AddSpecialEvent(SeePlace,6726,34,100%)
-    AddSpecialEvent(SeePlace,3584,35,100%)
+    AddSpecialEvent(SeePlace,3683,35,100%)
     AddMissionObjective(TransportUnit,48,Probojovat se na z kladnu)
     AddStartSquare(3905)
     AddEscapeSquare(2195,2294,2295,2296,2394,2395,2396,2397,2494,2495)
@@ -332,7 +332,7 @@ EventData(34) {
     AddSpecialUnit(MissionUnit,2,6726,06,16,-),Randomize(off)
 }
 
-;AddSpecialEvent(SeePlace,3584,35,100%):
+;AddSpecialEvent(SeePlace,3683,35,100%):
 EventData(35) {
     ;Wolves
     AddSpecialUnit(EnemyUnit,41,3484,03,20,-),Randomize(off)

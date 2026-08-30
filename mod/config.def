@@ -171,6 +171,7 @@ class T11.FS
 
 class PUST.FS
 {
+	optional=1;
 	replace=1;       // overwrite existing	
 	add(%PUST%);     // add all original game data	
 	add(%MOD_PUST%); // add all mod data
