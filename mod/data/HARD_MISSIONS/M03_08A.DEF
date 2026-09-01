@@ -77,6 +77,10 @@ EventData(1) {
     AddSpecialUnit(EnemyUnit,57,485,04,100,-),Randomize(off)
     ;Dark Elves
     AddSpecialUnit(EnemyUnit,57,643,04,100,-),Randomize(off)
+    ;Dark Elves
+    AddSpecialUnit(EnemyUnit,57,446,04,100,-),Randomize(off)
+    ;Dark Elves
+    AddSpecialUnit(EnemyUnit,57,683,04,100,-),Randomize(off)
 }
 
 MissionParameters {

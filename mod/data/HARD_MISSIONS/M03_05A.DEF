@@ -57,6 +57,7 @@ MissionData {
     AddUnit(98,61,1129,4,20,WaitForContact,-),Randomize(auto)
     AddUnit(99,61,2812,4,20,WaitForContact,-),Randomize(auto)
     AddSpecialEvent(SeePlace,3446,1,40%)
+    AddSpecialEvent(SeePlace,3221,2,100%)
     AddMissionObjective(DestroyAllUnits,Zni‡en¡ v¨ech jednotek)
     AddStartSquare(2945,3004,3005,3064,3065,3066,3123,3124,3125,3126)
     AddStartSquare(3183,3184,3185,3186,3187,3242,3243,3244,3245,3246)
@@ -69,6 +70,20 @@ MissionData {
 EventData(1) {
     ;Piranha
     AddSpecialUnit(MissionUnit,20,3446,04,10,EQX Piranha),Randomize(auto)
+}
+
+;AddSpecialEvent(SeePlace,3221,2,100%):
+EventData(2) {
+    ;Sipomet
+    AddSpecialUnit(EnemyUnit,55,651,04,10,-),Randomize(off)
+    ;Wolf riders
+    AddSpecialUnit(EnemyUnit,61,712,04,20,-),Randomize(off)
+    ;Wolf riders
+    AddSpecialUnit(EnemyUnit,61,772,04,20,-),Randomize(off)
+    ;Wolf riders
+    AddSpecialUnit(EnemyUnit,61,713,04,20,-),Randomize(off)
+    ;Wolf riders
+    AddSpecialUnit(EnemyUnit,61,652,04,20,-),Randomize(off)
 }
 
 MissionParameters {

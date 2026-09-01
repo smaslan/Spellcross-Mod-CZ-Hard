@@ -49,14 +49,31 @@ MissionData {
     AddUnit(94,61,1002,3,20,WaitForContact,-),Randomize(auto)
     AddUnit(95,61,781,3,20,WaitForContact,-),Randomize(auto)
     AddUnit(96,38,1885,3,100,WaitForContact,-),Randomize(auto)
-    AddUnit(97,38,1417,4,100,NormalUnit,-),Randomize(auto)
-    AddUnit(98,38,1362,4,100,NormalUnit,-),Randomize(auto)
+    AddUnit(97,38,1417,4,100,WaitForContact,-),Randomize(auto)
+    AddUnit(98,38,1362,4,100,WaitForContact,-),Randomize(auto)
+    AddSpecialEvent(SeePlace,2334,1,100%)
     AddMissionObjective(DestroyAllUnits,Zni‡en¡ v¨ech jednotek)
     AddStartSquare(3842,3896,3897,3951,3952,3953,3954,4005,4006,4007)
     AddStartSquare(4008,4009,4060,4061,4062,4063,4064,4065,4114,4115)
     AddStartSquare(4116,4117,4118,4119,4120,4169,4170,4171,4172,4173)
     AddStartSquare(4174,4175,4224,4225,4226,4227,4228,4229,4230,4280)
     AddStartSquare(4281,4282,4283,4284,4285,4335,4336,4337,4338,4339)
+}
+
+;AddSpecialEvent(SeePlace,2334,1,100%):
+EventData(1) {
+    ;Sipomet
+    AddSpecialUnit(EnemyUnit,55,1217,04,10,-),Randomize(off)
+    ;Wolf riders
+    AddSpecialUnit(EnemyUnit,61,1163,04,20,-),Randomize(off)
+    ;Wolf riders
+    AddSpecialUnit(EnemyUnit,61,1108,04,20,-),Randomize(off)
+    ;Wolf riders
+    AddSpecialUnit(EnemyUnit,61,1164,04,20,-),Randomize(off)
+    ;Wolf riders
+    AddSpecialUnit(EnemyUnit,61,1218,04,20,-),Randomize(off)
+    ;Wolf riders
+    AddSpecialUnit(EnemyUnit,61,1273,04,20,-),Randomize(off)
 }
 
 MissionParameters {

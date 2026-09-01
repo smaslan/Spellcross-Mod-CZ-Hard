@@ -30,7 +30,7 @@ C¡le mise
 
 ; --------------------------- Bojova Mapa ----------------------------
 ; text, ktory sa vypise na liste ked sa jednotka nedostane na policko
-field out of range
+pole mimo dosah
 ; texty, za ktorymi sa objavia zostavajuce AB a pocet utokov
 ab:
 £tok–:
@@ -94,6 +94,6 @@ Re‘im
 Skupina %d - upravit
 Skupina %d vybr no
 ;---
-Jedtnoky:
+Jednotky:
 Vybran‚:
 Maximum:

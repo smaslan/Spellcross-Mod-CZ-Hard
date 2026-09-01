@@ -60,6 +60,7 @@ MissionData {
     AddSpecialEvent(SeePlace,527,4,100%)
     AddSpecialEvent(SeePlace,497,5,100%)
     AddSpecialEvent(SeePlace,497,6,100%)
+    AddSpecialEvent(SeePlace,2113,7,100%)
     AddMissionObjective(DestroyAllUnits,Zni‡en¡ v¨ech jednotek)
     AddStartSquare(3194,3224,3225,3253,3254,3280,3283,3284,3285,3309)
     AddStartSquare(3310,3312,3313,3314,3315,3339,3340,3341,3342,3343)
@@ -100,6 +101,26 @@ EventData(5) {
 EventData(6) {
     ;Heavy infantry
     AddSpecialUnit(ArmyUnit,1,497,03,100,-),Randomize(auto)
+}
+
+;AddSpecialEvent(SeePlace,2113,7,100%):
+EventData(7) {
+    ;Ka-orcs
+    AddSpecialUnit(EnemyUnit,38,459,04,100,-),Randomize(off)
+    ;Ka-orcs
+    AddSpecialUnit(EnemyUnit,38,429,04,100,-),Randomize(off)
+    ;Ka-orcs
+    AddSpecialUnit(EnemyUnit,38,399,04,100,-),Randomize(off)
+    ;Ka-orcs
+    AddSpecialUnit(EnemyUnit,38,428,04,100,-),Randomize(off)
+    ;Wolf riders
+    AddSpecialUnit(EnemyUnit,61,398,04,20,-),Randomize(off)
+    ;Wolf riders
+    AddSpecialUnit(EnemyUnit,61,368,04,20,-),Randomize(off)
+    ;Wolf riders
+    AddSpecialUnit(EnemyUnit,61,338,04,20,-),Randomize(off)
+    ;Wolf riders
+    AddSpecialUnit(EnemyUnit,61,367,04,20,-),Randomize(off)
 }
 
 MissionParameters {

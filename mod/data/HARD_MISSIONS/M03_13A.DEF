@@ -5,8 +5,8 @@ MissionData {
     AddUnit(50,74,843,10,1,WaitForContact,Daertor),Randomize(auto)
     AddUnit(51,55,1896,4,10,ToughDefence,-),Randomize(auto)
     AddUnit(52,55,1276,4,10,ToughDefence,-),Randomize(auto)
-    AddUnit(53,57,914,10,100,WaitForContact,Osobn¡ str ‘),Randomize(auto)
-    AddUnit(54,57,844,10,100,WaitForContact,Osobn¡ str ‘),Randomize(auto)
+    AddUnit(53,57,914,10,100,WaitForContact,Osobn¡ str ‘),Randomize(off)
+    AddUnit(54,57,844,10,100,WaitForContact,Osobn¡ str ‘),Randomize(off)
     AddUnit(55,56,1965,4,10,ToughDefence,-),Randomize(auto)
     AddUnit(56,56,1206,4,10,ToughDefence,-),Randomize(auto)
     AddUnit(57,50,1965,4,1,ToughDefence,-),Randomize(auto)
@@ -15,13 +15,13 @@ MissionData {
     AddUnit(60,57,3304,4,100,WaitForContact,-),Randomize(auto)
     AddUnit(61,57,3303,4,100,WaitForContact,-),Randomize(auto)
     AddUnit(62,37,4215,4,100,WaitForContact,-),Randomize(auto)
-    AddUnit(63,37,935,4,100,NormalUnit,-),Randomize(auto)
-    AddUnit(64,37,1004,4,100,NormalUnit,-),Randomize(auto)
+    AddUnit(63,37,935,4,100,WaitForContact,-),Randomize(auto)
+    AddUnit(64,37,1004,4,100,WaitForContact,-),Randomize(auto)
     AddUnit(65,37,4286,4,100,WaitForContact,-),Randomize(auto)
     AddUnit(66,38,4146,4,100,WaitForContact,-),Randomize(auto)
-    AddUnit(67,38,1144,4,100,NormalUnit,-),Randomize(auto)
-    AddUnit(68,38,1075,4,100,NormalUnit,-),Randomize(auto)
-    AddUnit(69,38,1005,4,100,NormalUnit,-),Randomize(auto)
+    AddUnit(67,38,1144,4,100,WaitForContact,-),Randomize(auto)
+    AddUnit(68,38,1075,4,100,WaitForContact,-),Randomize(auto)
+    AddUnit(69,38,1005,4,100,WaitForContact,-),Randomize(auto)
     AddUnit(70,57,2768,4,100,WaitForContact,-),Randomize(auto)
     AddUnit(71,57,2908,4,100,WaitForContact,-),Randomize(auto)
     AddUnit(72,57,2977,4,100,WaitForContact,-),Randomize(auto)
@@ -59,7 +59,8 @@ MissionData {
     AddSpecialEvent(SeePlace,2551,8,100%)
     AddSpecialEvent(SeePlace,5969,9,100%)
     AddSpecialEvent(SeePlace,4015,10,100%)
-    AddSpecialEvent(SeeUnit,50,11,100%)
+    AddSpecialEvent(SeePlace,1276,11,100%)
+    AddSpecialEvent(SeeUnit,50,12,100%)
     AddMissionObjective(DestroyUnit,50,Zab¡t Deartora)
     AddStartSquare(7273,7274,7275,7342,7343,7344,7345,7412,7413,7414)
     AddStartSquare(7415,7416,7481,7482,7483,7484,7485,7486,7551,7552)
@@ -205,8 +206,16 @@ EventData(10) {
     AddSpecialUnit(EnemyUnit,57,3944,07,100,-),Randomize(auto)
 }
 
-;AddSpecialEvent(SeeUnit,50,11,100%):
+;AddSpecialEvent(SeePlace,1276,11,100%):
 EventData(11) {
+    ;Ballista
+    AddSpecialUnit(EnemyUnit,56,566,04,10,-),Randomize(off)
+    ;Sipomet
+    AddSpecialUnit(EnemyUnit,55,637,04,10,-),Randomize(off)
+}
+
+;AddSpecialEvent(SeeUnit,50,12,100%):
+EventData(12) {
     EventText(U0313_00)
 }
 
