@@ -71,9 +71,9 @@ EventData(1) {
     ;Alexander
     AddSpecialUnit(SpecUnit1,79,3905,06,1,kpt.Alexander),Randomize(auto)
     ;Rangers
-    AddSpecialUnit(MissionUnit,2,4306,04,20,-),Randomize(auto)
-    ;Light infantry
-    AddSpecialUnit(MissionUnit,0,4208,04,100,-),Randomize(auto)
+    AddSpecialUnit(MissionUnit,2,4306,04,17,-),Randomize(auto)
+    ;Grenadier
+    AddSpecialUnit(MissionUnit,0,4208,04,22,-),Randomize(auto)
 }
 
 ;AddSpecialEvent(SeePlace,5745,3,100%):
@@ -232,10 +232,10 @@ EventData(20) {
 
 ;AddSpecialEvent(SeePlace,2491,21,100%):
 EventData(21) {
-    ;Light infantry
-    AddSpecialUnit(MissionUnit,0,2491,03,100,-),Randomize(auto)
-    ;Light infantry
-    AddSpecialUnit(MissionUnit,0,2793,02,100,-),Randomize(auto)
+    ;Grenadier
+    AddSpecialUnit(MissionUnit,0,2491,03,30,-),Randomize(auto)
+    ;Grenadier
+    AddSpecialUnit(MissionUnit,0,2793,02,30,-),Randomize(auto)
 }
 
 ;AddSpecialEvent(SeePlace,3513,23,100%):
@@ -245,8 +245,8 @@ EventData(22) {
 
 ;AddSpecialEvent(SeePlace,3513,23,100%):
 EventData(23) {
-    ;Light infantry
-    AddSpecialUnit(MissionUnit,0,3513,04,85,-),Randomize(auto)
+    ;Heavy infantry
+    AddSpecialUnit(MissionUnit,1,3513,04,70,-),Randomize(auto)
 }
 
 ;AddSpecialEvent(SeePlace,5659,25,100%):
@@ -257,7 +257,7 @@ EventData(24) {
 ;AddSpecialEvent(SeePlace,5659,25,100%):
 EventData(25) {
     ;Heavy infantry
-    AddSpecialUnit(MissionUnit,1,5659,04,100,-),Randomize(auto)
+    AddSpecialUnit(MissionUnit,1,5659,02,100,-),Randomize(auto)
 }
 
 ;AddSpecialEvent(SeePlace,3805,26,100%):
@@ -298,7 +298,7 @@ EventData(30) {
     ;Wolves
     AddSpecialUnit(EnemyUnit,41,1113,03,20,-),Randomize(auto)
     ;Sniper
-    AddSpecialUnit(ArmyUnit,87,1512,03,1,-),Randomize(auto)
+    AddSpecialUnit(ArmyUnit,87,1512,03,20,-),Randomize(auto)
 }
 
 ;AddSpecialEvent(SeePlace,4572,31,100%):
