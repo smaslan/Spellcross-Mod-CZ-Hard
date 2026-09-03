@@ -1,11 +1,11 @@
-; Light Infantry
+; Grenadiers
 Item(0) {
     Flags(UnitType)
     Data(0)
     Group(Races)
     Time(0)
     Level(0)
-    UpgradePrice(40)
+    UpgradePrice(65)
 }
 
 ; Heavy Infantry
@@ -15,7 +15,7 @@ Item(1) {
     Group(Races)
     Time(0)
     Level(0)
-    UpgradePrice(45)
+    UpgradePrice(65)
 }
 
 ; Rangers
