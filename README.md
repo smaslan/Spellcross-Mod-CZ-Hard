@@ -73,7 +73,7 @@ Můžete stáhnout buďto podsložku `mod` tohoto gitu [./mod/*](mod) nebo někt
   - Není zatím plně testovaná, ale zkusil jsem to dohrát a šlo to.
   - Předně se dá čekat, že nebude dostatek peněz na nábory jednotek, pokud nebudete hrát dost opatrně.
   - Možná někde haprují některé texty - je jich fakt hodně.   
-- [V1.02 beta, 28. Srpna 2026 (zip file)](https://spellcross.kvalitne.cz/mod/mods/hard_cz/spellcross-mod-cz-hard-beta.zip)
+- [V1.02 beta, 28. Srpna 2026 (7zip file)](https://spellcross.kvalitne.cz/mod/mods/hard_cz/spellcross-mod-cz-hard-beta.7z)
   - Beta verze
   - Průběžně aktualizováno, drobné úpravy
                                  
