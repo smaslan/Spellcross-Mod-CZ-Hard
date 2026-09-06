@@ -15,12 +15,12 @@ MissionData {
     AddUnit(60,57,3304,4,100,WaitForContact,-),Randomize(auto)
     AddUnit(61,57,3303,4,100,WaitForContact,-),Randomize(auto)
     AddUnit(62,37,4215,4,100,WaitForContact,-),Randomize(auto)
-    AddUnit(63,37,935,4,100,WaitForContact,-),Randomize(auto)
-    AddUnit(64,37,1004,4,100,WaitForContact,-),Randomize(auto)
+    AddUnit(63,55,935,4,10,WaitForContact,-),Randomize(auto)
+    AddUnit(64,56,1004,4,10,WaitForContact,-),Randomize(auto)
     AddUnit(65,37,4286,4,100,WaitForContact,-),Randomize(auto)
     AddUnit(66,38,4146,4,100,WaitForContact,-),Randomize(auto)
     AddUnit(67,38,1144,4,100,WaitForContact,-),Randomize(auto)
-    AddUnit(68,38,1075,4,100,WaitForContact,-),Randomize(auto)
+    AddUnit(68,56,1075,4,10,WaitForContact,-),Randomize(auto)
     AddUnit(69,38,1005,4,100,WaitForContact,-),Randomize(auto)
     AddUnit(70,57,2768,4,100,WaitForContact,-),Randomize(auto)
     AddUnit(71,57,2908,4,100,WaitForContact,-),Randomize(auto)
@@ -30,25 +30,25 @@ MissionData {
     AddUnit(75,57,2978,4,100,WaitForContact,-),Randomize(auto)
     AddUnit(76,57,2838,4,100,WaitForContact,-),Randomize(auto)
     AddUnit(77,55,7519,4,10,NormalUnit,-),Randomize(off)
-    AddUnit(78,57,7240,4,100,WaitForContact,-),Randomize(auto)
-    AddUnit(79,38,7309,4,100,WaitForContact,-),Randomize(auto)
-    AddUnit(80,38,7380,4,100,WaitForContact,-),Randomize(auto)
-    AddUnit(81,57,7310,4,100,WaitForContact,-),Randomize(auto)
+    AddUnit(78,57,7239,4,100,WaitForContact,-),Randomize(auto)
+    AddUnit(79,38,7379,4,100,WaitForContact,-),Randomize(auto)
+    AddUnit(80,38,7449,4,100,WaitForContact,-),Randomize(auto)
+    AddUnit(81,57,7380,4,100,WaitForContact,-),Randomize(auto)
     AddUnit(82,57,3163,4,100,WaitForContact,-),Randomize(auto)
     AddUnit(83,57,2909,4,100,WaitForContact,-),Randomize(auto)
     AddUnit(84,56,1825,4,10,ToughDefence,-),Randomize(auto)
     AddUnit(85,38,4075,4,100,WaitForContact,-),Randomize(auto)
-    AddUnit(86,38,4006,4,100,WaitForContact,-),Randomize(auto)
+    AddUnit(86,55,4006,4,10,WaitForContact,-),Randomize(auto)
     AddUnit(87,48,791,4,100,PatrolUnit,-),Randomize(auto)
     AddUnit(88,48,3019,4,100,PatrolUnit,-),Randomize(auto)
-    AddUnit(89,38,4076,4,100,WaitForContact,-),Randomize(auto)
+    AddUnit(89,56,4076,4,10,WaitForContact,-),Randomize(auto)
     AddUnit(90,56,6168,4,10,WaitForContact,-),Randomize(auto)
     AddUnit(91,55,6239,4,10,WaitForContact,-),Randomize(auto)
     AddUnit(92,55,1074,4,10,WaitForContact,-),Randomize(auto)
     AddUnit(93,55,3936,4,10,WaitForContact,-),Randomize(auto)
-    AddUnit(94,38,7239,4,100,WaitForContact,-),Randomize(auto)
-    AddUnit(95,38,7379,4,100,WaitForContact,-),Randomize(auto)
-    AddUnit(96,38,7449,4,100,WaitForContact,-),Randomize(auto)
+    AddUnit(94,38,7308,4,100,WaitForContact,-),Randomize(auto)
+    AddUnit(95,55,7448,4,10,WaitForContact,-),Randomize(auto)
+    AddUnit(96,56,7589,4,10,WaitForContact,-),Randomize(auto)
     AddSpecialEvent(SeePlace,5448,1,100%)
     AddSpecialEvent(SeePlace,4608,2,100%)
     AddSpecialEvent(SeePlace,1947,3,100%)
@@ -128,6 +128,10 @@ EventData(4) {
     AddSpecialUnit(EnemyUnit,50,3781,06,1,-),Randomize(auto)
     ;Harpya
     AddSpecialUnit(EnemyUnit,50,4692,06,1,-),Randomize(auto)
+    ;Ballista
+    AddSpecialUnit(EnemyUnit,56,2942,06,10,-),Randomize(off)
+    ;Sipomet
+    AddSpecialUnit(EnemyUnit,55,3013,06,10,-),Randomize(off)
 }
 
 ;AddSpecialEvent(SeePlace,1761,5,100%):
@@ -160,12 +164,12 @@ EventData(6) {
     AddSpecialUnit(EnemyUnit,57,7014,08,100,-),Randomize(auto)
     ;Dark Elves
     AddSpecialUnit(EnemyUnit,57,6164,08,100,-),Randomize(auto)
-    ;Dark Elves
-    AddSpecialUnit(EnemyUnit,57,6234,08,100,-),Randomize(auto)
-    ;Dark Elves
-    AddSpecialUnit(EnemyUnit,57,6303,08,100,-),Randomize(auto)
-    ;Dark Elves
-    AddSpecialUnit(EnemyUnit,57,6374,08,100,-),Randomize(auto)
+    ;Ballista
+    AddSpecialUnit(EnemyUnit,56,6234,08,10,-),Randomize(auto)
+    ;Sipomet
+    AddSpecialUnit(EnemyUnit,55,6303,08,10,-),Randomize(auto)
+    ;Ballista
+    AddSpecialUnit(EnemyUnit,56,6374,08,10,-),Randomize(auto)
     ;Dark Elves
     AddSpecialUnit(EnemyUnit,57,6304,08,100,-),Randomize(auto)
     ;Dark Elves
