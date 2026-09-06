@@ -52,7 +52,7 @@ LevelInit {
     ;Hummer-Ra
     AddUnitToPlayer(29,1,100,-)
 
-    AddCommanderToPlayer(1,Alexander)
+    AddCommanderToPlayer(Kapitan,Alexander)
 
     End(5)
 }

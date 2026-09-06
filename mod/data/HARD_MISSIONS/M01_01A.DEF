@@ -73,7 +73,7 @@ EventData(1) {
     ;Rangers
     AddSpecialUnit(MissionUnit,2,4306,04,17,-),Randomize(auto)
     ;Grenadier
-    AddSpecialUnit(MissionUnit,0,4208,04,22,-),Randomize(auto)
+    AddSpecialUnit(MissionUnit,0,4208,02,22,-),Randomize(auto)
 }
 
 ;AddSpecialEvent(SeePlace,5745,3,100%):
@@ -298,7 +298,7 @@ EventData(30) {
     ;Wolves
     AddSpecialUnit(EnemyUnit,41,1113,03,20,-),Randomize(auto)
     ;Sniper
-    AddSpecialUnit(ArmyUnit,87,1512,03,20,-),Randomize(auto)
+    AddSpecialUnit(ArmyUnit,87,1512,03,10,-),Randomize(auto)
 }
 
 ;AddSpecialEvent(SeePlace,4572,31,100%):
