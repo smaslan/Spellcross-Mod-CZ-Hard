@@ -75,15 +75,15 @@ EventData(1) {
 
 ;AddSpecialEvent(SeePlace,1646,2,100%):
 EventData(2) {
-    ;Anti-tank Orcs (light)
+    ;Anti-tank Orcs
     AddSpecialUnit(EnemyUnit,40,2046,12,100,-),Randomize(off)
-    ;Anti-tank Orcs (light)
+    ;Anti-tank Orcs
     AddSpecialUnit(EnemyUnit,40,1947,12,100,-),Randomize(off)
-    ;Anti-tank Orcs (light)
+    ;Anti-tank Orcs
     AddSpecialUnit(EnemyUnit,40,1847,12,100,-),Randomize(off)
-    ;Anti-tank Orcs (light)
+    ;Anti-tank Orcs
     AddSpecialUnit(EnemyUnit,40,1748,12,100,-),Randomize(off)
-    ;Anti-tank Orcs (light)
+    ;Anti-tank Orcs
     AddSpecialUnit(EnemyUnit,40,1648,12,100,-),Randomize(off)
     ;Ka-orcs
     AddSpecialUnit(EnemyUnit,38,2147,12,100,-),Randomize(off)
@@ -115,13 +115,13 @@ EventData(3) {
     AddSpecialUnit(EnemyUnit,54,2042,12,10,-),Randomize(off)
     ;Golem
     AddSpecialUnit(EnemyUnit,44,2242,12,10,-),Randomize(off)
-    ;Anti-tank Orcs (light)
+    ;Anti-tank Orcs
     AddSpecialUnit(EnemyUnit,40,2343,12,100,-),Randomize(off)
-    ;Anti-tank Orcs (light)
+    ;Anti-tank Orcs
     AddSpecialUnit(EnemyUnit,40,2143,12,100,-),Randomize(off)
-    ;Anti-tank Orcs (light)
+    ;Anti-tank Orcs
     AddSpecialUnit(EnemyUnit,40,1943,12,100,-),Randomize(off)
-    ;Anti-tank Orcs (light)
+    ;Anti-tank Orcs
     AddSpecialUnit(EnemyUnit,40,1743,12,100,-),Randomize(off)
 }
 

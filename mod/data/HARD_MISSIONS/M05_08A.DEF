@@ -84,12 +84,12 @@ MissionData {
 EventData(1) {
     ;Heavy infantry
     AddSpecialUnit(EnemyUnit,1,5630,12,100,Odpadl¡ci),Randomize(auto)
-    ;Light infantry
-    AddSpecialUnit(EnemyUnit,0,5698,12,100,Odpadl¡ci),Randomize(auto)
+    ;Grenadier
+    AddSpecialUnit(EnemyUnit,0,5698,12,30,Odpadl¡ci),Randomize(auto)
     ;Heavy infantry
     AddSpecialUnit(EnemyUnit,1,5699,12,100,Odpadl¡ci),Randomize(auto)
-    ;Light infantry
-    AddSpecialUnit(EnemyUnit,0,5766,12,100,Odpadl¡ci),Randomize(auto)
+    ;Grenadier
+    AddSpecialUnit(EnemyUnit,0,5766,12,30,Odpadl¡ci),Randomize(auto)
     ;Commando
     AddSpecialUnit(EnemyUnit,3,5834,12,20,Odpadl¡ci),Randomize(auto)
     ;Commando
