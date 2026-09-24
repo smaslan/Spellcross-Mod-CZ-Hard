@@ -231,7 +231,7 @@ Item(21) {
     Group(Races)
     Time(0)
     Level(0)
-    UpgradePrice(100)
+    UpgradePrice(120)
 }
 
 ; Gepard
@@ -241,7 +241,7 @@ Item(22) {
     Group(Races)
     Time(0)
     Level(0)
-    UpgradePrice(120)
+    UpgradePrice(140)
 }
 
 ; Roland
@@ -251,7 +251,7 @@ Item(23) {
     Group(Races)
     Time(0)
     Level(0)
-    UpgradePrice(140)
+    UpgradePrice(160)
 }
 
 ; AMX 30
@@ -269,9 +269,9 @@ Item(25) {
     Flags(UnitType)
     Data(25)
     Group(Races)
-    Time(0)
+    Time(4)
     Level(0)
-    UpgradePrice(160)
+    UpgradePrice(220)
 }
 
 ; M109
@@ -290,7 +290,7 @@ Item(27) {
     Data(27)
     Group(Races)
     Time(0)
-    Level(0)
+    Level(3)
     UpgradePrice(180)
 }
 
@@ -1357,7 +1357,7 @@ Item(141) {
     Group(Races)
     Time(0)
     Level(0)
-    UpgradePrice(190)
+    UpgradePrice(220)
 }
 
 ; UTAAS

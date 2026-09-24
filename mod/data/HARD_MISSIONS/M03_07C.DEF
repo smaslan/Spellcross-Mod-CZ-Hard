@@ -1,19 +1,39 @@
 MissionData {
     MissionMap(M03_07)
-    AddUnit(50,42,2498,4,100,WaitForContact,-)
-    AddUnit(51,42,2459,4,100,WaitForContact,-)
-    AddUnit(52,42,1504,4,100,WaitForContact,-)
-    AddUnit(53,42,2418,4,100,WaitForContact,-)
-    AddUnit(54,42,2378,4,100,WaitForContact,-)
-    AddUnit(55,42,2338,4,100,WaitForContact,-)
-    AddUnit(56,42,714,4,100,NormalUnit,-)
-    AddUnit(57,42,1544,4,100,WaitForContact,-)
-    AddUnit(58,42,1585,4,100,WaitForContact,-)
-    AddUnit(59,42,673,4,100,NormalUnit,-)
-    AddUnit(60,42,753,4,100,NormalUnit,-)
-    AddUnit(61,42,754,4,100,NormalUnit,-)
-    AddUnit(62,42,1545,4,100,WaitForContact,-)
-    AddUnit(63,42,1505,4,100,WaitForContact,-)
+    AddUnit(50,42,2498,4,100,WaitForContact,-),Randomize(off)
+    AddUnit(51,42,2459,4,100,WaitForContact,-),Randomize(off)
+    AddUnit(52,42,1504,4,100,WaitForContact,-),Randomize(off)
+    AddUnit(53,42,2418,4,100,WaitForContact,-),Randomize(off)
+    AddUnit(54,42,2378,4,100,WaitForContact,-),Randomize(off)
+    AddUnit(55,42,2338,4,100,WaitForContact,-),Randomize(off)
+    AddUnit(56,42,714,4,100,NormalUnit,-),Randomize(off)
+    AddUnit(57,42,1544,4,100,WaitForContact,-),Randomize(off)
+    AddUnit(58,42,1585,4,100,WaitForContact,-),Randomize(off)
+    AddUnit(59,42,673,4,100,NormalUnit,-),Randomize(off)
+    AddUnit(60,42,753,4,100,NormalUnit,-),Randomize(off)
+    AddUnit(61,42,754,4,100,NormalUnit,-),Randomize(off)
+    AddUnit(62,42,1545,4,100,WaitForContact,-),Randomize(off)
+    AddUnit(63,42,1505,4,100,WaitForContact,-),Randomize(off)
+    AddUnit(64,42,2379,4,100,NormalUnit,-),Randomize(off)
+    AddUnit(65,42,1464,4,100,NormalUnit,-),Randomize(off)
+    AddUnit(66,42,1608,4,100,NormalUnit,-),Randomize(off)
+    AddUnit(67,42,1569,4,100,NormalUnit,-),Randomize(off)
+    AddUnit(68,42,1490,4,100,NormalUnit,-),Randomize(off)
+    AddUnit(69,42,1529,4,100,NormalUnit,-),Randomize(off)
+    AddUnit(70,42,1449,4,100,NormalUnit,-),Randomize(off)
+    AddUnit(71,42,1489,4,100,NormalUnit,-),Randomize(off)
+    AddUnit(72,42,1528,4,100,NormalUnit,-),Randomize(off)
+    AddUnit(73,42,1568,4,100,NormalUnit,-),Randomize(off)
+    AddUnit(74,42,489,4,100,NormalUnit,-),Randomize(off)
+    AddUnit(75,42,530,4,100,NormalUnit,-),Randomize(off)
+    AddUnit(76,42,570,4,100,NormalUnit,-),Randomize(off)
+    AddUnit(77,42,611,4,100,NormalUnit,-),Randomize(off)
+    AddUnit(78,42,650,4,100,NormalUnit,-),Randomize(off)
+    AddUnit(79,42,571,4,100,NormalUnit,-),Randomize(off)
+    AddUnit(80,42,532,4,100,NormalUnit,-),Randomize(off)
+    AddUnit(81,42,492,4,100,NormalUnit,-),Randomize(off)
+    AddUnit(82,42,612,4,100,NormalUnit,-),Randomize(off)
+    AddSpecialEvent(SeePlace,696,1,100%)
     AddMissionObjective(DestroyAllUnits,Zni‡en¡ v¨ech jednotek)
     AddStartSquare(2743,2783,2784,2822,2823,2824,2862,2863,2864,2865)
     AddStartSquare(2901,2902,2903,2904,2905,2941,2942,2943,2944,2945)
@@ -22,6 +42,26 @@ MissionData {
     AddStartSquare(3064,3065,3066,3101,3102,3103,3104,3105,3106,3141)
     AddStartSquare(3142,3144,3145)
     NightMission()
+}
+
+;AddSpecialEvent(SeePlace,696,1,100%):
+EventData(1) {
+    ;Undead
+    AddSpecialUnit(EnemyUnit,42,654,04,100,-),Randomize(off)
+    ;Undead
+    AddSpecialUnit(EnemyUnit,42,814,04,100,-),Randomize(off)
+    ;Undead
+    AddSpecialUnit(EnemyUnit,42,855,04,100,-),Randomize(off)
+    ;Undead
+    AddSpecialUnit(EnemyUnit,42,739,04,100,-),Randomize(off)
+    ;Undead
+    AddSpecialUnit(EnemyUnit,42,458,04,100,-),Randomize(off)
+    ;Undead
+    AddSpecialUnit(EnemyUnit,42,379,04,100,-),Randomize(off)
+    ;Undead
+    AddSpecialUnit(EnemyUnit,42,338,04,100,-),Randomize(off)
+    ;Undead
+    AddSpecialUnit(EnemyUnit,42,496,04,100,-),Randomize(off)
 }
 
 MissionParameters {

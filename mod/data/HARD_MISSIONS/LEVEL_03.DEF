@@ -7,34 +7,34 @@ LevelInit {
     Start(1)
     Start(3)
     Territory(1,none,m03_01,mus05)
-    DefineStrategicPoints(1,120,10)
+    DefineStrategicPoints(1,100,10)
 
     Territory(2,m03_02a,m03_02,mus05)
-    DefineStrategicPoints(2,100,10)
+    DefineStrategicPoints(2,90,10)
 
     Territory(3,none,m03_03,mus05)
-    DefineStrategicPoints(3,120,10)
+    DefineStrategicPoints(3,100,10)
 
     Territory(4,m03_04a,m03_04,mus05)
-    DefineStrategicPoints(4,180,20)
+    DefineStrategicPoints(4,160,20)
 
     Territory(5,m03_05a,m03_05,mus05)
-    DefineStrategicPoints(5,140,10)
+    DefineStrategicPoints(5,120,10)
 
     Territory(6,m03_06a,m03_06,mus05)
-    DefineStrategicPoints(6,70,10)
+    DefineStrategicPoints(6,60,10)
 
     Territory(7,m03_07a,m03_07,mus05)
-    DefineStrategicPoints(7,250,25)
+    DefineStrategicPoints(7,220,25)
 
     Territory(8,m03_08a,m03_08,mus05)
-    DefineStrategicPoints(8,120,10)
+    DefineStrategicPoints(8,100,10)
 
     Territory(9,m03_09a,m03_09,mus05)
-    DefineStrategicPoints(9,220,20)
+    DefineStrategicPoints(9,200,20)
 
     Territory(10,m03_10a,m03_10,mus05)
-    DefineStrategicPoints(10,90,10)
+    DefineStrategicPoints(10,80,10)
 
     Territory(11,m03_11a,m03_11,mus05)
     DefineStrategicPoints(11,90,10)
@@ -118,7 +118,7 @@ Mission(M03_05C) {
 Mission(M03_06A) {
     EndOKMission(none)
     EndBadMission(none)
-    EndOK(0,60)
+    EndOK(100,60)
     MissionMusic(mus04)
     FrequencyOfRandomAttacks(20,4)
 }
@@ -176,7 +176,7 @@ Mission(M03_09B) {
 Mission(M03_09C) {
     EndOKMission(none)
     EndBadMission(none)
-    EndOK(80,500)
+    EndOK(70,500)
     FrequencyOfRandomAttacks(20,4)
 }
 
@@ -207,7 +207,7 @@ Mission(M03_12A) {
 Mission(M03_12B) {
     EndOKMission(none)
     EndBadMission(none)
-    EndOK(80,100)
+    EndOK(70,100)
     MissionMusic(mus01)
     FrequencyOfRandomAttacks(20,4)
 }
@@ -215,7 +215,7 @@ Mission(M03_12B) {
 Mission(M03_13A) {
     EndOKMission(none)
     EndBadMission(none)
-    EndOK(200,900)
+    EndOK(150,900)
     FrequencyOfRandomAttacks(20,4)
 }
 

@@ -6,13 +6,13 @@ LevelInit {
 
     Start(1)
     Territory(1,none,m02_01,mus05)
-    DefineStrategicPoints(1,120,10)
+    DefineStrategicPoints(1,100,10)
 
     Territory(2,m02_02a,m02_02,mus05)
-    DefineStrategicPoints(2,200,20)
+    DefineStrategicPoints(2,160,20)
 
     Territory(3,m02_03a,m02_03,mus05)
-    DefineStrategicPoints(3,200,20)
+    DefineStrategicPoints(3,160,20)
 
     Territory(4,m02_04a,m02_04,mus05)
     DefineStrategicPoints(4,200,20)
@@ -21,7 +21,7 @@ LevelInit {
     DefineStrategicPoints(5,0,0)
 
     Territory(6,m02_06a,m02_06,mus05)
-    DefineStrategicPoints(6,120,10)
+    DefineStrategicPoints(6,100,10)
 
     AttackUnits(37,47,41,61)
     AttackSpecialUnits(38,55)
@@ -92,7 +92,7 @@ Mission(M02_05A) {
     EndOKMission(none)
     EndBadMission(none)
     EndBadEvent(4)
-    EndOK(250,150)
+    EndOK(200,150)
     FrequencyOfRandomAttacks(10,8)
 }
 

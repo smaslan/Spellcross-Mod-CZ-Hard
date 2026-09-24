@@ -38,6 +38,20 @@ MissionData {
     AddUnit(82,42,603,4,100,WaitForContact,-),Randomize(off)
     AddUnit(83,42,654,4,100,WaitForContact,-),Randomize(off)
     AddUnit(84,42,553,4,100,WaitForContact,-),Randomize(off)
+    AddUnit(85,42,1905,6,100,NormalUnit,-),Randomize(off)
+    AddUnit(86,42,1856,6,100,NormalUnit,-),Randomize(off)
+    AddUnit(87,42,1904,6,100,NormalUnit,-),Randomize(off)
+    AddUnit(88,42,1955,6,100,NormalUnit,-),Randomize(off)
+    AddUnit(89,42,3702,6,100,NormalUnit,-),Randomize(off)
+    AddUnit(90,42,3601,6,100,NormalUnit,-),Randomize(off)
+    AddUnit(91,42,3753,6,100,NormalUnit,-),Randomize(off)
+    AddUnit(92,47,2435,6,100,NormalUnit,-),Randomize(off)
+    AddUnit(93,47,2536,6,100,NormalUnit,-),Randomize(off)
+    AddUnit(94,47,2635,6,100,NormalUnit,-),Randomize(off)
+    AddUnit(95,42,1922,4,100,WaitForContact,-),Randomize(off)
+    AddUnit(96,42,2005,4,100,WaitForContact,-),Randomize(off)
+    AddUnit(97,42,462,4,100,WaitForContact,-),Randomize(off)
+    AddSpecialEvent(SeePlace,1374,1,100%)
     AddMissionObjective(DestroyAllUnits,Zni‡en¡ v¨ech jednotek)
     AddStartSquare(841,891,892,940,941,942,990,991,992,993)
     AddStartSquare(1039,1040,1041,1042,1043,1089,1090,1091,1092,1093)
@@ -52,6 +66,24 @@ MissionData {
     AddStartSquare(3843,3844,3845,3888,3889,3890,3891,3892,3893,3894)
     AddStartSquare(3895,3896,3938,3939,3940,3941,3942,3943,3944,3945)
     AddStartSquare(3989,3990,3991,3992,3993,3994,3995,3996)
+}
+
+;AddSpecialEvent(SeePlace,1374,1,100%):
+EventData(1) {
+    ;Undead
+    AddSpecialUnit(EnemyUnit,42,465,06,100,-),Randomize(off)
+    ;Undead
+    AddSpecialUnit(EnemyUnit,42,415,06,100,-),Randomize(off)
+    ;Undead
+    AddSpecialUnit(EnemyUnit,42,516,06,100,-),Randomize(off)
+    ;Undead
+    AddSpecialUnit(EnemyUnit,42,466,06,100,-),Randomize(off)
+    ;Undead
+    AddSpecialUnit(EnemyUnit,42,416,06,100,-),Randomize(off)
+    ;Undead
+    AddSpecialUnit(EnemyUnit,42,467,06,100,-),Randomize(off)
+    ;Undead
+    AddSpecialUnit(EnemyUnit,42,417,06,100,-),Randomize(off)
 }
 
 MissionParameters {

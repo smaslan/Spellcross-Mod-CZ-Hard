@@ -31,17 +31,17 @@ MissionData {
     AddUnit(72,38,2647,4,100,WaitForContact,-),Randomize(auto)
     AddUnit(73,38,2788,4,100,WaitForContact,-),Randomize(auto)
     AddUnit(74,38,2648,4,100,WaitForContact,-),Randomize(auto)
-    AddUnit(75,0,3263,10,100,WaitForContact,Odpadl¡ci),Randomize(auto)
+    AddUnit(75,0,3263,10,30,WaitForContact,Odpadl¡ci),Randomize(auto)
     AddUnit(76,2,3194,10,20,WaitForContact,Odpadl¡ci),Randomize(auto)
     AddUnit(77,1,2071,9,100,WaitForContact,Odpadl¡ci),Randomize(auto)
-    AddUnit(78,0,3124,10,100,WaitForContact,Odpadl¡ci),Randomize(auto)
-    AddUnit(79,0,3043,10,100,WaitForContact,Odpadl¡ci),Randomize(auto)
+    AddUnit(78,0,3124,10,30,WaitForContact,Odpadl¡ci),Randomize(auto)
+    AddUnit(79,0,3043,10,30,WaitForContact,Odpadl¡ci),Randomize(auto)
     AddUnit(80,77,3044,5,10,WaitForContact,Odpadl¡ci),Randomize(auto)
     AddUnit(81,1,2973,9,100,WaitForContact,Odpadl¡ci),Randomize(auto)
     AddUnit(82,1,2974,9,100,WaitForContact,Odpadl¡ci),Randomize(auto)
     AddUnit(83,2,2904,9,20,WaitForContact,Odpadl¡ci),Randomize(auto)
     AddUnit(84,2,1385,9,20,WaitForContact,Odpadl¡ci),Randomize(auto)
-    AddUnit(85,0,1455,9,100,WaitForContact,Odpadl¡ci),Randomize(auto)
+    AddUnit(85,0,1455,9,30,WaitForContact,Odpadl¡ci),Randomize(auto)
     AddUnit(86,1,1386,9,100,WaitForContact,Odpadl¡ci),Randomize(auto)
     AddUnit(87,1,1315,9,100,WaitForContact,Odpadl¡ci),Randomize(auto)
     AddUnit(88,48,1673,4,100,PatrolUnit,-),Randomize(auto)
@@ -81,16 +81,24 @@ EventData(1) {
     AddSpecialUnit(EnemyUnit,77,2302,04,10,Odpadl¡ci),Randomize(auto)
     ;Renegati (piranha)
     AddSpecialUnit(EnemyUnit,77,2372,06,10,Odpadl¡ci),Randomize(auto)
-    ;Light infantry
-    AddSpecialUnit(EnemyUnit,0,1079,10,100,Odpadl¡ci),Randomize(auto)
+    ;Grenadier
+    AddSpecialUnit(EnemyUnit,0,1079,10,30,Odpadl¡ci),Randomize(auto)
     ;Rangers
     AddSpecialUnit(EnemyUnit,2,1009,10,20,Odpadl¡ci),Randomize(auto)
-    ;Light infantry
-    AddSpecialUnit(EnemyUnit,0,1080,10,100,Odpadl¡ci),Randomize(auto)
+    ;Grenadier
+    AddSpecialUnit(EnemyUnit,0,1080,10,30,Odpadl¡ci),Randomize(auto)
     ;Commando
     AddSpecialUnit(EnemyUnit,3,1149,10,20,Odpadl¡ci),Randomize(auto)
-    ;Light infantry
-    AddSpecialUnit(EnemyUnit,0,1219,10,100,Odpadl¡ci),Randomize(auto)
+    ;Grenadier
+    AddSpecialUnit(EnemyUnit,0,1219,10,30,Odpadl¡ci),Randomize(auto)
+    ;M109
+    AddSpecialUnit(EnemyUnit,26,1010,01,10,-),Randomize(off)
+    ;Hummer
+    AddSpecialUnit(EnemyUnit,29,1150,01,10,-),Randomize(off)
+    ;Hummer
+    AddSpecialUnit(EnemyUnit,29,2373,01,10,-),Randomize(off)
+    ;M109
+    AddSpecialUnit(EnemyUnit,26,2163,01,10,-),Randomize(off)
 }
 
 MissionParameters {

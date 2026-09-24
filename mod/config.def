@@ -33,7 +33,9 @@ class PATH
 	MOD_COMMON_MENU=%DMOD%\COMMON_MENU;
 	MOD_HARD_MIS=%DMOD%\HARD_MISSIONS;
         MOD_T11=%DMOD%\T11;
+        MOD_T11_GRP=%DMOD%\T11_GRP;
         MOD_PUST=%DMOD%\PUST;
+        MOD_PUST_GRP=%DMOD%\PUST_GRP;
 	MOD_DEVAST=%DMOD%\DEVAST;
 	MOD_TEXTS=%DMOD%\TEXTS;
 	MOD_RESEARCH=%DMOD%\RESEARCH;
@@ -137,20 +139,25 @@ class COMMON.FS
 	ALLIANCE_LIST={0;1;2;3;4;5;6;7;8;9;10;11;12;13;14;15;16;17;18;19;20;21;22;23;24;25;26;27;28;29;30;31;32;33;34;35;36;73;79;80;87};
 	copyunits(%MOD_COMMON%,JEDNOTKY.DEF,%ALLIANCE_LIST%);
 
+	// upgrade groups hack to block visibility of encountered units
+	if(%LEVEL% < 3) upgroups(Transporters,REM,18); // remove M113
+	if(%LEVEL% < 4) upgroups(Artillery,REM,25); // remove light artillery
+
         // move AT-orcs to other unit ID to remove heavy AT attack bonus
 	if(%ATORCS%) swapunits(40,89);
 	if(%ATORCS%) swapmapunits(40,89);
 
         // modify destructor sounds
-	if(%DESTR% == 1) copy(%MOD_COMMON%,H_SND_DQ.DEF,H_SOUNDS.DEF);
-	if(%DESTR% == 2) copy(%MOD_COMMON%,H_SND_DD.DEF,H_SOUNDS.DEF);
+	if(%DESTR% == 1) unitsound(Report,0, 17,73);
+	if(%DESTR% == 2) unitsound(Report,17,17,73);
 
 	// convert data format for CZ engine
 	if(%VER% == "CZE") convert(CZE);
 
         // generate title screen
-	CZ_TITLE="MOD: Konverze CZ dat do EN enginu, zvysena obtiznost by Stanislav Maslan, V1.02, 2026-08-28";
-	EN_TITLE="MOD: High difficulty mod by Stanislav Maslan, V1.02, 2026-August-28";
+        VERSTR="V1.05";
+	CZ_TITLE="MOD: Konverze CZ dat do EN enginu, zvysena obtiznost by Stanislav Maslan, %VERSTR%, 2026-09-07";
+	EN_TITLE="MOD: High difficulty mod by Stanislav Maslan, %VERSTR%, 2026-September-07";
 	MOD_CFG_INFO="Missions: %HARD%, AT-Orcs: %ATORCS%, Destructor: %DESTR%, Hide loaders: %NOSPLASH%";
 	if(%VER% == "CZE") title(320,15,Center,00FF55,111111,"%CZ_TITLE%");
 	if(%VER% == "ENG" && %LANG% == 1) title(320,105,Center,00FF55,111111,"%CZ_TITLE%");
@@ -167,6 +174,7 @@ class T11.FS
 	replace=1;      // overwrite existing	
 	add(%T11%);     // add all original game data	
 	add(%MOD_T11%); // add all mod data
+	add(%MOD_T11_GRP%); // add all mod data
 }
 
 class PUST.FS
@@ -175,6 +183,7 @@ class PUST.FS
 	replace=1;       // overwrite existing	
 	add(%PUST%);     // add all original game data	
 	add(%MOD_PUST%); // add all mod data
+	add(%MOD_PUST_GRP%); // add all mod data
 }
 
 class DEVAST.FS
@@ -229,10 +238,11 @@ class SPEAKER.FS
 
 class MOVIE.FS
 {
+	optional=1;
 	replace=1;        // overwrite existing	
 	if(%VER% == "CZE" || %LANG% == 2) add(%MOVIE%);     // add all original game data
 	if(%VER% == "ENG" && %LANG% == 1) add(%MOD_MOVIE%); // add all czech video to en engine
-	if(%VER% == "ENG") add(%MOVIE%,CREDITS.SMK);
+	if(%VER% == "ENG") add(%MOVIE%,CREDIT.SMK);
 
 	// add original logos
 	if(!%NOSPLASH% && %LANG% == 1 && %VER% == "ENG") add(%MOVIE%,LOGO.SMK);

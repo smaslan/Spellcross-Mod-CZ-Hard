@@ -69,7 +69,7 @@ MissionData {
 ;AddSpecialEvent(SeePlace,3446,1,40%):
 EventData(1) {
     ;Piranha
-    AddSpecialUnit(MissionUnit,20,3446,04,10,EQX Piranha),Randomize(auto)
+    AddSpecialUnit(ArmyUnit,20,3446,03,7,EQX Piranha),Randomize(auto)
 }
 
 ;AddSpecialEvent(SeePlace,3221,2,100%):

@@ -68,19 +68,19 @@ MissionData {
 ;AddSpecialEvent(SeePlace,1181,1,100%):
 EventData(1) {
     ;Sipomet
-    AddSpecialUnit(EnemyUnit,55,525,04,10,-),Randomize(off)
+    AddSpecialUnit(EnemyUnit,55,525,06,10,-),Randomize(off)
     ;Ballista
-    AddSpecialUnit(EnemyUnit,56,564,04,10,-),Randomize(off)
+    AddSpecialUnit(EnemyUnit,56,564,07,10,-),Randomize(off)
     ;Sipomet
-    AddSpecialUnit(EnemyUnit,55,604,04,10,-),Randomize(off)
+    AddSpecialUnit(EnemyUnit,55,604,06,10,-),Randomize(off)
     ;Dark Elves
-    AddSpecialUnit(EnemyUnit,57,485,04,100,-),Randomize(off)
+    AddSpecialUnit(EnemyUnit,57,485,06,100,-),Randomize(off)
     ;Dark Elves
-    AddSpecialUnit(EnemyUnit,57,643,04,100,-),Randomize(off)
+    AddSpecialUnit(EnemyUnit,57,643,06,100,-),Randomize(off)
     ;Dark Elves
-    AddSpecialUnit(EnemyUnit,57,446,04,100,-),Randomize(off)
+    AddSpecialUnit(EnemyUnit,57,446,06,100,-),Randomize(off)
     ;Dark Elves
-    AddSpecialUnit(EnemyUnit,57,683,04,100,-),Randomize(off)
+    AddSpecialUnit(EnemyUnit,57,683,06,100,-),Randomize(off)
 }
 
 MissionParameters {

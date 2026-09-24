@@ -58,6 +58,7 @@ MissionData {
     AddUnit(98,37,1773,4,100,WaitForContact,-),Randomize(auto)
     AddSpecialEvent(SeePlace,2728,1,100%)
     AddSpecialEvent(SeePlace,1293,2,100%)
+    AddSpecialEvent(SeePlace,2739,3,100%)
     AddMissionObjective(DestroyAllUnits,Zni‡en¡ v¨ech jednotek)
     AddStartSquare(1490,1550,1609,1610,1616,1669,1670,1671,1673,1676)
     AddStartSquare(1728,1729,1730,1733,1734,1736,1788,1789,1790,1794)
@@ -98,6 +99,12 @@ EventData(2) {
     AddSpecialUnit(EnemyUnit,57,571,04,100,-),Randomize(off)
     ;Dark Elves
     AddSpecialUnit(EnemyUnit,57,630,04,100,-),Randomize(off)
+}
+
+;AddSpecialEvent(SeePlace,2739,3,100%):
+EventData(3) {
+    ;Light artillery
+    AddSpecialUnit(ArmyUnit,25,2739,02,6,-),Randomize(off)
 }
 
 MissionParameters {

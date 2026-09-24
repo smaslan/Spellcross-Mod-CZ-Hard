@@ -2,11 +2,11 @@ MissionData {
     MissionMap(M03_13)
     AutoRandomizeRule(55,55,56)
     AutoRandomizeRule(56,55,56)
-    AddUnit(50,74,843,10,1,WaitForContact,Daertor),Randomize(auto)
+    AddUnit(50,74,843,12,1,WaitForContact,Daertor),Randomize(auto)
     AddUnit(51,55,1896,4,10,ToughDefence,-),Randomize(auto)
     AddUnit(52,55,1276,4,10,ToughDefence,-),Randomize(auto)
-    AddUnit(53,57,914,10,100,WaitForContact,Osobn¡ str ‘),Randomize(off)
-    AddUnit(54,57,844,10,100,WaitForContact,Osobn¡ str ‘),Randomize(off)
+    AddUnit(53,57,914,12,100,WaitForContact,Osobn¡ str ‘),Randomize(off)
+    AddUnit(54,57,844,12,100,WaitForContact,Osobn¡ str ‘),Randomize(off)
     AddUnit(55,56,1965,4,10,ToughDefence,-),Randomize(auto)
     AddUnit(56,56,1206,4,10,ToughDefence,-),Randomize(auto)
     AddUnit(57,50,1965,4,1,ToughDefence,-),Randomize(auto)
@@ -49,6 +49,8 @@ MissionData {
     AddUnit(94,38,7308,4,100,WaitForContact,-),Randomize(auto)
     AddUnit(95,55,7448,4,10,WaitForContact,-),Randomize(auto)
     AddUnit(96,56,7589,4,10,WaitForContact,-),Randomize(auto)
+    AddUnit(97,55,774,11,10,WaitForContact,-),Randomize(off)
+    AddUnit(98,55,913,11,10,WaitForContact,-),Randomize(off)
     AddSpecialEvent(SeePlace,5448,1,100%)
     AddSpecialEvent(SeePlace,4608,2,100%)
     AddSpecialEvent(SeePlace,1947,3,100%)
@@ -60,7 +62,8 @@ MissionData {
     AddSpecialEvent(SeePlace,5969,9,100%)
     AddSpecialEvent(SeePlace,4015,10,100%)
     AddSpecialEvent(SeePlace,1276,11,100%)
-    AddSpecialEvent(SeeUnit,50,12,100%)
+    AddSpecialEvent(SeePlace,1825,12,100%)
+    AddSpecialEvent(SeeUnit,50,13,100%)
     AddMissionObjective(DestroyUnit,50,Zab¡t Deartora)
     AddStartSquare(7273,7274,7275,7342,7343,7344,7345,7412,7413,7414)
     AddStartSquare(7415,7416,7481,7482,7483,7484,7485,7486,7551,7552)
@@ -218,8 +221,24 @@ EventData(11) {
     AddSpecialUnit(EnemyUnit,55,637,04,10,-),Randomize(off)
 }
 
-;AddSpecialEvent(SeeUnit,50,12,100%):
+;AddSpecialEvent(SeePlace,1825,12,100%):
 EventData(12) {
+    ;Dark Elves
+    AddSpecialUnit(EnemyUnit,57,1754,11,100,-),Randomize(off)
+    ;Dark Elves
+    AddSpecialUnit(EnemyUnit,57,1684,11,100,-),Randomize(off)
+    ;Dark Elves
+    AddSpecialUnit(EnemyUnit,57,1615,11,100,-),Randomize(off)
+    ;Ballista
+    AddSpecialUnit(EnemyUnit,56,1544,11,10,-),Randomize(off)
+    ;Sipomet
+    AddSpecialUnit(EnemyUnit,55,1614,11,10,-),Randomize(off)
+    ;Sipomet
+    AddSpecialUnit(EnemyUnit,55,1683,11,10,-),Randomize(off)
+}
+
+;AddSpecialEvent(SeeUnit,50,13,100%):
+EventData(13) {
     EventText(U0313_00)
 }
 
