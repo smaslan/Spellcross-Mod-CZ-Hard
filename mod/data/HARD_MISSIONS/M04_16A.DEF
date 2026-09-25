@@ -9,16 +9,16 @@ MissionData {
     AddUnit(56,74,950,4,1,WaitForContact,Osobn¡ str ‘),Randomize(off)
     AddUnit(57,74,878,4,1,WaitForContact,Osobn¡ str ‘),Randomize(off)
     AddUnit(58,37,806,4,100,WaitForContact,-),Randomize(off)
-    AddUnit(59,53,1262,4,10,NormalUnit,-),Randomize(off)
-    AddUnit(60,53,1226,2,10,NormalUnit,-),Randomize(off)
-    AddUnit(61,53,1191,3,10,NormalUnit,-),Randomize(off)
-    AddUnit(62,46,1225,4,100,NormalUnit,-),Randomize(off)
-    AddUnit(63,46,1190,2,100,NormalUnit,-),Randomize(off)
-    AddUnit(64,46,1154,3,100,NormalUnit,-),Randomize(off)
+    AddUnit(59,53,1408,4,10,NormalUnit,-),Randomize(off)
+    AddUnit(60,53,1372,2,10,NormalUnit,-),Randomize(off)
+    AddUnit(61,53,1337,3,10,NormalUnit,-),Randomize(off)
+    AddUnit(62,46,1371,4,100,NormalUnit,-),Randomize(off)
+    AddUnit(63,46,1336,2,100,NormalUnit,-),Randomize(off)
+    AddUnit(64,46,1300,3,100,NormalUnit,-),Randomize(off)
     AddUnit(65,44,1298,2,10,NormalUnit,-),Randomize(off)
     AddUnit(66,44,1263,2,10,NormalUnit,-),Randomize(off)
     AddUnit(67,44,1227,2,10,NormalUnit,-),Randomize(off)
-    AddUnit(68,48,1226,4,100,NormalUnit,-),Randomize(off)
+    AddUnit(68,48,1336,4,100,NormalUnit,-),Randomize(off)
     AddUnit(69,57,1064,6,100,WaitForContact,-),Randomize(off)
     AddUnit(70,57,1028,3,100,WaitForContact,-),Randomize(off)
     AddUnit(71,57,1029,4,100,WaitForContact,-),Randomize(off)
@@ -47,10 +47,11 @@ MissionData {
     AddUnit(94,57,982,4,100,WaitForContact,-),Randomize(off)
     AddUnit(95,57,1018,4,100,WaitForContact,-),Randomize(off)
     AddUnit(96,57,384,6,100,WaitForContact,-),Randomize(off)
-    AddUnit(97,57,383,4,100,WaitForContact,-),Randomize(off)
-    AddUnit(98,57,348,4,100,WaitForContact,-),Randomize(off)
-    AddUnit(99,57,993,5,100,WaitForContact,-),Randomize(off)
-    AddSpecialEvent(SeeUnit,50,1,100%)
+    AddUnit(97,57,993,5,100,WaitForContact,-),Randomize(off)
+    AddUnit(98,44,859,12,10,NormalUnit,-),Randomize(off)
+    AddUnit(99,44,894,12,10,NormalUnit,-),Randomize(off)
+    AddSpecialEvent(SeePlace,562,1,100%)
+    AddSpecialEvent(SeeUnit,50,2,100%)
     AddMissionObjective(SeePlace,562,Naj¡t zdroj z ©e)
     AddMissionObjective(DestroyUnit,50,Zab¡t wizarda Tronndora)
     AddStartSquare(1794,1829,1830,1865,1866,1867,1900,1901,1902,1903)
@@ -60,8 +61,13 @@ MissionData {
     AddStartSquare(2150,2151,2152,2153,2186,2187,2188,2223,2224,2259)
 }
 
-;AddSpecialEvent(SeeUnit,50,1,100%):
+;AddSpecialEvent(SeePlace,562,1,100%):
 EventData(1) {
+    PlayCANAnimation(STUDNA.SMK)
+}
+
+;AddSpecialEvent(SeeUnit,50,2,100%):
+EventData(2) {
     ;Mechanical Tower
     AddSpecialUnit(EnemyUnit,53,299,06,10,-),Randomize(off)
     ;Mechanical Tower
