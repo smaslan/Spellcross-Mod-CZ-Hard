@@ -33,10 +33,11 @@ class PATH
 	MOD_COMMON_MENU=%DMOD%\COMMON_MENU;
 	MOD_HARD_MIS=%DMOD%\HARD_MISSIONS;
         MOD_T11=%DMOD%\T11;
-        MOD_T11_GRP=%DMOD%\T11_GRP;
+        MOD_T11_TREES=%DMOD%\T11_TREES;
         MOD_PUST=%DMOD%\PUST;
-        MOD_PUST_GRP=%DMOD%\PUST_GRP;
+        MOD_PUST_TREES=%DMOD%\PUST_TREES;
 	MOD_DEVAST=%DMOD%\DEVAST;
+	MOD_DEVAST_TREES=%DMOD%\DEVAST_TREES;
 	MOD_TEXTS=%DMOD%\TEXTS;
 	MOD_RESEARCH=%DMOD%\RESEARCH;
 	MOD_SAMPLES=%DMOD%\SAMPLES;
@@ -140,7 +141,7 @@ class COMMON.FS
 	copyunits(%MOD_COMMON%,JEDNOTKY.DEF,%ALLIANCE_LIST%);
 
 	// upgrade groups hack to block visibility of encountered units
-	if(%LEVEL% < 3) upgroups(Transporters,REM,18); // remove M113
+	if(%LEVEL% < 3) upgroups(Transport,REM,18); // remove M113
 	if(%LEVEL% < 4) upgroups(Artillery,REM,25); // remove light artillery
 
         // move AT-orcs to other unit ID to remove heavy AT attack bonus
@@ -174,7 +175,7 @@ class T11.FS
 	replace=1;      // overwrite existing	
 	add(%T11%);     // add all original game data	
 	add(%MOD_T11%); // add all mod data
-	add(%MOD_T11_GRP%); // add all mod data
+	add(%MOD_T11_TREES%); // add all mod data
 }
 
 class PUST.FS
@@ -183,7 +184,7 @@ class PUST.FS
 	replace=1;       // overwrite existing	
 	add(%PUST%);     // add all original game data	
 	add(%MOD_PUST%); // add all mod data
-	add(%MOD_PUST_GRP%); // add all mod data
+	add(%MOD_PUST_TREES%); // add all mod data
 }
 
 class DEVAST.FS
@@ -191,6 +192,7 @@ class DEVAST.FS
 	replace=1;         // overwrite existing	
 	add(%DEVAST%);     // add all original game data	
 	add(%MOD_DEVAST%); // add all mod data
+	add(%MOD_DEVAST_TREES%); // add all mod data
 }
 
 class TEXTS.FS
