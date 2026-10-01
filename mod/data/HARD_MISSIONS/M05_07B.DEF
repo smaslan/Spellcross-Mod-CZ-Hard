@@ -66,13 +66,13 @@ MissionData {
 ;AddSpecialEvent(SeePlace,1625,1,100%):
 EventData(1) {
     ;Ballista
-    AddSpecialUnit(EnemyUnit,56,370,01,10,-),Randomize(auto)
+    AddSpecialUnit(EnemyUnit,56,370,0,10,-),Randomize(auto)
     ;Golem
-    AddSpecialUnit(EnemyUnit,44,462,01,10,-),Randomize(auto)
+    AddSpecialUnit(EnemyUnit,44,462,0,10,-),Randomize(auto)
     ;Hell Cavalry
-    AddSpecialUnit(EnemyUnit,62,417,01,20,-),Randomize(auto)
+    AddSpecialUnit(EnemyUnit,62,417,0,20,-),Randomize(auto)
     ;Sipomet
-    AddSpecialUnit(EnemyUnit,55,371,01,10,-),Randomize(auto)
+    AddSpecialUnit(EnemyUnit,55,371,0,10,-),Randomize(auto)
 }
 
 MissionParameters {

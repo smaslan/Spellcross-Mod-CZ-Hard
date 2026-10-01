@@ -35,17 +35,17 @@ MissionData {
     AddUnit(78,43,2416,0,20,NormalUnit,-),Randomize(auto)
     AddUnit(79,43,2417,0,20,NormalUnit,-),Randomize(auto)
     AddUnit(80,43,2318,0,20,NormalUnit,-),Randomize(auto)
-    AddUnit(81,44,1233,1,10,WaitForContact,-),Randomize(auto)
-    AddUnit(82,44,1284,1,10,WaitForContact,-),Randomize(auto)
-    AddUnit(83,55,1334,1,10,WaitForContact,-),Randomize(auto)
-    AddUnit(84,55,1186,1,10,WaitForContact,-),Randomize(auto)
-    AddUnit(85,56,1236,1,10,WaitForContact,-),Randomize(auto)
-    AddUnit(86,56,1286,1,10,WaitForContact,-),Randomize(auto)
-    AddUnit(87,56,1335,1,10,WaitForContact,-),Randomize(auto)
-    AddUnit(88,74,1086,1,1,WaitForContact,Osobn¡ str ‘),Randomize(auto)
-    AddUnit(89,74,1136,1,1,WaitForContact,Osobn¡ str ‘),Randomize(auto)
-    AddUnit(90,43,2468,1,20,WaitForContact,-),Randomize(off)
-    AddUnit(91,43,2418,1,20,WaitForContact,-),Randomize(off)
+    AddUnit(81,44,1233,0,10,WaitForContact,-),Randomize(auto)
+    AddUnit(82,44,1284,0,10,WaitForContact,-),Randomize(auto)
+    AddUnit(83,55,1334,0,10,WaitForContact,-),Randomize(auto)
+    AddUnit(84,55,1186,0,10,WaitForContact,-),Randomize(auto)
+    AddUnit(85,56,1236,0,10,WaitForContact,-),Randomize(auto)
+    AddUnit(86,56,1286,0,10,WaitForContact,-),Randomize(auto)
+    AddUnit(87,56,1335,0,10,WaitForContact,-),Randomize(auto)
+    AddUnit(88,74,1086,0,1,WaitForContact,Osobn¡ str ‘),Randomize(auto)
+    AddUnit(89,74,1136,0,1,WaitForContact,Osobn¡ str ‘),Randomize(auto)
+    AddUnit(90,43,2468,0,20,WaitForContact,-),Randomize(off)
+    AddUnit(91,43,2418,0,20,WaitForContact,-),Randomize(off)
     AddSpecialEvent(SeePlace,1045,1,100%)
     AddSpecialEvent(SeePlace,1045,2,100%)
     AddMissionObjective(SaveUnit,48,Zachr nit Infiltr tora)
@@ -100,7 +100,7 @@ EventData(2) {
     ;Alexander
     AddSpecialUnit(SpecUnit1,79,1045,12,1,Infiltr tor),Randomize(auto)
     ;Wizard
-    AddSpecialUnit(EnemyUnit,68,2883,01,1,-),Randomize(auto)
+    AddSpecialUnit(EnemyUnit,68,2883,0,1,-),Randomize(auto)
 }
 
 MissionParameters {

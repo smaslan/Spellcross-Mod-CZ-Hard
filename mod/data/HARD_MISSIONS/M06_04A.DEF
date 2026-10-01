@@ -38,13 +38,13 @@ MissionData {
     AddUnit(85,52,4888,0,10,WaitForContact,-),Randomize(off)
     AddUnit(86,52,4831,0,10,WaitForContact,-),Randomize(off)
     AddUnit(87,52,4331,0,10,WaitForContact,-),Randomize(off)
-    AddUnit(88,44,4833,1,10,WaitForContact,-),Randomize(off)
-    AddUnit(89,44,4834,1,10,WaitForContact,-),Randomize(off)
-    AddUnit(90,52,4944,1,10,WaitForContact,-),Randomize(off)
-    AddUnit(91,52,4887,1,10,WaitForContact,-),Randomize(off)
-    AddUnit(92,52,705,1,10,WaitForContact,-),Randomize(off)
-    AddUnit(93,52,762,1,10,WaitForContact,-),Randomize(off)
-    AddUnit(94,52,818,1,10,WaitForContact,-),Randomize(off)
+    AddUnit(88,44,4833,0,10,WaitForContact,-),Randomize(off)
+    AddUnit(89,44,4834,0,10,WaitForContact,-),Randomize(off)
+    AddUnit(90,52,4944,0,10,WaitForContact,-),Randomize(off)
+    AddUnit(91,52,4887,0,10,WaitForContact,-),Randomize(off)
+    AddUnit(92,52,705,0,10,WaitForContact,-),Randomize(off)
+    AddUnit(93,52,762,0,10,WaitForContact,-),Randomize(off)
+    AddUnit(94,52,818,0,10,WaitForContact,-),Randomize(off)
     AddSpecialEvent(MissionStart,1,100%)
     AddSpecialEvent(SeePlace,1142,2,100%)
     AddSpecialEvent(SeePlace,2120,3,100%)
@@ -93,11 +93,11 @@ EventData(3) {
     ;Arachnoids
     AddSpecialUnit(EnemyUnit,43,3794,00,20,-),Randomize(off)
     ;Arachnoids
-    AddSpecialUnit(EnemyUnit,43,3849,01,20,-),Randomize(off)
+    AddSpecialUnit(EnemyUnit,43,3849,0,20,-),Randomize(off)
     ;Arachnoids
-    AddSpecialUnit(EnemyUnit,43,3906,01,20,-),Randomize(off)
+    AddSpecialUnit(EnemyUnit,43,3906,0,20,-),Randomize(off)
     ;Arachnoids
-    AddSpecialUnit(EnemyUnit,43,3962,01,20,-),Randomize(off)
+    AddSpecialUnit(EnemyUnit,43,3962,0,20,-),Randomize(off)
 }
 
 ;AddSpecialEvent(SeePlace,2548,4,100%):
@@ -109,9 +109,9 @@ EventData(4) {
     ;War Orcs
     AddSpecialUnit(EnemyUnit,39,3436,00,100,-),Randomize(off)
     ;Anti-tank Orcs (light)
-    AddSpecialUnit(EnemyUnit,40,3661,01,100,-),Randomize(off)
+    AddSpecialUnit(EnemyUnit,40,3661,0,100,-),Randomize(off)
     ;Anti-tank Orcs (light)
-    AddSpecialUnit(EnemyUnit,40,3605,01,100,-),Randomize(off)
+    AddSpecialUnit(EnemyUnit,40,3605,0,100,-),Randomize(off)
 }
 
 ;AddSpecialEvent(SeePlace,3940,5,100%):

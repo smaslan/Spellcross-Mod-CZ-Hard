@@ -67,15 +67,15 @@ MissionData {
 ;AddSpecialEvent(SeePlace,1234,1,100%):
 EventData(1) {
     ;Ballista
-    AddSpecialUnit(EnemyUnit,56,4312,01,10,-),Randomize(auto)
+    AddSpecialUnit(EnemyUnit,56,4312,0,10,-),Randomize(auto)
     ;Ballista
-    AddSpecialUnit(EnemyUnit,56,4245,01,10,-),Randomize(auto)
+    AddSpecialUnit(EnemyUnit,56,4245,0,10,-),Randomize(auto)
     ;Ballista
-    AddSpecialUnit(EnemyUnit,56,4046,01,10,-),Randomize(auto)
+    AddSpecialUnit(EnemyUnit,56,4046,0,10,-),Randomize(auto)
     ;Sipomet
-    AddSpecialUnit(EnemyUnit,55,4112,01,10,-),Randomize(auto)
+    AddSpecialUnit(EnemyUnit,55,4112,0,10,-),Randomize(auto)
     ;Sipomet
-    AddSpecialUnit(EnemyUnit,55,4179,01,10,-),Randomize(auto)
+    AddSpecialUnit(EnemyUnit,55,4179,0,10,-),Randomize(auto)
 }
 
 MissionParameters {

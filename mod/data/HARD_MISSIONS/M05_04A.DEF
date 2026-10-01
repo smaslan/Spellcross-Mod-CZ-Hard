@@ -94,47 +94,47 @@ EventData(2) {
 ;AddSpecialEvent(SeePlace,3293,3,100%):
 EventData(3) {
     ;Dark Elves
-    AddSpecialUnit(EnemyUnit,57,4957,01,100,-),Randomize(auto)
+    AddSpecialUnit(EnemyUnit,57,4957,0,100,-),Randomize(auto)
     ;Dark Elves
-    AddSpecialUnit(EnemyUnit,57,4911,01,100,-),Randomize(auto)
+    AddSpecialUnit(EnemyUnit,57,4911,0,100,-),Randomize(auto)
     ;Dark Elves
-    AddSpecialUnit(EnemyUnit,57,4866,01,100,-),Randomize(auto)
+    AddSpecialUnit(EnemyUnit,57,4866,0,100,-),Randomize(auto)
     ;Dark Elves
-    AddSpecialUnit(EnemyUnit,57,4820,01,100,-),Randomize(auto)
+    AddSpecialUnit(EnemyUnit,57,4820,0,100,-),Randomize(auto)
     ;Ballista
-    AddSpecialUnit(EnemyUnit,56,4867,01,10,-),Randomize(auto)
+    AddSpecialUnit(EnemyUnit,56,4867,0,10,-),Randomize(auto)
     ;Ballista
-    AddSpecialUnit(EnemyUnit,56,4912,01,10,-),Randomize(auto)
+    AddSpecialUnit(EnemyUnit,56,4912,0,10,-),Randomize(auto)
     ;Ballista
-    AddSpecialUnit(EnemyUnit,56,4958,01,10,-),Randomize(auto)
+    AddSpecialUnit(EnemyUnit,56,4958,0,10,-),Randomize(auto)
     ;Ballista
-    AddSpecialUnit(EnemyUnit,56,5003,01,10,-),Randomize(auto)
+    AddSpecialUnit(EnemyUnit,56,5003,0,10,-),Randomize(auto)
     ;Sipomet
-    AddSpecialUnit(EnemyUnit,55,5050,01,10,-),Randomize(auto)
+    AddSpecialUnit(EnemyUnit,55,5050,0,10,-),Randomize(auto)
     ;Sipomet
-    AddSpecialUnit(EnemyUnit,55,5004,01,10,-),Randomize(auto)
+    AddSpecialUnit(EnemyUnit,55,5004,0,10,-),Randomize(auto)
     ;Sipomet
-    AddSpecialUnit(EnemyUnit,55,4959,01,10,-),Randomize(auto)
+    AddSpecialUnit(EnemyUnit,55,4959,0,10,-),Randomize(auto)
     ;Sipomet
-    AddSpecialUnit(EnemyUnit,55,4913,01,10,-),Randomize(auto)
+    AddSpecialUnit(EnemyUnit,55,4913,0,10,-),Randomize(auto)
     ;Harpya
-    AddSpecialUnit(EnemyUnit,50,5005,01,1,-),Randomize(auto)
+    AddSpecialUnit(EnemyUnit,50,5005,0,1,-),Randomize(auto)
     ;Harpya
-    AddSpecialUnit(EnemyUnit,50,5051,01,1,-),Randomize(auto)
+    AddSpecialUnit(EnemyUnit,50,5051,0,1,-),Randomize(auto)
 }
 
 ;AddSpecialEvent(SeePlace,1737,4,100%):
 EventData(4) {
     ;Sipomet
-    AddSpecialUnit(EnemyUnit,55,501,01,10,-),Randomize(auto)
+    AddSpecialUnit(EnemyUnit,55,501,0,10,-),Randomize(auto)
     ;Ballista
-    AddSpecialUnit(EnemyUnit,56,409,01,10,-),Randomize(auto)
+    AddSpecialUnit(EnemyUnit,56,409,0,10,-),Randomize(auto)
     ;Golem
-    AddSpecialUnit(EnemyUnit,44,456,01,10,-),Randomize(auto)
+    AddSpecialUnit(EnemyUnit,44,456,0,10,-),Randomize(auto)
     ;Mechanical Tower
-    AddSpecialUnit(EnemyUnit,53,410,01,10,-),Randomize(auto)
+    AddSpecialUnit(EnemyUnit,53,410,0,10,-),Randomize(auto)
     ;Harpya
-    AddSpecialUnit(EnemyUnit,50,455,01,1,-),Randomize(auto)
+    AddSpecialUnit(EnemyUnit,50,455,0,1,-),Randomize(auto)
 }
 
 MissionParameters {

@@ -104,27 +104,27 @@ EventData(2) {
 ;AddSpecialEvent(SeePlace,2071,3,100%):
 EventData(3) {
     ;Ballista
-    AddSpecialUnit(EnemyUnit,56,943,08,10,-),Randomize(auto)
+    AddSpecialUnit(EnemyUnit,56,943,0,10,-),Randomize(auto)
     ;Ballista
-    AddSpecialUnit(EnemyUnit,56,1011,08,10,-),Randomize(auto)
+    AddSpecialUnit(EnemyUnit,56,1011,0,10,-),Randomize(auto)
     ;Sipomet
-    AddSpecialUnit(EnemyUnit,55,1080,08,10,-),Randomize(auto)
+    AddSpecialUnit(EnemyUnit,55,1080,0,10,-),Randomize(auto)
     ;Sipomet
-    AddSpecialUnit(EnemyUnit,55,1012,08,10,-),Randomize(auto)
+    AddSpecialUnit(EnemyUnit,55,1012,0,10,-),Randomize(auto)
     ;Golem
-    AddSpecialUnit(EnemyUnit,44,944,08,10,-),Randomize(auto)
+    AddSpecialUnit(EnemyUnit,44,944,0,10,-),Randomize(auto)
     ;Golem
-    AddSpecialUnit(EnemyUnit,44,875,08,10,-),Randomize(auto)
+    AddSpecialUnit(EnemyUnit,44,875,0,10,-),Randomize(auto)
     ;Dark Elves
-    AddSpecialUnit(EnemyUnit,57,808,08,100,-),Randomize(auto)
+    AddSpecialUnit(EnemyUnit,57,808,0,100,-),Randomize(auto)
     ;Dark Elves
-    AddSpecialUnit(EnemyUnit,57,876,08,100,-),Randomize(auto)
+    AddSpecialUnit(EnemyUnit,57,876,0,100,-),Randomize(auto)
     ;Dark Elves
-    AddSpecialUnit(EnemyUnit,57,945,08,100,-),Randomize(auto)
+    AddSpecialUnit(EnemyUnit,57,945,0,100,-),Randomize(auto)
     ;Harpya
-    AddSpecialUnit(EnemyUnit,50,877,08,1,-),Randomize(auto)
+    AddSpecialUnit(EnemyUnit,50,877,0,1,-),Randomize(auto)
     ;Harpya
-    AddSpecialUnit(EnemyUnit,50,809,08,1,-),Randomize(auto)
+    AddSpecialUnit(EnemyUnit,50,809,0,1,-),Randomize(auto)
 }
 
 MissionParameters {

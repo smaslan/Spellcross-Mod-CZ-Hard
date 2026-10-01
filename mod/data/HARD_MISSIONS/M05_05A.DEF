@@ -59,49 +59,49 @@ MissionData {
 ;AddSpecialEvent(SeePlace,1276,1,100%):
 EventData(1) {
     ;Harpya
-    AddSpecialUnit(EnemyUnit,50,445,01,1,-),Randomize(off)
+    AddSpecialUnit(EnemyUnit,50,445,0,1,-),Randomize(off)
     ;Harpya
-    AddSpecialUnit(EnemyUnit,50,446,01,1,-),Randomize(off)
+    AddSpecialUnit(EnemyUnit,50,446,0,1,-),Randomize(off)
     ;Ballista
-    AddSpecialUnit(EnemyUnit,56,546,01,10,-),Randomize(off)
+    AddSpecialUnit(EnemyUnit,56,546,0,10,-),Randomize(off)
     ;Golem
-    AddSpecialUnit(EnemyUnit,44,496,01,10,-),Randomize(off)
+    AddSpecialUnit(EnemyUnit,44,496,0,10,-),Randomize(off)
     ;Wolf riders
-    AddSpecialUnit(EnemyUnit,61,444,01,20,-),Randomize(off)
+    AddSpecialUnit(EnemyUnit,61,444,0,20,-),Randomize(off)
     ;Wolf riders
-    AddSpecialUnit(EnemyUnit,61,495,01,20,-),Randomize(off)
+    AddSpecialUnit(EnemyUnit,61,495,0,20,-),Randomize(off)
     ;Wolf riders
-    AddSpecialUnit(EnemyUnit,61,545,01,20,-),Randomize(off)
+    AddSpecialUnit(EnemyUnit,61,545,0,20,-),Randomize(off)
     ;Sipomet
-    AddSpecialUnit(EnemyUnit,55,596,01,10,-),Randomize(off)
+    AddSpecialUnit(EnemyUnit,55,596,0,10,-),Randomize(off)
     ;Ballista
-    AddSpecialUnit(EnemyUnit,56,646,01,10,-),Randomize(off)
+    AddSpecialUnit(EnemyUnit,56,646,0,10,-),Randomize(off)
     ;Mechanical Tower
-    AddSpecialUnit(EnemyUnit,53,696,01,10,-),Randomize(off)
+    AddSpecialUnit(EnemyUnit,53,696,0,10,-),Randomize(off)
     ;Sipomet
-    AddSpecialUnit(EnemyUnit,55,645,01,10,-),Randomize(off)
+    AddSpecialUnit(EnemyUnit,55,645,0,10,-),Randomize(off)
     ;Wolf riders
-    AddSpecialUnit(EnemyUnit,61,595,01,20,-),Randomize(off)
+    AddSpecialUnit(EnemyUnit,61,595,0,20,-),Randomize(off)
     ;Wolf riders
-    AddSpecialUnit(EnemyUnit,61,544,01,20,-),Randomize(off)
+    AddSpecialUnit(EnemyUnit,61,544,0,20,-),Randomize(off)
     ;Wolf riders
-    AddSpecialUnit(EnemyUnit,61,494,01,20,-),Randomize(off)
+    AddSpecialUnit(EnemyUnit,61,494,0,20,-),Randomize(off)
     ;Mechanical Tower
-    AddSpecialUnit(EnemyUnit,53,501,01,10,-),Randomize(off)
+    AddSpecialUnit(EnemyUnit,53,501,0,10,-),Randomize(off)
     ;Mechanical Tower
-    AddSpecialUnit(EnemyUnit,53,452,01,10,-),Randomize(off)
+    AddSpecialUnit(EnemyUnit,53,452,0,10,-),Randomize(off)
     ;Mechanical Tower
-    AddSpecialUnit(EnemyUnit,53,402,01,10,-),Randomize(off)
+    AddSpecialUnit(EnemyUnit,53,402,0,10,-),Randomize(off)
     ;Mechanical Tower
-    AddSpecialUnit(EnemyUnit,53,502,00,10,-),Randomize(off)
+    AddSpecialUnit(EnemyUnit,53,502,0,10,-),Randomize(off)
     ;Mechanical Tower
-    AddSpecialUnit(EnemyUnit,53,552,00,10,-),Randomize(off)
+    AddSpecialUnit(EnemyUnit,53,552,0,10,-),Randomize(off)
     ;Golem
-    AddSpecialUnit(EnemyUnit,44,602,00,10,-),Randomize(off)
+    AddSpecialUnit(EnemyUnit,44,602,0,10,-),Randomize(off)
     ;Golem
-    AddSpecialUnit(EnemyUnit,44,553,00,10,-),Randomize(off)
+    AddSpecialUnit(EnemyUnit,44,553,0,10,-),Randomize(off)
     ;Wolf riders
-    AddSpecialUnit(EnemyUnit,61,603,00,20,-),Randomize(off)
+    AddSpecialUnit(EnemyUnit,61,603,0,20,-),Randomize(off)
 }
 
 ;AddSpecialEvent(SeePlace,1215,2,100%):

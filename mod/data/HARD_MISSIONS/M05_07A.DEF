@@ -76,19 +76,19 @@ EventData(1) {
     ;Ka-orcs
     AddSpecialUnit(EnemyUnit,38,3821,00,100,-),Randomize(auto)
     ;Dark Elves
-    AddSpecialUnit(EnemyUnit,57,455,01,100,-),Randomize(auto)
+    AddSpecialUnit(EnemyUnit,57,455,0,100,-),Randomize(auto)
     ;Dark Elves
-    AddSpecialUnit(EnemyUnit,57,501,01,100,-),Randomize(auto)
+    AddSpecialUnit(EnemyUnit,57,501,0,100,-),Randomize(auto)
     ;Dark Elves
-    AddSpecialUnit(EnemyUnit,57,548,01,100,-),Randomize(auto)
+    AddSpecialUnit(EnemyUnit,57,548,0,100,-),Randomize(auto)
     ;Wolf riders
-    AddSpecialUnit(EnemyUnit,61,502,01,20,-),Randomize(auto)
+    AddSpecialUnit(EnemyUnit,61,502,0,20,-),Randomize(auto)
     ;Wolf riders
-    AddSpecialUnit(EnemyUnit,61,456,01,20,-),Randomize(auto)
+    AddSpecialUnit(EnemyUnit,61,456,0,20,-),Randomize(auto)
     ;Wolf riders
-    AddSpecialUnit(EnemyUnit,61,409,01,20,-),Randomize(auto)
+    AddSpecialUnit(EnemyUnit,61,409,0,20,-),Randomize(auto)
     ;Hell Cavalry
-    AddSpecialUnit(EnemyUnit,62,410,01,20,-),Randomize(auto)
+    AddSpecialUnit(EnemyUnit,62,410,0,20,-),Randomize(auto)
 }
 
 MissionParameters {

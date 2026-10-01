@@ -93,9 +93,9 @@ EventData(1) {
     ;Ghost
     AddSpecialUnit(EnemyUnit,45,490,10,20,-),Randomize(auto)
     ;Daertor
-    AddSpecialUnit(EnemyUnit,74,442,01,1,Osobn¡ str ‘),Randomize(off)
+    AddSpecialUnit(EnemyUnit,74,442,0,1,Osobn¡ str ‘),Randomize(off)
     ;Daertor
-    AddSpecialUnit(EnemyUnit,74,396,01,1,Osobn¡ str ‘),Randomize(off)
+    AddSpecialUnit(EnemyUnit,74,396,0,1,Osobn¡ str ‘),Randomize(off)
 }
 
 ;AddSpecialEvent(SeePlace,988,2,100%):
