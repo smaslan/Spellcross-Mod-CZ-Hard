@@ -50,6 +50,9 @@ class PATH
 	// limit to english game engine
 	//version(ENG);
 
+	// limit to EXE version(s)
+	exeversion("English (HonzaQ patch V1.0)");
+
 	// options
 	option(HARD,Missions,0,1,1,{Normal;Hard});
 	option(LEVEL,Level,1,10,1,{1 - Hluboko v ztracenem teritoriu;2 - Prvni viteztvi;3 - Hranicni linie;4 - Krvava poust;5 - V oku boure;6 - Temna cesta;7 - Ohen a smrt;8 - Proklete plane samary;9 - Amulet nadeje;10 - Armageddon});
