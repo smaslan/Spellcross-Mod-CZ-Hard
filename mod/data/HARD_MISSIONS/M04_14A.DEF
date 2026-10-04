@@ -6,57 +6,53 @@ MissionData {
     AutoRandomizeRule(10,10,11,20)
     AutoRandomizeRule(11,10,11,20)
     AutoRandomizeRule(20,10,11,20)
-    AddUnit(50,57,1122,4,100,NormalUnit,-),Randomize(auto)
-    AddUnit(51,57,1055,4,100,NormalUnit,-),Randomize(auto)
+    AddUnit(50,57,1893,4,100,NormalUnit,-),Randomize(auto)
+    AddUnit(51,57,2034,4,100,NormalUnit,-),Randomize(auto)
     AddUnit(52,57,3594,4,100,WaitForContact,-),Randomize(auto)
-    AddUnit(53,38,1262,6,100,NormalUnit,-),Randomize(auto)
-    AddUnit(54,38,1542,4,100,NormalUnit,-),Randomize(auto)
-    AddUnit(55,57,982,4,100,NormalUnit,-),Randomize(auto)
-    AddUnit(56,38,1822,4,100,NormalUnit,-),Randomize(auto)
-    AddUnit(57,44,1490,2,10,ToughDefence,-),Randomize(auto)
-    AddUnit(58,57,3805,4,100,WaitForContact,-),Randomize(auto)
-    AddUnit(59,57,3667,4,100,WaitForContact,-),Randomize(auto)
+    AddUnit(53,38,1962,6,100,NormalUnit,-),Randomize(auto)
+    AddUnit(54,44,2033,4,10,NormalUnit,-),Randomize(auto)
+    AddUnit(55,57,2102,4,100,NormalUnit,-),Randomize(auto)
+    AddUnit(56,38,1963,4,100,NormalUnit,-),Randomize(auto)
+    AddUnit(57,44,1560,2,10,ToughDefence,-),Randomize(auto)
+    AddUnit(58,56,3805,4,10,WaitForContact,-),Randomize(auto)
+    AddUnit(59,44,3667,4,10,WaitForContact,-),Randomize(auto)
     AddUnit(60,57,3386,4,100,WaitForContact,-),Randomize(auto)
     AddUnit(61,57,3802,4,100,WaitForContact,-),Randomize(auto)
     AddUnit(62,57,3809,4,100,WaitForContact,-),Randomize(auto)
     AddUnit(63,57,3456,4,100,WaitForContact,-),Randomize(auto)
-    AddUnit(64,38,1044,4,100,NormalUnit,-),Randomize(auto)
-    AddUnit(65,38,1115,4,100,NormalUnit,-),Randomize(auto)
-    AddUnit(66,38,975,4,100,NormalUnit,-),Randomize(auto)
-    AddUnit(67,38,1045,4,100,NormalUnit,-),Randomize(auto)
-    AddUnit(68,38,1116,4,100,NormalUnit,-),Randomize(auto)
-    AddUnit(69,38,1185,4,100,NormalUnit,-),Randomize(auto)
-    AddUnit(70,38,2717,4,100,WaitForContact,-),Randomize(auto)
-    AddUnit(71,38,2787,4,100,WaitForContact,-),Randomize(auto)
-    AddUnit(72,38,2647,4,100,WaitForContact,-),Randomize(auto)
-    AddUnit(73,38,2788,4,100,WaitForContact,-),Randomize(auto)
-    AddUnit(74,38,2648,4,100,WaitForContact,-),Randomize(auto)
-    AddUnit(75,0,3263,10,30,WaitForContact,Odpadl¡ci),Randomize(auto)
-    AddUnit(76,2,3194,10,20,WaitForContact,Odpadl¡ci),Randomize(auto)
-    AddUnit(77,1,2071,9,100,WaitForContact,Odpadl¡ci),Randomize(auto)
-    AddUnit(78,0,3124,10,30,WaitForContact,Odpadl¡ci),Randomize(auto)
-    AddUnit(79,0,3043,10,30,WaitForContact,Odpadl¡ci),Randomize(auto)
-    AddUnit(80,77,3044,5,10,WaitForContact,Odpadl¡ci),Randomize(auto)
-    AddUnit(81,1,2973,9,100,WaitForContact,Odpadl¡ci),Randomize(auto)
-    AddUnit(82,1,2974,9,100,WaitForContact,Odpadl¡ci),Randomize(auto)
-    AddUnit(83,2,2904,9,20,WaitForContact,Odpadl¡ci),Randomize(auto)
-    AddUnit(84,2,1385,9,20,WaitForContact,Odpadl¡ci),Randomize(auto)
-    AddUnit(85,0,1455,9,30,WaitForContact,Odpadl¡ci),Randomize(auto)
-    AddUnit(86,1,1386,9,100,WaitForContact,Odpadl¡ci),Randomize(auto)
-    AddUnit(87,1,1315,9,100,WaitForContact,Odpadl¡ci),Randomize(auto)
-    AddUnit(88,48,1673,4,100,PatrolUnit,-),Randomize(auto)
-    AddUnit(89,48,4962,4,100,PatrolUnit,-),Randomize(auto)
-    AddUnit(90,44,2116,2,10,ToughDefence,-),Randomize(auto)
-    AddUnit(91,78,1457,3,10,WaitForContact,Odpadl¡ci),Randomize(auto)
-    AddUnit(92,77,1246,3,10,WaitForContact,Odpadl¡ci),Randomize(auto)
-    AddUnit(93,77,1316,4,10,WaitForContact,Odpadl¡ci),Randomize(auto)
-    AddUnit(94,77,1387,4,10,WaitForContact,Odpadl¡ci),Randomize(auto)
-    AddUnit(95,46,1053,4,100,NormalUnit,-),Randomize(auto)
-    AddUnit(96,46,1054,3,100,NormalUnit,-),Randomize(auto)
-    AddUnit(97,46,1123,3,100,NormalUnit,-),Randomize(auto)
-    AddUnit(98,1,1725,9,100,WaitForContact,Odpadl¡ci),Randomize(auto)
-    AddUnit(99,1,1942,9,100,WaitForContact,Odpadl¡ci),Randomize(auto)
-    AddSpecialEvent(SeePlace,1909,1,100%)
+    AddUnit(64,38,2717,4,100,WaitForContact,-),Randomize(auto)
+    AddUnit(65,38,2787,4,100,WaitForContact,-),Randomize(auto)
+    AddUnit(66,38,2647,4,100,WaitForContact,-),Randomize(auto)
+    AddUnit(67,38,2788,4,100,WaitForContact,-),Randomize(auto)
+    AddUnit(68,38,2648,4,100,WaitForContact,-),Randomize(auto)
+    AddUnit(69,0,3263,10,30,WaitForContact,Odpadl¡ci),Randomize(auto)
+    AddUnit(70,2,3194,10,20,WaitForContact,Odpadl¡ci),Randomize(auto)
+    AddUnit(71,1,2071,9,100,WaitForContact,Odpadl¡ci),Randomize(auto)
+    AddUnit(72,0,3124,10,30,WaitForContact,Odpadl¡ci),Randomize(auto)
+    AddUnit(73,0,3043,10,30,WaitForContact,Odpadl¡ci),Randomize(auto)
+    AddUnit(74,77,3044,5,10,WaitForContact,Odpadl¡ci),Randomize(auto)
+    AddUnit(75,1,2973,9,100,WaitForContact,Odpadl¡ci),Randomize(auto)
+    AddUnit(76,1,2974,9,100,WaitForContact,Odpadl¡ci),Randomize(auto)
+    AddUnit(77,2,2904,9,20,WaitForContact,Odpadl¡ci),Randomize(auto)
+    AddUnit(78,2,1385,9,20,WaitForContact,Odpadl¡ci),Randomize(auto)
+    AddUnit(79,0,1455,9,30,WaitForContact,Odpadl¡ci),Randomize(auto)
+    AddUnit(80,1,1386,9,100,WaitForContact,Odpadl¡ci),Randomize(auto)
+    AddUnit(81,1,1315,9,100,WaitForContact,Odpadl¡ci),Randomize(auto)
+    AddUnit(82,48,1673,4,100,PatrolUnit,-),Randomize(auto)
+    AddUnit(83,48,4962,4,100,PatrolUnit,-),Randomize(auto)
+    AddUnit(84,44,2187,2,10,ToughDefence,-),Randomize(auto)
+    AddUnit(85,78,1457,3,10,WaitForContact,Odpadl¡ci),Randomize(auto)
+    AddUnit(86,77,1246,3,10,WaitForContact,Odpadl¡ci),Randomize(auto)
+    AddUnit(87,77,1316,4,10,WaitForContact,Odpadl¡ci),Randomize(auto)
+    AddUnit(88,77,1387,4,10,WaitForContact,Odpadl¡ci),Randomize(auto)
+    AddUnit(89,46,1822,4,100,NormalUnit,-),Randomize(auto)
+    AddUnit(90,46,1894,3,100,NormalUnit,-),Randomize(auto)
+    AddUnit(91,46,1823,3,100,NormalUnit,-),Randomize(auto)
+    AddUnit(92,1,1725,9,100,WaitForContact,Odpadl¡ci),Randomize(auto)
+    AddUnit(93,1,1942,9,100,WaitForContact,Odpadl¡ci),Randomize(auto)
+    AddSpecialEvent(SeePlace,2402,1,100%)
+    AddSpecialEvent(SeePlace,4664,2,100%)
+    AddSpecialEvent(SeePlace,1838,3,100%)
     AddMissionObjective(DestroyAllUnits,Zni‡en¡ v¨ech jednotek)
     AddStartSquare(3992,4062,4132,4133,4202,4203,4272,4273,4274,4342)
     AddStartSquare(4343,4344,4412,4413,4414,4415,4482,4483,4484,4485)
@@ -67,7 +63,7 @@ MissionData {
     AddStartSquare(4976,4977,4978,4979)
 }
 
-;AddSpecialEvent(SeePlace,1909,1,100%):
+;AddSpecialEvent(SeePlace,2402,1,100%):
 EventData(1) {
     ;Heavy infantry
     AddSpecialUnit(EnemyUnit,1,2301,09,100,Odpadl¡ci),Randomize(auto)
@@ -99,6 +95,34 @@ EventData(1) {
     AddSpecialUnit(EnemyUnit,29,2373,01,10,-),Randomize(off)
     ;M109
     AddSpecialUnit(EnemyUnit,26,2163,01,10,-),Randomize(off)
+}
+
+;AddSpecialEvent(SeePlace,4664,2,100%):
+EventData(2) {
+    ;Grenadier
+    AddSpecialUnit(EnemyUnit,0,2443,12,30,-),Randomize(off)
+    ;Grenadier
+    AddSpecialUnit(EnemyUnit,0,2514,12,30,-),Randomize(off)
+    ;M109
+    AddSpecialUnit(EnemyUnit,26,2444,01,10,-),Randomize(off)
+    ;Hummer
+    AddSpecialUnit(EnemyUnit,29,2374,01,10,-),Randomize(off)
+    ;Grenadier
+    AddSpecialUnit(EnemyUnit,0,2304,12,30,-),Randomize(off)
+    ;Grenadier
+    AddSpecialUnit(EnemyUnit,0,2375,12,30,-),Randomize(off)
+}
+
+;AddSpecialEvent(SeePlace,1838,3,100%):
+EventData(3) {
+    ;Golem
+    AddSpecialUnit(EnemyUnit,44,2616,12,10,-),Randomize(off)
+    ;Golem
+    AddSpecialUnit(EnemyUnit,44,2546,12,10,-),Randomize(off)
+    ;Ballista
+    AddSpecialUnit(EnemyUnit,56,2617,12,10,-),Randomize(off)
+    ;Ballista
+    AddSpecialUnit(EnemyUnit,56,2686,12,10,-),Randomize(off)
 }
 
 MissionParameters {

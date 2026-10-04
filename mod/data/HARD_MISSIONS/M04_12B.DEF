@@ -49,6 +49,7 @@ MissionData {
     AddUnit(96,53,655,4,10,WaitForContact,-),Randomize(off)
     AddUnit(97,53,2391,4,10,WaitForContact,-),Randomize(off)
     AddUnit(98,57,1546,4,100,WaitForContact,-),Randomize(off)
+    AddSpecialEvent(SeePlace,1056,1,100%)
     AddMissionObjective(DestroyAllUnits,Zni‡en¡ v¨ech jednotek)
     AddStartSquare(1202,1203,1204,1262,1263,1264,1265,1322,1323,1324)
     AddStartSquare(1325,1326,1382,1383,1384,1385,1386,1387,1442,1443)
@@ -56,6 +57,28 @@ MissionData {
     AddStartSquare(1508,1562,1563,1564,1565,1566,1567,1622,1623,1624)
     AddStartSquare(1625,1626,1627,1682,1683,1684,1685,1686,1742,1743)
     AddStartSquare(1744,1745,1802,1803,1804)
+}
+
+;AddSpecialEvent(SeePlace,1056,1,100%):
+EventData(1) {
+    ;Golem
+    AddSpecialUnit(EnemyUnit,44,1616,00,10,-),Randomize(off)
+    ;Golem
+    AddSpecialUnit(EnemyUnit,44,1676,00,10,-),Randomize(off)
+    ;Golem
+    AddSpecialUnit(EnemyUnit,44,1736,00,10,-),Randomize(off)
+    ;Dark Elves
+    AddSpecialUnit(EnemyUnit,57,1796,00,100,-),Randomize(off)
+    ;Dark Elves
+    AddSpecialUnit(EnemyUnit,57,1735,00,100,-),Randomize(off)
+    ;Dark Elves
+    AddSpecialUnit(EnemyUnit,57,1795,00,100,-),Randomize(off)
+    ;Dark Elves
+    AddSpecialUnit(EnemyUnit,57,1855,00,100,-),Randomize(off)
+    ;Mri
+    AddSpecialUnit(EnemyUnit,46,1915,00,100,-),Randomize(off)
+    ;Mri
+    AddSpecialUnit(EnemyUnit,46,1854,00,100,-),Randomize(off)
 }
 
 MissionParameters {

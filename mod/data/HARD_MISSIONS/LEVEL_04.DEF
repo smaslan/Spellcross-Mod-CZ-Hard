@@ -58,7 +58,7 @@ LevelInit {
 
     AttackUnits(37,38,47,57,61)
     AttackSpecialUnits(48,42,46,44,53)
-    AttackFlags(25,35,4,7,20,6)
+    AttackFlags(30,40,10,10,20,6)
 
     ;STRV
     SetResearchFlag(14)
@@ -96,20 +96,22 @@ Mission(M04_03C) {
     FrequencyOfRandomAttacks(20,4)
 }
 
+;reduced money
 Mission(M04_04A) {
     EndOKMission(none)
     EndBadMission(none)
     EndOKEvent(6)
-    EndOK(95,100)
+    EndOK(35,100)
     MissionMusic(mus04)
     FrequencyOfRandomAttacks(20,4)
 }
 
+;reduced money
 Mission(M04_05A) {
     EndOKMission(none)
     EndBadMission(none)
     EndOKEvent(6)
-    EndOK(90,150)
+    EndOK(40,150)
     MissionMusic(mus01)
     FrequencyOfRandomAttacks(20,4)
 }
@@ -123,20 +125,21 @@ Mission(M04_06A) {
     FrequencyOfRandomAttacks(20,4)
 }
 
+;reduced money
 Mission(M04_06B) {
     EndOKMission(none)
     EndBadMission(M04_06C)
     EndOKEvent(6)
-    EndOK(60,150)
+    EndOK(30,150)
     MissionMusic(mus04)
     FrequencyOfRandomAttacks(20,4)
 }
-
+;reduced money
 Mission(M04_06C) {
     EndOKMission(none)
     EndBadMission(none)
     EndOKEvent(6)
-    EndOK(55,100)
+    EndOK(20,100)
     MissionMusic(mus01)
     FrequencyOfRandomAttacks(20,4)
 }
@@ -186,7 +189,7 @@ Mission(M04_10A) {
     Time(6)
     EndOKMission(none)
     EndBadMission(M04_10B)
-    EndOK(0,140)
+    EndOK(65,140)
     MissionMusic(mus02)
     FrequencyOfRandomAttacks(20,4)
 }
@@ -200,37 +203,41 @@ Mission(M04_10B) {
     FrequencyOfRandomAttacks(20,4)
 }
 
+;reduced money
 Mission(M04_11A) {
     Time(9)
     EndOKMission(none)
     EndBadMission(M04_11B)
-    EndOK(110,400)
+    EndOK(40,400)
     MissionMusic(mus04)
     FrequencyOfRandomAttacks(20,4)
 }
 
+;reduced money
 Mission(M04_11B) {
     EndOKMission(none)
     EndBadMission(none)
-    EndOK(110,250)
+    EndOK(20,250)
     MissionMusic(mus02)
     FrequencyOfRandomAttacks(20,4)
 }
 
+;reduced money
 Mission(M04_12A) {
     EndOKMission(none)
     EndBadMission(M04_12B)
     EndOKEvent(9)
-    EndOK(160,350)
+    EndOK(60,350)
     MissionMusic(mus02)
     FrequencyOfRandomAttacks(20,4)
 }
 
+;reduced money
 Mission(M04_12B) {
     EndOKMission(none)
     EndBadMission(none)
     EndOKEvent(9)
-    EndOK(190,180)
+    EndOK(40,180)
     MissionMusic(mus04)
     FrequencyOfRandomAttacks(20,4)
 }
@@ -244,20 +251,22 @@ Mission(M04_13A) {
     FrequencyOfRandomAttacks(20,4)
 }
 
+;reduced money
 Mission(M04_14A) {
     Time(5)
     EndOKMission(none)
     EndBadMission(M04_14B)
     EndBadEvent(9)
-    EndOK(150,300)
+    EndOK(60,300)
     MissionMusic(mus02)
     FrequencyOfRandomAttacks(20,4)
 }
 
+;reduced money
 Mission(M04_14B) {
     EndOKMission(none)
     EndBadMission(none)
-    EndOK(85,150)
+    EndOK(30,150)
     MissionMusic(mus02)
     FrequencyOfRandomAttacks(20,4)
 }
@@ -270,11 +279,12 @@ Mission(M04_15A) {
     FrequencyOfRandomAttacks(20,4)
 }
 
+;reduced money
 Mission(M04_16A) {
     EndOKMission(none)
     EndBadMission(none)
     EndOKEvent(11)
-    EndOK(750,2400)
+    EndOK(100,2400)
     MissionMusic(mus04)
     FrequencyOfRandomAttacks(20,4)
 }
