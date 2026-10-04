@@ -284,7 +284,7 @@ Mission(M04_16A) {
     EndOKMission(none)
     EndBadMission(none)
     EndOKEvent(11)
-    EndOK(100,2400)
+    EndOK(300,2400)
     MissionMusic(mus04)
     FrequencyOfRandomAttacks(20,4)
 }
