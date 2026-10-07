@@ -61,7 +61,7 @@ Mod měl být původně jednoduchý s pevným nastavením, ale postupně jsem do
 - `Nebyl by link na EN verzi hry?` - Nebyl. Nejsem si úplně jistý, jak je to s legálností různých kopií, co se válí po netu, takže bych je zde nerad odkazoval. Vlastně ani nevím, kde jsem sebral tu mojí verzi.
 - 'Mod nejde spustit, hlásí to chybu' - Se stává. [Spellcross Mod Launcher](https://github.com/smaslan/Spellcross-Mod-Launcheru) jsem se snažil udělat tak, aby to do toho bílého okna `Spellcross mod builder status` vypsalo chyby a občas i co s tím můžete udělat. Obvyklá chyba např. je, že nelze přesunout složku save game, což je způsobeno tím, že máte někde v průzkumníku nalistovanou složku se savy, která se má přesunout. To Windows nerad. Další chyby mohou vzniknout při nekompatibilní verzi hry (použijte patcher integrovaný v [Spellcross Mod Launcheru](https://github.com/smaslan/Spellcross-Mod-Launcheru)). 
 - `Jak byl mod vytvořen?` - Vrtám se v tom příležitostně asi 20 let, takže jsem už celkem pochopil formát všech souborů hry. Pro vlastní editaci misí a řadu dalších úprav jsem použil můj [Spellcross Map Editor](https://github.com/smaslan/spellcross-map-edit) a také další nástroje dostupné na mém [webu](https://spellcross.kvalitne.cz). Použití samotného [Spellcross Mod Launcheru](https://github.com/smaslan/Spellcross-Mod-Launcheru) a syntaxe definičního souboru modu je popsána v jeho manuálu. 
-- `Šlo by to spustit v CZ verzi hry?` - Bez úprav ne. CZ engine má nekompatibilní formát definičních souborů jednotek JEDNOTKY.DEF, jiný formát videa a limitovanou kapacitu UNITS.FSU s grafikou jednotek, takže se tam nevejdou animace smrtí jednotek. Musel bych implementovat nějaký runtime konvertor formátu, takže možná časem. Vzhledem k zásadním úpravám neoficiálního patche od HonzaQ (intergrován v [Spellcross Mod Launcheru](https://github.com/smaslan/Spellcross-Mod-Launcheru)) už ale nemá smysl se CZ verzí zabývat.
+- `Šlo by to spustit v CZ verzi hry?` - Starší verze modu ano, ale s omezeními. CZ engine má nekompatibilní formát definičních souborů jednotek JEDNOTKY.DEF, jiný formát videa a limitovanou kapacitu UNITS.FSU s grafikou jednotek, takže se tam nevejdou animace smrtí jednotek. Vzhledem k zásadním úpravám neoficiálního patche od HonzaQ (intergrován v [Spellcross Mod Launcheru](https://github.com/smaslan/Spellcross-Mod-Launcheru)) už ale nemá smysl se CZ verzí dále zabývat.
 - `Šlo by tam něco přidat?` - Ano, dělá se na tom. V patchnuté verzi herního engine je asi 36 slotů na nové jednotky, 50 volných položek k výzkumu a 40 slotů pro vylepšení. Jen něco vymyslet/udělat. 
 - `Lze ještě zvýšit počet jednotek v misích?` - V podstatě ně. Spellcross umožňuje maximálně 50 statických jednotek. Další jednotky lze generovat dynamicky přes eventy, ale maximálně jich v jednu chvíli může být pořád jen 50 a ne vždy lze eventy rozumně umístit, aby počet nepřekročil 50. To jsem udělal v misích, kde je postup hráče jasně daný terénem, ale špatně se to dělá ve velkých otevřených mapách. Pak se mohou jednotky spawnovat hráči za zadkem. 
 - `Proč nejede hudba?` - Některé verze EN enginu zřejmě v rámci cracknutí odstranily podporu MIDI hudby, takže prostě nejede i když mod přidává původní MUSIC.FS. Nebo to možna z EN verze odtranili sami autoři? Těžko říct.
@@ -84,9 +84,14 @@ Dostupné buildy:
 - [V1.02 beta, 28. Srpna 2026 (7zip file)](https://spellcross.kvalitne.cz/mod/mods/hard_cz/spellcross-mod-cz-hard-beta.7z)
   - Beta verze.
   - Průběžně aktualizováno, drobné úpravy.
-- [V1.2, 4. Rijna 2026 (7zip file)](https://spellcross.kvalitne.cz/mod/mods/hard_cz/spellcross-mod-cz-hard-v1.2.7z)
+- [V1.20, 7. Října 2026 (7zip file)](https://spellcross.kvalitne.cz/mod/mods/hard_cz/spellcross-mod-cz-hard-v1.20.7z)
   - Nová verze s poladěnými misemi pro level 1 až 4 (poušť).
-  - První verze, která vyžaduje HonzaQ patch herního engine (viz. [Spellcross Mod Launcheru V1.47+](https://github.com/smaslan/Spellcross-Mod-Launcheru))!
+  - Toto je poslední verze, která by měla jít spustit v původním CZ enginu (netestováno mimo první mise). 
+  - Ve [Spellcross Mod Launcheru ](https://github.com/smaslan/Spellcross-Mod-Launcheru)) je třeba zapnout "Mod->Prune archives" a "Mod->Check archive limts".
+  - Další verze pro CZ engine již nebudou, protože jsem překročil limitace původního enginu.
+- [V1.21, 7. Října 2026 (7zip file)](https://spellcross.kvalitne.cz/mod/mods/hard_cz/spellcross-mod-cz-hard-v1.21.7z)
+  - Nová verze s poladěnými misemi pro level 1 až 4 (poušť).
+  - První verze, která vyžaduje HonzaQ patch EN herního enginu (viz. [Spellcross Mod Launcheru V1.47+](https://github.com/smaslan/Spellcross-Mod-Launcheru))!
                                  
 ## Licence
 
