@@ -39,7 +39,7 @@ Samotný mod stačí stáhnout a někam rozbalit. Je ale velmi vhodné mít ho n
 
 ![Spellcross Mod](mod/info/obr/launcher.png)
 
-> [!WARNING]
+> [!CAUTION]
 > Pokud v [Spellcross Mod Launcheru](https://github.com/smaslan/Spellcross-Mod-Launcher) používáte option `Move SAVE games`, budou vaše uložené pozice ve složce modu namísto ve složce hry, takže pokud si stáhnete novou verzi modu, tak si nezapoměňte někam udělat ZÁLOHU ULOŽENÝCH POZIC, než starou verzi modu smažete nebo přepíšete!!! Toto řešení bylo vytvořeno, aby se vzájemně nekompatibilní uložené pozice různých modů a nativní hry nemíchaly, ale je potřeba nezapomínat, kde ty uložené pozice jsou. Jsou vždy v podsložce `save` ve složce modu, takže si je někam zkopírujte nebo rozbalte aktualizovaný mod do jiné složky a `save` složku za staré verze do něj přesuňte. Pokud používáte k aktualizaci modu přímo Git, tak toto řešit nemusíte, protože save není součástí tohoto Gitu. Pokud použijete git-pull, tak se vám aktualizují pouze data modu a ne save.  
 
 
@@ -55,11 +55,15 @@ Mod měl být původně jednoduchý s pevným nastavením, ale postupně jsem do
 - `Anti-tank Orks` - Některé verze hry mají pro AT-Orky bonus útoku na těžké jednoty kdy prakticky co výstřel to zničený tank bez ohledu na obranné číslo. To může zkazit den. Bohužel tento bonus je napevno zadrátován v binárce hry, ale porařilo se mi ho zneškodnit prohozením jednotek v JEDNOTKY.DEF, takže pokud chcete původní obtížnost originální CZ verze bez patche, tak lze nastavit hodnotu `Easy`.
 - `Destructor reporting` - Destruktory mají poněkud iritující dabing. Tímto parametrem ho lze buďto vypnout nebo nahradit za snesitelnější `UDES`. 
 
+> [!IMPORTANT]
+> Řada úrav byla řešena různými hacky závislými na hodnotě parametru `Level`. Není to jen o statech nepřátel. Je na něm závislé i podmíněné vyřazení/přidání jednotek apod. Tento parameter se sice aktualizuje sám při každém spuštění Launcheru na základě posledního autosave, ale pokud dohrajete jeden level a přejdete na druhý, tak hra běží dále s původním nastavením! Při přechodu na nový level je tedy třeba hru ukončit a spustit znovu. Tím se aktualizuje hodnota `Level` a s tím se i vytvoří nové varianty herních archivů a vše by mělo být ok.   
+
 
 ## ČKD
 
 - `Nebyl by link na EN verzi hry?` - Nebyl. Nejsem si úplně jistý, jak je to s legálností různých kopií, co se válí po netu, takže bych je zde nerad odkazoval. Vlastně ani nevím, kde jsem sebral tu mojí verzi.
-- 'Mod nejde spustit, hlásí to chybu' - Se stává. [Spellcross Mod Launcher](https://github.com/smaslan/Spellcross-Mod-Launcheru) jsem se snažil udělat tak, aby to do toho bílého okna `Spellcross mod builder status` vypsalo chyby a občas i co s tím můžete udělat. Obvyklá chyba např. je, že nelze přesunout složku save game, což je způsobeno tím, že máte někde v průzkumníku nalistovanou složku se savy, která se má přesunout. To Windows nerad. Další chyby mohou vzniknout při nekompatibilní verzi hry (použijte patcher integrovaný v [Spellcross Mod Launcheru](https://github.com/smaslan/Spellcross-Mod-Launcheru)). 
+- 'Mod nejde spustit, hlásí to chybu' - Se stává. [Spellcross Mod Launcher](https://github.com/smaslan/Spellcross-Mod-Launcheru) jsem se snažil udělat tak, aby to do toho bílého okna `Spellcross mod builder status` vypsalo chyby a občas i co s tím můžete udělat. Obvyklá chyba např. je, že nelze přesunout složku save game, což je způsobeno tím, že máte někde v průzkumníku nalistovanou složku se savy, která se má přesunout. To Windows nerad. Další chyby mohou vzniknout při nekompatibilní verzi hry (použijte patcher integrovaný v [Spellcross Mod Launcheru](https://github.com/smaslan/Spellcross-Mod-Launcheru)).
+- `Nemáš špatně čísla aktů/levelů?` - Nemám. V datech hry se akty (level) číslují 1 až 10 a první akt je pouze první mise.   
 - `Jak byl mod vytvořen?` - Vrtám se v tom příležitostně asi 20 let, takže jsem už celkem pochopil formát všech souborů hry. Pro vlastní editaci misí a řadu dalších úprav jsem použil můj [Spellcross Map Editor](https://github.com/smaslan/spellcross-map-edit) a také další nástroje dostupné na mém [webu](https://spellcross.kvalitne.cz). Použití samotného [Spellcross Mod Launcheru](https://github.com/smaslan/Spellcross-Mod-Launcheru) a syntaxe definičního souboru modu je popsána v jeho manuálu. 
 - `Šlo by to spustit v CZ verzi hry?` - Starší verze modu ano, ale s omezeními. CZ engine má nekompatibilní formát definičních souborů jednotek JEDNOTKY.DEF, jiný formát videa a limitovanou kapacitu UNITS.FSU s grafikou jednotek, takže se tam nevejdou animace smrtí jednotek. Vzhledem k zásadním úpravám neoficiálního patche od HonzaQ (intergrován v [Spellcross Mod Launcheru](https://github.com/smaslan/Spellcross-Mod-Launcheru)) už ale nemá smysl se CZ verzí dále zabývat.
 - `Šlo by tam něco přidat?` - Ano, dělá se na tom. V patchnuté verzi herního engine je asi 36 slotů na nové jednotky, 50 volných položek k výzkumu a 40 slotů pro vylepšení. Jen něco vymyslet/udělat. 
