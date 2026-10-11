@@ -96,6 +96,8 @@ Dostupné buildy:
 - [V1.21, 7. Října 2026 (7zip file)](https://spellcross.kvalitne.cz/mod/mods/hard_cz/spellcross-mod-cz-hard-v1.21.7z)
   - Nová verze s poladěnými misemi pro level 1 až 4 (poušť).
   - První verze, která vyžaduje HonzaQ patch EN herního enginu (viz. [Spellcross Mod Launcheru V1.47+](https://github.com/smaslan/Spellcross-Mod-Launcheru))!
+- [V1.22, 11. Října 2026 (7zip file)](https://spellcross.kvalitne.cz/mod/mods/hard_cz/spellcross-mod-cz-hard-v1.22.7z)
+  - Oprava pro kompatibilitu s novým patchem HonzaQ V1.15. Bude vyžadovat novou verzi [Spellcross Mod Launcher V1.48+](https://github.com/smaslan/Spellcross-Mod-Launcheru)!
                                  
 ## Licence
 
