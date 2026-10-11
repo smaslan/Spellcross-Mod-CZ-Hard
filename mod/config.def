@@ -48,10 +48,10 @@ class PATH
 	MOD_UNITS=%DMOD%\UNITS;
 
 	// limit to english game engine
-	//version(ENG);
+	version(ENG);
 
 	// limit to EXE version(s)
-	exeversion("English (HonzaQ patch V1.0)");
+	minexeversion("English (HonzaQ patch V1.0)");
 
 	// options
 	option(HARD,Missions,0,1,1,{Normal;Hard});
