@@ -321,7 +321,7 @@ Item(30) {
     Group(Races)
     Time(0)
     Level(0)
-    UpgradePrice(28)
+    UpgradePrice(280)
 }
 
 ; Universal 2R
@@ -1394,4 +1394,14 @@ Item(145) {
     Group(Upgrades)
     Time(25)
     Level(9)
+}
+
+; OH58D
+Item(146) {
+    Flags(UnitType)
+    Data(90)
+    Group(Races)
+    Time(0)
+    Level(7)
+    UpgradePrice(190)
 }
