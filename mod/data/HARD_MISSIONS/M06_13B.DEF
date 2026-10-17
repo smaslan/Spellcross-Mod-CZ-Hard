@@ -53,6 +53,9 @@ MissionData {
     AddSpecialEvent(SeePlace,5338,1,100%)
     AddSpecialEvent(SeePlace,4023,2,100%)
     AddSpecialEvent(SeePlace,2184,3,100%)
+    AddSpecialEvent(SeePlace,6148,4,100%)
+    AddSpecialEvent(SeePlace,3555,5,100%)
+    AddSpecialEvent(SeePlace,4490,6,100%)
     AddMissionObjective(DestroyAllUnits,Zni‡en¡ v¨ech jednotek)
     AddStartSquare(6476,6546,6547,6615,6616,6617,6685,6686,6687,6688)
     AddStartSquare(6754,6755,6756,6757,6758,6824,6825,6826,6827,6828)
@@ -131,6 +134,68 @@ EventData(3) {
     AddSpecialUnit(EnemyUnit,55,666,12,10,-),Randomize(off)
     ;Hell Cavalry
     AddSpecialUnit(EnemyUnit,62,596,12,20,-),Randomize(off)
+}
+
+;AddSpecialEvent(SeePlace,6148,4,100%):
+EventData(4) {
+    ;Ballista
+    AddSpecialUnit(EnemyUnit,56,7344,12,10,-),Randomize(off)
+    ;Ballista
+    AddSpecialUnit(EnemyUnit,56,7275,12,10,-),Randomize(off)
+    ;Ballista
+    AddSpecialUnit(EnemyUnit,56,7205,12,10,-),Randomize(off)
+    ;Hell Cavalry
+    AddSpecialUnit(EnemyUnit,62,7066,12,20,-),Randomize(off)
+    ;Golem
+    AddSpecialUnit(EnemyUnit,44,7206,12,10,-),Randomize(off)
+    ;Golem
+    AddSpecialUnit(EnemyUnit,44,7276,12,10,-),Randomize(off)
+    ;Golem
+    AddSpecialUnit(EnemyUnit,44,7346,12,10,-),Randomize(off)
+    ;Wizard
+    AddSpecialUnit(EnemyUnit,68,7415,12,1,-),Randomize(off)
+    ;Wizard
+    AddSpecialUnit(EnemyUnit,68,7484,12,1,-),Randomize(off)
+    ;Mech. Mamooth
+    AddSpecialUnit(EnemyUnit,54,7416,12,10,-),Randomize(off)
+}
+
+;AddSpecialEvent(SeePlace,3555,5,100%):
+EventData(5) {
+    ;Baloon
+    AddSpecialUnit(EnemyUnit,52,1884,12,10,-),Randomize(off)
+    ;Golem
+    AddSpecialUnit(EnemyUnit,44,1883,12,10,-),Randomize(off)
+    ;Golem
+    AddSpecialUnit(EnemyUnit,44,1954,12,10,-),Randomize(off)
+    ;Golem
+    AddSpecialUnit(EnemyUnit,44,2024,12,10,-),Randomize(off)
+    ;Wizard
+    AddSpecialUnit(EnemyUnit,68,1955,12,1,-),Randomize(off)
+    ;Hell Cavalry
+    AddSpecialUnit(EnemyUnit,62,1884,12,20,-),Randomize(off)
+    ;Wizard
+    AddSpecialUnit(EnemyUnit,68,1814,12,1,-),Randomize(off)
+}
+
+;AddSpecialEvent(SeePlace,4490,6,100%):
+EventData(6) {
+    ;Hell Cavalry
+    AddSpecialUnit(EnemyUnit,62,7212,12,20,-),Randomize(off)
+    ;Hell Cavalry
+    AddSpecialUnit(EnemyUnit,62,7282,12,20,-),Randomize(off)
+    ;Hell Cavalry
+    AddSpecialUnit(EnemyUnit,62,7353,12,20,-),Randomize(off)
+    ;Wizard
+    AddSpecialUnit(EnemyUnit,68,7422,12,1,-),Randomize(off)
+    ;Wizard
+    AddSpecialUnit(EnemyUnit,68,7352,12,1,-),Randomize(off)
+    ;Wizard
+    AddSpecialUnit(EnemyUnit,68,7281,12,1,-),Randomize(off)
+    ;Ballista
+    AddSpecialUnit(EnemyUnit,56,7421,12,10,-),Randomize(off)
+    ;Ballista
+    AddSpecialUnit(EnemyUnit,56,7492,12,10,-),Randomize(off)
 }
 
 MissionParameters {
