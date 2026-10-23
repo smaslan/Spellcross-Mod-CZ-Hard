@@ -76,7 +76,7 @@ Item(6) {
 ; Mobile Infantry
 Item(7) {
     Flags(NewUnit)
-    Data(8)
+    Data(7)
     Group(Races)
     Time(72)
     Level(7)
@@ -89,7 +89,7 @@ Item(7) {
 ; Mobile Infantry
 Item(8) {
     Flags(NewUnit)
-    Data(7)
+    Data(8)
     Group(Races)
     Time(0)
     Level(0)
