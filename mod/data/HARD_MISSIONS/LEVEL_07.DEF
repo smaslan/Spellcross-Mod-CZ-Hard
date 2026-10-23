@@ -57,6 +57,8 @@ LevelInit {
     SetResearchFlag(31)
     ;Mi-24
     SetResearchFlag(32)
+    ;OH58D
+    SetResearchFlag(146)
     ;MLRS
     SetResearchFlag(28)
     LevelMusic(mus00)
