@@ -51,8 +51,9 @@ MissionData {
     AddUnit(94,59,1909,12,10,WaitForContact,-),Randomize(auto)
     AddUnit(95,53,1941,12,10,WaitForContact,-),Randomize(auto)
     AddUnit(96,53,1820,12,10,WaitForContact,-),Randomize(auto)
-    AddSpecialEvent(SeePlace,2016,1,100%)
+    AddSpecialEvent(SeePlace,1956,1,100%)
     AddSpecialEvent(SeePlace,1844,2,100%)
+    AddSpecialEvent(SeePlace,2330,3,100%)
     AddMissionObjective(DestroyAllUnits,Zni‡en¡ v¨ech jednotek)
     AddStartSquare(4277,4336,4337,4396,4397,4398,4455,4456,4457,4458)
     AddStartSquare(4515,4516,4517,4518,4519,4574,4575,4576,4577,4578)
@@ -62,7 +63,7 @@ MissionData {
     AddStartSquare(4936,4995,4996,5055)
 }
 
-;AddSpecialEvent(SeePlace,2016,1,100%):
+;AddSpecialEvent(SeePlace,1956,1,100%):
 EventData(1) {
     ;Renegati (piranha)
     AddSpecialUnit(EnemyUnit,77,1494,10,10,-),Randomize(auto)
@@ -76,6 +77,8 @@ EventData(1) {
     AddSpecialUnit(EnemyUnit,78,1373,10,10,-),Randomize(auto)
     ;Renegati (M1 Abrams)
     AddSpecialUnit(EnemyUnit,78,1555,11,10,-),Randomize(auto)
+    ;Renegati (M109)
+    AddSpecialUnit(EnemyUnit,93,1313,10,10,-),Randomize(off)
 }
 
 ;AddSpecialEvent(SeePlace,1844,2,100%):
@@ -94,6 +97,24 @@ EventData(2) {
     AddSpecialUnit(EnemyUnit,57,633,12,100,-),Randomize(auto)
     ;Dark Elves
     AddSpecialUnit(EnemyUnit,57,573,12,100,-),Randomize(auto)
+}
+
+;AddSpecialEvent(SeePlace,2330,3,100%):
+EventData(3) {
+    ;Renegati (piranha)
+    AddSpecialUnit(EnemyUnit,77,768,12,10,-),Randomize(off)
+    ;Renegati (M1 Abrams)
+    AddSpecialUnit(EnemyUnit,78,829,12,10,-),Randomize(off)
+    ;Renegati (M1 Abrams)
+    AddSpecialUnit(EnemyUnit,78,769,12,10,-),Randomize(off)
+    ;Renegati (M1 Abrams)
+    AddSpecialUnit(EnemyUnit,78,710,12,10,-),Randomize(off)
+    ;Renegati (M106)
+    AddSpecialUnit(EnemyUnit,92,650,12,10,-),Randomize(off)
+    ;Renegati (piranha)
+    AddSpecialUnit(EnemyUnit,77,647,12,10,-),Randomize(off)
+    ;Renegati (piranha)
+    AddSpecialUnit(EnemyUnit,77,708,12,10,-),Randomize(off)
 }
 
 MissionParameters {

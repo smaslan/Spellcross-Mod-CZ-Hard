@@ -1,11 +1,9 @@
 MissionData {
     MissionMap(M04_14)
-    AutoRandomizeRule(0,0,1,2)
-    AutoRandomizeRule(1,0,1,2)
-    AutoRandomizeRule(2,0,1,2)
-    AutoRandomizeRule(10,10,11,20)
-    AutoRandomizeRule(11,10,11,20)
-    AutoRandomizeRule(20,10,11,20)
+    AutoRandomizeRule(0,0,1,2,95)
+    AutoRandomizeRule(1,0,1,2,95)
+    AutoRandomizeRule(2,0,1,2,95)
+    AutoRandomizeRule(95,0,1,2,95)
     AddUnit(50,57,1893,4,100,NormalUnit,-),Randomize(auto)
     AddUnit(51,57,2034,4,100,NormalUnit,-),Randomize(auto)
     AddUnit(52,57,3594,4,100,WaitForContact,-),Randomize(auto)
@@ -83,18 +81,18 @@ EventData(1) {
     AddSpecialUnit(EnemyUnit,2,1009,10,20,Odpadl¡ci),Randomize(auto)
     ;Grenadier
     AddSpecialUnit(EnemyUnit,0,1080,10,30,Odpadl¡ci),Randomize(auto)
-    ;Commando
-    AddSpecialUnit(EnemyUnit,3,1149,10,20,Odpadl¡ci),Randomize(auto)
+    ;Renegati (Commando)
+    AddSpecialUnit(EnemyUnit,95,1149,10,20,Odpadl¡ci),Randomize(auto)
     ;Grenadier
     AddSpecialUnit(EnemyUnit,0,1219,10,30,Odpadl¡ci),Randomize(auto)
-    ;M109
-    AddSpecialUnit(EnemyUnit,26,1010,01,10,-),Randomize(off)
+    ;Renegati (M109)
+    AddSpecialUnit(EnemyUnit,93,1010,10,10,-),Randomize(off)
     ;Hummer
     AddSpecialUnit(EnemyUnit,29,1150,01,10,-),Randomize(off)
     ;Hummer
     AddSpecialUnit(EnemyUnit,29,2373,01,10,-),Randomize(off)
-    ;M109
-    AddSpecialUnit(EnemyUnit,26,2163,01,10,-),Randomize(off)
+    ;Renegati (M109)
+    AddSpecialUnit(EnemyUnit,93,2163,10,10,-),Randomize(off)
 }
 
 ;AddSpecialEvent(SeePlace,4664,2,100%):
@@ -103,8 +101,8 @@ EventData(2) {
     AddSpecialUnit(EnemyUnit,0,2443,12,30,-),Randomize(off)
     ;Grenadier
     AddSpecialUnit(EnemyUnit,0,2514,12,30,-),Randomize(off)
-    ;M109
-    AddSpecialUnit(EnemyUnit,26,2444,01,10,-),Randomize(off)
+    ;Renegati (M109)
+    AddSpecialUnit(EnemyUnit,93,2444,10,10,-),Randomize(off)
     ;Hummer
     AddSpecialUnit(EnemyUnit,29,2374,01,10,-),Randomize(off)
     ;Grenadier

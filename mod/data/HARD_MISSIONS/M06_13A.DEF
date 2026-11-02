@@ -18,13 +18,13 @@ MissionData {
     AddUnit(65,48,4160,12,100,WaitForContact,-),Randomize(off)
     AddUnit(66,48,2303,12,100,WaitForContact,-),Randomize(off)
     AddUnit(67,71,1028,12,1,NormalUnit,-),Randomize(off)
-    AddUnit(68,71,719,12,1,WaitForContact,-),Randomize(off)
-    AddUnit(69,68,718,12,1,WaitForContact,-),Randomize(off)
-    AddUnit(70,53,789,12,10,WaitForContact,-),Randomize(off)
-    AddUnit(71,53,857,12,10,WaitForContact,-),Randomize(off)
-    AddUnit(72,53,928,12,10,WaitForContact,-),Randomize(off)
+    AddUnit(68,71,577,12,1,WaitForContact,-),Randomize(off)
+    AddUnit(69,68,1068,12,1,WaitForContact,-),Randomize(off)
+    AddUnit(70,53,1137,12,10,WaitForContact,-),Randomize(off)
+    AddUnit(71,53,1138,12,10,WaitForContact,-),Randomize(off)
+    AddUnit(72,53,1069,12,10,WaitForContact,-),Randomize(off)
     AddUnit(73,53,998,12,10,WaitForContact,-),Randomize(off)
-    AddUnit(74,62,929,12,20,WaitForContact,-),Randomize(off)
+    AddUnit(74,62,1208,12,20,WaitForContact,-),Randomize(off)
     AddUnit(75,62,1503,12,20,WaitForContact,-),Randomize(off)
     AddUnit(76,40,1572,12,100,WaitForContact,-),Randomize(off)
     AddUnit(77,40,1643,12,100,WaitForContact,-),Randomize(off)
@@ -92,13 +92,13 @@ EventData(2) {
     ;Wizard
     AddSpecialUnit(EnemyUnit,68,714,12,1,-),Randomize(off)
     ;Ballista
-    AddSpecialUnit(EnemyUnit,56,645,12,10,-),Randomize(off)
+    AddSpecialUnit(EnemyUnit,56,924,12,10,-),Randomize(off)
     ;Ballista
-    AddSpecialUnit(EnemyUnit,56,575,12,10,-),Randomize(off)
+    AddSpecialUnit(EnemyUnit,56,853,12,10,-),Randomize(off)
     ;Ballista
-    AddSpecialUnit(EnemyUnit,56,646,12,10,-),Randomize(off)
+    AddSpecialUnit(EnemyUnit,56,925,12,10,-),Randomize(off)
     ;Mech. Mamooth
-    AddSpecialUnit(EnemyUnit,54,715,12,10,-),Randomize(off)
+    AddSpecialUnit(EnemyUnit,54,854,12,10,-),Randomize(off)
     ;Hell Cavalry
     AddSpecialUnit(EnemyUnit,62,785,12,20,-),Randomize(off)
     ;Kamikaze Birds

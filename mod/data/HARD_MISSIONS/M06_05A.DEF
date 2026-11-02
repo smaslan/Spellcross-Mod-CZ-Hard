@@ -24,7 +24,19 @@ MissionData {
     AddUnit(71,62,406,12,20,WaitForContact,-),Randomize(off)
     AddUnit(72,62,723,12,20,WaitForContact,-),Randomize(off)
     AddUnit(73,62,319,12,20,WaitForContact,-),Randomize(off)
-    AddSpecialEvent(SeePlace,1032,1,100%)
+    AddUnit(74,41,488,12,20,NormalUnit,-),Randomize(off)
+    AddUnit(75,41,459,12,20,NormalUnit,-),Randomize(off)
+    AddUnit(76,41,429,12,20,NormalUnit,-),Randomize(off)
+    AddUnit(77,41,460,12,20,NormalUnit,-),Randomize(off)
+    AddUnit(78,41,519,12,20,NormalUnit,-),Randomize(off)
+    AddUnit(79,41,489,12,20,NormalUnit,-),Randomize(off)
+    AddUnit(80,41,549,12,20,NormalUnit,-),Randomize(off)
+    AddUnit(81,41,520,12,20,NormalUnit,-),Randomize(off)
+    AddUnit(82,41,490,12,20,NormalUnit,-),Randomize(off)
+    AddUnit(83,42,409,12,100,NormalUnit,-),Randomize(off)
+    AddUnit(84,42,439,12,100,NormalUnit,-),Randomize(off)
+    AddUnit(85,42,470,12,100,NormalUnit,-),Randomize(off)
+    AddSpecialEvent(SeePlace,971,1,100%)
     AddMissionObjective(DestroyAllUnits,Zni‡en¡ v¨ech jednotek)
     AddStartSquare(1375,1404,1405,1434,1435,1436,1463,1464,1465,1466)
     AddStartSquare(1493,1494,1495,1496,1522,1523,1524,1525,1526,1552)
@@ -34,26 +46,26 @@ MissionData {
     AddStartSquare(1763,1765,1766,1794,1796)
 }
 
-;AddSpecialEvent(SeePlace,1032,1,100%):
+;AddSpecialEvent(SeePlace,971,1,100%):
 EventData(1) {
     ;Ka-orcs
     AddSpecialUnit(EnemyUnit,38,304,10,100,-),Randomize(off)
     ;Ka-orcs
     AddSpecialUnit(EnemyUnit,38,274,10,100,-),Randomize(off)
     ;Orcs
-    AddSpecialUnit(EnemyUnit,37,345,10,100,-),Randomize(off)
+    AddSpecialUnit(EnemyUnit,37,283,10,100,-),Randomize(off)
     ;Orcs
-    AddSpecialUnit(EnemyUnit,37,314,10,100,-),Randomize(off)
+    AddSpecialUnit(EnemyUnit,37,311,10,100,-),Randomize(off)
     ;Orcs
-    AddSpecialUnit(EnemyUnit,37,344,10,100,-),Randomize(off)
+    AddSpecialUnit(EnemyUnit,37,282,10,100,-),Randomize(off)
     ;Orcs
-    AddSpecialUnit(EnemyUnit,37,373,10,100,-),Randomize(off)
+    AddSpecialUnit(EnemyUnit,37,252,10,100,-),Randomize(off)
     ;Wolf riders
-    AddSpecialUnit(EnemyUnit,61,405,10,20,-),Randomize(off)
+    AddSpecialUnit(EnemyUnit,61,371,10,20,-),Randomize(off)
     ;Wolf riders
-    AddSpecialUnit(EnemyUnit,61,404,10,20,-),Randomize(off)
+    AddSpecialUnit(EnemyUnit,61,312,10,20,-),Randomize(off)
     ;Wolf riders
-    AddSpecialUnit(EnemyUnit,61,374,10,20,-),Randomize(off)
+    AddSpecialUnit(EnemyUnit,61,342,10,20,-),Randomize(off)
     ;Wolf riders
     AddSpecialUnit(EnemyUnit,61,302,10,20,-),Randomize(off)
     ;Wolf riders

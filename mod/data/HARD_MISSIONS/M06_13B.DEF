@@ -5,57 +5,60 @@ MissionData {
     AddUnit(52,40,1615,12,100,NormalUnit,-),Randomize(off)
     AddUnit(53,40,1544,12,100,NormalUnit,-),Randomize(off)
     AddUnit(54,40,1614,12,100,NormalUnit,-),Randomize(off)
-    AddUnit(55,39,1613,12,100,NormalUnit,-),Randomize(off)
-    AddUnit(56,57,1543,12,100,NormalUnit,-),Randomize(off)
-    AddUnit(57,57,1474,12,100,NormalUnit,-),Randomize(off)
-    AddUnit(58,57,1403,12,100,NormalUnit,-),Randomize(off)
-    AddUnit(59,57,1473,12,100,NormalUnit,-),Randomize(off)
-    AddUnit(60,57,1542,12,100,NormalUnit,-),Randomize(off)
-    AddUnit(61,53,1472,12,10,NormalUnit,-),Randomize(off)
-    AddUnit(62,53,1402,12,10,NormalUnit,-),Randomize(off)
-    AddUnit(63,53,1333,12,10,NormalUnit,-),Randomize(off)
-    AddUnit(64,59,1401,12,10,NormalUnit,-),Randomize(off)
-    AddUnit(65,62,1332,12,20,NormalUnit,-),Randomize(off)
-    AddUnit(66,62,1262,12,20,NormalUnit,-),Randomize(off)
-    AddUnit(67,48,1684,12,100,NormalUnit,-),Randomize(off)
-    AddUnit(68,44,4752,12,10,NormalUnit,-),Randomize(off)
-    AddUnit(69,44,4822,12,10,NormalUnit,-),Randomize(off)
-    AddUnit(70,57,4823,12,100,NormalUnit,-),Randomize(off)
-    AddUnit(71,44,4682,12,10,NormalUnit,-),Randomize(off)
-    AddUnit(72,44,4753,12,10,NormalUnit,-),Randomize(off)
-    AddUnit(73,57,4893,12,100,NormalUnit,-),Randomize(off)
-    AddUnit(74,44,4613,12,10,NormalUnit,-),Randomize(off)
-    AddUnit(75,62,4683,12,20,NormalUnit,-),Randomize(off)
-    AddUnit(76,52,4822,12,10,NormalUnit,-),Randomize(off)
-    AddUnit(77,52,4893,12,10,NormalUnit,-),Randomize(off)
-    AddUnit(78,59,4754,12,10,NormalUnit,-),Randomize(off)
-    AddUnit(79,59,4684,12,10,NormalUnit,-),Randomize(off)
-    AddUnit(80,53,4614,12,10,NormalUnit,-),Randomize(off)
-    AddUnit(81,53,4543,12,10,NormalUnit,-),Randomize(off)
-    AddUnit(82,68,4446,12,1,WaitForContact,-),Randomize(off)
-    AddUnit(83,68,4515,12,1,WaitForContact,-),Randomize(off)
-    AddUnit(84,71,4445,12,1,WaitForContact,-),Randomize(off)
-    AddUnit(85,71,1192,12,1,NormalUnit,-),Randomize(off)
-    AddUnit(86,48,777,12,100,PatrolUnit,-),Randomize(off)
-    AddUnit(87,48,5742,12,100,PatrolUnit,-),Randomize(off)
-    AddUnit(88,52,7284,12,10,PatrolUnit,-),Randomize(off)
-    AddUnit(89,48,6851,12,100,PatrolUnit,-),Randomize(off)
-    AddUnit(90,48,4446,12,100,WaitForContact,-),Randomize(off)
-    AddUnit(91,55,4374,12,10,WaitForContact,-),Randomize(off)
-    AddUnit(92,44,4305,12,10,WaitForContact,-),Randomize(off)
-    AddUnit(93,44,4375,12,10,WaitForContact,-),Randomize(off)
-    AddUnit(94,44,4235,12,10,WaitForContact,-),Randomize(off)
-    AddUnit(95,62,4304,12,20,WaitForContact,-),Randomize(off)
-    AddUnit(96,56,4234,12,10,WaitForContact,-),Randomize(off)
-    AddUnit(97,57,4376,12,100,WaitForContact,-),Randomize(off)
-    AddUnit(98,57,4306,12,100,WaitForContact,-),Randomize(off)
-    AddUnit(99,54,5477,12,10,ToughDefence,-),Randomize(off)
+    AddUnit(55,57,1543,12,100,NormalUnit,-),Randomize(off)
+    AddUnit(56,57,1474,12,100,NormalUnit,-),Randomize(off)
+    AddUnit(57,57,1403,12,100,NormalUnit,-),Randomize(off)
+    AddUnit(58,57,1473,12,100,NormalUnit,-),Randomize(off)
+    AddUnit(59,53,1472,12,10,NormalUnit,-),Randomize(off)
+    AddUnit(60,53,1402,12,10,NormalUnit,-),Randomize(off)
+    AddUnit(61,53,1333,12,10,NormalUnit,-),Randomize(off)
+    AddUnit(62,59,1401,12,10,NormalUnit,-),Randomize(off)
+    AddUnit(63,62,1332,12,20,NormalUnit,-),Randomize(off)
+    AddUnit(64,62,1262,12,20,NormalUnit,-),Randomize(off)
+    AddUnit(65,48,1684,12,100,NormalUnit,-),Randomize(off)
+    AddUnit(66,44,4752,12,10,NormalUnit,-),Randomize(off)
+    AddUnit(67,44,4822,12,10,NormalUnit,-),Randomize(off)
+    AddUnit(68,57,4823,12,100,NormalUnit,-),Randomize(off)
+    AddUnit(69,44,4682,12,10,NormalUnit,-),Randomize(off)
+    AddUnit(70,44,4753,12,10,NormalUnit,-),Randomize(off)
+    AddUnit(71,57,4893,12,100,NormalUnit,-),Randomize(off)
+    AddUnit(72,44,4613,12,10,NormalUnit,-),Randomize(off)
+    AddUnit(73,62,4683,12,20,NormalUnit,-),Randomize(off)
+    AddUnit(74,52,4822,12,10,NormalUnit,-),Randomize(off)
+    AddUnit(75,52,4893,12,10,NormalUnit,-),Randomize(off)
+    AddUnit(76,59,4754,12,10,NormalUnit,-),Randomize(off)
+    AddUnit(77,59,4684,12,10,NormalUnit,-),Randomize(off)
+    AddUnit(78,53,4614,12,10,NormalUnit,-),Randomize(off)
+    AddUnit(79,53,4543,12,10,NormalUnit,-),Randomize(off)
+    AddUnit(80,68,4446,12,1,WaitForContact,-),Randomize(off)
+    AddUnit(81,68,4515,12,1,WaitForContact,-),Randomize(off)
+    AddUnit(82,71,4445,12,1,WaitForContact,-),Randomize(off)
+    AddUnit(83,71,1192,12,1,NormalUnit,-),Randomize(off)
+    AddUnit(84,48,5742,12,100,PatrolUnit,-),Randomize(off)
+    AddUnit(85,52,5476,12,10,PatrolUnit,-),Randomize(off)
+    AddUnit(86,48,5666,12,100,PatrolUnit,-),Randomize(off)
+    AddUnit(87,48,4446,12,100,WaitForContact,-),Randomize(off)
+    AddUnit(88,55,4374,12,10,WaitForContact,-),Randomize(off)
+    AddUnit(89,44,4305,12,10,WaitForContact,-),Randomize(off)
+    AddUnit(90,44,4375,12,10,WaitForContact,-),Randomize(off)
+    AddUnit(91,44,4235,12,10,WaitForContact,-),Randomize(off)
+    AddUnit(92,62,4304,12,20,WaitForContact,-),Randomize(off)
+    AddUnit(93,56,4234,12,10,WaitForContact,-),Randomize(off)
+    AddUnit(94,57,4376,12,100,WaitForContact,-),Randomize(off)
+    AddUnit(95,57,4306,12,100,WaitForContact,-),Randomize(off)
+    AddUnit(96,54,5407,12,10,ToughDefence,-),Randomize(off)
+    AddUnit(97,71,577,1,1,NormalUnit,-),Randomize(off)
+    AddUnit(98,71,1028,1,1,ToughDefence,-),Randomize(off)
+    AddUnit(99,44,7520,1,10,NormalUnit,-),Randomize(off)
     AddSpecialEvent(SeePlace,5338,1,100%)
-    AddSpecialEvent(SeePlace,4023,2,100%)
-    AddSpecialEvent(SeePlace,2184,3,100%)
-    AddSpecialEvent(SeePlace,6148,4,100%)
-    AddSpecialEvent(SeePlace,3555,5,100%)
-    AddSpecialEvent(SeePlace,4490,6,100%)
+    AddSpecialEvent(SeePlace,1940,2,100%)
+    AddSpecialEvent(SeePlace,1028,3,100%)
+    AddSpecialEvent(SeePlace,6710,4,100%)
+    AddSpecialEvent(SeePlace,3414,5,100%)
+    AddSpecialEvent(SeePlace,1065,6,100%)
+    AddSpecialEvent(SeePlace,3339,7,100%)
+    AddSpecialEvent(SeePlace,1270,8,100%)
+    AddSpecialEvent(SeePlace,577,9,100%)
     AddMissionObjective(DestroyAllUnits,Zni‡en¡ v¨ech jednotek)
     AddStartSquare(6476,6546,6547,6615,6616,6617,6685,6686,6687,6688)
     AddStartSquare(6754,6755,6756,6757,6758,6824,6825,6826,6827,6828)
@@ -75,14 +78,28 @@ EventData(1) {
     ;Hell Cavalry
     AddSpecialUnit(EnemyUnit,62,1131,12,20,-),Randomize(off)
     ;Golem
+    AddSpecialUnit(EnemyUnit,44,1129,12,10,-),Randomize(off)
+    ;Golem
+    AddSpecialUnit(EnemyUnit,44,1060,12,10,-),Randomize(off)
+    ;Golem
     AddSpecialUnit(EnemyUnit,44,991,12,10,-),Randomize(off)
-    ;Golem
-    AddSpecialUnit(EnemyUnit,44,921,12,10,-),Randomize(off)
-    ;Golem
-    AddSpecialUnit(EnemyUnit,44,990,12,10,-),Randomize(off)
+    ;Conjurer
+    AddSpecialUnit(EnemyUnit,71,990,01,1,-),Randomize(off)
+    ;Kamikaze Birds
+    AddSpecialUnit(EnemyUnit,51,7640,01,10,-),Randomize(off)
+    ;Kamikaze Birds
+    AddSpecialUnit(EnemyUnit,51,7569,01,10,-),Randomize(off)
+    ;Kamikaze Birds
+    AddSpecialUnit(EnemyUnit,51,7639,01,10,-),Randomize(off)
+    ;Kamikaze Birds
+    AddSpecialUnit(EnemyUnit,51,7568,01,10,-),Randomize(off)
+    ;Kamikaze Birds
+    AddSpecialUnit(EnemyUnit,51,7638,01,10,-),Randomize(off)
+    ;Kamikaze Birds
+    AddSpecialUnit(EnemyUnit,51,7567,01,10,-),Randomize(off)
 }
 
-;AddSpecialEvent(SeePlace,4023,2,100%):
+;AddSpecialEvent(SeePlace,1940,2,100%):
 EventData(2) {
     ;Golem
     AddSpecialUnit(EnemyUnit,44,613,12,10,-),Randomize(off)
@@ -110,9 +127,11 @@ EventData(2) {
     AddSpecialUnit(EnemyUnit,56,687,12,10,-),Randomize(off)
     ;Baloon
     AddSpecialUnit(EnemyUnit,52,617,12,10,-),Randomize(off)
+    ;Conjurer
+    AddSpecialUnit(EnemyUnit,71,617,01,1,-),Randomize(off)
 }
 
-;AddSpecialEvent(SeePlace,2184,3,100%):
+;AddSpecialEvent(SeePlace,1028,3,100%):
 EventData(3) {
     ;Baloon
     AddSpecialUnit(EnemyUnit,52,593,12,10,-),Randomize(off)
@@ -134,9 +153,11 @@ EventData(3) {
     AddSpecialUnit(EnemyUnit,55,666,12,10,-),Randomize(off)
     ;Hell Cavalry
     AddSpecialUnit(EnemyUnit,62,596,12,20,-),Randomize(off)
+    ;Conjurer
+    AddSpecialUnit(EnemyUnit,71,667,01,1,-),Randomize(off)
 }
 
-;AddSpecialEvent(SeePlace,6148,4,100%):
+;AddSpecialEvent(SeePlace,6710,4,100%):
 EventData(4) {
     ;Ballista
     AddSpecialUnit(EnemyUnit,56,7344,12,10,-),Randomize(off)
@@ -158,9 +179,11 @@ EventData(4) {
     AddSpecialUnit(EnemyUnit,68,7484,12,1,-),Randomize(off)
     ;Mech. Mamooth
     AddSpecialUnit(EnemyUnit,54,7416,12,10,-),Randomize(off)
+    ;Conjurer
+    AddSpecialUnit(EnemyUnit,71,7135,01,1,-),Randomize(off)
 }
 
-;AddSpecialEvent(SeePlace,3555,5,100%):
+;AddSpecialEvent(SeePlace,3414,5,100%):
 EventData(5) {
     ;Baloon
     AddSpecialUnit(EnemyUnit,52,1884,12,10,-),Randomize(off)
@@ -176,9 +199,11 @@ EventData(5) {
     AddSpecialUnit(EnemyUnit,62,1884,12,20,-),Randomize(off)
     ;Wizard
     AddSpecialUnit(EnemyUnit,68,1814,12,1,-),Randomize(off)
+    ;Conjurer
+    AddSpecialUnit(EnemyUnit,71,1815,01,1,-),Randomize(off)
 }
 
-;AddSpecialEvent(SeePlace,4490,6,100%):
+;AddSpecialEvent(SeePlace,1065,6,100%):
 EventData(6) {
     ;Hell Cavalry
     AddSpecialUnit(EnemyUnit,62,7212,12,20,-),Randomize(off)
@@ -196,6 +221,72 @@ EventData(6) {
     AddSpecialUnit(EnemyUnit,56,7421,12,10,-),Randomize(off)
     ;Ballista
     AddSpecialUnit(EnemyUnit,56,7492,12,10,-),Randomize(off)
+    ;Conjurer
+    AddSpecialUnit(EnemyUnit,71,7493,01,1,-),Randomize(off)
+}
+
+;AddSpecialEvent(SeePlace,3339,7,100%):
+EventData(7) {
+    ;Kamikaze Birds
+    AddSpecialUnit(EnemyUnit,51,591,01,10,-),Randomize(off)
+    ;Kamikaze Birds
+    AddSpecialUnit(EnemyUnit,51,661,01,10,-),Randomize(off)
+    ;Kamikaze Birds
+    AddSpecialUnit(EnemyUnit,51,590,01,10,-),Randomize(off)
+    ;Kamikaze Birds
+    AddSpecialUnit(EnemyUnit,51,589,01,10,-),Randomize(off)
+    ;Kamikaze Birds
+    AddSpecialUnit(EnemyUnit,51,660,01,10,-),Randomize(off)
+    ;Kamikaze Birds
+    AddSpecialUnit(EnemyUnit,51,730,01,10,-),Randomize(off)
+}
+
+;AddSpecialEvent(SeePlace,1270,8,100%):
+EventData(8) {
+    ;Anti-tank Orcs (light)
+    AddSpecialUnit(EnemyUnit,40,562,01,100,-),Randomize(off)
+    ;Kamikaze Birds
+    AddSpecialUnit(EnemyUnit,51,562,01,10,-),Randomize(off)
+    ;Anti-tank Orcs (light)
+    AddSpecialUnit(EnemyUnit,40,633,01,100,-),Randomize(off)
+    ;Anti-tank Orcs (light)
+    AddSpecialUnit(EnemyUnit,40,632,01,100,-),Randomize(off)
+    ;Anti-tank Orcs (light)
+    AddSpecialUnit(EnemyUnit,40,702,01,100,-),Randomize(off)
+    ;Anti-tank Orcs (light)
+    AddSpecialUnit(EnemyUnit,40,561,01,100,-),Randomize(off)
+    ;Anti-tank Orcs (light)
+    AddSpecialUnit(EnemyUnit,40,772,01,100,-),Randomize(off)
+    ;Kamikaze Birds
+    AddSpecialUnit(EnemyUnit,51,561,01,10,-),Randomize(off)
+    ;Baloon
+    AddSpecialUnit(EnemyUnit,52,701,01,10,-),Randomize(off)
+}
+
+;AddSpecialEvent(SeePlace,577,9,100%):
+EventData(9) {
+    ;Kamikaze Birds
+    AddSpecialUnit(EnemyUnit,51,7379,01,10,-),Randomize(off)
+    ;Kamikaze Birds
+    AddSpecialUnit(EnemyUnit,51,7448,01,10,-),Randomize(off)
+    ;Kamikaze Birds
+    AddSpecialUnit(EnemyUnit,51,7518,01,10,-),Randomize(off)
+    ;Hell Cavalry
+    AddSpecialUnit(EnemyUnit,62,7449,01,20,-),Randomize(off)
+    ;Golem
+    AddSpecialUnit(EnemyUnit,44,7520,01,10,-),Randomize(off)
+    ;Conjurer
+    AddSpecialUnit(EnemyUnit,71,7590,01,1,-),Randomize(off)
+    ;Mech. Mamooth
+    AddSpecialUnit(EnemyUnit,54,7519,01,10,-),Randomize(off)
+    ;Golem
+    AddSpecialUnit(EnemyUnit,44,7589,01,10,-),Randomize(off)
+    ;Conjurer
+    AddSpecialUnit(EnemyUnit,71,7660,01,1,-),Randomize(off)
+    ;Hell Cavalry
+    AddSpecialUnit(EnemyUnit,62,7588,01,20,-),Randomize(off)
+    ;Golem
+    AddSpecialUnit(EnemyUnit,44,7659,01,10,-),Randomize(off)
 }
 
 MissionParameters {

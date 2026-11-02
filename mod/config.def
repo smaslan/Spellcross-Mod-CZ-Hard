@@ -217,6 +217,8 @@ class SAMPLES.FS
 	replace=1;          // overwrite existing	
 	add(%SAMPLES%);     // add all original game data	
 	add(%MOD_SAMPLES%); // add all mod data
+
+	if(%YYYYMMDD% == 20260401) copy(%MOD_SAMPLES%,8-RICKRO,8-ZVUK4); // troll
 }
 
 class INFO.FS
