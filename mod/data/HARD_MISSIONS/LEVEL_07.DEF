@@ -157,7 +157,14 @@ Mission(M07_08A) {
 Mission(M07_09A) {
     EndOKMission(none)
     EndBadMission(none)
-    EndOK(60,350)
+    EndOK(900,900)
+    FrequencyOfRandomAttacks(20,6)
+}
+
+Mission(M07_09B) {
+    EndOKMission(none)
+    EndBadMission(none)
+    EndOK(200,450)
     FrequencyOfRandomAttacks(20,6)
 }
 
@@ -192,6 +199,7 @@ Mission(M07_12A) {
 Mission(M07_13A) {
     EndOKMission(none)
     EndBadMission(none)
+    EndOKEvent(15)
     EndOK(100,500)
     MissionMusic(mus01)
     FrequencyOfRandomAttacks(20,6)
@@ -313,4 +321,9 @@ Event(14) {
     ;Text o KA - Tugragovi
     AbsTime(4)
     EventText(E07_0013)
+}
+
+Event(15) {
+    ;jednoducha verze mise 9 kdyz k ni dojdeme vrchem
+    ChangeMission(9,M07_09B)
 }

@@ -3,59 +3,68 @@ MissionData {
     AddUnit(50,54,879,12,10,ToughDefence,-),Randomize(off)
     AddUnit(51,54,3742,12,10,ToughDefence,-),Randomize(off)
     AddUnit(52,54,2729,12,10,ToughDefence,-),Randomize(off)
-    AddUnit(53,54,1745,12,10,ToughDefence,-),Randomize(off)
-    AddUnit(54,58,1297,12,10,WaitForContact,-),Randomize(off)
-    AddUnit(55,58,1415,12,10,WaitForContact,-),Randomize(off)
-    AddUnit(56,58,1479,12,10,WaitForContact,-),Randomize(off)
-    AddUnit(57,58,1893,12,10,WaitForContact,-),Randomize(off)
-    AddUnit(58,58,1474,12,10,WaitForContact,-),Randomize(off)
-    AddUnit(59,58,2312,12,10,WaitForContact,-),Randomize(off)
-    AddUnit(60,48,1655,12,100,WaitForContact,-),Randomize(off)
-    AddUnit(61,40,939,12,100,ToughDefence,-),Randomize(off)
-    AddUnit(62,40,940,12,100,ToughDefence,-),Randomize(off)
-    AddUnit(63,48,1119,12,100,ToughDefence,-),Randomize(off)
-    AddUnit(64,48,2670,12,100,ToughDefence,-),Randomize(off)
-    AddUnit(65,40,2669,12,100,ToughDefence,-),Randomize(off)
-    AddUnit(66,62,1471,12,20,WaitForContact,-),Randomize(off)
-    AddUnit(67,62,1590,12,20,WaitForContact,-),Randomize(off)
-    AddUnit(68,56,2012,12,10,WaitForContact,-),Randomize(off)
-    AddUnit(69,40,1529,12,100,WaitForContact,-),Randomize(off)
-    AddUnit(70,40,1469,12,100,WaitForContact,-),Randomize(off)
-    AddUnit(71,40,1468,12,100,WaitForContact,-),Randomize(off)
-    AddUnit(72,39,1409,12,100,WaitForContact,-),Randomize(off)
-    AddUnit(73,39,1349,12,100,WaitForContact,-),Randomize(off)
-    AddUnit(74,39,1410,12,100,WaitForContact,-),Randomize(off)
-    AddUnit(75,50,1409,12,1,WaitForContact,-),Randomize(off)
-    AddUnit(76,50,3742,12,1,WaitForContact,-),Randomize(off)
-    AddUnit(77,40,3802,12,100,ToughDefence,-),Randomize(off)
-    AddUnit(78,40,3682,12,100,ToughDefence,-),Randomize(off)
-    AddUnit(79,40,2609,12,100,ToughDefence,-),Randomize(off)
-    AddUnit(80,39,970,12,100,WaitForContact,-),Randomize(off)
-    AddUnit(81,39,911,12,100,WaitForContact,-),Randomize(off)
-    AddUnit(82,39,910,12,100,WaitForContact,-),Randomize(off)
-    AddUnit(83,40,850,12,100,WaitForContact,-),Randomize(off)
-    AddUnit(84,40,851,12,100,WaitForContact,-),Randomize(off)
-    AddUnit(85,48,851,12,100,WaitForContact,-),Randomize(off)
-    AddUnit(86,65,1804,12,1,ToughDefence,-),Randomize(off)
-    AddUnit(87,81,1864,12,1,WaitForContact,Tharag-gur),Randomize(off)
-    AddUnit(88,48,1745,12,100,ToughDefence,-),Randomize(off)
-    AddUnit(89,39,1684,12,100,ToughDefence,-),Randomize(off)
-    AddUnit(90,48,616,12,100,PatrolUnit,-),Randomize(off)
-    AddUnit(91,48,693,12,100,PatrolUnit,-),Randomize(off)
-    AddUnit(92,40,1924,12,100,ToughDefence,-),Randomize(off)
-    AddUnit(93,40,1984,12,100,ToughDefence,-),Randomize(off)
-    AddUnit(94,40,1923,12,100,ToughDefence,-),Randomize(off)
-    AddUnit(95,40,1863,12,100,ToughDefence,-),Randomize(off)
-    AddUnit(96,40,1803,12,100,ToughDefence,-),Randomize(off)
-    AddUnit(97,40,1865,12,100,ToughDefence,-),Randomize(off)
-    AddUnit(98,56,1773,12,10,WaitForContact,-),Randomize(off)
-    AddUnit(99,56,1538,12,10,WaitForContact,-),Randomize(off)
-    AddSpecialEvent(SeePlace,1645,1,100%)
-    AddSpecialEvent(SeePlace,3801,2,100%)
-    AddSpecialEvent(SeePlace,759,3,100%)
-    AddSpecialEvent(SeePlace,2727,4,100%)
-    AddSpecialEvent(SeeUnit,87,5,100%)
-    AddMissionObjective(DestroyUnit,87,Zab¡t gener la Tharag-gura)
+    AddUnit(53,58,2215,12,10,WaitForContact,-),Randomize(off)
+    AddUnit(54,58,1729,12,10,WaitForContact,-),Randomize(off)
+    AddUnit(55,58,1972,12,10,WaitForContact,-),Randomize(off)
+    AddUnit(56,58,3995,12,10,WaitForContact,-),Randomize(off)
+    AddUnit(57,58,3097,12,10,WaitForContact,-),Randomize(off)
+    AddUnit(58,58,4535,12,10,WaitForContact,-),Randomize(off)
+    AddUnit(59,40,939,12,100,ToughDefence,-),Randomize(off)
+    AddUnit(60,40,940,12,100,ToughDefence,-),Randomize(off)
+    AddUnit(61,48,1119,12,100,ToughDefence,-),Randomize(off)
+    AddUnit(62,48,2670,12,100,ToughDefence,-),Randomize(off)
+    AddUnit(63,40,2669,12,100,ToughDefence,-),Randomize(off)
+    AddUnit(64,62,1717,12,20,WaitForContact,-),Randomize(off)
+    AddUnit(65,62,1955,12,20,WaitForContact,-),Randomize(off)
+    AddUnit(66,56,3636,12,10,WaitForContact,-),Randomize(off)
+    AddUnit(67,40,2261,12,100,WaitForContact,-),Randomize(off)
+    AddUnit(68,40,2499,12,100,WaitForContact,-),Randomize(off)
+    AddUnit(69,40,2023,12,100,WaitForContact,-),Randomize(off)
+    AddUnit(70,50,2023,12,1,WaitForContact,-),Randomize(off)
+    AddUnit(71,50,3742,12,1,WaitForContact,-),Randomize(off)
+    AddUnit(72,40,3802,12,100,ToughDefence,-),Randomize(off)
+    AddUnit(73,40,3682,12,100,ToughDefence,-),Randomize(off)
+    AddUnit(74,40,2609,12,100,ToughDefence,-),Randomize(off)
+    AddUnit(75,81,2041,12,1,WaitForContact,Tharag-gur),Randomize(off)
+    AddUnit(76,48,616,12,100,PatrolUnit,-),Randomize(off)
+    AddUnit(77,48,693,12,100,PatrolUnit,-),Randomize(off)
+    AddUnit(78,56,2798,12,10,WaitForContact,-),Randomize(off)
+    AddUnit(79,56,1606,12,10,WaitForContact,-),Randomize(off)
+    AddUnit(80,65,1683,1,1,NormalUnit,-),Randomize(off)
+    AddUnit(81,65,2343,1,1,WaitForContact,-),Randomize(off)
+    AddUnit(82,54,2591,1,10,ToughDefence,-),Randomize(off)
+    AddUnit(83,54,2948,1,10,ToughDefence,-),Randomize(off)
+    AddUnit(84,54,1744,1,10,ToughDefence,-),Randomize(off)
+    AddUnit(85,40,4461,1,100,ToughDefence,-),Randomize(off)
+    AddUnit(86,40,4401,1,100,ToughDefence,-),Randomize(off)
+    AddUnit(87,71,1804,1,1,WaitForContact,-),Randomize(off)
+    AddUnit(88,71,2407,1,1,WaitForContact,-),Randomize(off)
+    AddUnit(89,71,2526,1,1,WaitForContact,-),Randomize(off)
+    AddUnit(90,65,2348,1,1,WaitForContact,-),Randomize(off)
+    AddUnit(91,65,2586,1,1,WaitForContact,-),Randomize(off)
+    AddUnit(92,71,3741,1,1,WaitForContact,-),Randomize(off)
+    AddUnit(93,71,2668,1,1,WaitForContact,-),Randomize(off)
+    AddUnit(94,71,999,1,1,WaitForContact,-),Randomize(off)
+    AddUnit(95,71,4411,1,1,NormalUnit,-),Randomize(off)
+    AddSpecialEvent(SeePlace,1766,1,100%)
+    AddSpecialEvent(SeePlace,3741,2,100%)
+    AddSpecialEvent(SeePlace,819,3,100%)
+    AddSpecialEvent(SeePlace,2668,4,100%)
+    AddSpecialEvent(SeePlace,2645,5,100%)
+    AddSpecialEvent(SeePlace,1744,6,100%)
+    AddSpecialEvent(SeePlace,1925,7,100%)
+    AddSpecialEvent(SeePlace,1985,8,100%)
+    AddSpecialEvent(SeePlace,1865,9,100%)
+    AddSpecialEvent(SeePlace,1924,10,100%)
+    AddSpecialEvent(SeePlace,2948,11,100%)
+    AddSpecialEvent(SeePlace,2591,12,100%)
+    AddSpecialEvent(SeePlace,4401,13,100%)
+    AddSpecialEvent(SeePlace,977,14,100%)
+    AddSpecialEvent(SeePlace,1957,15,100%)
+    AddSpecialEvent(SeePlace,1490,16,100%)
+    AddSpecialEvent(SeePlace,1715,17,100%)
+    AddSpecialEvent(SeeUnit,75,18,100%)
+    AddMissionObjective(DestroyUnit,75,Zab¡t gener la Tharag-gura)
     AddStartSquare(3715,3774,3775,3834,3835,3836,3893,3894,3895,3896)
     AddStartSquare(3953,3954,3955,3956,4012,4013,4014,4015,4072,4073)
     AddStartSquare(4074,4075,4076,4131,4133,4134,4135,4136,4191,4192)
@@ -64,29 +73,29 @@ MissionData {
     AddStartSquare(4433,4434,4493,4553)
 }
 
-;AddSpecialEvent(SeePlace,1645,1,100%):
+;AddSpecialEvent(SeePlace,1766,1,100%):
 EventData(1) {
     ;Elven masters
-    AddSpecialUnit(EnemyUnit,58,1201,12,10,-),Randomize(off)
+    AddSpecialUnit(EnemyUnit,58,484,12,10,-),Randomize(off)
     ;Elven masters
-    AddSpecialUnit(EnemyUnit,58,1142,12,10,-),Randomize(off)
+    AddSpecialUnit(EnemyUnit,58,544,12,10,-),Randomize(off)
     ;Elven masters
-    AddSpecialUnit(EnemyUnit,58,1082,12,10,-),Randomize(off)
+    AddSpecialUnit(EnemyUnit,58,603,12,10,-),Randomize(off)
     ;Mechanical Tower
-    AddSpecialUnit(EnemyUnit,53,1143,12,10,-),Randomize(off)
+    AddSpecialUnit(EnemyUnit,53,1142,12,10,-),Randomize(off)
     ;Mechanical Tower
     AddSpecialUnit(EnemyUnit,53,1262,12,10,-),Randomize(off)
     ;Mechanical Tower
     AddSpecialUnit(EnemyUnit,53,1202,12,10,-),Randomize(off)
     ;Hell Cavalry
-    AddSpecialUnit(EnemyUnit,62,1322,12,20,-),Randomize(off)
+    AddSpecialUnit(EnemyUnit,62,723,12,20,-),Randomize(off)
     ;Mech. Mamooth
     AddSpecialUnit(EnemyUnit,54,1263,12,10,-),Randomize(off)
     ;Hell Cavalry
-    AddSpecialUnit(EnemyUnit,62,1203,12,20,-),Randomize(off)
+    AddSpecialUnit(EnemyUnit,62,663,12,20,-),Randomize(off)
 }
 
-;AddSpecialEvent(SeePlace,3801,2,100%):
+;AddSpecialEvent(SeePlace,3741,2,100%):
 EventData(2) {
     ;Elven masters
     AddSpecialUnit(EnemyUnit,58,4503,12,10,-),Randomize(off)
@@ -118,48 +127,174 @@ EventData(2) {
     AddSpecialUnit(EnemyUnit,56,4564,12,10,-),Randomize(off)
 }
 
-;AddSpecialEvent(SeePlace,759,3,100%):
+;AddSpecialEvent(SeePlace,819,3,100%):
 EventData(3) {
     ;Elven masters
-    AddSpecialUnit(EnemyUnit,58,544,12,10,-),Randomize(off)
+    AddSpecialUnit(EnemyUnit,58,517,01,10,-),Randomize(off)
     ;Elven masters
-    AddSpecialUnit(EnemyUnit,58,484,12,10,-),Randomize(off)
+    AddSpecialUnit(EnemyUnit,58,577,01,10,-),Randomize(off)
     ;Elven masters
-    AddSpecialUnit(EnemyUnit,58,604,12,10,-),Randomize(off)
+    AddSpecialUnit(EnemyUnit,58,516,01,10,-),Randomize(off)
     ;Elven masters
-    AddSpecialUnit(EnemyUnit,58,545,12,10,-),Randomize(off)
+    AddSpecialUnit(EnemyUnit,58,636,01,10,-),Randomize(off)
     ;Elven masters
-    AddSpecialUnit(EnemyUnit,58,485,12,10,-),Randomize(off)
+    AddSpecialUnit(EnemyUnit,58,576,01,10,-),Randomize(off)
     ;Elven masters
-    AddSpecialUnit(EnemyUnit,58,546,12,10,-),Randomize(off)
-    ;Elven masters
-    AddSpecialUnit(EnemyUnit,58,605,12,10,-),Randomize(off)
-    ;Elven masters
-    AddSpecialUnit(EnemyUnit,58,665,12,10,-),Randomize(off)
+    AddSpecialUnit(EnemyUnit,58,515,01,10,-),Randomize(off)
 }
 
-;AddSpecialEvent(SeePlace,2727,4,100%):
+;AddSpecialEvent(SeePlace,2668,4,100%):
 EventData(4) {
     ;Ballista
-    AddSpecialUnit(EnemyUnit,56,1321,12,10,-),Randomize(off)
+    AddSpecialUnit(EnemyUnit,56,1201,12,10,-),Randomize(off)
     ;Ballista
     AddSpecialUnit(EnemyUnit,56,1382,12,10,-),Randomize(off)
     ;Ballista
-    AddSpecialUnit(EnemyUnit,56,1442,12,10,-),Randomize(off)
+    AddSpecialUnit(EnemyUnit,56,961,12,10,-),Randomize(off)
     ;Golem
-    AddSpecialUnit(EnemyUnit,44,1502,12,10,-),Randomize(off)
+    AddSpecialUnit(EnemyUnit,44,1324,12,10,-),Randomize(off)
     ;Wizard
     AddSpecialUnit(EnemyUnit,68,1441,12,1,-),Randomize(off)
     ;Golem
-    AddSpecialUnit(EnemyUnit,44,1561,12,10,-),Randomize(off)
+    AddSpecialUnit(EnemyUnit,44,1322,12,10,-),Randomize(off)
     ;Golem
-    AddSpecialUnit(EnemyUnit,44,1383,12,10,-),Randomize(off)
+    AddSpecialUnit(EnemyUnit,44,1022,12,10,-),Randomize(off)
     ;Mech. Mamooth
-    AddSpecialUnit(EnemyUnit,54,1323,12,10,-),Randomize(off)
+    AddSpecialUnit(EnemyUnit,54,1081,12,10,-),Randomize(off)
 }
 
-;AddSpecialEvent(SeeUnit,87,5,100%):
+;AddSpecialEvent(SeePlace,2645,5,100%):
 EventData(5) {
+    ;Anti-tank Orcs (light)
+    AddSpecialUnit(EnemyUnit,40,2342,01,100,-),Randomize(off)
+    ;Anti-tank Orcs (light)
+    AddSpecialUnit(EnemyUnit,40,2401,01,100,-),Randomize(off)
+    ;Anti-tank Orcs (light)
+    AddSpecialUnit(EnemyUnit,40,2281,01,100,-),Randomize(off)
+    ;Anti-tank Orcs (light)
+    AddSpecialUnit(EnemyUnit,40,2462,01,100,-),Randomize(off)
+}
+
+;AddSpecialEvent(SeePlace,1744,6,100%):
+EventData(6) {
+    ;Anti-tank Orcs (light)
+    AddSpecialUnit(EnemyUnit,40,1803,01,100,-),Randomize(off)
+    ;Anti-tank Orcs (light)
+    AddSpecialUnit(EnemyUnit,40,1563,01,100,-),Randomize(off)
+    ;Anti-tank Orcs (light)
+    AddSpecialUnit(EnemyUnit,40,1504,01,100,-),Randomize(off)
+    ;Anti-tank Orcs (light)
+    AddSpecialUnit(EnemyUnit,40,1623,01,100,-),Randomize(off)
+}
+
+;AddSpecialEvent(SeePlace,1925,7,100%):
+EventData(7) {
+    ;Anti-tank Orcs (light)
+    AddSpecialUnit(EnemyUnit,40,1925,01,100,-),Randomize(off)
+}
+
+;AddSpecialEvent(SeePlace,1985,8,100%):
+EventData(8) {
+    ;Anti-tank Orcs (light)
+    AddSpecialUnit(EnemyUnit,40,1985,01,100,-),Randomize(off)
+}
+
+;AddSpecialEvent(SeePlace,1865,9,100%):
+EventData(9) {
+    ;Anti-tank Orcs (light)
+    AddSpecialUnit(EnemyUnit,40,1865,01,100,-),Randomize(off)
+}
+
+;AddSpecialEvent(SeePlace,1924,10,100%):
+EventData(10) {
+    ;Anti-tank Orcs (light)
+    AddSpecialUnit(EnemyUnit,40,1924,01,100,-),Randomize(off)
+}
+
+;AddSpecialEvent(SeePlace,2948,11,100%):
+EventData(11) {
+    ;Anti-tank Orcs (light)
+    AddSpecialUnit(EnemyUnit,40,2828,01,100,-),Randomize(off)
+    ;Anti-tank Orcs (light)
+    AddSpecialUnit(EnemyUnit,40,2887,01,100,-),Randomize(off)
+}
+
+;AddSpecialEvent(SeePlace,2591,12,100%):
+EventData(12) {
+    ;Anti-tank Orcs (light)
+    AddSpecialUnit(EnemyUnit,40,2590,01,100,-),Randomize(off)
+    ;Anti-tank Orcs (light)
+    AddSpecialUnit(EnemyUnit,40,2530,01,100,-),Randomize(off)
+}
+
+;AddSpecialEvent(SeePlace,4401,13,100%):
+EventData(13) {
+    ;Hell Cavalry
+    AddSpecialUnit(EnemyUnit,62,4576,01,20,-),Randomize(off)
+    ;Hell Cavalry
+    AddSpecialUnit(EnemyUnit,62,4697,01,20,-),Randomize(off)
+    ;Hell Cavalry
+    AddSpecialUnit(EnemyUnit,62,4637,01,20,-),Randomize(off)
+}
+
+;AddSpecialEvent(SeePlace,977,14,100%):
+EventData(14) {
+    ;Anti-tank Orcs (light)
+    AddSpecialUnit(EnemyUnit,40,791,12,100,-),Randomize(off)
+    ;War Orcs
+    AddSpecialUnit(EnemyUnit,39,911,12,100,-),Randomize(off)
+    ;Anti-tank Orcs (light)
+    AddSpecialUnit(EnemyUnit,40,850,12,100,-),Randomize(off)
+    ;Anti-tank Orcs (light)
+    AddSpecialUnit(EnemyUnit,40,970,01,100,-),Randomize(off)
+    ;Anti-tank Orcs (light)
+    AddSpecialUnit(EnemyUnit,40,910,01,100,-),Randomize(off)
+    ;Anti-tank Orcs (light)
+    AddSpecialUnit(EnemyUnit,40,849,01,100,-),Randomize(off)
+    ;Anti-tank Orcs (light)
+    AddSpecialUnit(EnemyUnit,40,790,01,100,-),Randomize(off)
+}
+
+;AddSpecialEvent(SeePlace,1957,15,100%):
+EventData(15) {
+    ;Kamikaze Birds
+    AddSpecialUnit(EnemyUnit,51,508,01,10,-),Randomize(off)
+    ;Kamikaze Birds
+    AddSpecialUnit(EnemyUnit,51,568,01,10,-),Randomize(off)
+    ;Kamikaze Birds
+    AddSpecialUnit(EnemyUnit,51,627,01,10,-),Randomize(off)
+    ;Kamikaze Birds
+    AddSpecialUnit(EnemyUnit,51,687,01,10,-),Randomize(off)
+    ;Kamikaze Birds
+    AddSpecialUnit(EnemyUnit,51,746,01,10,-),Randomize(off)
+}
+
+;AddSpecialEvent(SeePlace,1490,16,100%):
+EventData(16) {
+    ;Elven masters
+    AddSpecialUnit(EnemyUnit,58,834,01,10,-),Randomize(off)
+    ;Elven masters
+    AddSpecialUnit(EnemyUnit,58,894,01,10,-),Randomize(off)
+    ;Elven masters
+    AddSpecialUnit(EnemyUnit,58,714,01,10,-),Randomize(off)
+    ;Elven masters
+    AddSpecialUnit(EnemyUnit,58,774,01,10,-),Randomize(off)
+    ;Elven masters
+    AddSpecialUnit(EnemyUnit,58,835,01,10,-),Randomize(off)
+    ;Elven masters
+    AddSpecialUnit(EnemyUnit,58,773,01,10,-),Randomize(off)
+}
+
+;AddSpecialEvent(SeePlace,1715,17,100%):
+EventData(17) {
+    ;Hell Cavalry
+    AddSpecialUnit(EnemyUnit,62,1532,12,20,-),Randomize(off)
+    ;Hell Cavalry
+    AddSpecialUnit(EnemyUnit,62,1294,12,20,-),Randomize(off)
+}
+
+;AddSpecialEvent(SeeUnit,75,18,100%):
+EventData(18) {
     EventText(U0713_00)
 }
 

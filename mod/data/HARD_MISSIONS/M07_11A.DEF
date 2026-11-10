@@ -51,6 +51,7 @@ MissionData {
     AddUnit(97,67,3114,12,1,WaitForContact,-),Randomize(auto)
     AddUnit(98,67,3154,12,1,WaitForContact,-),Randomize(auto)
     AddSpecialEvent(SeePlace,3112,1,100%)
+    AddSpecialEvent(SeePlace,2108,2,100%)
     AddMissionObjective(DestroyAllUnits,Zni‡en¡ v¨ech jednotek)
     AddStartSquare(529,568,569,606,607,608,609,645,646,647)
     AddStartSquare(648,649,685,686,687,688,689,690,725,726)
@@ -74,6 +75,34 @@ EventData(1) {
     AddSpecialUnit(EnemyUnit,67,4233,00,1,-),Randomize(auto)
     ;Demon
     AddSpecialUnit(EnemyUnit,67,4234,00,1,-),Randomize(auto)
+}
+
+;AddSpecialEvent(SeePlace,2108,2,100%):
+EventData(2) {
+    ;Golem
+    AddSpecialUnit(EnemyUnit,44,356,12,10,-),Randomize(off)
+    ;Golem
+    AddSpecialUnit(EnemyUnit,44,396,12,10,-),Randomize(off)
+    ;Golem
+    AddSpecialUnit(EnemyUnit,44,355,12,10,-),Randomize(off)
+    ;Golem
+    AddSpecialUnit(EnemyUnit,44,436,12,10,-),Randomize(off)
+    ;Ballista
+    AddSpecialUnit(EnemyUnit,56,516,12,10,-),Randomize(off)
+    ;Ballista
+    AddSpecialUnit(EnemyUnit,56,476,12,10,-),Randomize(off)
+    ;Wizard
+    AddSpecialUnit(EnemyUnit,68,435,12,1,-),Randomize(off)
+    ;Ballista
+    AddSpecialUnit(EnemyUnit,56,395,12,10,-),Randomize(off)
+    ;Ballista
+    AddSpecialUnit(EnemyUnit,56,354,12,10,-),Randomize(off)
+    ;Baloon
+    AddSpecialUnit(EnemyUnit,52,356,12,10,-),Randomize(off)
+    ;Baloon
+    AddSpecialUnit(EnemyUnit,52,396,12,10,-),Randomize(off)
+    ;Mech. Mamooth
+    AddSpecialUnit(EnemyUnit,54,475,12,10,-),Randomize(off)
 }
 
 MissionParameters {

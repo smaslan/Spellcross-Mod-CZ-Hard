@@ -167,7 +167,7 @@ Mission(M07_10A) {
     EndOKEvent(6)
     EndOKEvent(5)
     EndOKEvent(8)
-    EndOK(0,350)
+    EndOK(80,350)
     FrequencyOfRandomAttacks(20,6)
 }
 
