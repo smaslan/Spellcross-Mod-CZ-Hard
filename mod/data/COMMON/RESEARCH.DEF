@@ -1375,7 +1375,7 @@ Item(143) {
     Data(23)
     Group(Upgrades)
     Time(20)
-    Level(7)
+    Level(6)
 }
 
 ; Roland mk.2
@@ -1404,4 +1404,22 @@ Item(146) {
     Time(0)
     Level(7)
     UpgradePrice(190)
+}
+
+; Elmag mk.3
+Item(147) {
+    Flags(UpgradeItem)
+    Data(26)
+    Group(Upgrades)
+    Time(20)
+    Level(8)
+}
+
+; Flamethrower mk.2
+Item(148) {
+    Flags(UpgradeItem)
+    Data(27)
+    Group(Upgrades)
+    Time(20)
+    Level(7)
 }
