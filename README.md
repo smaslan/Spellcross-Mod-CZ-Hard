@@ -71,13 +71,16 @@ Mod měl být původně jednoduchý s pevným nastavením, ale postupně jsem do
 - `Proč nejede hudba?` - Některé verze EN enginu zřejmě v rámci cracknutí odstranily podporu MIDI hudby, takže prostě nejede i když mod přidává původní MUSIC.FS. Nebo to možna z EN verze odtranili sami autoři? Těžko říct.
 - `Co dělat když dojdou peníze?` - Pokud během hraní modu díky vysoké obtížnosti není dostatek prostředků na výzkum nebo nábory, lze použít save game editor [Spellcross Mod Launcheru](https://github.com/smaslan/Spellcross-Mod-Launcheru) a prostě si nějaké přidat nebo rovnou odemknout výzkumy. Sám jsem to během testování používal a podle toho jsem zpětně navyšoval prostředky z jednotlivých území, aby to bylo hratelné. 
 - `Zbývá mi moc pěněz, nemělo by se ubrat?` - Může být, možná to tam dám jako option. Obtížnost/prostředky byly nastaveny na přiměřeně dynamický styl hraní, tj. jen pár dělostřelectev a zbytek tanky, transportéry a pěchota a předpokládá se pohyb a manévry, ne kempení a nekonečné vylákávání nepřátel. Pokud to budete hrát s mraky děl jako nejmenovaný Youtuber (;-), tak vám asi zbude hodně peněz, ale tento styl hraní je podle mě dost nuda, takže tomu nechci mod přizpůsobovat. Navíc je mod laděn na obtížnost "Veterán", kde je výrazně zvýšená pravděpodobnost permanentních ztrát, takže je třeba neustále dělat nábory a ty jsou díky XP našich jednotek velmi drahé, takže požerou snadno 1000+/level.   
- 
+
 
 ## Download
 
 Máte několik možností. Jednou za čas, když mám pocit, že je mod v hratelném stavu, udělám zip a nahraju ho svůj web. Nědělám to ale moc často, protože datové uložiště nění nafukovací. Odkazy na jednotlivé zipy jsou níže.
 
 Druhá možnost je naučit se používat Git, klonovat tento repozitář a průběžně si mod aktualizovat pomocí git-pull. Nicméně upozorňuji, že mod může obsahovat nějaké rozpracované změny a nemusí být hratelný, takže doporučuji před aktualizací kontrolovat historii commitů. Ale je to verzovací systém, takže se můžete kdykoliv vrátit do kteréhokoliv stavu. Případně také můžete stáhnout git jako ZIP přes `Code->Download ZIP`.
+
+> [!IMPORTANT]
+> Pokud už máte rozehranou hru a nějaké uložené pozice, tak se případné změny ve výzkumu s novou verzí modu samy neprojeví. Hra si načte kopii výzkumu jen po startu nové kampaně a drží si ji v uložených pozicích. Je tedy potřeba použít [Spellcross Mod Launcher](https://github.com/smaslan/Spellcross-Mod-Launcheru). Nejdříve je nutné provést build modu klávesou `F2`. Následně spustit Save editor, otevřít Váš poslední save a v kartě `Research` nejdříve zvolit `Sync with COMMON.FS` pod `Upgrade list` a následně totéž pod `Research list`. Tím by se měly položky synchronizovat s aktuálním modem. Občas to může zapomenout nějaký výzkum (obvykle Magotar), tak je zde také možné jednotlivé položky ručně odemknout. Položky pro výzkum lze odemknout nastavením `State = 2`, případně rovnou "vyzkoumat" nastavením `State = 3`. U jednotek je také třeba nastavit `Available` na 1, 2 nebo 3. Obdobně v panelu `Upgrade` může být nutné ručně nastavit `State = 1`. 
 
 Dostupné buildy:
 - [V1.0, 15. Srpna 2026 (zip file)](https://spellcross.kvalitne.cz/mod/mods/hard_cz/spellcross-mod-cz-hard-v1.0.zip)
@@ -91,11 +94,11 @@ Dostupné buildy:
 - [V1.20, 7. Října 2026 (7zip file)](https://spellcross.kvalitne.cz/mod/mods/hard_cz/spellcross-mod-cz-hard-v1.20.7z)
   - Nová verze s poladěnými misemi pro level 1 až 4 (poušť).
   - Toto je poslední verze, která by měla jít spustit v původním CZ enginu (netestováno mimo první mise). 
-  - Ve [Spellcross Mod Launcheru ](https://github.com/smaslan/Spellcross-Mod-Launcheru)) je třeba zapnout "Mod->Prune archives" a "Mod->Check archive limts".
+  - Ve [Spellcross Mod Launcheru](https://github.com/smaslan/Spellcross-Mod-Launcheru) je třeba zapnout "Mod->Prune archives" a "Mod->Check archive limts".
   - Další verze pro CZ engine již nebudou, protože jsem překročil limitace původního enginu.
 - [V1.21, 7. Října 2026 (7zip file)](https://spellcross.kvalitne.cz/mod/mods/hard_cz/spellcross-mod-cz-hard-v1.21.7z)
   - Nová verze s poladěnými misemi pro level 1 až 4 (poušť).
-  - První verze, která vyžaduje HonzaQ patch EN herního enginu (viz. [Spellcross Mod Launcheru V1.47+](https://github.com/smaslan/Spellcross-Mod-Launcheru))!
+  - První verze, která vyžaduje HonzaQ patch EN herního enginu (viz. [Spellcross Mod Launcher V1.47+](https://github.com/smaslan/Spellcross-Mod-Launcheru))!
 - [V1.22, 21. Října 2026 (7zip file)](https://spellcross.kvalitne.cz/mod/mods/hard_cz/spellcross-mod-cz-hard-v1.22.7z)
   - Oprava pro kompatibilitu s novým patchem HonzaQ V1.15. Bude vyžadovat novou verzi [Spellcross Mod Launcher V1.48+](https://github.com/smaslan/Spellcross-Mod-Launcheru)!
 - [V1.23, 1. Listopadu 2026 (7zip file)](https://spellcross.kvalitne.cz/mod/mods/hard_cz/spellcross-mod-cz-hard-v1.23.7z)
